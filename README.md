@@ -1,2 +1,2 @@
-# 2220-Estructura-De-Datos
+# Estructura de datos
 **Trabajo en proceso**
