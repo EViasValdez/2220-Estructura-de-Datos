@@ -51,4 +51,15 @@ TrianguloCiclos/manifest.mf)
 ###### ProblemasAsesoriasCiclos, ProblemasAsesoriasDoWhile, ProblemasAsesoriasFor - 10/02/20
 ###### Colas, Pilas, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
 ###### ProyectoParcial2 - 20/02/20
+
 ###### Actividades - 27/02/20
+(Actividades/build/classes/actividades/Actividades.class, 
+Actividades/nbproject/private/private.properties, 
+Actividades/nbproject/private/private.xml, 
+Actividades/nbproject/build-impl.xml, 
+Actividades/nbproject/genfiles.properties, 
+Actividades/nbproject/project.properties, 
+Actividades/nbproject/project.xml, 
+Actividades/src/actividades/Actividades.java, 
+Actividades/build.xml, 
+Actividades/manifest.mf)
