@@ -34,10 +34,8 @@ public class TrianguloMetodos {
         ladoc = leer.nextInt();
         
         triangulo(ladoa, ladob, ladoc);
-        
     }
     public static void triangulo (int ladoa, int ladob, int ladoc){
-        
         if (ladoa == ladob && ladob == ladoc){
         System.out.println("El triangulo mostrado es un triangulo equilatero");    
         }

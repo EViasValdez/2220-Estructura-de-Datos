@@ -63,5 +63,4 @@ public class ProyectoParcial2 {
         porcentaje = ((litros-garraf) * 100) / litros;  // Se calculan los litros que quedaron para pasarlos a porcentaje.
         System.out.println("El porcentaje es " + porcentaje + "%"); // Se muestran los litros a porcentaje.
     }
-    
 }
