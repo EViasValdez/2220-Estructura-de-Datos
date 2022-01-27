@@ -45,6 +45,4 @@ public class CodigoGuia {
         System.out.println("El promedio es " + promedio);
     }
 
-    }
-    
-
+}

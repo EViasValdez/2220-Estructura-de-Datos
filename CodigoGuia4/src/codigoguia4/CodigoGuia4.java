@@ -41,11 +41,6 @@ public class CodigoGuia4 {
         
         System.out.println("El promedio es " + promedio);
     }
-    
     public static double calificacion (double calificacion[]){
-        
     }
-
     }
-    
-

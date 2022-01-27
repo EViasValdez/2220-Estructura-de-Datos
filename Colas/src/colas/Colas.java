@@ -17,10 +17,9 @@ public class Colas {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        
-// Clase Queue en java para el manejo de colas        
-        Queue<Integer> q = new LinkedList<>(); 
+    public static void main(String[] args) { 
+    // Clase Queue en java para el manejo de colas        
+    Queue<Integer> q = new LinkedList<>(); 
   
     // Adds elements {0, 1, 2, 3, 4} to queue 
     for (int i=0; i<5; i++) 

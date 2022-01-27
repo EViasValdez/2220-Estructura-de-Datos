@@ -41,7 +41,6 @@ public class ProblemasAsesorias {
         
         System.out.println("El promedio es " + promedio);
         
-        
         System.out.println("Problema 2");
         float base, altura;
         float area;
@@ -53,7 +52,6 @@ public class ProblemasAsesorias {
         
         area = (base * altura)/2;
         System.out.println("El area es " + area);
-        
         
         System.out.println("Problema 3");
         float radio;
@@ -84,7 +82,6 @@ public class ProblemasAsesorias {
         area = ladoa + ladob + ladoc;
         
         System.out.println("El area es " + area);
-        
         
         System.out.println("Problema 5");
         int numero;
@@ -118,12 +115,12 @@ public class ProblemasAsesorias {
         
         if (cantidad >= 1000)
         {
-        total = cantidad * 85;    
+            total = cantidad * 85;    
         }
         else
-        if (cantidad <= 1000)
+            if (cantidad <= 1000)
         {
-        total = cantidad * 90;    
+            total = cantidad * 90;    
         }
         System.out.println(total);
         
@@ -167,20 +164,19 @@ public class ProblemasAsesorias {
         
         if (numeroalumnos >= 100)
         {
-        total2 = 65 * numeroalumnos;
+            total2 = 65 * numeroalumnos;
         }
         else
         if (numeroalumnos >= 50 && numeroalumnos <= 99)
         {
-        total2 = 70 * numeroalumnos;    
+            total2 = 70 * numeroalumnos;    
         }
         else
         if (numeroalumnos >= 30 && numeroalumnos <= 45)
         {
-        total2 = 95 * numeroalumnos;
+            total2 = 95 * numeroalumnos;
         }
         
         System.out.println("El total es " + total2 + 1000);
     }
-    
 }

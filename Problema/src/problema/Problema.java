@@ -37,8 +37,5 @@ public class Problema {
         else(a + c = b){
             System.out.println("Son iguales");    
         }
-        
-        
     }
-    
 }

@@ -38,5 +38,4 @@ public class CodigoGuia2 {
         
         System.out.println("El promedio es " + promedio);
     }
-    
 }
