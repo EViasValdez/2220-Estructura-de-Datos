@@ -1,7 +1,7 @@
 # Estructura de datos
 
-**Trabajo en proceso**
-**Incluye uno que otro archivo que realize durante asesorias**
+**Trabajo en proceso.**
+**Incluye uno que otro archivo que realize durante asesorias.**
 
 ###### EjercicioCalifiaciones - 20/01/20
 ###### Problema, Problemas1 - 21/01/20
