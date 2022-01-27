@@ -42,6 +42,4 @@ public class Colas {
     int size = q.size();  // Asigna el tamaño de la cola con el metodo size de la cola q a la variable size
     System.out.println("Size of queue-" + size); 
   } 
-    }
-    
-
+}

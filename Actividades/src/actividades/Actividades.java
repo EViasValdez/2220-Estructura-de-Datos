@@ -43,7 +43,6 @@ public class Actividades {
                 
             int ingr, venta;
             
-            
             System.out.println("Ingrese cuantas ventas");
             ingr = Integer.parseInt(br.readLine());
             
@@ -74,9 +73,8 @@ public class Actividades {
                 
             case 4:
                 
-            break;       
-                
+            break;
+
         }
     }
-    
 }

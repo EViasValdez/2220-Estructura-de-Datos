@@ -42,10 +42,5 @@ public class Impuesto {
         total = precio + (precio * impuesto);
         //Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del total
         System.out.println("Total a pagar con impuesto " + total);
-        
-        
-        
     }
-    
 }
- 

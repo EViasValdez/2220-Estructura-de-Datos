@@ -90,8 +90,5 @@ public class ArregloUnidimensional {
         }
     }
     System.out.println("El salario mas alto es  :" + mayor); // Muestra el salario mas alto
-    
-    
-    
     }
 }

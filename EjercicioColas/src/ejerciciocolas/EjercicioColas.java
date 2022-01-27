@@ -59,5 +59,3 @@ public class EjercicioColas {
             System.out.println("El ultimo es: ");
         }
     }
-    
-

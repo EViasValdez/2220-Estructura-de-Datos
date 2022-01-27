@@ -32,33 +32,29 @@ public class Listas {
 
         String nombre;
 
-      ejemploLista.add("Juan");
-      ejemploLista.add("Pedro");
-      ejemploLista.add("José");
-      ejemploLista.add("María");
-      ejemploLista.add("Sofía");
+        ejemploLista.add("Juan");
+        ejemploLista.add("Pedro");
+        ejemploLista.add("José");
+        ejemploLista.add("María");
+        ejemploLista.add("Sofía");
 
-      //Imprimir elementos de la lista
-     
-      System.out.println("Elementos de la lista ");
+        //Imprimir elementos de la lista
+        System.out.println("Elementos de la lista ");
      
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
             System.out.println(ejemploLista.get(i));
         }
      
-      System.out.println("Tamaño de la lista: " + ejemploLista.size());
-      System.out.println("Primer elemento de la lista :" + ejemploLista.get(0));
+        System.out.println("Tamaño de la lista: " + ejemploLista.size());
+        System.out.println("Primer elemento de la lista :" + ejemploLista.get(0));
      
-      //Agregar otro elemento a la lista
-     
-      ejemploLista.add("Alicia");
-     
+        //Agregar otro elemento a la lista
+        ejemploLista.add("Alicia");
      
         System.out.println("Elementos de la lista con el que se agrego");
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
         System.out.println(ejemploLista.get(i));
         }
-
 
         ejemploLista.remove("Juan");
 
@@ -77,7 +73,6 @@ public class Listas {
         //Agregar el elemento que se leyo a la Lista
         ejemploLista.add(nombre);
 
-
         //Otra manera de imprimir la Lista con la clase Iterator
         Iterator i = ejemploLista.iterator();
          while(i.hasNext())
@@ -90,27 +85,22 @@ public class Listas {
  
         //Si la lista esta vacia
         System.out.println(ejemploLista.isEmpty());
- 
- 
+
 // Cambiar el elemento del subindice 1 de la lista por Feix
 ejemploLista.set(1, "Félix");
 System.out.println(ejemploLista);
-
 //obtener datos entre un subindice y otro
 System.out.println(ejemploLista.subList(0, 2));
-
 //Metodo dosr ordena la lista de manera Ascendente en este caso de la A a la Z
 ejemploLista.sort(null);
 System.out.println(ejemploLista);
-
 //Ordenar una Lista de mnera descendete de la Z a la A
 Collections.sort(ejemploLista,Collections.reverseOrder() );
 System.out.println(ejemploLista);
 
-
 //vaciar la lista
 ejemploLista.clear();
 System.out.println(ejemploLista);
-    }
-    
+}
+
 }

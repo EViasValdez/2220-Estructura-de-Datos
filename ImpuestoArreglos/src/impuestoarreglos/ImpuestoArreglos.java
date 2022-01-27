@@ -34,23 +34,22 @@ public class ImpuestoArreglos {
         // que no traiga basura como valor inicial
         float precio[] = new float [4], impuesto = .05f, total=0; //todas las variables con gobales
         
-        for(int i = 0; i<4; i++){ //Se recorre con el ciclo for el arreglo
+        for(int i = 0; i<4; i++){
+            //Se recorre con el ciclo for el arreglo
             // int i = 0; es el valor inicial del arreglo, es decir la primer posicion del mismo
             // i<4 es la condicion de fi de ciclo, es decir lo va a repetir 4 veces
             // i++ equivale a escribir i=i+1 es decir es el contador que realiza el numero de veces del ciclo
         
-        System.out.println("Escribe el Precio :");
-        //Se lee la variable precio[i] ya que por tener corchetes es un arreglo, lee datos y los asigna a las posiciones del arreglo
-        //la linea qeu se lee con el objeto br y el metodo readline
-        // se convierte a un dato de tipo float con el metodo parse float
-        // que pertenece a la clase de los Float y se le asigna a la variable precio
-        precio[i] = Float.parseFloat(br.readLine());
-        // se realiza la operacion del porcentaje, cada dato en cada posicion del arreglo precio[i]
-        total = precio[i] + (precio[i] * impuesto);
-        //Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del total
-        System.out.println("Total a pagar con impuesto " + total);
-        
+            System.out.println("Escribe el Precio :");
+            //Se lee la variable precio[i] ya que por tener corchetes es un arreglo, lee datos y los asigna a las posiciones del arreglo
+            //la linea qeu se lee con el objeto br y el metodo readline
+            // se convierte a un dato de tipo float con el metodo parse float
+            // que pertenece a la clase de los Float y se le asigna a la variable precio
+            precio[i] = Float.parseFloat(br.readLine());
+            // se realiza la operacion del porcentaje, cada dato en cada posicion del arreglo precio[i]
+            total = precio[i] + (precio[i] * impuesto);
+            //Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del total
+            System.out.println("Total a pagar con impuesto " + total);
     }
-        }
-    
+    }
 }

@@ -64,7 +64,6 @@ public class ProblemasAsesorias {
         area2 = (float) (pi * (radio * radio));
         System.out.println("El area es " +  area2);
         
-        
         System.out.println("Problema 4");
         Scanner leer = new Scanner (System.in);
         
@@ -154,7 +153,6 @@ public class ProblemasAsesorias {
         }    
         }
         
-        
         System.out.println("Problema 8");
         float numeroalumnos;
         float total2 = 0;
@@ -176,7 +174,6 @@ public class ProblemasAsesorias {
         {
             total2 = 95 * numeroalumnos;
         }
-        
         System.out.println("El total es " + total2 + 1000);
     }
 }

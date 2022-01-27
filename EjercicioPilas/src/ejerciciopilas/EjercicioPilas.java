@@ -34,7 +34,5 @@ public class EjercicioPilas {
             System.out.println("Elemento: " + (i));
             pil.add(i);
         }
-        
     }
-    
 }
