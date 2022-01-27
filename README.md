@@ -4,6 +4,17 @@
 **Incluye uno que otro archivo que realize durante asesorias.**
 
 ###### EjercicioCalifiaciones - 20/01/20
+(EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class, 
+EjercicioCalificaciones/nbproject/private/private.properties, 
+EjercicioCalificaciones/nbproject/private/private.xml, 
+EjercicioCalificaciones/nbproject/build-impl.xml, 
+EjercicioCalificaciones/nbproject/genfiles.properties, 
+EjercicioCalificaciones/nbproject/project.properties, 
+EjercicioCalificaciones/nbproject/project.xml, 
+EjercicioCalificaciones/src/ejerciciocalificaciones/EjercicioCalificaciones.java, 
+EjercicioCalificaciones/build.xml, 
+EjercicioCalificaciones/manifest.mf)
+
 ###### Problema, Problemas1 - 21/01/20
 ###### impuestoArreglosMEtodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
 ###### Triangulo - 24/01/20
