@@ -80,27 +80,26 @@ public class Listas {
             System.out.println(i.next());
         }
          
-         //Si la lista contiene a un elmento
+        //Si la lista contiene a un elmento
         System.out.println(ejemploLista.contains("José"));
  
         //Si la lista esta vacia
         System.out.println(ejemploLista.isEmpty());
 
-// Cambiar el elemento del subindice 1 de la lista por Feix
-ejemploLista.set(1, "Félix");
-System.out.println(ejemploLista);
-//obtener datos entre un subindice y otro
-System.out.println(ejemploLista.subList(0, 2));
-//Metodo dosr ordena la lista de manera Ascendente en este caso de la A a la Z
-ejemploLista.sort(null);
-System.out.println(ejemploLista);
-//Ordenar una Lista de mnera descendete de la Z a la A
-Collections.sort(ejemploLista,Collections.reverseOrder() );
-System.out.println(ejemploLista);
+        // Cambiar el elemento del subindice 1 de la lista por Feix
+        ejemploLista.set(1, "Félix");
+        System.out.println(ejemploLista);
+        //obtener datos entre un subindice y otro
+        System.out.println(ejemploLista.subList(0, 2));
+        //Metodo dosr ordena la lista de manera Ascendente en este caso de la A a la Z
+        ejemploLista.sort(null);
+        System.out.println(ejemploLista);
+        //Ordenar una Lista de mnera descendete de la Z a la A
+        Collections.sort(ejemploLista,Collections.reverseOrder() );
+        System.out.println(ejemploLista);
 
-//vaciar la lista
-ejemploLista.clear();
-System.out.println(ejemploLista);
-}
-
+        //vaciar la lista
+        ejemploLista.clear();
+        System.out.println(ejemploLista);
+    }
 }

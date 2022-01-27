@@ -41,7 +41,6 @@ public class TrianguloMetodosArrelgos {
         triangulo(lado);
     }
     public static void triangulo (int lado[]){
-        
         for (int i = 0; i<3; i++){
             if (lado[0] == lado[1] && lado[2] == lado[0]){
                 System.out.println("El triangulo mostrado es un triangulo equilatero");    
@@ -57,6 +56,6 @@ public class TrianguloMetodosArrelgos {
             System.out.println("El triangulo mostrado es un triangulo escaleno");    
         }
         }
-            }
+        }
     }
 }

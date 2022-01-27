@@ -138,7 +138,6 @@ public class ProblemasAsesoriasFor {
             System.out.println(total);
         }
         
-        
         System.out.println("Problema 7");
         float cantidad1;
         float cantidad2;
@@ -153,22 +152,22 @@ public class ProblemasAsesoriasFor {
             System.out.println("Ingrese cantidad 3");
             cantidad3 = Float.parseFloat(br.readLine());
         
-        if (cantidad1 > cantidad2 && cantidad1 > cantidad3)
-        {
-            System.out.println("Cantidad 1 es mayor");
-        }
-        else
-        {
-        if (cantidad2 > cantidad1 && cantidad2 > cantidad3)
-        {
-            System.out.println("Cantidad 2 es mayor");
-        }
-        else
-        if (cantidad3 > cantidad1 && cantidad3 > cantidad2)
-        {
-            System.out.println("Cantidad 3 es mayor");
-        }    
-        }
+            if (cantidad1 > cantidad2 && cantidad1 > cantidad3)
+            {
+                System.out.println("Cantidad 1 es mayor");
+            }
+            else
+            {
+            if (cantidad2 > cantidad1 && cantidad2 > cantidad3)
+            {
+                System.out.println("Cantidad 2 es mayor");
+            }
+            else
+            if (cantidad3 > cantidad1 && cantidad3 > cantidad2)
+            {
+                System.out.println("Cantidad 3 es mayor");
+            }    
+            }
         }
 
         System.out.println("Problema 8");

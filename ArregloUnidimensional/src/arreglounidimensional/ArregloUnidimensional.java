@@ -61,7 +61,6 @@ public class ArregloUnidimensional {
            salario[k] = Double.parseDouble(br.readLine()); //Se ingresan los datos al arreglo salario cada dato segun el subindice k
        }
        
-       
        //Se recorre el arreglo slario
         for(int k=0; k<salario.length; k++){
         suma = suma + salario[k]; //Se realiza la suma de los salarios con la variable de tipo acumulador llamada suma se ira sumando cada salario de cada posicion del arreglo conel subindice k por ello salario[k]

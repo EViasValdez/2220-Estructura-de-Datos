@@ -35,6 +35,5 @@ public class Tipodedatos {
         
         System.out.println("Escribe tu promedio:");
         promedio = Float.parseFloat(br.readLine());
-        
     }
 }

@@ -27,19 +27,19 @@ public class Main {
 
         for(int k=0; k<2; k++)
         {
-        suma=0;
-        for(int i=0; i<3; i++)
-        {       
-            for(int j=0; j<4; j++)
-            {
-                 System.out.print("Escribe tu calificacion del alumno " + k + " del parcial  " +i + " de la materia  " + j  + " : ");
-                 Calificaciones[j][i] [k]= Float.parseFloat(br.readLine());
-                 suma = suma + Calificaciones[j][i][k];
+            suma=0;
+            for(int i=0; i<3; i++)
+            {       
+                for(int j=0; j<4; j++)
+                {
+                     System.out.print("Escribe tu calificacion del alumno " + k + " del parcial  " +i + " de la materia  " + j  + " : ");
+                     Calificaciones[j][i] [k]= Float.parseFloat(br.readLine());
+                     suma = suma + Calificaciones[j][i][k];
+                }
             }
-        }
-        System.out.println("La suma es :" + suma);
-        promedio = suma/12;
-        System.out.println("El promedio del  alumno numero    " + k +  " es : " + promedio);
+            System.out.println("La suma es :" + suma);
+            promedio = suma/12;
+            System.out.println("El promedio del  alumno numero    " + k +  " es : " + promedio);
         }
     }
 }

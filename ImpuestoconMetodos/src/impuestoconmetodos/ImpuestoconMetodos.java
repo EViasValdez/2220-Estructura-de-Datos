@@ -39,21 +39,17 @@ public class ImpuestoconMetodos {
         // se convierte a un dato de tipo float con el metodo parse float
         // que pertenece a la clase de los Float y se le asigna a la variable precio
         precio = Float.parseFloat(br.readLine());
-        
- 
         //Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del total
         //Solo que se manda llamar al metodo calculo y se le pasa como parametro la variable precio
         // va y busca en el main al metodo calculo
         System.out.println("Total a pagar con impuesto " + calculo(precio));
         
     }
-    
     public static float calculo(float precio){ //Metodo calculo 
         //varibales locales a este metodo impuesto y total, se realiza la operacion del porcentaje
        float  impuesto = .05f, total=0;
        total = precio + (precio * impuesto); // se realiza el calculo del total 
        return total; //return significa retornar o regresar regresa al main en donde fue llamado el emtodo calculo en 
        //este caso en la linea 47 y regresa el valor de la variable total
-    }
-    
+    }   
 }

@@ -39,8 +39,5 @@ public class ImpuestoOO {
         // que esta en la clase el cual muestra el resultado de la operacion
         //se le pasan dos atrbutos el precio y el Impuesto
         System.out.println("El total a pagar es:  "  + prod.total(prod.getPrecio(), prod.getImpuesto()));
-        
-        
     }
-    
 }

@@ -18,7 +18,6 @@ public class Problema {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
         Scanner leer = new Scanner (System.in);
         
         int a;
