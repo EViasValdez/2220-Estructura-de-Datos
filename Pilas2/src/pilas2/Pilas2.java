@@ -32,8 +32,8 @@ public class Pilas2 {
                 System.out.print(iterator.next() + " ");  //Vas imprimiendo cada unod e lso elemntos de la lista
             }  
   
-    System.out.println("\n Elemento en la cima de la pila " + pila.peek());
-    System.out.println("\n Vamos a vaciar la pila");
+        System.out.println("\n Elemento en la cima de la pila " + pila.peek());
+        System.out.println("\n Vamos a vaciar la pila");
   
             // Mientras la pila no esta vacia se eliminara cada elemento de la cima  con elmetodo pop
             while (!pila.empty())
@@ -42,4 +42,4 @@ public class Pilas2 {
             //Se muestran los elementos de la pila despues de haberla vaciado
             System.out.println("Elementos de la pila " + pila);
     }
-    }
+}

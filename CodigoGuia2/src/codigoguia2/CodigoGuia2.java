@@ -24,13 +24,12 @@ public class CodigoGuia2 {
         BufferedReader br = new BufferedReader(isr);
         
         double calificacion [] = new double[4];
-        
         double suma=0, promedio =0;
         
         for(int i = 0; i<4; i++)
         {    
-        System.out.println("Escribe la calificaicon numero 1:");
-        calificacion [i] = Double.parseDouble(br.readLine());
+            System.out.println("Escribe la calificaicon numero 1:");
+            calificacion [i] = Double.parseDouble(br.readLine());
         
         suma = (suma + calificacion[i]);
         }

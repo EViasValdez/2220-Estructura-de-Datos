@@ -28,19 +28,19 @@ public class CodigoGuia {
         
         while (contador <=4)
         {
-        System.out.println("Escribe la calificaicon numero 1:");
-        calificacion1= Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificaicon numero 2:");
-        calificacion2= Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificaicon numero 3:");
-        calificacion3= Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificaicon numero 4:");
-        calificacion4= Double.parseDouble(br.readLine());         
+            System.out.println("Escribe la calificaicon numero 1:");
+            calificacion1= Double.parseDouble(br.readLine());
+            System.out.println("Escribe la calificaicon numero 2:");
+            calificacion2= Double.parseDouble(br.readLine());
+            System.out.println("Escribe la calificaicon numero 3:");
+            calificacion3= Double.parseDouble(br.readLine());
+            System.out.println("Escribe la calificaicon numero 4:");
+            calificacion4= Double.parseDouble(br.readLine());         
         
-        suma = (calificacion1 + calificacion2 + calificacion3 + calificacion4);
-        promedio = suma / 4;
+            suma = (calificacion1 + calificacion2 + calificacion3 + calificacion4);
+            promedio = suma / 4;
         
-        contador = contador + 1;
+            contador = contador + 1;
     }
         System.out.println("El promedio es " + promedio);
     }

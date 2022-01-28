@@ -98,7 +98,6 @@ public class ProblemasAsesoriasDoWhile {
         }while (c>3);
             System.out.println("Problema 5");
             int numero;
-        
             int d = 1;
         
             System.out.println("Ingese numero");
@@ -124,7 +123,6 @@ public class ProblemasAsesoriasDoWhile {
         System.out.println("Problema 6");
         float cantidad;
         float total = 0;
-        
         int e = 1;
         
         do
@@ -149,7 +147,6 @@ public class ProblemasAsesoriasDoWhile {
         float cantidad1;
         float cantidad2;
         float cantidad3;
-        
         int f = 1;
         
         do
@@ -182,7 +179,6 @@ public class ProblemasAsesoriasDoWhile {
         System.out.println("Problema 8");
         float numeroalumnos;
         float total2 = 0;
-        
         int g = 1;
         
         do

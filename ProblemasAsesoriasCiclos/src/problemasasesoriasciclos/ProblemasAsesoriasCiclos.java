@@ -28,7 +28,6 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("Problema 1");
         float calificacion1, calificacion2, calificacion3, calificacion4;
         float promedio;
-        
         int a = 1;
         
         while (a<3){        
@@ -50,7 +49,6 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("Problema 2");
         float base, altura;
         float area;
-        
         int b = 1;
         
         while (b<3){
@@ -68,7 +66,6 @@ public class ProblemasAsesoriasCiclos {
         float radio;
         double pi = 3.1416;
         float area2;
-        
         int c = 1;
         
         while (c<3){
@@ -85,7 +82,6 @@ public class ProblemasAsesoriasCiclos {
         int ladoa;
         int ladoc;
         int ladob;
-        
         int d = 1;
         
         while (d<3){
@@ -104,7 +100,6 @@ public class ProblemasAsesoriasCiclos {
         
         System.out.println("Problema 5");
         int numero;
-        
         int e = 1;
         
         while(e<3){
@@ -133,7 +128,6 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("Problema 6");
         float cantidad;
         float total = 0;
-        
         int f = 1;
         
         while(f<3){
@@ -158,7 +152,6 @@ public class ProblemasAsesoriasCiclos {
         float cantidad1;
         float cantidad2;
         float cantidad3;
-        
         int g = 1;
         
         while(g<3){
@@ -191,7 +184,6 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("Problema 8");
         float numeroalumnos;
         float total2 = 0;
-        
         int h = 1;
         
         while(h>3){

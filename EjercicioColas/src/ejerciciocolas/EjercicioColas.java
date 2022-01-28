@@ -42,8 +42,8 @@ public class EjercicioColas {
             
             for(int i=1; i<=colaimpresion; i++)
             {
-            System.out.println("Documentos a imprimir: " + i);
-            cola.add(i);
+                System.out.println("Documentos a imprimir: " + i);
+                cola.add(i);
             }
             
             System.out.println("El principal es:");
