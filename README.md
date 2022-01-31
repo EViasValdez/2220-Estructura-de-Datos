@@ -14,8 +14,20 @@ EjercicioCalificaciones/nbproject/project.xml,
 EjercicioCalificaciones/src/ejerciciocalificaciones/EjercicioCalificaciones.java, 
 EjercicioCalificaciones/build.xml, 
 EjercicioCalificaciones/manifest.mf)
-
 ###### Problema, Problemas1 - 21/01/20
+(Problema/src/problema/Problema.java, 
+Problema/manifest.mf)
+(Problemas1/build/classes/problemas1/Problemas1.class, 
+Problemas1/nbproject/private/private.properties, 
+Problemas1/nbproject/private/private.xml, 
+Problemas1/nbproject/build-impl.xml, 
+Problemas1/nbproject/genfiles.properties, 
+Problemas1/nbproject/project.properties, 
+Problemas1/nbproject/project.xml, 
+Problemas1/src/problemas1/Problemas1.java, 
+Problemas1/build.xml, 
+Problemas1/manifest.mf)
+
 ###### impuestoArreglosMEtodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
 ###### Triangulo - 24/01/20
 (Triangulo/build/classes/triangulo/Triangulo.class, 
@@ -29,7 +41,6 @@ Triangulo/nbproject/project.xml,
 Triangulo/src/triangulo/Triangulo.java, 
 Triangulo/build.xml, 
 Triangulo/manifest.mf)
-
 ###### TrianguloCiclos - 25/01/20
 (TrianguloCiclos/build/classes/triangulociclos/TrianguloCiclos.class, 
 TrianguloCiclos/nbproject/private/private.properties, 
@@ -41,7 +52,6 @@ TrianguloCiclos/nbproject/project.xml,
 TrianguloCiclos/src/triangulociclos/TrianguloCiclos.java, 
 TrianguloCiclos/build.xml, 
 TrianguloCiclos/manifest.mf)
-
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 ###### arreglo_tridimensional, ArregloBidimensional, impuesto00 - 03/02/20
@@ -50,7 +60,6 @@ TrianguloCiclos/manifest.mf)
 ###### ProblemasAsesorias - 08/02/20
 ###### ProblemasAsesoriasCiclos, ProblemasAsesoriasDoWhile, ProblemasAsesoriasFor - 10/02/20
 ###### Colas, Pilas, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
-
 ###### ProyectoParcial2 - 20/02/20
 (Actividades/build/classes/proyectopartcial2/ProyectoParcial2.class, 
 ProyectoParcial2/nbproject/private/private.properties, 
@@ -62,7 +71,6 @@ ProyectoParcial2/nbproject/project.xml,
 ProyectoParcial2/src/proyectopartcial2/ProyectoParcial2.java, 
 ProyectoParcial2/build.xml, 
 ProyectoParcial2/manifest.mf)
-
 ###### Actividades - 27/02/20
 (Actividades/build/classes/actividades/Actividades.class, 
 Actividades/nbproject/private/private.properties, 
