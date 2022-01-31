@@ -42,19 +42,19 @@ public class ArregloUnidimensional {
        
        //Mostrar todos loe elementos del arreglo nombres
        //Se recorrera el arreglo con el ciclo for 
-       for(int i=0; i<nombres.length; i++){ //el metodo lengh hace regferencia a tamaño del arreglo es decir a 3
+       for (int i=0; i<nombres.length; i++){ //el metodo lengh hace regferencia a tamaño del arreglo es decir a 3
            // es mas eficiente utilizar este metodo ya que no se cometen errores en el tamaño del arreglo que hay que 
            // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posicion 0 y termina en n-1, es decir n es el tamaño del arreglo 
            // es decir termina en la posicion 2
            System.out.println(" El nombre de la posicion " + i + " es :" + nombres[i]);//Muestra la posicion del arreglo cvon la variable i y el dato de cada posicion del arreglo con nombres[i]
        }
-       for(int j=0; j<Apellidos.length; j++){ //Se recorre el arerglo Apellidos con la variable subindice j que inicia en 0 y termina hasta que sea menor al tamaño del arreglo
+       for (int j=0; j<Apellidos.length; j++){ //Se recorre el arerglo Apellidos con la variable subindice j que inicia en 0 y termina hasta que sea menor al tamaño del arreglo
            System.out.print("Escribe el apellido numero  " + (j+1) + ":"); //Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero
            Apellidos[j] = br.readLine(); //Se ingresan los datos al arreglo Apellidos cada dato segun el subindice j
            
        }
        //Se recorre el arreglo salario
-       for(int k=0; k<salario.length; k++){
+       for (int k=0; k<salario.length; k++){
            System.out.print("Escribe el salario numero " + (k+1) + ":"); //Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero
            salario[k] = Double.parseDouble(br.readLine()); //Se ingresan los datos al arreglo salario cada dato segun el subindice k
        }
@@ -80,7 +80,7 @@ public class ArregloUnidimensional {
     
     //se declara la variable mayor a la cual se el asigna como valor inicial el dato de la posicion cero del arreglo salario
     double mayor = salario[0];
-    for(int k=0; k<salario.length; k++){ //se recorre el arreglo salario
+    for (int k=0; k<salario.length; k++){ //se recorre el arreglo salario
         if(mayor < salario[k]){ // si la variable mayor es menor al valor de la posicion del arreglo salario[k]
             mayor = salario[k]; //entonces ese valor se le asigna a la variable mayor
         }

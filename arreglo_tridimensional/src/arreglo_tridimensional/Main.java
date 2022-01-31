@@ -25,12 +25,12 @@ public class Main {
         float Calificaciones [][][]= new float [4][3][2];
         float suma=0, promedio=0;
 
-        for(int k=0; k<2; k++)
+        for (int k=0; k<2; k++)
         {
             suma=0;
-            for(int i=0; i<3; i++)
+            for (int i=0; i<3; i++)
             {
-                for(int j=0; j<4; j++)
+                for (int j=0; j<4; j++)
                 {
                      System.out.print("Escribe tu calificacion del alumno " + k + " del parcial" +i + " de la materia " + j  + " : ");
                      Calificaciones[j][i] [k]= Float.parseFloat(br.readLine());

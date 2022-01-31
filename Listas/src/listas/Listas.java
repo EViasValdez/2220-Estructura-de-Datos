@@ -27,7 +27,7 @@ public class Listas {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
 
-        //El tipo de dato de la lista va en mayusculas String, float, Double, Int
+        // El tipo de dato de la lista va en mayusculas String, float, Double, Int
         List<String> ejemploLista = new ArrayList<String>();
 
         String nombre;
@@ -38,7 +38,7 @@ public class Listas {
         ejemploLista.add("María");
         ejemploLista.add("Sofía");
 
-        //Imprimir elementos de la lista
+        // Imprimir elementos de la lista
         System.out.println("Elementos de la lista ");
      
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
@@ -48,7 +48,7 @@ public class Listas {
         System.out.println("Tamaño de la lista: " + ejemploLista.size());
         System.out.println("Primer elemento de la lista :" + ejemploLista.get(0));
      
-        //Agregar otro elemento a la lista
+        // Agregar otro elemento a la lista
         ejemploLista.add("Alicia");
      
         System.out.println("Elementos de la lista con el que se agrego");
@@ -61,7 +61,7 @@ public class Listas {
         System.out.println("Elementos de la lista despues de eliminar a Juan");
         System.out.println(ejemploLista);
 
-        //Elimina al elemento de la posicion 1 de al Lista
+        // Elimina al elemento de la posicion 1 de al Lista
         ejemploLista.remove(1);
 
         System.out.println("Elementos de la lista despues de eliminar al elemeno de la posicion 1 de la lista");
@@ -70,35 +70,35 @@ public class Listas {
         System.out.println("Escribe un nombre ");
         nombre = br.readLine();
 
-        //Agregar el elemento que se leyo a la Lista
+        // Agregar el elemento que se leyo a la Lista
         ejemploLista.add(nombre);
 
-        //Otra manera de imprimir la Lista con la clase Iterator
+        // Otra manera de imprimir la Lista con la clase Iterator
         Iterator i = ejemploLista.iterator();
          while(i.hasNext())
         {
             System.out.println(i.next());
         }
          
-        //Si la lista contiene a un elmento
+        // Si la lista contiene a un elmento
         System.out.println(ejemploLista.contains("José"));
  
-        //Si la lista esta vacia
+        // Si la lista esta vacia
         System.out.println(ejemploLista.isEmpty());
 
         // Cambiar el elemento del subindice 1 de la lista por Feix
         ejemploLista.set(1, "Félix");
         System.out.println(ejemploLista);
-        //obtener datos entre un subindice y otro
+        // obtener datos entre un subindice y otro
         System.out.println(ejemploLista.subList(0, 2));
-        //Metodo dosr ordena la lista de manera Ascendente en este caso de la A a la Z
+        // Metodo dosr ordena la lista de manera Ascendente en este caso de la A a la Z
         ejemploLista.sort(null);
         System.out.println(ejemploLista);
-        //Ordenar una Lista de mnera descendete de la Z a la A
+        // Ordenar una Lista de mnera descendete de la Z a la A
         Collections.sort(ejemploLista,Collections.reverseOrder() );
         System.out.println(ejemploLista);
 
-        //vaciar la lista
+        // vaciar la lista
         ejemploLista.clear();
         System.out.println(ejemploLista);
     }
