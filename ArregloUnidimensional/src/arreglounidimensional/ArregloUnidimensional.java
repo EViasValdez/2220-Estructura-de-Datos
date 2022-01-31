@@ -48,19 +48,16 @@ public class ArregloUnidimensional {
            // es decir termina en la posicion 2
            System.out.println(" El nombre de la posicion " + i + " es :" + nombres[i]);//Muestra la posicion del arreglo cvon la variable i y el dato de cada posicion del arreglo con nombres[i]
        }
-       
        for(int j=0; j<Apellidos.length; j++){ //Se recorre el arerglo Apellidos con la variable subindice j que inicia en 0 y termina hasta que sea menor al tamaño del arreglo
            System.out.print("Escribe el apellido numero  " + (j+1) + ":"); //Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero
            Apellidos[j] = br.readLine(); //Se ingresan los datos al arreglo Apellidos cada dato segun el subindice j
            
        }
-       
        //Se recorre el arreglo salario
        for(int k=0; k<salario.length; k++){
            System.out.print("Escribe el salario numero " + (k+1) + ":"); //Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero
            salario[k] = Double.parseDouble(br.readLine()); //Se ingresan los datos al arreglo salario cada dato segun el subindice k
        }
-       
        //Se recorre el arreglo slario
         for(int k=0; k<salario.length; k++){
         suma = suma + salario[k]; //Se realiza la suma de los salarios con la variable de tipo acumulador llamada suma se ira sumando cada salario de cada posicion del arreglo conel subindice k por ello salario[k]
@@ -73,7 +70,7 @@ public class ArregloUnidimensional {
            }
        }
     }
-        
+    
     System.out.println("Tamaño del arreglo salario " + salario.length); // Imprime el tamaño del areglo 
     promedio = suma /salario.length; // calcula el promedio de los salarios
     System.out.println("El total de los salarios es :" + suma); // Muestra el total de los salarios

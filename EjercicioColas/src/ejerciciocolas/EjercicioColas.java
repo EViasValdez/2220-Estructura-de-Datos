@@ -55,7 +55,6 @@ public class EjercicioColas {
             int remover = cola.remove();
             System.out.println("Error " + remover);
             System.out.println(cola);
-            
             System.out.println("El ultimo es: ");
         }
     }

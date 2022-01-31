@@ -39,7 +39,6 @@ public class ImpuestoArreglos {
             // int i = 0; es el valor inicial del arreglo, es decir la primer posicion del mismo
             // i<4 es la condicion de fi de ciclo, es decir lo va a repetir 4 veces
             // i++ equivale a escribir i=i+1 es decir es el contador que realiza el numero de veces del ciclo
-        
             System.out.println("Escribe el Precio :");
             //Se lee la variable precio[i] ya que por tener corchetes es un arreglo, lee datos y los asigna a las posiciones del arreglo
             //la linea qeu se lee con el objeto br y el metodo readline
@@ -50,6 +49,6 @@ public class ImpuestoArreglos {
             total = precio[i] + (precio[i] * impuesto);
             //Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del total
             System.out.println("Total a pagar con impuesto " + total);
-    }
+        }
     }
 }

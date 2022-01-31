@@ -48,5 +48,4 @@ public class ImpuestoCiclos {
         i++; //Contador para ir incrementando el ciclo i=i+1
         }
     }
-    
 }

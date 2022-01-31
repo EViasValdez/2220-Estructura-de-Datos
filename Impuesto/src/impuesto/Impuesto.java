@@ -19,7 +19,7 @@ public class Impuesto {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-     //Clase Input la cual se utiliza para leer datos
+        //Clase Input la cual se utiliza para leer datos
         InputStreamReader isr = new InputStreamReader(System.in);
         //Clase Buferred Reader la cual se utiliza para convertir los datos qeu se lean
         // ya uqe por defautl solo lee cadenas de caractres

@@ -27,17 +27,14 @@ public class TrianguloMetodosArrelgos {
         int ladoa;
         int ladob;
         int ladoc;
-        
         int lado [] = new int [3];
         
         Scanner leer = new Scanner (System.in);
         
         for (int i = 0; i<3; i++){
-        
-        System.out.println("Ponga sus cantidades");
-        
-        lado[i] = Integer.parseInt(br.readLine());
-    }
+            System.out.println("Ponga sus cantidades");
+            lado[i] = Integer.parseInt(br.readLine());
+        }
         triangulo(lado);
     }
     public static void triangulo (int lado[]){
