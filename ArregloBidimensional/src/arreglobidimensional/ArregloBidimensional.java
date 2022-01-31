@@ -25,10 +25,10 @@ public class ArregloBidimensional {
         float Calificaciones [][]= new float [2][3];
         float suma=0, promedio=0;
         
-        for(int k=0; k<2; k++)
+        for (int k=0; k<2; k++)
         {
             suma=0;
-            for(int i=0; i<3; i++)
+            for (int i=0; i<3; i++)
             {
                 System.out.print(" Escribe tu calificacion del alumno  " + k + " del la materia   " +i + " :" );
                 Calificaciones[k] [i]= Float.parseFloat(br.readLine());
