@@ -29,7 +29,7 @@ public class Main {
         {
             suma=0;
             for(int i=0; i<3; i++)
-            {       
+            {
                 for(int j=0; j<4; j++)
                 {
                      System.out.print("Escribe tu calificacion del alumno " + k + " del parcial" +i + " de la materia " + j  + " : ");
