@@ -1,9 +1,11 @@
 # Estructura de datos
 
 <!----Aqui van las notas---->
-**Trabajo en proceso.**
+**Notas**
 
-**Incluye uno que otro archivo que realize durante asesorias.**
+**- Trabajo en proceso.**
+
+**- Incluye uno que otro archivo que realize durante asesorias.**
 <!----Separador---->
 
 ###### EjercicioCalifiaciones - 20/01/20
