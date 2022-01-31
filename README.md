@@ -41,7 +41,6 @@ Triangulo/nbproject/project.xml,
 Triangulo/src/triangulo/Triangulo.java, 
 Triangulo/build.xml, 
 Triangulo/manifest.mf)
-
 ###### TrianguloCiclos - 25/01/20
 (TrianguloCiclos/build/classes/triangulociclos/TrianguloCiclos.class, 
 TrianguloCiclos/nbproject/private/private.properties, 
