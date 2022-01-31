@@ -1,12 +1,15 @@
 # Estructura de datos
+<!----Descripcion---->
+Sample text
+<!----Separador de la descripcion ---->
 
-<!----Aqui van las notas---->
+<!----Notas---->
 **Notas**
 
 **- Trabajo en proceso.**
 
 **- Incluye uno que otro archivo que realize durante asesorias.**
-<!----Separador---->
+<!----Separador de las notas---->
 
 ###### EjercicioCalifiaciones - 20/01/20
 (EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class, 
