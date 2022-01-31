@@ -1,7 +1,10 @@
 # Estructura de datos
 
+<!----Aqui van las notas---->
 **Trabajo en proceso.**
+
 **Incluye uno que otro archivo que realize durante asesorias.**
+<!----Separador---->
 
 ###### EjercicioCalifiaciones - 20/01/20
 (EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class, 
