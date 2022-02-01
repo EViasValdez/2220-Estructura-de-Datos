@@ -26,7 +26,7 @@ EjercicioCalificaciones/manifest.mf)
 ###### Problema, Problemas1 - 21/01/20
 (Problema/src/problema/Problema.java, 
 Problema/manifest.mf)
-<!----Separador---->
+<!--Separador-->
 (Problemas1/build/classes/problemas1/Problemas1.class, 
 Problemas1/nbproject/private/private.properties, 
 Problemas1/nbproject/private/private.xml, 
@@ -77,7 +77,7 @@ CodigoGuia/nbproject/project.properties,
 CodigoGuia/nbproject/project.xml, 
 CodigoGuia/src/codigoguia/build.xml, 
 CodigoGuia/src/codigoguia/manifest.mf)
-<!----Separador---->
+<!--Separador-->
 (CodigoGuia2/build/classes/codigoguia2/CodigoGuia2.class, 
 CodigoGuia2/nbproject/private/private.properties, 
 CodigoGuia2/nbproject/private/private.xml, 
