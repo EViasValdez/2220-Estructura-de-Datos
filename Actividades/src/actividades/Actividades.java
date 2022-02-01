@@ -51,7 +51,7 @@ public class Actividades {
                 System.out.println("Monto de ventas");
                 venta = Integer.parseInt(br.readLine());
                 ventas.add(venta);
-            }    
+            }
             
             System.out.println("Sus ingresos son");
             System.out.println(ventas);
@@ -63,7 +63,7 @@ public class Actividades {
             break;
 
             case 2:
-            break;    
+            break;
                 
             case 3:
             break;

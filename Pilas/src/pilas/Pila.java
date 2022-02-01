@@ -29,9 +29,9 @@ public void desapilar(){
  // devuelve el elemento que esta en la cima de la pila. (top o peek)
 public Object cima(){
     Object datoAuxiliar = null;
-        if(this.size() > 0){
-datoAuxiliar = this.get(this.size()-1);
-}
+    if (this.size() > 0){
+        datoAuxiliar = this.get(this.size()-1);
+    }
 return datoAuxiliar;  
 }
  //devuelve cierto si la pila está vacía o falso en caso contrario (empty).
