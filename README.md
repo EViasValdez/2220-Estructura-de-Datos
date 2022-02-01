@@ -1,6 +1,6 @@
 # Estructura de datos
 <!----Descripcion---->
-Sample text
+Todavia estoy pensando en una buena descripcion.
 <!----Separador de la descripcion ---->
 
 <!----Notas---->
