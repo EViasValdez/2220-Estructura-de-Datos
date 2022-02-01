@@ -26,6 +26,7 @@ EjercicioCalificaciones/manifest.mf)
 ###### Problema, Problemas1 - 21/01/20
 (Problema/src/problema/Problema.java, 
 Problema/manifest.mf)
+<!----Separador---->
 (Problemas1/build/classes/problemas1/Problemas1.class, 
 Problemas1/nbproject/private/private.properties, 
 Problemas1/nbproject/private/private.xml, 
@@ -67,6 +68,25 @@ TrianguloCiclos/manifest.mf)
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 ###### arreglo_tridimensional, ArregloBidimensional, impuesto00 - 03/02/20
 ###### CodigoGuia, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
+(CodigoGuia/build/classes/codigoguia/CodigoGuia.class, 
+CodigoGuia/nbproject/private/private.properties, 
+CodigoGuia/nbproject/private/private.xml, 
+CodigoGuia/nbproject/build-impl.xml, 
+CodigoGuia/nbproject/genfiles.properties, 
+CodigoGuia/nbproject/project.properties, 
+CodigoGuia/nbproject/project.xml, 
+CodigoGuia/src/codigoguia/build.xml, 
+CodigoGuia/src/codigoguia/manifest.mf)
+<!----Separador---->
+(CodigoGuia2/build/classes/codigoguia2/CodigoGuia2.class, 
+CodigoGuia2/nbproject/private/private.properties, 
+CodigoGuia2/nbproject/private/private.xml, 
+CodigoGuia2/nbproject/build-impl.xml, 
+CodigoGuia2/nbproject/genfiles.properties, 
+CodigoGuia2/nbproject/project.properties, 
+CodigoGuia2/nbproject/project.xml, 
+CodigoGuia2/src/codigoguia/build.xml, 
+CodigoGuia2/src/codigoguia/manifest.mf)
 ###### Tipodedatos, Listas, EjercicioLista - 06/02/20
 ###### ProblemasAsesorias - 08/02/20
 (ProblemasAsesorias/build/classes/problemasasesorias/ProblemasAsesorias.class, 
