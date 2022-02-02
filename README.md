@@ -87,6 +87,27 @@ CodigoGuia2/nbproject/project.properties,
 CodigoGuia2/nbproject/project.xml, 
 CodigoGuia2/src/codigoguia/build.xml, 
 CodigoGuia2/src/codigoguia/manifest.mf)
+<!--Separador-->
+(CodigoGuia3/nbproject/private/private.properties, 
+CodigoGuia3/nbproject/private/private.xml, 
+CodigoGuia3/nbproject/build-impl.xml, 
+CodigoGuia3/nbproject/genfiles.properties, 
+CodigoGuia3/nbproject/project.properties, 
+CodigoGuia3/nbproject/project.xml, 
+CodigoGuia3/src/codigoguia3/CodigoGuia3.java, 
+CodigoGuia3/build.xml, 
+CodigoGuia3/manifest.mf)
+<!--Separador-->
+(CodigoGuia4/nbproject/private/private.properties, 
+CodigoGuia4/nbproject/private/private.xml, 
+CodigoGuia4/nbproject/build-impl.xml, 
+CodigoGuia4/nbproject/genfiles.properties, 
+CodigoGuia4/nbproject/project.properties, 
+CodigoGuia4/nbproject/project.xml, 
+CodigoGuia4/src/codigoguia3/CodigoGuia3.java, 
+CodigoGuia4/build.xml, 
+CodigoGuia4/manifest.mf)
+<!----Separador---->
 ###### Tipodedatos, Listas, EjercicioLista - 06/02/20
 ###### ProblemasAsesorias - 08/02/20
 (ProblemasAsesorias/build/classes/problemasasesorias/ProblemasAsesorias.class, 
