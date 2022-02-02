@@ -1,6 +1,6 @@
 # Estructura de datos
 <!----Descripcion---->
-Sample text
+Todavia estoy pensando en una buena descripcion.
 <!----Separador de la descripcion ---->
 
 <!----Notas---->
@@ -22,9 +22,11 @@ EjercicioCalificaciones/nbproject/project.xml,
 EjercicioCalificaciones/src/ejerciciocalificaciones/EjercicioCalificaciones.java, 
 EjercicioCalificaciones/build.xml, 
 EjercicioCalificaciones/manifest.mf)
+<!----Separador---->
 ###### Problema, Problemas1 - 21/01/20
 (Problema/src/problema/Problema.java, 
 Problema/manifest.mf)
+<!--Separador-->
 (Problemas1/build/classes/problemas1/Problemas1.class, 
 Problemas1/nbproject/private/private.properties, 
 Problemas1/nbproject/private/private.xml, 
@@ -35,7 +37,7 @@ Problemas1/nbproject/project.xml,
 Problemas1/src/problemas1/Problemas1.java, 
 Problemas1/build.xml, 
 Problemas1/manifest.mf)
-
+<!----Separador---->
 ###### impuestoArreglosMEtodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
 ###### Triangulo - 24/01/20
 (Triangulo/build/classes/triangulo/Triangulo.class, 
@@ -49,6 +51,7 @@ Triangulo/nbproject/project.xml,
 Triangulo/src/triangulo/Triangulo.java, 
 Triangulo/build.xml, 
 Triangulo/manifest.mf)
+<!----Separador---->
 ###### TrianguloCiclos - 25/01/20
 (TrianguloCiclos/build/classes/triangulociclos/TrianguloCiclos.class, 
 TrianguloCiclos/nbproject/private/private.properties, 
@@ -60,12 +63,64 @@ TrianguloCiclos/nbproject/project.xml,
 TrianguloCiclos/src/triangulociclos/TrianguloCiclos.java, 
 TrianguloCiclos/build.xml, 
 TrianguloCiclos/manifest.mf)
+<!----Separador---->
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 ###### arreglo_tridimensional, ArregloBidimensional, impuesto00 - 03/02/20
 ###### CodigoGuia, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
+(CodigoGuia/build/classes/codigoguia/CodigoGuia.class, 
+CodigoGuia/nbproject/private/private.properties, 
+CodigoGuia/nbproject/private/private.xml, 
+CodigoGuia/nbproject/build-impl.xml, 
+CodigoGuia/nbproject/genfiles.properties, 
+CodigoGuia/nbproject/project.properties, 
+CodigoGuia/nbproject/project.xml, 
+CodigoGuia/src/codigoguia/build.xml, 
+CodigoGuia/src/codigoguia/manifest.mf)
+<!--Separador-->
+(CodigoGuia2/build/classes/codigoguia2/CodigoGuia2.class, 
+CodigoGuia2/nbproject/private/private.properties, 
+CodigoGuia2/nbproject/private/private.xml, 
+CodigoGuia2/nbproject/build-impl.xml, 
+CodigoGuia2/nbproject/genfiles.properties, 
+CodigoGuia2/nbproject/project.properties, 
+CodigoGuia2/nbproject/project.xml, 
+CodigoGuia2/src/codigoguia/build.xml, 
+CodigoGuia2/src/codigoguia/manifest.mf)
+<!--Separador-->
+(CodigoGuia3/nbproject/private/private.properties, 
+CodigoGuia3/nbproject/private/private.xml, 
+CodigoGuia3/nbproject/build-impl.xml, 
+CodigoGuia3/nbproject/genfiles.properties, 
+CodigoGuia3/nbproject/project.properties, 
+CodigoGuia3/nbproject/project.xml, 
+CodigoGuia3/src/codigoguia3/CodigoGuia3.java, 
+CodigoGuia3/build.xml, 
+CodigoGuia3/manifest.mf)
+<!--Separador-->
+(CodigoGuia4/nbproject/private/private.properties, 
+CodigoGuia4/nbproject/private/private.xml, 
+CodigoGuia4/nbproject/build-impl.xml, 
+CodigoGuia4/nbproject/genfiles.properties, 
+CodigoGuia4/nbproject/project.properties, 
+CodigoGuia4/nbproject/project.xml, 
+CodigoGuia4/src/codigoguia3/CodigoGuia3.java, 
+CodigoGuia4/build.xml, 
+CodigoGuia4/manifest.mf)
+<!----Separador---->
 ###### Tipodedatos, Listas, EjercicioLista - 06/02/20
 ###### ProblemasAsesorias - 08/02/20
+(ProblemasAsesorias/build/classes/problemasasesorias/ProblemasAsesorias.class, 
+ProblemasAsesorias/nbproject/private/private.properties, 
+ProblemasAsesorias/nbproject/private/private.xml, 
+ProblemasAsesorias/nbproject/build-impl.xml, 
+ProblemasAsesorias/nbproject/genfiles.properties, 
+ProblemasAsesorias/nbproject/project.properties, 
+ProblemasAsesorias/nbproject/project.xml, 
+ProblemasAsesorias/src/problemasasesorias/ProblemasAsesorias.java, 
+ProblemasAsesorias/build.xml, 
+ProblemasAsesorias/manifest.mf)
+<!----Separador---->
 ###### ProblemasAsesoriasCiclos, ProblemasAsesoriasDoWhile, ProblemasAsesoriasFor - 10/02/20
 ###### Colas, Pilas, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
 ###### ProyectoParcial2 - 20/02/20
@@ -79,6 +134,7 @@ ProyectoParcial2/nbproject/project.xml,
 ProyectoParcial2/src/proyectopartcial2/ProyectoParcial2.java, 
 ProyectoParcial2/build.xml, 
 ProyectoParcial2/manifest.mf)
+<!----Separador---->
 ###### Actividades - 27/02/20
 (Actividades/build/classes/actividades/Actividades.class, 
 Actividades/nbproject/private/private.properties, 
@@ -90,3 +146,4 @@ Actividades/nbproject/project.xml,
 Actividades/src/actividades/Actividades.java, 
 Actividades/build.xml, 
 Actividades/manifest.mf)
+<!----Separador---->
