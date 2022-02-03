@@ -8,7 +8,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Trabajo de descripcion en proceso.**
 
-**- Incluye uno que otro archivo que realize durante asesorias.**
+**- Incluye uno que otro trabajo que realize durante asesorias.**
 <!----Separador de las notas---->
 
 ###### EjercicioCalifiaciones - 20/01/20
