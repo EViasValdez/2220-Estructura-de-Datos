@@ -1,12 +1,12 @@
 # Estructura de datos
 <!----Descripcion---->
-Todavia estoy pensando en una buena descripcion.
+Estos son los trabajos que hice durante el segundo cuatrimestre, estos documentos fueron completamente creados con el lenguaje Java.
 <!----Separador de la descripcion ---->
 
 <!----Notas---->
 **Notas**
 
-**- Trabajo en proceso.**
+**- Trabajo de descripcion en proceso.**
 
 **- Incluye uno que otro archivo que realize durante asesorias.**
 <!----Separador de las notas---->
