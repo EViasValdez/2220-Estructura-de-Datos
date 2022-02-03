@@ -111,6 +111,28 @@ TrianguloCiclos/manifest.mf)
 <!----Separador---->
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
+(ArregloUnidimensional/build/classes/arreglounidimensional/ArregloUnidimensional.class, 
+ArregloUnidimensional/nbproject/private/private.properties, 
+ArregloUnidimensional/nbproject/private/private.xml, 
+ArregloUnidimensional/nbproject/build-impl.xml, 
+ArregloUnidimensional/nbproject/genfiles.properties, 
+ArregloUnidimensional/nbproject/project.properties, 
+ArregloUnidimensional/nbproject/project.xml, 
+ArregloUnidimensional/src/arreglounidimensional/ArregloUnidimensional.java, 
+ArregloUnidimensional/build.xml, 
+ArregloUnidimensional/manifest.mf)
+<!--Separador-->
+(TrianguloArregloUnidimensional/build/classes/trianguloarreglounidimensional/TrianguloArregloUnidimensional.class, 
+TrianguloArregloUnidimensional/nbproject/private/private.properties, 
+TrianguloArregloUnidimensional/nbproject/private/private.xml, 
+TrianguloArregloUnidimensional/nbproject/build-impl.xml, 
+TrianguloArregloUnidimensional/nbproject/genfiles.properties, 
+TrianguloArregloUnidimensional/nbproject/project.properties, 
+TrianguloArregloUnidimensional/nbproject/project.xml, 
+TrianguloArregloUnidimensional/src/trianguloarreglounidimensional/TrianguloArregloUnidimensional.java, 
+TrianguloArregloUnidimensional/build.xml, 
+TrianguloArregloUnidimensional/manifest.mf)
+<!----Separador---->
 ###### arreglo_tridimensional, ArregloBidimensional, impuesto00 - 03/02/20
 ###### CodigoGuia, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
 (CodigoGuia/build/classes/codigoguia/CodigoGuia.class, 
