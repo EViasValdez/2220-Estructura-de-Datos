@@ -110,6 +110,28 @@ TrianguloCiclos/build.xml,
 TrianguloCiclos/manifest.mf)
 <!----Separador---->
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
+(TrianguloMetodos/build/classes/triangulociclos/TrianguloMetodos.class, 
+TrianguloMetodos/nbproject/private/private.properties, 
+TrianguloMetodos/nbproject/private/private.xml, 
+TrianguloMetodos/nbproject/build-impl.xml, 
+TrianguloMetodos/nbproject/genfiles.properties, 
+TrianguloMetodos/nbproject/project.properties, 
+TrianguloMetodos/nbproject/project.xml, 
+TrianguloMetodos/src/triangulometodos/TrianguloMetodos.java, 
+TrianguloMetodos/build.xml, 
+TrianguloMetodos/manifest.mf)
+<!--Separador-->
+(TrianguloMetodosArreglos/build/classes/triangulociclosarreglos/TrianguloMetodosArreglos.class, 
+TrianguloMetodosArreglos/nbproject/private/private.properties, 
+TrianguloMetodosArreglos/nbproject/private/private.xml, 
+TrianguloMetodosArreglos/nbproject/build-impl.xml, 
+TrianguloMetodosArreglos/nbproject/genfiles.properties, 
+TrianguloMetodosArreglos/nbproject/project.properties, 
+TrianguloMetodosArreglos/nbproject/project.xml, 
+TrianguloMetodosArreglos/src/triangulometodosarreglos/TrianguloMetodosArreglos.java, 
+TrianguloMetodosArreglos/build.xml, 
+TrianguloMetodosArreglos/manifest.mf)
+
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 (ArregloUnidimensional/build/classes/arreglounidimensional/ArregloUnidimensional.class, 
 ArregloUnidimensional/nbproject/private/private.properties, 
