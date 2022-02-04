@@ -233,6 +233,39 @@ ProblemasAsesorias/build.xml,
 ProblemasAsesorias/manifest.mf)
 <!----Separador---->
 ###### ProblemasAsesoriasCiclos, ProblemasAsesoriasDoWhile, ProblemasAsesoriasFor - 10/02/20
+(ProblemasAsesoriasCiclos/build/classes/problemasasesoriasciclos/ProblemasAsesoriasCiclos.class
+ProblemasAsesoriasCiclos/nbproject/private/private.properties, 
+ProblemasAsesoriasCiclos/nbproject/private/private.xml, 
+ProblemasAsesoriasCiclos/nbproject/build-impl.xml, 
+ProblemasAsesoriasCiclos/nbproject/genfiles.properties, 
+ProblemasAsesoriasCiclos/nbproject/project.properties, 
+ProblemasAsesoriasCiclos/nbproject/project.xml, 
+ProblemasAsesoriasCiclos/src/problemasasesoriasciclos/ProblemasAsesoriasCiclos.java, 
+ProblemasAsesoriasCiclos/build.xml, 
+ProblemasAsesoriasCiclos/manifest.mf)
+<!--Separador-->
+(ProblemasAsesoriasDoWhile/build/classes/problemasasesoriasdowhile/ProblemasAsesoriasDoWhile.class
+ProblemasAsesoriasDoWhile/nbproject/private/private.properties, 
+ProblemasAsesoriasDoWhile/nbproject/private/private.xml, 
+ProblemasAsesoriasDoWhile/nbproject/build-impl.xml, 
+ProblemasAsesoriasDoWhile/nbproject/genfiles.properties, 
+ProblemasAsesoriasDoWhile/nbproject/project.properties, 
+ProblemasAsesoriasDoWhile/nbproject/project.xml, 
+ProblemasAsesoriasDoWhile/src/problemasasesoriasdowhile/ProblemasAsesoriasDoWhile.java, 
+ProblemasAsesoriasDoWhile/build.xml, 
+ProblemasAsesoriasDoWhile/manifest.mf)
+<!--Separador-->
+(ProblemasAsesoriasFor/build/classes/problemasasesoriasfor/ProblemasAsesoriasFor.class
+ProblemasAsesoriasFor/nbproject/private/private.properties, 
+ProblemasAsesoriasFor/nbproject/private/private.xml, 
+ProblemasAsesoriasFor/nbproject/build-impl.xml, 
+ProblemasAsesoriasFor/nbproject/genfiles.properties, 
+ProblemasAsesoriasFor/nbproject/project.properties, 
+ProblemasAsesoriasFor/nbproject/project.xml, 
+ProblemasAsesoriasFor/src/problemasasesoriasfor/ProblemasAsesoriasFor.java, 
+ProblemasAsesoriasFor/build.xml, 
+ProblemasAsesoriasFor/manifest.mf)
+<!----Separador---->
 ###### Colas, Pilas, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
 ###### ProyectoParcial2 - 20/02/20
 (Actividades/build/classes/proyectopartcial2/ProyectoParcial2.class, 
