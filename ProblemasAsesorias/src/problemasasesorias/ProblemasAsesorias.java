@@ -117,7 +117,7 @@ public class ProblemasAsesorias {
             total = cantidad * 85;    
         }
         else
-            if (cantidad <= 1000)
+        if (cantidad <= 1000)
         {
             total = cantidad * 90;    
         }
