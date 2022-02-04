@@ -11,6 +11,8 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 **- Incluye uno que otro trabajo que realize durante asesorias de esta y la de algoritmos.**
 <!----Separador de las notas---->
 
+<!----Directorio con los archivos---->
+# Directorio con los archivos
 ###### EjercicioCalifiaciones - 20/01/20
 (EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class, 
 EjercicioCalificaciones/nbproject/private/private.properties, 
@@ -291,3 +293,4 @@ Actividades/src/actividades/Actividades.java,
 Actividades/build.xml, 
 Actividades/manifest.mf)
 <!----Separador---->
+<!----Fin del directorio con los archivos---->
