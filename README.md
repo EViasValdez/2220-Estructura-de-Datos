@@ -1,14 +1,14 @@
 # Estructura de datos
 <!----Descripcion---->
-Todavia estoy pensando en una buena descripcion.
+Estos son los trabajos que hice durante el segundo cuatrimestre, estos documentos fueron completamente creados con el lenguaje Java.
 <!----Separador de la descripcion ---->
 
 <!----Notas---->
 **Notas**
 
-**- Trabajo en proceso.**
+**- Trabajo de descripcion en proceso.**
 
-**- Incluye uno que otro archivo que realize durante asesorias.**
+**- Incluye uno que otro trabajo que realize durante asesorias de esta y la de algoritmos.**
 <!----Separador de las notas---->
 
 ###### EjercicioCalifiaciones - 20/01/20
@@ -39,6 +39,51 @@ Problemas1/build.xml,
 Problemas1/manifest.mf)
 <!----Separador---->
 ###### impuestoArreglosMEtodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
+(impuestoArreglosMEtodos/build/classes/impuestoarreglosmetodos/ImpuestoArreglosMEtodos.class, 
+impuestoArreglosMEtodos/nbproject/private/private.properties, 
+impuestoArreglosMEtodos/nbproject/private/private.xml, 
+impuestoArreglosMEtodos/nbproject/build-impl.xml, 
+impuestoArreglosMEtodos/nbproject/genfiles.properties, 
+impuestoArreglosMEtodos/nbproject/project.properties, 
+impuestoArreglosMEtodos/nbproject/project.xml, 
+impuestoArreglosMEtodos/src/impuestoarreglosmetodos/ImpuestoArreglosMEtodos.java, 
+impuestoArreglosMEtodos/build.xml, 
+impuestoArreglosMEtodos/manifest.mf)
+<!--Separador-->
+(ImpuestoCiclos/build/classes/impuestociclos/ImpuestoCiclos.class, 
+ImpuestoCiclos/nbproject/private/private.properties, 
+ImpuestoCiclos/nbproject/private/private.xml, 
+ImpuestoCiclos/nbproject/build-impl.xml, 
+ImpuestoCiclos/nbproject/genfiles.properties, 
+ImpuestoCiclos/nbproject/project.properties, 
+ImpuestoCiclos/nbproject/project.xml, 
+ImpuestoCiclos/src/impuestociclos/ImpuestoCiclos.java, 
+ImpuestoCiclos/build.xml, 
+ImpuestoCiclos/manifest.mf)
+<!--Separador-->
+(ImpuestoconMetodos/build/classes/ejemplo/Ejemplo.class, 
+ImpuestoconMetodos/build/classes/impuestoconmetodos/ImpuestoconMetodos.class, 
+ImpuestoconMetodos/nbproject/private/private.properties, 
+ImpuestoconMetodos/nbproject/private/private.xml, 
+ImpuestoconMetodos/nbproject/build-impl.xml, 
+ImpuestoconMetodos/nbproject/genfiles.properties, 
+ImpuestoconMetodos/nbproject/project.properties, 
+ImpuestoconMetodos/nbproject/project.xml, 
+ImpuestoconMetodos/src/impuestoconmetodos/ImpuestoconMetodos.java, 
+ImpuestoconMetodos/build.xml, 
+ImpuestoconMetodos/manifest.mf)
+<!--Separador-->
+(Impuesto/build/classes/impuesto/Impuesto.class, 
+Impuesto/nbproject/private/private.properties, 
+Impuesto/nbproject/private/private.xml, 
+Impuesto/nbproject/build-impl.xml, 
+Impuesto/nbproject/genfiles.properties, 
+Impuesto/nbproject/project.properties, 
+Impuesto/nbproject/project.xml, 
+Impuesto/src/impuesto/Impuesto.java, 
+Impuesto/build.xml, 
+Impuesto/manifest.mf)
+<!----Separador---->
 ###### Triangulo - 24/01/20
 (Triangulo/build/classes/triangulo/Triangulo.class, 
 Triangulo/build/built-jar.properties, 
@@ -65,7 +110,73 @@ TrianguloCiclos/build.xml,
 TrianguloCiclos/manifest.mf)
 <!----Separador---->
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
+(TrianguloMetodos/build/classes/triangulociclos/TrianguloMetodos.class, 
+TrianguloMetodos/nbproject/private/private.properties, 
+TrianguloMetodos/nbproject/private/private.xml, 
+TrianguloMetodos/nbproject/build-impl.xml, 
+TrianguloMetodos/nbproject/genfiles.properties, 
+TrianguloMetodos/nbproject/project.properties, 
+TrianguloMetodos/nbproject/project.xml, 
+TrianguloMetodos/src/triangulometodos/TrianguloMetodos.java, 
+TrianguloMetodos/build.xml, 
+TrianguloMetodos/manifest.mf)
+<!--Separador-->
+(TrianguloMetodosArreglos/build/classes/triangulociclosarreglos/TrianguloMetodosArreglos.class, 
+TrianguloMetodosArreglos/nbproject/private/private.properties, 
+TrianguloMetodosArreglos/nbproject/private/private.xml, 
+TrianguloMetodosArreglos/nbproject/build-impl.xml, 
+TrianguloMetodosArreglos/nbproject/genfiles.properties, 
+TrianguloMetodosArreglos/nbproject/project.properties, 
+TrianguloMetodosArreglos/nbproject/project.xml, 
+TrianguloMetodosArreglos/src/triangulometodosarreglos/TrianguloMetodosArreglos.java, 
+TrianguloMetodosArreglos/build.xml, 
+TrianguloMetodosArreglos/manifest.mf)
+<!--Separador-->
+(TrianguloArreglos/build/classes/triangulocarreglos/TrianguloArreglos.class, 
+TrianguloArreglos/nbproject/private/private.properties, 
+TrianguloArreglos/nbproject/private/private.xml, 
+TrianguloArreglos/nbproject/build-impl.xml, 
+TrianguloArreglos/nbproject/genfiles.properties, 
+TrianguloArreglos/nbproject/project.properties, 
+TrianguloArreglos/nbproject/project.xml, 
+TrianguloArreglos/src/trianguloarreglos/TrianguloArreglos.java, 
+TrianguloArreglos/build.xml, 
+TrianguloArreglos/manifest.mf)
+<!--Separador-->
+(ImpuestoArreglos/build/classes/impuestocarreglos/ImpuestoArreglos.class, 
+ImpuestoArreglos/nbproject/private/private.properties, 
+ImpuestoArreglos/nbproject/private/private.xml, 
+ImpuestoArreglos/nbproject/build-impl.xml, 
+ImpuestoArreglos/nbproject/genfiles.properties, 
+ImpuestoArreglos/nbproject/project.properties, 
+ImpuestoArreglos/nbproject/project.xml, 
+ImpuestoArreglos/src/impuestoarreglos/ImpuestoArreglos.java, 
+ImpuestoArreglos/build.xml, 
+ImpuestoArreglos/manifest.mf)
+<!----Separador---->
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
+(ArregloUnidimensional/build/classes/arreglounidimensional/ArregloUnidimensional.class, 
+ArregloUnidimensional/nbproject/private/private.properties, 
+ArregloUnidimensional/nbproject/private/private.xml, 
+ArregloUnidimensional/nbproject/build-impl.xml, 
+ArregloUnidimensional/nbproject/genfiles.properties, 
+ArregloUnidimensional/nbproject/project.properties, 
+ArregloUnidimensional/nbproject/project.xml, 
+ArregloUnidimensional/src/arreglounidimensional/ArregloUnidimensional.java, 
+ArregloUnidimensional/build.xml, 
+ArregloUnidimensional/manifest.mf)
+<!--Separador-->
+(TrianguloArregloUnidimensional/build/classes/trianguloarreglounidimensional/TrianguloArregloUnidimensional.class, 
+TrianguloArregloUnidimensional/nbproject/private/private.properties, 
+TrianguloArregloUnidimensional/nbproject/private/private.xml, 
+TrianguloArregloUnidimensional/nbproject/build-impl.xml, 
+TrianguloArregloUnidimensional/nbproject/genfiles.properties, 
+TrianguloArregloUnidimensional/nbproject/project.properties, 
+TrianguloArregloUnidimensional/nbproject/project.xml, 
+TrianguloArregloUnidimensional/src/trianguloarreglounidimensional/TrianguloArregloUnidimensional.java, 
+TrianguloArregloUnidimensional/build.xml, 
+TrianguloArregloUnidimensional/manifest.mf)
+<!----Separador---->
 ###### arreglo_tridimensional, ArregloBidimensional, impuesto00 - 03/02/20
 ###### CodigoGuia, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
 (CodigoGuia/build/classes/codigoguia/CodigoGuia.class, 
