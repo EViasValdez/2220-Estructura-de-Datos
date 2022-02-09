@@ -221,7 +221,38 @@ CodigoGuia4/src/codigoguia3/CodigoGuia3.java,
 CodigoGuia4/build.xml, 
 CodigoGuia4/manifest.mf)
 <!----Separador---->
-###### Tipodedatos, Listas, EjercicioLista - 06/02/20
+###### Tipodedatos, Listas, EjercicioListas - 06/02/20
+(Tipodedatos/nbproject/private/private.properties, 
+Tipodedatos/nbproject/private/private.xml, 
+Tipodedatos/nbproject/build-impl.xml, 
+Tipodedatos/nbproject/genfiles.properties, 
+Tipodedatos/nbproject/project.properties, 
+Tipodedatos/nbproject/project.xml, 
+Tipodedatos/src/tipodedatos/Tipodedatos.java, 
+Tipodedatos/build.xml, 
+Tipodedatos/manifest.mf)
+<!--Separador-->
+(Listas/build/classes/listas/Listas.class, 
+Listas/nbproject/private/private.properties, 
+Listas/nbproject/private/private.xml, 
+Listas/nbproject/build-impl.xml, 
+Listas/nbproject/genfiles.properties, 
+Listas/nbproject/project.properties, 
+Listas/nbproject/project.xml, 
+Listas/src/listas/Listas.java, 
+Listas/build.xml, 
+Listas/manifest.mf)
+<!--Separador-->
+(EjercicioListas/build/classes/ejerciciolistas/EjercicioListas.class, 
+EjercicioListas/nbproject/private/private.properties, 
+EjercicioListas/nbproject/private/private.xml, 
+EjercicioListas/nbproject/build-impl.xml, 
+EjercicioListas/nbproject/genfiles.properties, 
+EjercicioListas/nbproject/project.properties, 
+EjercicioListas/nbproject/project.xml, 
+EjercicioListas/build.xml, 
+EjercicioListas/manifest.mf)
+<!----Separador---->
 ###### ProblemasAsesorias - 08/02/20
 (ProblemasAsesorias/build/classes/problemasasesorias/ProblemasAsesorias.class, 
 ProblemasAsesorias/nbproject/private/private.properties, 
