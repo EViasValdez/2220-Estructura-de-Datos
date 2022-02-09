@@ -8,9 +8,11 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Trabajo de descripcion en proceso.**
 
-**- Incluye uno que otro trabajo que realize durante asesorias de esta y la de algoritmos.**
+**- Incluye uno que otro trabajo que realize durante asesorias de esta materia y la de algoritmos.**
 <!----Separador de las notas---->
 
+<!----Directorios y archivos---->
+# Directorios y archivos
 ###### EjercicioCalifiaciones - 20/01/20
 (EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class, 
 EjercicioCalificaciones/nbproject/private/private.properties, 
@@ -177,7 +179,42 @@ TrianguloArregloUnidimensional/src/trianguloarreglounidimensional/TrianguloArreg
 TrianguloArregloUnidimensional/build.xml, 
 TrianguloArregloUnidimensional/manifest.mf)
 <!----Separador---->
-###### arreglo_tridimensional, ArregloBidimensional, impuesto00 - 03/02/20
+###### arreglo_tridimensional, ArregloBidimensional, impuestoOO - 03/02/20
+(arreglo_tridimensional/build/classes/arreglo_tridimensional/Main.class, 
+arreglo_tridimensional/nbproject/private/private.properties, 
+arreglo_tridimensional/nbproject/private/private.xml, 
+arreglo_tridimensional/nbproject/build-impl.xml, 
+arreglo_tridimensional/nbproject/genfiles.properties, 
+arreglo_tridimensional/nbproject/project.properties, 
+arreglo_tridimensional/nbproject/project.xml, 
+arreglo_tridimensional/src/arreglo_tridimensional/Main.java, 
+arreglo_tridimensional/build.xml, 
+arreglo_tridimensional/manifest.mf)
+<!--Separador-->
+(ArregloBidimensional/build/classes/arreglobidimensional/ArregloBidimensional.class, 
+ArregloBidimensional/nbproject/private/private.properties, 
+ArregloBidimensional/nbproject/private/private.xml, 
+ArregloBidimensional/nbproject/build-impl.xml, 
+ArregloBidimensional/nbproject/genfiles.properties, 
+ArregloBidimensional/nbproject/project.properties, 
+ArregloBidimensional/nbproject/project.xml, 
+ArregloBidimensional/src/arreglobidimensional/ArregloBidimensional.java, 
+ArregloBidimensional/build.xml, 
+ArregloBidimensional/manifest.mf)
+<!--Separador-->
+(ImpuestoOO/build/classes/impuestooo/ImpuestoOO.class, 
+ImpuestoOO/build/classes/impuestooo/Producto.class, 
+ImpuestoOO/nbproject/private/private.properties, 
+ImpuestoOO/nbproject/private/private.xml, 
+ImpuestoOO/nbproject/build-impl.xml, 
+ImpuestoOO/nbproject/genfiles.properties, 
+ImpuestoOO/nbproject/project.properties, 
+ImpuestoOO/nbproject/project.xml, 
+ImpuestoOO/src/impuestooo/ImpuestoOO.java, 
+ImpuestoOO/src/impuestooo/Producto.java, 
+ImpuestoOO/build.xml, 
+ImpuestoOO/manifest.mf)
+<!----Separador---->
 ###### CodigoGuia, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
 (CodigoGuia/build/classes/codigoguia/CodigoGuia.class, 
 CodigoGuia/nbproject/private/private.properties, 
@@ -219,7 +256,38 @@ CodigoGuia4/src/codigoguia3/CodigoGuia3.java,
 CodigoGuia4/build.xml, 
 CodigoGuia4/manifest.mf)
 <!----Separador---->
-###### Tipodedatos, Listas, EjercicioLista - 06/02/20
+###### Tipodedatos, Listas, EjercicioListas - 06/02/20
+(Tipodedatos/nbproject/private/private.properties, 
+Tipodedatos/nbproject/private/private.xml, 
+Tipodedatos/nbproject/build-impl.xml, 
+Tipodedatos/nbproject/genfiles.properties, 
+Tipodedatos/nbproject/project.properties, 
+Tipodedatos/nbproject/project.xml, 
+Tipodedatos/src/tipodedatos/Tipodedatos.java, 
+Tipodedatos/build.xml, 
+Tipodedatos/manifest.mf)
+<!--Separador-->
+(Listas/build/classes/listas/Listas.class, 
+Listas/nbproject/private/private.properties, 
+Listas/nbproject/private/private.xml, 
+Listas/nbproject/build-impl.xml, 
+Listas/nbproject/genfiles.properties, 
+Listas/nbproject/project.properties, 
+Listas/nbproject/project.xml, 
+Listas/src/listas/Listas.java, 
+Listas/build.xml, 
+Listas/manifest.mf)
+<!--Separador-->
+(EjercicioListas/build/classes/ejerciciolistas/EjercicioListas.class, 
+EjercicioListas/nbproject/private/private.properties, 
+EjercicioListas/nbproject/private/private.xml, 
+EjercicioListas/nbproject/build-impl.xml, 
+EjercicioListas/nbproject/genfiles.properties, 
+EjercicioListas/nbproject/project.properties, 
+EjercicioListas/nbproject/project.xml, 
+EjercicioListas/build.xml, 
+EjercicioListas/manifest.mf)
+<!----Separador---->
 ###### ProblemasAsesorias - 08/02/20
 (ProblemasAsesorias/build/classes/problemasasesorias/ProblemasAsesorias.class, 
 ProblemasAsesorias/nbproject/private/private.properties, 
@@ -233,6 +301,39 @@ ProblemasAsesorias/build.xml,
 ProblemasAsesorias/manifest.mf)
 <!----Separador---->
 ###### ProblemasAsesoriasCiclos, ProblemasAsesoriasDoWhile, ProblemasAsesoriasFor - 10/02/20
+(ProblemasAsesoriasCiclos/build/classes/problemasasesoriasciclos/ProblemasAsesoriasCiclos.class
+ProblemasAsesoriasCiclos/nbproject/private/private.properties, 
+ProblemasAsesoriasCiclos/nbproject/private/private.xml, 
+ProblemasAsesoriasCiclos/nbproject/build-impl.xml, 
+ProblemasAsesoriasCiclos/nbproject/genfiles.properties, 
+ProblemasAsesoriasCiclos/nbproject/project.properties, 
+ProblemasAsesoriasCiclos/nbproject/project.xml, 
+ProblemasAsesoriasCiclos/src/problemasasesoriasciclos/ProblemasAsesoriasCiclos.java, 
+ProblemasAsesoriasCiclos/build.xml, 
+ProblemasAsesoriasCiclos/manifest.mf)
+<!--Separador-->
+(ProblemasAsesoriasDoWhile/build/classes/problemasasesoriasdowhile/ProblemasAsesoriasDoWhile.class
+ProblemasAsesoriasDoWhile/nbproject/private/private.properties, 
+ProblemasAsesoriasDoWhile/nbproject/private/private.xml, 
+ProblemasAsesoriasDoWhile/nbproject/build-impl.xml, 
+ProblemasAsesoriasDoWhile/nbproject/genfiles.properties, 
+ProblemasAsesoriasDoWhile/nbproject/project.properties, 
+ProblemasAsesoriasDoWhile/nbproject/project.xml, 
+ProblemasAsesoriasDoWhile/src/problemasasesoriasdowhile/ProblemasAsesoriasDoWhile.java, 
+ProblemasAsesoriasDoWhile/build.xml, 
+ProblemasAsesoriasDoWhile/manifest.mf)
+<!--Separador-->
+(ProblemasAsesoriasFor/build/classes/problemasasesoriasfor/ProblemasAsesoriasFor.class
+ProblemasAsesoriasFor/nbproject/private/private.properties, 
+ProblemasAsesoriasFor/nbproject/private/private.xml, 
+ProblemasAsesoriasFor/nbproject/build-impl.xml, 
+ProblemasAsesoriasFor/nbproject/genfiles.properties, 
+ProblemasAsesoriasFor/nbproject/project.properties, 
+ProblemasAsesoriasFor/nbproject/project.xml, 
+ProblemasAsesoriasFor/src/problemasasesoriasfor/ProblemasAsesoriasFor.java, 
+ProblemasAsesoriasFor/build.xml, 
+ProblemasAsesoriasFor/manifest.mf)
+<!----Separador---->
 ###### Colas, Pilas, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
 ###### ProyectoParcial2 - 20/02/20
 (Actividades/build/classes/proyectopartcial2/ProyectoParcial2.class, 
@@ -258,3 +359,4 @@ Actividades/src/actividades/Actividades.java,
 Actividades/build.xml, 
 Actividades/manifest.mf)
 <!----Separador---->
+<!----Separador de los directorios y archivos---->
