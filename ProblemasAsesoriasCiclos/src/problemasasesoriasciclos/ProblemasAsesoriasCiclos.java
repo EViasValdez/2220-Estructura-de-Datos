@@ -204,9 +204,8 @@ public class ProblemasAsesoriasCiclos {
             {
                 total2 = 95 * numeroalumnos;
             }
-            
             System.out.println("El total es " + total2 + 1000);
         h++;
         }
-}
+    }
 }

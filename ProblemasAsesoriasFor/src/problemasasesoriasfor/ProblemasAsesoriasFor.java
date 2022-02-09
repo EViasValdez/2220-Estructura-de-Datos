@@ -30,7 +30,7 @@ public class ProblemasAsesoriasFor {
         float calificacion1, calificacion2, calificacion3, calificacion4;
         float promedio;
         
-        for (int a = 1; a<3; a++)
+        for (int a = 1; a < 3; a++)
         {
             System.out.println("Ingese calificacion 1");
             calificacion1 = Float.parseFloat(br.readLine());
@@ -50,7 +50,7 @@ public class ProblemasAsesoriasFor {
         float base, altura;
         float area;
         
-        for (int b = 1; b<3; b++)
+        for (int b = 1; b < 3; b++)
         {
             System.out.println("Ingrese base");
             base = Float.parseFloat(br.readLine());
@@ -66,7 +66,7 @@ public class ProblemasAsesoriasFor {
         double pi = 3.1416;
         float area2;
         
-        for (int c = 1; c<3; c++)
+        for (int c = 1; c < 3; c++)
         {
             System.out.println("Ingese radio");
             radio = Float.parseFloat(br.readLine());
@@ -79,7 +79,7 @@ public class ProblemasAsesoriasFor {
             int ladoc;
             int ladob;
         
-            for (int d = 1; d<3; d++)
+            for (int d = 1; d < 3; d++)
             {
                 System.out.println("Ingrese lado a");
                 ladoa = leer.nextInt();
@@ -121,7 +121,7 @@ public class ProblemasAsesoriasFor {
         float cantidad;
         float total = 0;
         
-        for (int e = 1; e<3; e++)
+        for (int e = 1; e < 3; e++)
         {
             System.out.println("Ingrese cantidad");
             cantidad = Float.parseFloat (br.readLine());
@@ -143,7 +143,7 @@ public class ProblemasAsesoriasFor {
         float cantidad2;
         float cantidad3;
         
-        for (int f = 1; f<3; f++)
+        for (int f = 1; f < 3; f++)
         {
             System.out.println("Ingrese cantidad 1");
             cantidad1 = Float.parseFloat(br.readLine());
@@ -174,7 +174,7 @@ public class ProblemasAsesoriasFor {
         float numeroalumnos;
         float total2 = 0;
         
-        for (int g = 1; g<3; g++)
+        for (int g = 1; g < 3; g++)
         {
             System.out.println("Ingrese numero de alumnos");
             numeroalumnos = Float.parseFloat(br.readLine());
