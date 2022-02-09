@@ -68,7 +68,7 @@ public class ProblemasAsesoriasCiclos {
         float area2;
         int c = 1;
         
-        while (c<3){
+        while (c < 3){
         System.out.println("Ingese radio");
         radio = Float.parseFloat(br.readLine());
         
@@ -186,7 +186,7 @@ public class ProblemasAsesoriasCiclos {
         float total2 = 0;
         int h = 1;
         
-        while(h>3){
+        while(h > 3){
             System.out.println("Ingrese numero de alumnos");
             numeroalumnos = Float.parseFloat(br.readLine());
         
