@@ -35,7 +35,7 @@ public class Problemas1 {
         System.out.println("Valor C");
         c = leer.nextInt();
         
-        if(a + b == c){
+        if (a + b == c){
             System.out.println("Son iguales " + a + "+ " + b + " = " + c);
         }
         else{
@@ -52,6 +52,6 @@ public class Problemas1 {
         }
         } 
         i++;
-    }
+        }
     }
 }

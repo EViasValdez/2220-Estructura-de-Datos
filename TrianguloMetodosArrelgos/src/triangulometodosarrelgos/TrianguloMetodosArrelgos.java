@@ -31,14 +31,14 @@ public class TrianguloMetodosArrelgos {
         
         Scanner leer = new Scanner (System.in);
         
-        for (int i = 0; i<3; i++){
+        for (int i = 0; i < 3; i++){
             System.out.println("Ponga sus cantidades");
             lado[i] = Integer.parseInt(br.readLine());
         }
         triangulo(lado);
     }
     public static void triangulo (int lado[]){
-        for (int i = 0; i<3; i++){
+        for (int i = 0; i < 3; i++){
             if (lado[0] == lado[1] && lado[2] == lado[0]){
                 System.out.println("El triangulo mostrado es un triangulo equilatero");    
         }

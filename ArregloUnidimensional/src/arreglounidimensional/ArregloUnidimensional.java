@@ -23,16 +23,16 @@ public class ArregloUnidimensional {
         BufferedReader br = new BufferedReader(isr);
        
         String nombres [] = {"Juan" , "Luis", "Maria"}; // Arreglo unidimensiona de tipo String llamado nombres con valores iniciales
-        int numerodepiezas[] = {23,45,67,89,98}; // Arreglo unidimensional de tipo entero llamado numerodepiezas con valores iniciales
-        float calificaciones[] = {7.4f,8.5f,9.6f,10,5,6.7f}; // Arreglo unidimensiona de tipo float llamado calificaciones con valores iniciales hay que recordar qeu como los valores osn float se les agrega la letra f al final de cada valor
-        char vocales[] = {'a', 'e','i','o','u'}; // Arreglo unidimensional de tipo caracter llamado vocales con valores iniciales
-        boolean tiene_auto[] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado tiene_auto con valores iniciales
+        int numerodepiezas [] = {23,45,67,89,98}; // Arreglo unidimensional de tipo entero llamado numerodepiezas con valores iniciales
+        float calificaciones [] = {7.4f,8.5f,9.6f,10,5,6.7f}; // Arreglo unidimensiona de tipo float llamado calificaciones con valores iniciales hay que recordar qeu como los valores osn float se les agrega la letra f al final de cada valor
+        char vocales [] = {'a', 'e','i','o','u'}; // Arreglo unidimensional de tipo caracter llamado vocales con valores iniciales
+        boolean tiene_auto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado tiene_auto con valores iniciales
        
         String Apellidos [] = new String[8]; // Arreglo unidimensional de tipo String llamado Apellidos de tamaño 8
         // El nombre del arreglo se instancia con la palabra resdervada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes
-        double salario[] = new double[10]; // Arreglo unidimensional de tipo double llamado salario de tamaño 10
+        double salario [] = new double[10]; // Arreglo unidimensional de tipo double llamado salario de tamaño 10
         double suma =0, promedio=0; // Variable suma inicializada en cero ya que sera una variable de tipo acumulador, promedio igual a cero sera el resultado de un aoperacion
-        int alto=0,bajo=0; // variable de tipo contador inicializadas en 0
+        int alto=0,bajo=0; // Variable de tipo contador inicializadas en 0
        
         System.out.println("El nombre de la posicion uno del arreglo nombres es : "+ nombres[1]); // Muesrta el dato que se almaceno en la posicion 1 del arreglo en este casoo Luis
         System.out.println("El numero de piezas de la posicion dos del arreglo numerodepiezas es : "+ numerodepiezas[2]); // dato de la posicion 2 del arreglo numero de piezas 67
@@ -65,7 +65,7 @@ public class ArregloUnidimensional {
             alto++; // se sumara 1 a la variable alto ya qeu significa alto = alto +1
         }
         else{ // si al condicion anterior no se cumple 
-            if(salario[k]<20000){ // realiza esta condicion si el salario[k] es menro a 20000
+            if (salario[k]<20000){ // realiza esta condicion si el salario[k] es menro a 20000
                 bajo++; // se sumera 1 a la variable bajo, es decir bajo = bajo +1
             }
         }
@@ -78,13 +78,13 @@ public class ArregloUnidimensional {
         System.out.println("El total de los salarios altos es  :" + alto); // Muestra el total de los salarios altos
         System.out.println("El total de los salarios bajos es  :" + bajo); // Muestra el total de los salarios bajos
     
-        // se declara la variable mayor a la cual se el asigna como valor inicial el dato de la posicion cero del arreglo salario
+        // Es declarada la variable mayor a la cual se el asigna como valor inicial el dato de la posicion cero del arreglo salario
         double mayor = salario[0];
         for (int k=0; k<salario.length; k++){ // se recorre el arreglo salario
             if (mayor < salario[k]){ // si la variable mayor es menor al valor de la posicion del arreglo salario[k]
                 mayor = salario[k]; // entonces ese valor se le asigna a la variable mayor
             }
         }
-        System.out.println("El salario mas alto es  :" + mayor); // Muestra el salario mas alto
+        System.out.println("El salario mas alto es  :" + mayor); // Muestra el salario mas alto.
     }
 }
