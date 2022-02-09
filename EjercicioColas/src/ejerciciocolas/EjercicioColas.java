@@ -40,7 +40,7 @@ public class EjercicioColas {
             System.out.println("¿Cuantos elementos quisiera agregar?");
             colaimpresion = Integer.parseInt(br.readLine());
             
-            for(int i=1; i<=colaimpresion; i++)
+            for (int i = 1; i <= colaimpresion; i++)
             {
                 System.out.println("Documentos a imprimir: " + i);
                 cola.add(i);

@@ -25,12 +25,12 @@ public class TrianguloArregloUnidimensional {
         
         int lados[] = new int[3];
         
-        for (int i=0; i<lados.length; i++)
+        for (int i = 0; i < lados.length; i++)
         {
             System.out.println("Escribe el lado " + (i+1) + ":");
             lados[i] = Integer.parseInt(br.readLine());
         }
-        for (int i=0; i<lados.length; i++)
+        for (int i = 0; i < lados.length; i++)
         {
             if (lados[0] == lados[1] && lados[1] == lados[2]){
                 System.out.println("El triangulo mostrado es un triangulo equilatero");    

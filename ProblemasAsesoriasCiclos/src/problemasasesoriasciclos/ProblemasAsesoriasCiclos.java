@@ -69,12 +69,11 @@ public class ProblemasAsesoriasCiclos {
         int c = 1;
         
         while (c < 3){
-        System.out.println("Ingese radio");
-        radio = Float.parseFloat(br.readLine());
-        
-        area2 = (float) (pi * (radio * radio));
-        System.out.println("El area es " +  area2);
-        c++;
+            System.out.println("Ingese radio");
+            radio = Float.parseFloat(br.readLine());
+            area2 = (float) (pi * (radio * radio));
+            System.out.println("El area es " +  area2);
+            c++;
         }
         
         System.out.println("Problema 4");
@@ -103,26 +102,26 @@ public class ProblemasAsesoriasCiclos {
         int e = 1;
         
         while(e < 3){
-        System.out.println("Ingese numero");
-        numero = leer.nextInt();
-        
-        if (numero > 0)
-        {
-            System.out.println("El numero es positivo");
-        }
-        else
-        {
-        if (numero < 0)
-        {
-            System.out.println("El numero es negativo");   
-        }
-        else
-            if (numero == 0)
-        {
-             System.out.println("El numero es neutro");
-        }
-        }
-        e++;
+            System.out.println("Ingese numero");
+            numero = leer.nextInt();
+
+            if (numero > 0)
+            {
+                System.out.println("El numero es positivo");
+            }
+            else
+            {
+            if (numero < 0)
+            {
+                System.out.println("El numero es negativo");   
+            }
+            else
+                if (numero == 0)
+            {
+                 System.out.println("El numero es neutro");
+            }
+            }
+            e++;
         }
         
         System.out.println("Problema 6");
@@ -131,18 +130,18 @@ public class ProblemasAsesoriasCiclos {
         int f = 1;
         
         while(f < 3){
-        System.out.println("Ingrese cantidad");
-        cantidad = Float.parseFloat (br.readLine());
-        
-        if (cantidad >= 1000)
-        {
-            total = cantidad * 85;    
-        }
-        else
+            System.out.println("Ingrese cantidad");
+            cantidad = Float.parseFloat (br.readLine());
+
+            if (cantidad >= 1000)
+            {
+                total = cantidad * 85;    
+            }
+            else
             if (cantidad <= 1000)
-        {
-            total = cantidad * 90;    
-        }
+            {
+                total = cantidad * 90;    
+            }
             System.out.println(total);
         f++;
         }

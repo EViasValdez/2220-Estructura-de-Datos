@@ -40,7 +40,7 @@ public class ProyectoParcial2 {
         System.out.println("¿Cuantos litros quiere?");
         litros = Integer.parseInt(br.readLine());  // Se ingresa la cantidad de litros a colocar.
         
-        for (int i = 18; i<=litros; i++) // El for se usa para ingresar la cantidad de litros en el deposito.
+        for (int i = 18; i <= litros; i++) // El for se usa para ingresar la cantidad de litros en el deposito.
         {
             System.out.println("Usted ha ingresado " + litros + " litros");
             deposito.add(i); 
