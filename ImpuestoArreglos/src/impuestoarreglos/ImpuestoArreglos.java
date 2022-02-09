@@ -34,10 +34,10 @@ public class ImpuestoArreglos {
         // que no traiga basura como valor inicial
         float precio[] = new float [4], impuesto = .05f, total=0; //todas las variables con gobales
         
-        for (int i = 0; i<4; i++){
+        for (int i = 0; i < 4; i++){
             //Se recorre con el ciclo for el arreglo
             // int i = 0; es el valor inicial del arreglo, es decir la primer posicion del mismo
-            // i<4 es la condicion de fi de ciclo, es decir lo va a repetir 4 veces
+            // i < 4 es la condicion de fi de ciclo, es decir lo va a repetir 4 veces
             // i++ equivale a escribir i=i+1 es decir es el contador que realiza el numero de veces del ciclo
             System.out.println("Escribe el Precio :");
             //Se lee la variable precio[i] ya que por tener corchetes es un arreglo, lee datos y los asigna a las posiciones del arreglo
@@ -47,7 +47,7 @@ public class ImpuestoArreglos {
             precio[i] = Float.parseFloat(br.readLine());
             // se realiza la operacion del porcentaje, cada dato en cada posicion del arreglo precio[i]
             total = precio[i] + (precio[i] * impuesto);
-            // Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del total
+            // Se envia un mensaje para imprimir el total de la variable a la que se le asigno el valor del total
             System.out.println("Total a pagar con impuesto " + total);
         }
     }

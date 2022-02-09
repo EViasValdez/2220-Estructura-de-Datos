@@ -19,7 +19,7 @@ public class Pilas {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("------Pila------");
-        Pila pila = new Pila(); // Es creado el objeto lalmado pila y se instancia a la clase "Pila"
+        Pila pila = new Pila(); // Es creado el objeto lalmado pila y se instancia a la clase "Pila".
         pila.apilar("A"); // Se manda llamar al metodo "apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
         pila.apilar("B");
         pila.apilar("C");
@@ -36,7 +36,7 @@ public class Pilas {
           System.out.println("Tamaño de la pila:" + pila.size()); // Muestra el tamaño de la pila.
   
         System.out.println(pila.cima()); // Manda llamar al metodo cima de la clase "Pila" y regresa el elemto de la cima de la pila
-        pila.desapilar(); // una vez estando en la cima en el primer elemento de la pila manda llamar al metodo desapilar de la 
+        pila.desapilar(); // Una vez estando en la cima en el primer elemento de la pila manda llamar al metodo desapilar de la 
         System.out.println(pila.cima());// clase Pila en el metodo desapilar elimina el elemento de la pila con el metodo "remove".
         pila.desapilar();
         System.out.println(pila.cima());
@@ -44,7 +44,7 @@ public class Pilas {
         System.out.println("Elementos en la pila " + pila); // Imprime los elementos de la pila.
 
         System.out.println("Esta vacia la pila?:" + pila.vacia()); // Manda llamar al metodo "vacia" de la Clase "Pila".
-        // verifica si la pila esta vacia con el metodo "Empty".
+        // Verifica si la pila esta vacia con el metodo "Empty".
     
         System.out.println("------Cola------");
         Cola cola = new Cola();

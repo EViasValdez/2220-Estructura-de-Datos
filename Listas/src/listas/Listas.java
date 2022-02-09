@@ -75,7 +75,7 @@ public class Listas {
 
         // Otra manera de imprimir la Lista con la clase Iterator.
         Iterator i = ejemploLista.iterator();
-         while(i.hasNext())
+        while (i.hasNext())
         {
             System.out.println(i.next());
         }
@@ -98,7 +98,7 @@ public class Listas {
         Collections.sort(ejemploLista,Collections.reverseOrder() );
         System.out.println(ejemploLista);
 
-        // Vaciar la lista
+        // Vaciar la lista.
         ejemploLista.clear();
         System.out.println(ejemploLista);
     }

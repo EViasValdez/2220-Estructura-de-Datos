@@ -32,8 +32,8 @@ public class ImpuestoCiclos {
         // es decir todas las variables que sean el resultado de una operacion se inicializan con 0
         // pues no se conoce su valor, no se va a leer y ademas para limpiar la variable
         // es decir que no traiga basura como valor inicial.
-        float precio, impuesto = .05f, total=0;
-        int i=0; // Variable de tipo entero Valor Inicial del ciclo.
+        float precio, impuesto = .05f, total = 0;
+        int i = 0; // Variable de tipo entero Valor Inicial del ciclo.
         while(i < 4){ // Mientras i sea menor a 4 - condicion de fin de ciclo.
         // Se envia un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el Precio");

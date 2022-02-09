@@ -19,12 +19,14 @@ public class EjercicioCalificaciones {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner(System.in);
+
         float promedio, suma =0;
         float c1;
         // float c2;
         // float c3;
         // float c4;
         int i = 1;
+
         while(i <= 4){
             System.out.println("ingresa la calificacion 1: ");
             c1 = leer.nextFloat();
@@ -68,7 +70,7 @@ public class EjercicioCalificaciones {
             suma = suma + c1;
         i++;
         }
-        promedio = suma/4;
+        promedio = suma / 4;
         System.out.println("tu promedio es:" + promedio);
     }
 }

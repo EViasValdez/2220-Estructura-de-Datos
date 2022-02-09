@@ -31,7 +31,7 @@ public class Impuesto {
         // es decir todas las variables que sean el resultado de una operacion se inicializan con 0
         // pues no se sabe su valor, no se va a leer y ademas para limpiar la variable es decir 
         // que no traiga basura como valor inicial.
-        float precio, impuesto = .05f, total=0;
+        float precio, impuesto = .05f, total = 0;
         // Es enviado un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el Precio");
         // Se lee la variable "precio" la linea que se lee con el objeto br y el 

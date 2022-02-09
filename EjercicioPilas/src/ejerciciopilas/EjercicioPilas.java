@@ -29,7 +29,7 @@ public class EjercicioPilas {
         System.out.println("¿Cuantos elementos se agregaran?");
         int n = Integer.parseInt(br.readLine());
         
-        for (int i=n; i<=10; i++)
+        for (int i = n; i <= 10; i++)
         {
             System.out.println("Elemento: " + (i));
             pil.add(i);
