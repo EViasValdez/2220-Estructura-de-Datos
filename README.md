@@ -179,7 +179,42 @@ TrianguloArregloUnidimensional/src/trianguloarreglounidimensional/TrianguloArreg
 TrianguloArregloUnidimensional/build.xml, 
 TrianguloArregloUnidimensional/manifest.mf)
 <!----Separador---->
-###### arreglo_tridimensional, ArregloBidimensional, impuesto00 - 03/02/20
+###### arreglo_tridimensional, ArregloBidimensional, impuestoOO - 03/02/20
+(arreglo_tridimensional/build/classes/arreglo_tridimensional/Main.class, 
+arreglo_tridimensional/nbproject/private/private.properties, 
+arreglo_tridimensional/nbproject/private/private.xml, 
+arreglo_tridimensional/nbproject/build-impl.xml, 
+arreglo_tridimensional/nbproject/genfiles.properties, 
+arreglo_tridimensional/nbproject/project.properties, 
+arreglo_tridimensional/nbproject/project.xml, 
+arreglo_tridimensional/src/arreglo_tridimensional/Main.java, 
+arreglo_tridimensional/build.xml, 
+arreglo_tridimensional/manifest.mf)
+<!--Separador-->
+(ArregloBidimensional/build/classes/arreglobidimensional/ArregloBidimensional.class, 
+ArregloBidimensional/nbproject/private/private.properties, 
+ArregloBidimensional/nbproject/private/private.xml, 
+ArregloBidimensional/nbproject/build-impl.xml, 
+ArregloBidimensional/nbproject/genfiles.properties, 
+ArregloBidimensional/nbproject/project.properties, 
+ArregloBidimensional/nbproject/project.xml, 
+ArregloBidimensional/src/arreglobidimensional/ArregloBidimensional.java, 
+ArregloBidimensional/build.xml, 
+ArregloBidimensional/manifest.mf)
+<!--Separador-->
+(ImpuestoOO/build/classes/impuestooo/ImpuestoOO.class, 
+ImpuestoOO/build/classes/impuestooo/Producto.class, 
+ImpuestoOO/nbproject/private/private.properties, 
+ImpuestoOO/nbproject/private/private.xml, 
+ImpuestoOO/nbproject/build-impl.xml, 
+ImpuestoOO/nbproject/genfiles.properties, 
+ImpuestoOO/nbproject/project.properties, 
+ImpuestoOO/nbproject/project.xml, 
+ImpuestoOO/src/impuestooo/ImpuestoOO.java, 
+ImpuestoOO/src/impuestooo/Producto.java, 
+ImpuestoOO/build.xml, 
+ImpuestoOO/manifest.mf)
+<!----Separador---->
 ###### CodigoGuia, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
 (CodigoGuia/build/classes/codigoguia/CodigoGuia.class, 
 CodigoGuia/nbproject/private/private.properties, 
