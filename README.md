@@ -8,7 +8,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Trabajo de descripcion en proceso.**
 
-**- Incluye uno que otro trabajo que realize durante asesorias de esta y la de algoritmos.**
+**- Incluye uno que otro trabajo que realize durante asesorias de esta materia y la de algoritmos.**
 <!----Separador de las notas---->
 
 <!----Directorios y archivos---->
