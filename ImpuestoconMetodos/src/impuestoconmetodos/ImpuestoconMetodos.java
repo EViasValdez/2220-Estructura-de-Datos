@@ -47,7 +47,7 @@ public class ImpuestoconMetodos {
     }
     public static float calculo(float precio){ // Metodo calculo.
         // Varibales locales de este metodo "impuesto" y "total", se realizar la operacion del porcentaje.
-       float  impuesto = .05f, total=0;
+       float impuesto = .05f, total = 0;
        total = precio + (precio * impuesto); // Se realiza el calculo del total .
        return total; // return significa retornar o regresar regresa al main en donde fue llamado el metodo 
        // calculo, en este caso en la linea 47 y regresa el valor de la variable "total".

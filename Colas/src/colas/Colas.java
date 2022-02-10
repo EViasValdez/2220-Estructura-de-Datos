@@ -18,10 +18,10 @@ public class Colas {
      * @param args the command line arguments
      */
     public static void main(String[] args) { 
-        // Clase "Queue" en java para el manejo de colas        
+        // Clase "Queue" en java para el manejo de colas.
         Queue<Integer> q = new LinkedList<>(); 
 
-        // Agrega los elementos {0, 1, 2, 3, 4} a la cola
+        // Agrega los elementos {0, 1, 2, 3, 4} a la cola.
         for (int i = 0; i < 5; i++){
               q.add(i); 
               // Muestra contenidos de la cola. 

@@ -34,8 +34,8 @@ public class Producto {
     public void setImpuesto(float impuesto) {
         this.impuesto = impuesto;
     }
-    // Metodo de tipo float llamado al total de acceso publico.
-    // que recibe como parametros el precio, el impuesto y que se leyeron desde el main.
+    // Metodo de tipo float llamado al total de acceso publico que recibe
+    // como parametros el precio, el impuesto y que se leyeron desde el main.
     // Regresa el valor de la variable total la cual muestar el resulatdo de la operacion.
     public float total(float getprecio, float getimpuesto){
         float total;
