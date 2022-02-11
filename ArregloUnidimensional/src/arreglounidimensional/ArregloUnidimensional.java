@@ -29,9 +29,9 @@ public class ArregloUnidimensional {
         char vocales [] = {'a', 'e','i','o','u'}; // Arreglo unidimensional de tipo caracter llamado "vocales" con valores iniciales.
         boolean tiene_auto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado "tiene_auto" con valores iniciales.
        
-        String Apellidos [] = new String[8]; // Arreglo unidimensional de tipo String llamado "apellidos" de tamaño 8.
+        String Apellidos [] = new String [8]; // Arreglo unidimensional de tipo String llamado "apellidos" de tamaño 8.
         // El nombre del arreglo se instancia con la palabra resdervada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes.
-        double salario [] = new double[10]; // Arreglo unidimensional de tipo double llamado "salario" de tamaño 10.
+        double salario [] = new double [10]; // Arreglo unidimensional de tipo double llamado "salario" de tamaño 10.
         double suma = 0, promedio = 0; // Variable suma inicializada en cero ya que sera una variable de tipo acumulador, promedio igual a cero sera el resultado de un operacion.
         int alto = 0, bajo = 0; // Variable de tipo contador inicializadas en 0.
        
@@ -65,7 +65,7 @@ public class ArregloUnidimensional {
             alto++; // se sumara 1 a la variable alto ya qeu significa "alto = alto +1".
         }
         else{ // Si la condicion anterior no se cumple 
-            if (salario[k] < 20000){ // realiza esta condicion si el "salario[k]"" es menor a 20000
+            if (salario [k] < 20000){ // realiza esta condicion si el "salario[k]"" es menor a 20000
                 bajo++; // se sumera 1 a la variable bajo, es decir "bajo = bajo + 1".
             }
         }

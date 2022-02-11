@@ -18,7 +18,7 @@ public class Pilas2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //Clase stack para el manejo de pilas
+        // Clase stack para el manejo de pilas
         Stack<String> pila = new Stack<String>();
         // Se recorre con un ciclo pop al objeto pila
         // para ingresar datos en la pila con el metodo push.

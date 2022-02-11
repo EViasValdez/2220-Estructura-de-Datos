@@ -12,7 +12,7 @@ import java.util.ArrayList;
      * @author Biblioteca digital
      */
     public class Cola extends ArrayList {
-    // Es agregado un elemento a la cola, que se añade al final de esta.
+        // Es agregado un elemento a la cola, que se añade al final de esta.
         public void encolar(Object dato){
             if (dato != null){
                 this.add(dato);

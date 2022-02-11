@@ -116,7 +116,7 @@ public class ProblemasAsesoriasCiclos {
                 System.out.println("El numero es negativo");   
             }
             else
-                if (numero == 0)
+            if (numero == 0)
             {
                  System.out.println("El numero es neutro");
             }
@@ -145,7 +145,6 @@ public class ProblemasAsesoriasCiclos {
             System.out.println(total);
         f++;
         }
-        
         
         System.out.println("Problema 7");
         float cantidad1;
