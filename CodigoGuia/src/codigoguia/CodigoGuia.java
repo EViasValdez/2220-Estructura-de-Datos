@@ -23,7 +23,7 @@ public class CodigoGuia {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         
-        double calificacion1, calificacion2,calificacion3,calificacion4, suma=0, promedio =0;
+        double calificacion1, calificacion2,calificacion3,calificacion4, suma = 0, promedio = 0;
         int contador = 0;
         
         while (contador <= 4)
