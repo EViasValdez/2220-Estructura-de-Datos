@@ -36,6 +36,6 @@ import java.util.ArrayList;
         }
         // Devuelve "cierto" si la pila está vacía o falso en caso contrario (empty).
         public boolean vacia(){
-        return this.isEmpty();
-    }
+            return this.isEmpty();
+        }
 }

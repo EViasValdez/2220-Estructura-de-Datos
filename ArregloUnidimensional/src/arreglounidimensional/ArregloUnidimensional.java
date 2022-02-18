@@ -41,8 +41,8 @@ public class ArregloUnidimensional {
         System.out.println("La vocal de la posicion cuatro del arreglo vocales es: "+ vocales[4]);
         System.out.println("La respuesta a tiene auto de la posicion tres del arreglo tiene_auto es: "+ tiene_auto[3]);
        
-        // Mostrar todos loe elementos del arreglo nombres, se recorrera el arreglo con el ciclo for.
-        for (int i = 0; i < nombres.length; i++){ //El metodo lenght hace regferencia a tamaño del arreglo es decir a 3.
+        // Mostrar todos los elementos del arreglo "nombres", se recorrera el arreglo con el ciclo for.
+        for (int i = 0; i < nombres.length; i++){ // El metodo lenght hace regferencia a tamaño del arreglo es decir a 3.
             // Es mas eficiente utilizar este metodo ya que no se cometen errores en el tamaño del arreglo que hay que 
             // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posicion 0 y termina en n-1,
             // que es el tamaño del arreglo es decir termina en la posicion 2.
@@ -60,11 +60,10 @@ public class ArregloUnidimensional {
         }
         // Se recorre el arreglo "salario".
         for (int k = 0; k < salario.length; k++){
-        suma = suma + salario[k]; // Se realiza la suma de los salarios con la variable de tipo acumulador llamada "suma" se ira sumando cada salario de cada posicion del arreglo con el subindice "k" por ello "salario[k]".
-        if (salario[k] >= 20000){ // Si el salario[k] es mayor o igual a 20000
-            alto++; // se sumara 1 a la variable alto ya qeu significa "alto = alto +1".
-        }
-        else{ // Si la condicion anterior no se cumple 
+            suma = suma + salario[k]; // Se realiza la suma de los salarios con la variable de tipo acumulador llamada "suma" se ira sumando cada salario de cada posicion del arreglo con el subindice "k" por ello "salario[k]".
+            if (salario[k] >= 20000){ // Si el salario[k] es mayor o igual a 20000
+                alto++; // se sumara 1 a la variable alto ya que significa "alto = alto +1".
+            }else{ // Si la condicion anterior no se cumple 
             if (salario [k] < 20000){ // realiza esta condicion si el "salario[k]"" es menor a 20000
                 bajo++; // se sumera 1 a la variable bajo, es decir "bajo = bajo + 1".
             }
@@ -82,7 +81,7 @@ public class ArregloUnidimensional {
         double mayor = salario[0];
         for (int k = 0; k < salario.length; k++){ // Se recorre el arreglo "salario".
             if (mayor < salario[k]){ // Si la variable mayor es menor al valor de la posicion
-                mayor = salario[k]; // del arreglo "salario[k]"" entonces ese valor se le asigna a la variable mayor.
+                mayor = salario[k]; // del arreglo "salario[k]" entonces ese valor se le asigna a la variable mayor.
             }
         }
         System.out.println("El salario mas alto es: " + mayor); // Muestra el salario mas alto.

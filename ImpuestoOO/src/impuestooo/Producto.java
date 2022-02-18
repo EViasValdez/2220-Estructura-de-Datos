@@ -10,7 +10,7 @@ package impuestooo;
  * @author yayis
  */
 
-//Clase llamada Producto
+// Clase llamada Producto
 public class Producto {
     // Atributo de la clase llamado precio de tipo float de acceso publico.
     public float precio;

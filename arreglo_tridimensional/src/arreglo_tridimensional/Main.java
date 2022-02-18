@@ -27,7 +27,7 @@ public class Main {
 
         for (int k = 0; k < 2; k++)
         {
-            suma=0;
+            suma = 0;
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 4; j++)

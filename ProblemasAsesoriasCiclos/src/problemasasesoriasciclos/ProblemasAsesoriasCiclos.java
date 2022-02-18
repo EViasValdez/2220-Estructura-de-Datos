@@ -57,7 +57,7 @@ public class ProblemasAsesoriasCiclos {
             System.out.println("Ingese altura");
             altura = Float.parseFloat(br.readLine());
         
-            area = (base * altura)/2;
+            area = (base * altura) / 2;
             System.out.println("El area es " + area);
         b++;
         }

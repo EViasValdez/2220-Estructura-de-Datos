@@ -26,7 +26,7 @@ public class ImpuestoCiclos {
         // se lean ya que por default solo lee cadenas de caractres.
         BufferedReader br = new BufferedReader(isr);
         // Se declararon los identificadores llamados "precio" de tipo float -variable - asi como "impuesto"
-        // solo que esta es una constante ya tiene deifnido un valor 0.05f la f se le agrega
+        // solo que esta es una constante ya tiene deifnido un valor 0.05f la "f" se le agrega
         // para especificar que es de tipo flotante y total - varibale - inicializada en cero
         // debido a que no se conoce el valor de la variable por ser el resultado de una operacion
         // es decir todas las variables que sean el resultado de una operacion se inicializan con 0
@@ -45,7 +45,7 @@ public class ImpuestoCiclos {
         total = precio + (precio * impuesto);
         // Es enviado un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.
         System.out.println("Total a pagar con impuesto " + total);
-        i++; //Contador para ir incrementando el ciclo i=i+1
+        i++; // Contador para ir incrementando el ciclo "i = i + 1".
         }
     }
 }

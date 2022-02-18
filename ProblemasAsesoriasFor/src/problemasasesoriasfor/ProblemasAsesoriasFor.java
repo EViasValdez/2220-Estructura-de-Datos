@@ -111,7 +111,7 @@ public class ProblemasAsesoriasFor {
             System.out.println("El numero es negativo");   
         }
         else
-            if (numero == 0)
+        if (numero == 0)
         {
              System.out.println("El numero es neutro");
         }

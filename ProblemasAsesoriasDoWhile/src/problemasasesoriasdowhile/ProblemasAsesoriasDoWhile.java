@@ -63,7 +63,7 @@ public class ProblemasAsesoriasDoWhile {
         
             area = (base * altura) / 2;
             System.out.println("El area es " + area);
-        }while (b < 3);
+        } while (b < 3);
         
         System.out.println("Problema 3");
         float radio;
