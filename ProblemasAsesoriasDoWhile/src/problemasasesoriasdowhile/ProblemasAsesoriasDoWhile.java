@@ -76,7 +76,7 @@ public class ProblemasAsesoriasDoWhile {
         {
             System.out.println("Ingese radio");
             radio = Float.parseFloat(br.readLine());
-            area2 = (float) (pi * (radio * radio));
+            area2 = (float)(pi * (radio * radio));
             System.out.println("El area es " +  area2);
 
             System.out.println("Problema 4");

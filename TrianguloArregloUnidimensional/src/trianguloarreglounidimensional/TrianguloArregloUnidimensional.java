@@ -28,7 +28,7 @@ public class TrianguloArregloUnidimensional {
         for (int i = 0; i < lados.length; i++)
         {
             System.out.println("Escribe el lado " + (i + 1) + ":");
-            lados[i] = Integer.parseInt(br.readLine());
+            lados [i] = Integer.parseInt(br.readLine());
         }
         for (int i = 0; i < lados.length; i++)
         {
@@ -42,7 +42,7 @@ public class TrianguloArregloUnidimensional {
             }
             else
             {
-            if (lado s[1] != lados [2] && lados [1] != lados [2])
+            if (lados [1] != lados [2] && lados [1] != lados [2])
                 System.out.println("El triangulo mostrado es un triangulo escaleno");    
             }
             }

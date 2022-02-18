@@ -34,10 +34,10 @@ public class Pilas2 {
         System.out.println("\n Elemento en la cima de la pila " + pila.peek());
         System.out.println("\n Vamos a vaciar la pila");
   
-            // Mientras la pila no esta vacia se eliminara cada elemento de la cima con el metodo pop.
-            while (!pila.empty())
-            System.out.println(pila.pop());
-            // Se muestran los elementos de la pila despues de haberla vaciado.
-            System.out.println("Elementos de la pila " + pila);
+        // Mientras la pila no esta vacia se eliminara cada elemento de la cima con el metodo pop.
+        while (!pila.empty())
+        System.out.println(pila.pop());
+        // Se muestran los elementos de la pila despues de haberla vaciado.
+        System.out.println("Elementos de la pila " + pila);
     }
 }

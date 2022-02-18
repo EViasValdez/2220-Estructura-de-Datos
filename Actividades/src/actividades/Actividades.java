@@ -58,6 +58,7 @@ public class Actividades {
             
             System.out.println("El mayor es");
             int arriba = ventas.peek();
+            
             System.out.println(arriba);
             System.out.println(ventas);
             break;

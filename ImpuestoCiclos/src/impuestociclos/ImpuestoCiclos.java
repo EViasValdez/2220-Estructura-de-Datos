@@ -35,17 +35,17 @@ public class ImpuestoCiclos {
         float precio, impuesto = .05f, total = 0;
         int i = 0; // Variable de tipo entero Valor Inicial del ciclo.
         while (i < 4){ // Mientras i sea menor a 4 - condicion de fin de ciclo.
-        // Se envia un mensaje en pantalla el cual mostrara "Escribe el precio".
-        System.out.println("Escribe el Precio");
-        // Es leida la variable "precio" la linea que se lee con el objeto br y el metodo readline
-        // se convierte a un dato de tipo float con el metodo parse float que pertenece
-        // a la clase de los Float y se le asigna a la variable "precio".
-        precio = Float.parseFloat(br.readLine());
-        // Se realiza la operacion del porcentaje.
-        total = precio + (precio * impuesto);
-        // Es enviado un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.
-        System.out.println("Total a pagar con impuesto " + total);
-        i++; // Contador para ir incrementando el ciclo "i = i + 1".
+            // Se envia un mensaje en pantalla el cual mostrara "Escribe el precio".
+            System.out.println("Escribe el Precio");
+            // Es leida la variable "precio" la linea que se lee con el objeto br y el metodo readline
+            // se convierte a un dato de tipo float con el metodo parse float que pertenece
+            // a la clase de los Float y se le asigna a la variable "precio".
+            precio = Float.parseFloat(br.readLine());
+            // Se realiza la operacion del porcentaje.
+            total = precio + (precio * impuesto);
+            // Es enviado un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.
+            System.out.println("Total a pagar con impuesto " + total);
+            i++; // Contador para ir incrementando el ciclo "i = i + 1".
         }
     }
 }

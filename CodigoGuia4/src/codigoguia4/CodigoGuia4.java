@@ -23,7 +23,7 @@ public class CodigoGuia4 {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         
-        double calificacion1, calificacion2,calificacion3,calificacion4, suma = 0, promedio = 0;
+        double calificacion1, calificacion2, calificacion3, calificacion4, suma = 0, promedio = 0;
         double calificacion [] = new double [4];
         
         System.out.println("Escribe la calificaicon numero 1:");

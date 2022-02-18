@@ -33,7 +33,7 @@ public class TrianguloMetodosArrelgos {
         
         for (int i = 0; i < 3; i++){
             System.out.println("Ponga sus cantidades");
-            lado[i] = Integer.parseInt(br.readLine());
+            lado [i] = Integer.parseInt(br.readLine());
         }
         triangulo(lado);
     }

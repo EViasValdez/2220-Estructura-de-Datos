@@ -43,7 +43,6 @@ public class ImpuestoconMetodos {
         // solo que se manda llamar al metodo calculo y se le pasa como parametro la variable precio va y
         // busca en el main al metodo "calculo".
         System.out.println("Total a pagar con impuesto " + calculo(precio));
-        
     }
     public static float calculo(float precio){ // Metodo calculo.
         // Varibales locales de este metodo "impuesto" y "total", se realizar la operacion del porcentaje.

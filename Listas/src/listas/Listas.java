@@ -53,7 +53,7 @@ public class Listas {
      
         System.out.println("Elementos de la lista con el que se agrego");
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
-        System.out.println(ejemploLista.get(i));
+            System.out.println(ejemploLista.get(i));
         }
 
         ejemploLista.remove("Juan");
@@ -75,6 +75,7 @@ public class Listas {
 
         // Otra manera de imprimir la Lista con la clase Iterator.
         Iterator i = ejemploLista.iterator();
+        
         while (i.hasNext())
         {
             System.out.println(i.next());

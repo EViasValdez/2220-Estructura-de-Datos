@@ -27,14 +27,14 @@ public class ImpuestoArreglosMEtodos {
          // Se declararan los identificadores llamados "precio" de tipo float (cuyo arreglo es de tamaño 4).
         float precio [] = new float [4]; // La variable global tendra alcance en todo el main y en los otros metodos de este proyecto.
         
-            for (int i = 0; i < 4; i++){
-                System.out.println("Escribe el Precio :");
-                // "int i = 0"; es el valor inicial del arreglo, es decir la primer posicion del mismo.
-                // i < 4 es la condicion de fin de ciclo, es decir lo va a repetir 4 veces.
-                // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo.
-                precio[i] = Float.parseFloat(br.readLine());
-            }
-            calculo(precio);  // Se manda llamar al metodo caluclo y se le pasa como parametro el arreglo llamado "precio".
+        for (int i = 0; i < 4; i++){
+            System.out.println("Escribe el Precio :");
+            // "int i = 0"; es el valor inicial del arreglo, es decir la primer posicion del mismo.
+            // i < 4 es la condicion de fin de ciclo, es decir lo va a repetir 4 veces.
+            // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo.
+            precio[i] = Float.parseFloat(br.readLine());
+        }
+        calculo(precio);  // Se manda llamar al metodo caluclo y se le pasa como parametro el arreglo llamado "precio".
         }
         // Es creado un metodo publico estatico de tipo void llamado "calculo" que recibe como parametro de entrada el arreglo "precio []".
     public static void calculo(float []precio){
