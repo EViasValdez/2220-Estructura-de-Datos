@@ -21,10 +21,10 @@ public class ImpuestoCiclos {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         // Clase Input la cual se utiliza para leer datos.
-        InputStreamReader isr = new InputStreamReader(System.in);
+        InputStreamReader isr = new InputStreamReader (System.in);
         // Clase Buferred Reader la cual se utiliza para convertir los datos que 
         // se lean ya que por default solo lee cadenas de caractres.
-        BufferedReader br = new BufferedReader(isr);
+        BufferedReader br = new BufferedReader (isr);
         // Se declararon los identificadores llamados "precio" de tipo float -variable - asi como "impuesto"
         // solo que esta es una constante ya tiene deifnido un valor 0.05f la "f" se le agrega
         // para especificar que es de tipo flotante y total - varibale - inicializada en cero

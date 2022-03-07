@@ -35,42 +35,42 @@ public class Actividades {
         el = leer.nextInt();
         
         switch(el){
-            case 1:
-            InputStreamReader isr = new InputStreamReader(System.in);    
-            BufferedReader br = new BufferedReader (isr);
+        case 1:
+        InputStreamReader isr = new InputStreamReader(System.in);    
+        BufferedReader br = new BufferedReader (isr);
             
-            Queue <Integer> ventas = new LinkedList<>();        
+        Queue <Integer> ventas = new LinkedList<>();        
                 
-            int ingr, venta;
+        int ingr, venta;
             
-            System.out.println("Ingrese cuantas ventas");
-            ingr = Integer.parseInt(br.readLine());
+        System.out.println("Ingrese cuantas ventas");
+        ingr = Integer.parseInt(br.readLine());
             
-            for (int i = 0; i <= ingr; i++)
-            {
-                System.out.println("Monto de ventas");
-                venta = Integer.parseInt(br.readLine());
-                ventas.add(venta);
-            }
+        for (int i = 0; i <= ingr; i++)
+        {
+            System.out.println("Monto de ventas");
+            venta = Integer.parseInt(br.readLine());
+            ventas.add(venta);
+        }
             
-            System.out.println("Sus ingresos son");
-            System.out.println(ventas);
+        System.out.println("Sus ingresos son");
+        System.out.println(ventas);
             
-            System.out.println("El mayor es");
-            int arriba = ventas.peek();
+        System.out.println("El mayor es");
+        int arriba = ventas.peek();
             
-            System.out.println(arriba);
-            System.out.println(ventas);
-            break;
+        System.out.println(arriba);
+        System.out.println(ventas);
+        break;
 
-            case 2:
-            break;
-                
-            case 3:
-            break;
-                
-            case 4:
-            break;
+        case 2:
+        break;
+        
+        case 3:
+        break;
+
+        case 4:
+        break;
 
         }
     }

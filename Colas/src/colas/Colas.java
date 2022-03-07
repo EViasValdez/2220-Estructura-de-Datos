@@ -19,7 +19,7 @@ public class Colas {
      */
     public static void main(String[] args) { 
         // Clase "Queue" en java para el manejo de colas.
-        Queue<Integer> q = new LinkedList<>(); 
+        Queue <Integer> q = new LinkedList<>(); 
 
         // Agrega los elementos {0, 1, 2, 3, 4} a la cola.
         for (int i = 0; i < 5; i++){

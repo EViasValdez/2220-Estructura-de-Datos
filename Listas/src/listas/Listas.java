@@ -24,11 +24,11 @@ public class Listas {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
 
         // El tipo de dato de la lista va en mayusculas String, float, Double, Int.
-        List<String> ejemploLista = new ArrayList<String>();
+        List <String> ejemploLista = new ArrayList<String>();
 
         String nombre;
 

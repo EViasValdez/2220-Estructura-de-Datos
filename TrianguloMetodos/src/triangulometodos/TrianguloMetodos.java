@@ -32,7 +32,7 @@ public class TrianguloMetodos {
         System.out.println("Inserte tercera cantidad");
         ladoc = leer.nextInt();
         
-        triangulo(ladoa, ladob, ladoc);
+        triangulo (ladoa, ladob, ladoc);
     }
     public static void triangulo (int ladoa, int ladob, int ladoc){
         if (ladoa == ladob && ladob == ladoc){

@@ -19,8 +19,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
         // 3 parciales de 4 calificaciones de dos alumnos.
         float Calificaciones [] [] [] = new float [4] [3] [2];
         float suma = 0, promedio = 0;

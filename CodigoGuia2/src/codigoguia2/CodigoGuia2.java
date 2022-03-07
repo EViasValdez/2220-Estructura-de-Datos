@@ -20,8 +20,8 @@ public class CodigoGuia2 {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
         
         double calificacion [] = new double [4];
         double suma = 0, promedio = 0;

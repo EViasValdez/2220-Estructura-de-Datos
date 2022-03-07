@@ -26,28 +26,28 @@ public class TrianguloCiclos {
         
         int i = 1;
         while (i < 3){
-            System.out.println("Ponga sus cantidades");
-            System.out.println("Inserte primera cantidad");
-            ladoa = leer.nextInt();
-            System.out.println("Inserte segunda cantidad");
-            ladob = leer.nextInt();
-            System.out.println("Inserte tercera cantidad");
-            ladoc = leer.nextInt();
+        System.out.println("Ponga sus cantidades");
+        System.out.println("Inserte primera cantidad");
+        ladoa = leer.nextInt();
+        System.out.println("Inserte segunda cantidad");
+        ladob = leer.nextInt();
+        System.out.println("Inserte tercera cantidad");
+        ladoc = leer.nextInt();
         
-            if (ladoa == ladob && ladob == ladoc){
-                System.out.println("El triangulo mostrado es un triangulo equilatero");    
-            }
-            else
-            {
-            if (ladoa != ladob && ladob != ladoc){
-                System.out.println("El triangulo mostrado es un triangulo isoceles");    
-            }
-            else
-            {
-            if (ladob != ladoc && ladob != ladoc)
-                System.out.println("El triangulo mostrado es un triangulo escaleno");    
-            }
-            }
+        if (ladoa == ladob && ladob == ladoc){
+            System.out.println("El triangulo mostrado es un triangulo equilatero");    
+        }
+        else
+        {
+        if (ladoa != ladob && ladob != ladoc){
+            System.out.println("El triangulo mostrado es un triangulo isoceles");    
+        }
+        else
+        {
+        if (ladob != ladoc && ladob != ladoc)
+            System.out.println("El triangulo mostrado es un triangulo escaleno");    
+        }
+        }
         i++;
         }
     }

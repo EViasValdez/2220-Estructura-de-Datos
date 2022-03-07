@@ -19,14 +19,14 @@ public class Pilas2 {
      */
     public static void main(String[] args) {
         // Clase stack para el manejo de pilas
-        Stack<String> pila = new Stack<String>();
+        Stack <String> pila = new Stack<String>();
         // Se recorre con un ciclo pop al objeto pila
         // para ingresar datos en la pila con el metodo push.
         for (int x = 1; x <= 10; x++){
             pila.push(Integer.toString(x));
             // Con la clase Iterator vamos a recorrer los elementos de la pila y a mostrarla.
-            Iterator iterator = pila.iterator(); 
-            System.out.println("Elementos de la Pila : "); 
+            Iterator iterator = pila.iterator();
+            System.out.println("Elementos de la Pila : ");
             while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo con hasNext
                 System.out.print(iterator.next() + " ");  // se van imprimiendo cada uno de los elemntos de la lista.
             }

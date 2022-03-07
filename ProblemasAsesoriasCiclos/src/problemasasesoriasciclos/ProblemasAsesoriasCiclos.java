@@ -21,8 +21,8 @@ public class ProblemasAsesoriasCiclos {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
         Scanner leer = new Scanner (System.in);
         
         System.out.println ("Problema 1");

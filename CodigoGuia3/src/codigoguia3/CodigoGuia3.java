@@ -20,19 +20,19 @@ public class CodigoGuia3 {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
 
         double calificacion1, calificacion2, calificacion3, calificacion4, suma = 0, promedio = 0;
         
-        System.out.println("Escribe la calificaicon numero 1:");
-        calificacion1= Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificaicon numero 2:");
-        calificacion2= Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificaicon numero 3:");
-        calificacion3= Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificaicon numero 4:");
-        calificacion4= Double.parseDouble(br.readLine());         
+        System.out.println("Escribe la calificacion numero 1:");
+        calificacion1 = Double.parseDouble(br.readLine());
+        System.out.println("Escribe la calificacion numero 2:");
+        calificacion2 = Double.parseDouble(br.readLine());
+        System.out.println("Escribe la calificacion numero 3:");
+        calificacion3 = Double.parseDouble(br.readLine());
+        System.out.println("Escribe la calificacion numero 4:");
+        calificacion4 = Double.parseDouble(br.readLine());         
         System.out.println("El promedio es " + calificaciones(calificacion1, calificacion2, calificacion3, calificacion4));
     }
     public static double calificaciones (double calificiacion1, double calificacion2, double calificiacion3, double calificacion4){

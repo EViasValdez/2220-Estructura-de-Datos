@@ -23,10 +23,11 @@ public class EjercicioListas {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
         
-        List<Float> calificaciones = new ArrayList<Float>();
+        List <Float> calificaciones = new ArrayList<Float>();
+        
         int numecalf, opcion, aprueba = 0;
         float calif, eliminarcalificacion, promedio, suma = 0;
         String regresar = "si";

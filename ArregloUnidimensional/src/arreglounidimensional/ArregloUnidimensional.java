@@ -19,8 +19,8 @@ public class ArregloUnidimensional {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
        
         String nombres [] = {"Juan" , "Luis", "Maria"}; // Arreglo unidimensional de tipo String llamado "nombres" con valores iniciales.
         int numerodepiezas [] = {23, 45, 67, 89, 98}; // Arreglo unidimensional de tipo entero llamado "numerodepiezas" con valores iniciales.
