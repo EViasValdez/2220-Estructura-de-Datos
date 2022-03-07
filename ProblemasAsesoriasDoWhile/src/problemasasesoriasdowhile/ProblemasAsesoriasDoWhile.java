@@ -118,7 +118,7 @@ public class ProblemasAsesoriasDoWhile {
             {
                  System.out.println("El numero es neutro");
             }
-            } while(d > 3);
+            } while (d > 3);
         
         System.out.println("Problema 6");
         float cantidad;
@@ -140,7 +140,7 @@ public class ProblemasAsesoriasDoWhile {
                 total = cantidad * 90;    
             }
             System.out.println(total);
-        } while(e < 3);
+        } while (e < 3);
         
         
         System.out.println("Problema 7");
@@ -174,7 +174,7 @@ public class ProblemasAsesoriasDoWhile {
             System.out.println("Cantidad 3 es mayor");
         }
         }
-        } while(f < 3);
+        } while (f < 3);
         
         System.out.println("Problema 8");
         float numeroalumnos;
@@ -201,6 +201,6 @@ public class ProblemasAsesoriasDoWhile {
                 total2 = 95 * numeroalumnos;
             }
             System.out.println("El total es " + total2 + 1000);
-        } while(g < 3);
+        } while (g < 3);
     }
 }

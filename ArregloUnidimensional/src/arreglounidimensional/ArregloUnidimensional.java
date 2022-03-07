@@ -51,7 +51,6 @@ public class ArregloUnidimensional {
         for (int j = 0; j < Apellidos.length; j++){ // Se recorre el arerglo "Apellidos" con la variable subindice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.
             System.out.print("Escribe el apellido numero " + (j + 1) + ":"); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.
             Apellidos [j] = br.readLine(); // Se ingresan los datos al arreglo "Apellidos" cada dato segun el subindice "j".
-
         }
         // Se recorre el arreglo "salario".
         for (int k = 0; k < salario.length; k++){
@@ -71,7 +70,7 @@ public class ArregloUnidimensional {
         }
 
         System.out.println("Tamaño del arreglo salario: " + salario.length); // Imprime el tamaño del areglo.
-        promedio = suma /salario.length; // Calcula el promedio de los salarios.
+        promedio = suma / salario.length; // Calcula el promedio de los salarios.
         System.out.println("El total de los salarios es: " + suma); // Muestra el total de los salarios.
         System.out.println("El promedio de los salarios es: " + promedio); // Imprime el promedio de los salarios.
         System.out.println("El total de los salarios altos es: " + alto); // Muestra el total de los salarios altos.

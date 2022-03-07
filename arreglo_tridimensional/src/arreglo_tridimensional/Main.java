@@ -22,7 +22,7 @@ public class Main {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         // 3 parciales de 4 calificaciones de dos alumnos.
-        float Calificaciones [][][] = new float [4][3][2];
+        float Calificaciones [] [] [] = new float [4] [3] [2];
         float suma = 0, promedio = 0;
 
         for (int k = 0; k < 2; k++)
@@ -32,9 +32,9 @@ public class Main {
             {
                 for (int j = 0; j < 4; j++)
                 {
-                     System.out.print("Escribe tu calificacion del alumno " + k + " del parcial" +i + " de la materia " + j  + " : ");
-                     Calificaciones [j][i][k] = Float.parseFloat(br.readLine());
-                     suma = suma + Calificaciones [j][i][k];
+                     System.out.print("Escribe tu calificacion del alumno " + k + " del parcial" + i + " de la materia " + j + " : ");
+                     Calificaciones [j] [i] [k] = Float.parseFloat(br.readLine());
+                     suma = suma + Calificaciones [j] [i] [k];
                 }
             }
             System.out.println("La suma es :" + suma);
