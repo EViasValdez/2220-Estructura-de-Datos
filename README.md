@@ -6,13 +6,11 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 <!----Notas---->
 **Notas**
 
-**- Trabajo de descripcion en proceso.**
-
 **- Incluye uno que otro trabajo que realize durante asesorias de esta materia y la de algoritmos.**
 <!----Separador de las notas---->
 
-<!----Directorios y archivos---->
-# Directorios y archivos
+<!----Directorio con ubicacion de archivos---->
+# Directorio con ubicacion de archivos
 ###### EjercicioCalifiaciones - 20/01/20
 (EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class, 
 EjercicioCalificaciones/nbproject/private/private.properties, 
@@ -285,6 +283,7 @@ EjercicioListas/nbproject/build-impl.xml,
 EjercicioListas/nbproject/genfiles.properties, 
 EjercicioListas/nbproject/project.properties, 
 EjercicioListas/nbproject/project.xml, 
+EjercicioListas/src/listas/EjercicioListas.java, 
 EjercicioListas/build.xml, 
 EjercicioListas/manifest.mf)
 <!----Separador---->
@@ -335,6 +334,61 @@ ProblemasAsesoriasFor/build.xml,
 ProblemasAsesoriasFor/manifest.mf)
 <!----Separador---->
 ###### Colas, Pilas, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
+(Colas/build/classes/colas/Colas.class
+Colas/nbproject/private/private.properties
+Colas/nbproject/private/private.xml
+Colas/nbproject/build-impl.xml
+Colas/nbproject/genfiles.properties
+Colas/nbproject/project.properties
+Colas/nbproject/project.xml
+Colas/src/colas/Colas.java
+Colas/build.xml
+Colas/manifest.mf)
+<!--Separador-->
+(Pilas/build/classes/pilas/Pilas.class, 
+Pilas/nbproject/private/private.properties, 
+Pilas/nbproject/private/private.xml, 
+Pilas/nbproject/build-impl.xml, 
+Pilas/nbproject/genfiles.properties, 
+Pilas/nbproject/project.properties
+Pilas/nbproject/project.xml, 
+Pilas/src/pilas/Pilas.java, 
+Pilas/build.xml, 
+Pilas/manifest.mf)
+<!--Separador-->
+(Pilas2/build/classes/pilas2/Pilas2.class, 
+Pilas2/nbproject/private/private.properties, 
+Pilas2/nbproject/private/private.xml, 
+Pilas2/nbproject/build-impl.xml, 
+Pilas2/nbproject/genfiles.properties, 
+Pilas2/nbproject/project.properties, 
+Pilas2/nbproject/project.xml, 
+Pilas2/src/pilas2/Pilas2.java, 
+Pilas2/build.xml, 
+Pilas2/manifest.mf)
+<!--Separador-->
+(EjercicioPilas/build/classes/ejerciciopilas/EjercicioPilas.class, 
+EjercicioPilas/nbproject/private/private.properties, 
+EjercicioPilas/nbproject/private/private.xml, 
+EjercicioPilas/nbproject/build-impl.xml, 
+EjercicioPilas/nbproject/genfiles.properties, 
+EjercicioPilas/nbproject/project.properties, 
+EjercicioPilas/nbproject/project.xml, 
+EjercicioPilas/src/EjercicioPilas/EjercicioPilas.java, 
+EjercicioPilas/build.xml, 
+EjercicioPilas/manifest.mf)
+<!--Separador-->
+(EjercicioColas/build/classes/ejerciciopilas/EjercicioColas.class, 
+EjercicioColas/nbproject/private/private.properties, 
+EjercicioColas/nbproject/private/private.xml, 
+EjercicioColas/nbproject/build-impl.xml, 
+EjercicioColas/nbproject/genfiles.properties, 
+EjercicioColas/nbproject/project.properties, 
+EjercicioColas/nbproject/project.xml, 
+EjercicioColas/src/EjercicioColas/EjercicioColas.java, 
+EjercicioColas/build.xml, 
+EjercicioColas/manifest.mf)
+<!----Separador---->
 ###### ProyectoParcial2 - 20/02/20
 (Actividades/build/classes/proyectopartcial2/ProyectoParcial2.class, 
 ProyectoParcial2/nbproject/private/private.properties, 
@@ -359,4 +413,4 @@ Actividades/src/actividades/Actividades.java,
 Actividades/build.xml, 
 Actividades/manifest.mf)
 <!----Separador---->
-<!----Separador de los directorios y archivos---->
+<!----Separador del direrctorio con ubicacion de archivos---->
