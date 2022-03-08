@@ -41,7 +41,7 @@ public class ProblemasAsesoriasCiclos {
             calificacion4 = Float.parseFloat(br.readLine());
 
             promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4)/4;
-       
+            
             System.out.println("El promedio es " + promedio);
         a++; 
         }

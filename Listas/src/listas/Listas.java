@@ -40,11 +40,11 @@ public class Listas {
 
         // Imprimir elementos de la lista.
         System.out.println("Elementos de la lista ");
-     
+
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
             System.out.println(ejemploLista.get(i));
         }
-     
+
         System.out.println("Tamaño de la lista: " + ejemploLista.size());
         System.out.println("Primer elemento de la lista :" + ejemploLista.get(0));
      
@@ -62,7 +62,7 @@ public class Listas {
         System.out.println(ejemploLista);
 
         // Elimina al elemento de la posicion 1 de al Lista.
-        ejemploLista.remove(1);
+        ejemploLista.remove (1);
 
         System.out.println("Elementos de la lista despues de eliminar al elemeno de la posicion 1 de la lista");
         System.out.println(ejemploLista);  
@@ -71,7 +71,7 @@ public class Listas {
         nombre = br.readLine();
 
         // Agregar el elemento que se leyo a la Lista.
-        ejemploLista.add(nombre);
+        ejemploLista.add (nombre);
 
         // Otra manera de imprimir la Lista con la clase Iterator.
         Iterator i = ejemploLista.iterator();
@@ -80,10 +80,10 @@ public class Listas {
         {
             System.out.println(i.next());
         }
-         
+
         // Si la lista contiene a un elmento.
         System.out.println(ejemploLista.contains("José"));
- 
+
         // Si la lista esta vacia.
         System.out.println(ejemploLista.isEmpty());
 
@@ -93,12 +93,12 @@ public class Listas {
         // Obtener datos entre un subindice y otro.
         System.out.println(ejemploLista.subList(0, 2));
         // Metodo dosr ordena la lista de manera ascendente (en este caso de la A a la Z).
-        ejemploLista.sort(null);
+        ejemploLista.sort (null);
         System.out.println(ejemploLista);
         // Ordenar una Lista de manera descendete de la Z a la A.
-        Collections.sort(ejemploLista,Collections.reverseOrder() );
+        Collections.sort (ejemploLista,Collections.reverseOrder() );
         System.out.println(ejemploLista);
-
+        
         // Vaciar la lista.
         ejemploLista.clear();
         System.out.println(ejemploLista);

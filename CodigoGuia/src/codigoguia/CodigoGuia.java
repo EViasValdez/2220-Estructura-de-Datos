@@ -36,10 +36,10 @@ public class CodigoGuia {
             calificacion3= Double.parseDouble(br.readLine());
             System.out.println("Escribe la calificaicon numero 4:");
             calificacion4= Double.parseDouble(br.readLine());         
-        
+
             suma = (calificacion1 + calificacion2 + calificacion3 + calificacion4);
             promedio = suma / 4;
-        
+            
             contador = contador + 1;
     }
         System.out.println("El promedio es " + promedio);

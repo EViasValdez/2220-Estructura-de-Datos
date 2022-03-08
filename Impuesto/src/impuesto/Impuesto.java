@@ -29,13 +29,13 @@ public class Impuesto {
         // para especificar que es de tipo flotante y total - varibale - inicializada en cero
         // debido a que no se conoce el valor de la variable por ser el resultado de una operacion
         // es decir todas las variables que sean el resultado de una operacion se inicializan con 0
-        // pues no se sabe su valor, no se va a leer y ademas para limpiar la variable es decir 
+        // pues no se sabe su valor, no se va a leer y ademas para limpiar la variable es decir
         // que no traiga basura como valor inicial.
         float precio, impuesto = .05f, total = 0;
         // Es enviado un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el Precio");
-        // Se lee la variable "precio" la linea que se lee con el objeto br y el 
-        // metodo readline se conviertido a un dato de tipo float con el metodo 
+        // Se lee la variable "precio" la linea que se lee con el objeto br y el
+        // metodo readline se conviertido a un dato de tipo float con el metodo
         // parse float que pertenece a la clase de los Float y se le asigna a la variable "precio".
         precio = Float.parseFloat(br.readLine());
         // La operacion del porcentaje se realiza.

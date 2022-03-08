@@ -22,7 +22,7 @@ public class ImpuestoCiclos {
         // TODO code application logic here
         // Clase Input la cual se utiliza para leer datos.
         InputStreamReader isr = new InputStreamReader (System.in);
-        // Clase Buferred Reader la cual se utiliza para convertir los datos que 
+        // Clase Buferred Reader la cual se utiliza para convertir los datos que
         // se lean ya que por default solo lee cadenas de caractres.
         BufferedReader br = new BufferedReader (isr);
         // Se declararon los identificadores llamados "precio" de tipo float -variable - asi como "impuesto"
@@ -33,8 +33,8 @@ public class ImpuestoCiclos {
         // pues no se conoce su valor, no se va a leer y ademas para limpiar la variable
         // es decir que no traiga basura como valor inicial.
         float precio, impuesto = .05f, total = 0;
-        int i = 0; // Variable de tipo entero Valor Inicial del ciclo.
-        while (i < 4){ // Mientras i sea menor a 4 - condicion de fin de ciclo.
+        int i = 0; // Variable de tipo entero Valor Inicial del ciclo,
+        while (i < 4){ // mientras i sea menor a 4 - condicion de fin de ciclo.
             // Se envia un mensaje en pantalla el cual mostrara "Escribe el precio".
             System.out.println("Escribe el Precio");
             // Es leida la variable "precio" la linea que se lee con el objeto br y el metodo readline

@@ -15,7 +15,7 @@ import java.util.ArrayList;
         // Es agregado un elemento a la cola, que se añade al final de esta.
         public void encolar(Object dato){
             if (dato != null){
-                this.add(dato);
+                this.add (dato);
             }else{
                 System.out.println("Introduzca un dato no nulo");
             }  

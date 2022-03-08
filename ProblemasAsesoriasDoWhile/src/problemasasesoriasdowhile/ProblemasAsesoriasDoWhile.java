@@ -73,29 +73,28 @@ public class ProblemasAsesoriasDoWhile {
         
         do
         {
-        System.out.println("Ingese radio");
-        radio = Float.parseFloat(br.readLine());
-        area2 = (float)(pi * (radio * radio));
-        System.out.println("El area es " +  area2);
+            System.out.println("Ingese radio");
+            radio = Float.parseFloat(br.readLine());
+            area2 = (float)(pi * (radio * radio));
+            System.out.println("El area es " +  area2);
 
-        System.out.println("Problema 4");
+            System.out.println("Problema 4");
         
-        int ladoa;
-        int ladoc;
-        int ladob;
+            int ladoa;
+            int ladoc;
+            int ladob;
         
-        System.out.println("Ingrese lado a");
-        ladoa = leer.nextInt();
-        System.out.println("Ingrese lado b");
-        ladob = leer.nextInt();
-        System.out.println("Ingrese lado c");
-        ladoc = leer.nextInt();
+            System.out.println("Ingrese lado a");
+            ladoa = leer.nextInt();
+            System.out.println("Ingrese lado b");
+            ladob = leer.nextInt();
+            System.out.println("Ingrese lado c");
+            ladoc = leer.nextInt();
         
-        area = ladoa + ladob + ladoc;
+            area = ladoa + ladob + ladoc;
         
-        System.out.println("El area es " + area);
+            System.out.println("El area es " + area);
         } while (c > 3);
-
             System.out.println("Problema 5");
             int numero;
             int d = 1;
@@ -127,19 +126,19 @@ public class ProblemasAsesoriasDoWhile {
         
         do
         {    
-        System.out.println("Ingrese cantidad");
-        cantidad = Float.parseFloat (br.readLine());
-        
-        if (cantidad >= 1000)
-        {
-            total = cantidad * 85;    
-        }
+            System.out.println("Ingrese cantidad");
+            cantidad = Float.parseFloat (br.readLine());
+
+            if (cantidad >= 1000)
+            {
+                total = cantidad * 85;    
+            }
         else
-        if (cantidad <= 1000)
-        {
-            total = cantidad * 90;    
-        }
-        System.out.println(total);
+            if (cantidad <= 1000)
+            {
+                total = cantidad * 90;    
+            }
+            System.out.println(total);
         } while (e < 3);
         
         System.out.println("Problema 7");
@@ -182,23 +181,23 @@ public class ProblemasAsesoriasDoWhile {
         
         do
         {    
-        System.out.println("Ingrese numero de alumnos");
-        numeroalumnos = Float.parseFloat(br.readLine());
+            System.out.println("Ingrese numero de alumnos");
+            numeroalumnos = Float.parseFloat(br.readLine());
 
-        if (numeroalumnos >= 100)
-        {
-            total2 = 65 * numeroalumnos;
-        }
-        else
-        if (numeroalumnos >= 50 && numeroalumnos <= 99)
-        {
-            total2 = 70 * numeroalumnos;    
-        }
-        else
-        if (numeroalumnos >= 30 && numeroalumnos <= 45)
-        {
-            total2 = 95 * numeroalumnos;
-        }
+            if (numeroalumnos >= 100)
+            {
+                total2 = 65 * numeroalumnos;
+            }
+            else
+            if (numeroalumnos >= 50 && numeroalumnos <= 99)
+            {
+                total2 = 70 * numeroalumnos;    
+            }
+            else
+            if (numeroalumnos >= 30 && numeroalumnos <= 45)
+            {
+                total2 = 95 * numeroalumnos;
+            }
         System.out.println("El total es " + total2 + 1000);
         } while (g < 3);
     }

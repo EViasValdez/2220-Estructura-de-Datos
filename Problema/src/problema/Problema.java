@@ -26,9 +26,9 @@ public class Problema {
         
         System.out.println("Test con tres numeros");
         
-        a = leer.nextInt(System.in);
-        b = leer.nextInt(System.in);
-        c = leer.nextInt(System.in);
+        a = leer.nextInt (System.in);
+        b = leer.nextInt (System.in);
+        c = leer.nextInt (System.in);
         
         if (a + b = c){
             System.out.println("Son iguales");    
