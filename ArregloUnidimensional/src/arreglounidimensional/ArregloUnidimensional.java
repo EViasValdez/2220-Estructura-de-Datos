@@ -28,7 +28,6 @@ public class ArregloUnidimensional {
         // son float se les agrega la letra "f" al final de cada valor.
         char vocales [] = {'a', 'e','i','o','u'}; // Arreglo unidimensional de tipo caracter llamado "vocales" con valores iniciales.
         boolean tiene_auto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado "tiene_auto" con valores iniciales.
-
         String Apellidos [] = new String [8]; // Arreglo unidimensional de tipo String llamado "apellidos" de tamaño 8.
         // El nombre del arreglo se instancia con la palabra resdervada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes.
         double salario [] = new double [10]; // Arreglo unidimensional de tipo double llamado "salario" de tamaño 10.
@@ -46,7 +45,7 @@ public class ArregloUnidimensional {
             // Es mas eficiente utilizar este metodo ya que no se cometen errores en el tamaño del arreglo que hay que 
             // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posicion 0 y termina en n-1,
             // que es el tamaño del arreglo es decir termina en la posicion 2.
-            System.out.println(" El nombre de la posicion " + i + " es :" + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres[i]".
+            System.out.println("El nombre de la posicion " + i + " es :" + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres[i]".
         }
         for (int j = 0; j < Apellidos.length; j++){ // Se recorre el arerglo "Apellidos" con la variable subindice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.
             System.out.print("Escribe el apellido numero " + (j + 1) + ":"); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.

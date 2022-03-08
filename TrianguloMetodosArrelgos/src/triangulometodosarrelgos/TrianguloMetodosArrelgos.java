@@ -42,17 +42,17 @@ public class TrianguloMetodosArrelgos {
             if (lado [0] == lado [1] && lado [2] == lado [0]){
                 System.out.println("El triangulo mostrado es un triangulo equilatero");    
             }
-        else
-        {
-        if (lado [0] != lado [1] && lado [2] != lado [0]){
-            System.out.println("El triangulo mostrado es un triangulo isoceles");    
-        }
-        else
-        {
-        if (lado [0] != lado [1] && lado [2] != lado [0])
-            System.out.println("El triangulo mostrado es un triangulo escaleno");    
-        }
-        }
+            else
+            {
+            if (lado [0] != lado [1] && lado [2] != lado [0]){
+                System.out.println("El triangulo mostrado es un triangulo isoceles");    
+            }
+            else
+            {
+            if (lado [0] != lado [1] && lado [2] != lado [0])
+                System.out.println("El triangulo mostrado es un triangulo escaleno");    
+            }
+            }
         }
     }
 }

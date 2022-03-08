@@ -43,7 +43,7 @@ public class ProblemasAsesoriasCiclos {
             promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4)/4;
             
             System.out.println("El promedio es " + promedio);
-        a++; 
+            a++; 
         }
         
         System.out.println("Problema 2");
@@ -59,7 +59,7 @@ public class ProblemasAsesoriasCiclos {
         
             area = (base * altura) / 2;
             System.out.println("El area es " + area);
-        b++;
+            b++;
         }
         
         System.out.println("Problema 3");
@@ -94,7 +94,7 @@ public class ProblemasAsesoriasCiclos {
             area = ladoa + ladob + ladoc;
         
             System.out.println("El area es " + area);
-        d++;
+            d++;
         }
         
         System.out.println("Problema 5");
@@ -143,7 +143,7 @@ public class ProblemasAsesoriasCiclos {
                 total = cantidad * 90;    
             }
             System.out.println(total);
-        f++;
+            f++;
         }
         
         System.out.println("Problema 7");
@@ -176,7 +176,7 @@ public class ProblemasAsesoriasCiclos {
                 System.out.println("Cantidad 3 es mayor");
             }    
             }
-        g++;
+            g++;
         }
         
         System.out.println("Problema 8");
@@ -203,7 +203,7 @@ public class ProblemasAsesoriasCiclos {
                 total2 = 95 * numeroalumnos;
             }
             System.out.println("El total es " + total2 + 1000);
-        h++;
+            h++;
         }
     }
 }

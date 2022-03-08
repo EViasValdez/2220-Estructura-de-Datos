@@ -28,7 +28,7 @@ public class CodigoGuia2 {
         
         for (int i = 0; i < 4; i++)
         {    
-            System.out.println("Escribe la calificaicon numero 1:");
+            System.out.println("Escribe la calificacion numero 1:");
             calificacion [i] = Double.parseDouble(br.readLine());
         
             suma = (suma + calificacion [i]);
