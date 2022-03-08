@@ -23,9 +23,9 @@ public class Colas {
         
         // Agrega los elementos {0, 1, 2, 3, 4} a la cola.
         for (int i = 0; i < 5; i++){
-              q.add(i); 
+              q.add(i);
               // Muestra contenidos de la cola. 
-              System.out.println("Elements of queue-"+q);
+              System.out.println("Elements of queue-" + q);
               // "To remove the head of queue" elimina el primer elemento de la cola.
               int removedele = q.remove(); 
               System.out.println("removed element-" + removedele);

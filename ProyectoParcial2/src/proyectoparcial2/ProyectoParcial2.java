@@ -23,22 +23,22 @@ public class ProyectoParcial2 {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);  // Permite agregar el "br.readline" en el Integer.
+        BufferedReader br = new BufferedReader (isr); // Permite agregar el "br.readline" en el Integer.
         
-        Queue <Integer> deposito = new LinkedList<>();  // Es donde se crea la cola.
+        Queue <Integer> deposito = new LinkedList<>(); // Es donde se crea la cola.
         
-        int litros;  // Se declara la variable de los litros en entero.
-        float porcentaje;  // Se delclara el porcentaje en flotante.
-        float resultado;  // Aqui es similar al porcentaje pero con el resultado.
+        int litros; // Se declara la variable de los litros en entero.
+        float porcentaje; // Se delclara el porcentaje en flotante.
+        float resultado; // Aqui es similar al porcentaje pero con el resultado.
         
         System.out.println("El tanque tiene estos litros");
-        System.out.println(deposito);  // Se muestran los litros disponibles.
+        System.out.println(deposito); // Se muestran los litros disponibles.
         
         System.out.println("Pulse enter para continuar");
-        br.readLine();  // Espera a la lectura de datos.
+        br.readLine(); // Espera a la lectura de datos.
         
         System.out.println("¿Cuantos litros quiere?");
-        litros = Integer.parseInt(br.readLine());  // Se ingresa la cantidad de litros a colocar.
+        litros = Integer.parseInt(br.readLine()); // Se ingresa la cantidad de litros a colocar.
         
         for (int i = 18; i <= litros; i++) // El for se usa para ingresar la cantidad de litros en el deposito.
         {
@@ -47,20 +47,20 @@ public class ProyectoParcial2 {
         }
         
         System.out.println("El tanque tiene estos litros");
-        System.out.println(deposito);  // Se muestran los litros ingresados.
+        System.out.println(deposito); // Se muestran los litros ingresados.
         
         System.out.println("Pulse enter para continuar");
         br.readLine();
         
         System.out.println("Garrafon");
-        int garraf = deposito.remove();  // Se depositan los litros de agua del deposito en el garrafon.
-        System.out.println("Se han vaciado " + garraf + " litros");  // Se muestra los litros que se vaciaron.
+        int garraf = deposito.remove(); // Se depositan los litros de agua del deposito en el garrafon.
+        System.out.println("Se han vaciado " + garraf + " litros"); // Se muestra los litros que se vaciaron.
         
         System.out.println("Ahora quedan");
         System.out.println(deposito); // Se muestra los litros que quedaron.
         
         System.out.println("En porcentaje");
-        porcentaje = ((litros-garraf) * 100) / litros;  // Se calculan los litros que quedaron para pasarlos a porcentaje.
+        porcentaje = ((litros-garraf) * 100) / litros; // Se calculan los litros que quedaron para pasarlos a porcentaje.
         System.out.println("El porcentaje es " + porcentaje + "%"); // Se muestran los litros a porcentaje.
     }
 }

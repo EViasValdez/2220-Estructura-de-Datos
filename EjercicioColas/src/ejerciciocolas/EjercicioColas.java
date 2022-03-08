@@ -33,7 +33,7 @@ public class EjercicioColas {
         System.out.println("2");
         
         Queue <Integer> cola = new LinkedList<>();
-            
+        
         int n;
         
         System.out.println(cola);    

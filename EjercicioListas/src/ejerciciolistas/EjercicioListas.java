@@ -48,75 +48,74 @@ public class EjercicioListas {
         
         switch(opcion){
         case 1:    
-        System.out.println("Inserte numero de calificaciones");
-        numecalf = Integer.parseInt(br.readLine());
+            System.out.println("Inserte numero de calificaciones");
+            numecalf = Integer.parseInt(br.readLine());
 
-        for (int i = 0; i <= numecalf - 1; i++)
-        {
-            System.out.println("Inserte la calificacion");
-            calif = Float.parseFloat(br.readLine());
-            calificaciones.add(calif);
-            System.out.println("La calificacion agregada es " + calificaciones);
-        }
+            for (int i = 0; i <= numecalf - 1; i++)
+            {
+                System.out.println("Inserte la calificacion");
+                calif = Float.parseFloat(br.readLine());
+                calificaciones.add(calif);
+                System.out.println("La calificacion agregada es " + calificaciones);
+            }
         break;
 
         case 2:
-        System.out.println("La calificacion agregada es " + calificaciones);    
+            System.out.println("La calificacion agregada es " + calificaciones);    
         break;
 
         case 3:
-        System.out.println("Eliga la calificacion a eliminar");
-        eliminarcalificacion = Float.parseFloat(br.readLine());
-        calificaciones.remove(eliminarcalificacion);
+            System.out.println("Eliga la calificacion a eliminar");
+            eliminarcalificacion = Float.parseFloat(br.readLine());
+            calificaciones.remove(eliminarcalificacion);
         break;
         case 4:
-
-        calificaciones.sort(null);
-        System.out.println(calificaciones);      
+            calificaciones.sort(null);
+            System.out.println(calificaciones);      
         break;
 
         case 5:
-        Collections.sort(calificaciones, Collections.reverseOrder());
-        System.out.println(calificaciones);    
+            Collections.sort(calificaciones, Collections.reverseOrder());
+            System.out.println(calificaciones);    
         break;
             
         case 6:
-        for (int i = 0; i <= calificaciones.size() - 1; i++) 
-        {
-            if (calificaciones.get(i) >= 7)
-            {    
-                aprueba = aprueba + 1;
+            for (int i = 0; i <= calificaciones.size() - 1; i++) 
+            {
+                if (calificaciones.get(i) >= 7)
+                {    
+                    aprueba = aprueba + 1;
+                }
             }
-        }
         System.out.println("Total de calificaiones aprobadas " + aprueba);
         break;
             
         case 7:
-        for (int i = 0; i <= calificaciones.size() - 1; i++)
-        {
-            suma = suma + calificaciones.get(i);
-        }    
-        promedio = suma / calificaciones.size();
-        System.out.println("El promedio es " + promedio);
+            for (int i = 0; i <= calificaciones.size() - 1; i++)
+            {
+                suma = suma + calificaciones.get(i);
+            }    
+            promedio = suma / calificaciones.size();
+            System.out.println("El promedio es " + promedio);
         break; 
         
         case 8:    
-        for (int i = 0; i <= 4; i++)
-        {
-            System.out.println("Inserte la calificacion");
-            calif = Float.parseFloat(br.readLine());
-            calificaciones.add (calif);
-            System.out.println("La calificacion agregada es " + calificaciones);
-        }
+            for (int i = 0; i <= 4; i++)
+            {
+                System.out.println("Inserte la calificacion");
+                calif = Float.parseFloat(br.readLine());
+                calificaciones.add (calif);
+                System.out.println("La calificacion agregada es " + calificaciones);
+            }
         break;    
         
         case 9:
-        System.out.println(calificaciones.subList(0, 5));    
+            System.out.println(calificaciones.subList(0, 5));    
         break;    
         
         case 10:
-        calificaciones.clear();
-        System.out.println(calificaciones);
+            calificaciones.clear();
+            System.out.println(calificaciones);
         break;
 
         }

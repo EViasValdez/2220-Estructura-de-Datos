@@ -33,7 +33,7 @@ public class CodigoGuia3 {
         calificacion3 = Double.parseDouble(br.readLine());
         System.out.println("Escribe la calificacion numero 4:");
         calificacion4 = Double.parseDouble(br.readLine());         
-        System.out.println("El promedio es " + calificaciones(calificacion1, calificacion2, calificacion3, calificacion4));
+        System.out.println("El promedio es " + calificaciones (calificacion1, calificacion2, calificacion3, calificacion4));
     }
     public static double calificaciones (double calificiacion1, double calificacion2, double calificiacion3, double calificacion4){
         double suma;
