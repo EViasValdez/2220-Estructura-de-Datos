@@ -37,7 +37,7 @@ public class Producto {
     // Metodo de tipo float llamado al total de acceso publico que recibe
     // como parametros el precio, el impuesto y que se leyeron desde el main.
     // Regresa el valor de la variable total la cual muestar el resulatdo de la operacion.
-    public float total(float getprecio, float getimpuesto){
+    public float total(float getprecio, float getimpuesto) {
         float total;
         total = precio + (precio * impuesto);
         return total; 

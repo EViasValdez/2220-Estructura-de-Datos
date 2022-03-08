@@ -46,7 +46,7 @@ public class EjercicioListas {
         System.out.println("Eliga una opcion");
         opcion = Integer.parseInt(br.readLine());
         
-        switch(opcion){
+        switch (opcion){
         case 1:    
             System.out.println("Inserte numero de calificaciones");
             numecalf = Integer.parseInt(br.readLine());
