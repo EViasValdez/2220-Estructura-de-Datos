@@ -101,7 +101,7 @@ public class ProblemasAsesoriasCiclos {
         int numero;
         int e = 1;
         
-        while(e < 3){
+        while (e < 3){
             System.out.println("Ingese numero");
             numero = leer.nextInt();
 
@@ -129,7 +129,7 @@ public class ProblemasAsesoriasCiclos {
         float total = 0;
         int f = 1;
         
-        while(f < 3){
+        while (f < 3){
             System.out.println("Ingrese cantidad");
             cantidad = Float.parseFloat (br.readLine());
 
@@ -152,7 +152,7 @@ public class ProblemasAsesoriasCiclos {
         float cantidad3;
         int g = 1;
         
-        while(g < 3){
+        while (g < 3){
             System.out.println("Ingrese cantidad 1");
             cantidad1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese cantidad 2");
@@ -184,7 +184,7 @@ public class ProblemasAsesoriasCiclos {
         float total2 = 0;
         int h = 1;
         
-        while(h > 3){
+        while (h > 3){
             System.out.println("Ingrese numero de alumnos");
             numeroalumnos = Float.parseFloat(br.readLine());
         

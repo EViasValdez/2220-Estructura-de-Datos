@@ -88,7 +88,7 @@ public class Listas {
         System.out.println(ejemploLista.isEmpty());
 
         // Cambiar el elemento del subindice 1 de la lista por Felix.
-        ejemploLista.set(1, "Félix");
+        ejemploLista.set (1, "Félix");
         System.out.println(ejemploLista);
         // Obtener datos entre un subindice y otro.
         System.out.println(ejemploLista.subList(0, 2));

@@ -23,14 +23,14 @@ import java.util.ArrayList;
         // Se elimina el elemento frontal de la cola, refiriendose al primer elemento que entró.
         public void desencolar(){
             if (this.size() > 0){
-                this.remove(0);
+                this.remove (0);
             }
         }
         // Es devuelto el elemento frontal de la cola, que es el primer elemento que entró.
         public Object frente(){
             Object datoAuxiliar = null;
             if (this.size() > 0){
-                datoAuxiliar = this.get(0);
+                datoAuxiliar = this.get (0);
             }
             return datoAuxiliar;  
         }

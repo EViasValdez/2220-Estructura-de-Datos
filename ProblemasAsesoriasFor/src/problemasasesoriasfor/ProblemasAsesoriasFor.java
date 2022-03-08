@@ -40,9 +40,9 @@ public class ProblemasAsesoriasFor {
             calificacion3 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 4");
             calificacion4 = Float.parseFloat(br.readLine());
-        
-            promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
 
+            promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
+            
             System.out.println("El promedio es " + promedio);
         }
         
