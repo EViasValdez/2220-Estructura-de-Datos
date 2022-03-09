@@ -38,17 +38,17 @@ Problemas1/src/problemas1/Problemas1.java,
 Problemas1/build.xml, 
 Problemas1/manifest.mf)
 <!----Separador---->
-###### impuestoArreglosMEtodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
-(impuestoArreglosMetodos/build/classes/impuestoarreglosmetodos/ImpuestoArreglosMetodos.class, 
-impuestoArreglosMetodos/nbproject/private/private.properties, 
-impuestoArreglosMetodos/nbproject/private/private.xml, 
-impuestoArreglosMetodos/nbproject/build-impl.xml, 
-impuestoArreglosMetodos/nbproject/genfiles.properties, 
-impuestoArreglosMetodos/nbproject/project.properties, 
-impuestoArreglosMetodos/nbproject/project.xml, 
-impuestoArreglosMetodos/src/impuestoarreglosmetodos/ImpuestoArreglosMetodos.java, 
-impuestoArreglosMetodos/build.xml, 
-impuestoArreglosMetodos/manifest.mf)
+###### ImpuestoArreglosMetodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
+(ImpuestoArreglosMetodos/build/classes/impuestoarreglosmetodos/ImpuestoArreglosMetodos.class, 
+ImpuestoArreglosMetodos/nbproject/private/private.properties, 
+ImpuestoArreglosMetodos/nbproject/private/private.xml, 
+ImpuestoArreglosMetodos/nbproject/build-impl.xml, 
+ImpuestoArreglosMetodos/nbproject/genfiles.properties, 
+ImpuestoArreglosMetodos/nbproject/project.properties, 
+ImpuestoArreglosMetodos/nbproject/project.xml, 
+ImpuestoArreglosMetodos/src/impuestoarreglosmetodos/ImpuestoArreglosMetodos.java, 
+ImpuestoArreglosMetodos/build.xml, 
+ImpuestoArreglosMetodos/manifest.mf)
 <!--Separador-->
 (ImpuestoCiclos/build/classes/impuestociclos/ImpuestoCiclos.class, 
 ImpuestoCiclos/nbproject/private/private.properties, 
