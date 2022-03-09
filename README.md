@@ -8,7 +8,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Incluye uno que otro trabajo que realize durante asesorias de esta materia y la de algoritmos.**
 
-**- Corregi algunos errores de otrografia de ciertos archivos.**
+**- Corregi algunos errores ortograficos de algunos textos.**
 <!----Separador de las notas---->
 
 <!----Directorio con ubicacion de archivos---->
