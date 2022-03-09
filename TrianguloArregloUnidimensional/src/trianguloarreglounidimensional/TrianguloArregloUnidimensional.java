@@ -33,17 +33,17 @@ public class TrianguloArregloUnidimensional {
         for (int i = 0; i < lados.length; i++)
         {
             if (lados [0] == lados [1] && lados [1] == lados [2]){
-                System.out.println("El triangulo mostrado es un triangulo equilatero");    
+                System.out.println("El triangulo mostrado es un triangulo equilatero");
             }
             else
             {
             if (lados [0] != lados [1] && lados [1] != lados [2]){
-                System.out.println("El triangulo mostrado es un triangulo isoceles");    
+                System.out.println("El triangulo mostrado es un triangulo isoceles");
             }
             else
             {
             if (lados [1] != lados [2] && lados [1] != lados [2])
-                System.out.println("El triangulo mostrado es un triangulo escaleno");    
+                System.out.println("El triangulo mostrado es un triangulo escaleno");
             }
             }
         }

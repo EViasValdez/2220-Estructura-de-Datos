@@ -36,17 +36,18 @@ public class TrianguloMetodos {
     }
     public static void triangulo(int ladoa, int ladob, int ladoc) {
         if (ladoa == ladob && ladob == ladoc){
-            System.out.println("El triangulo mostrado es un triangulo equilatero");    
+            System.out.println("El triangulo mostrado es un triangulo equilatero");
         }
         else
         {
         if (ladoa != ladob && ladob != ladoc){
-            System.out.println("El triangulo mostrado es un triangulo isoceles");    
+            System.out.println("El triangulo mostrado es un triangulo isoceles");
         }
         else
         {
-        if (ladob != ladoc && ladob != ladoc)
-            System.out.println("El triangulo mostrado es un triangulo escaleno");    
+        if (ladob != ladoc && ladob != ladoc){
+            System.out.println("El triangulo mostrado es un triangulo escaleno");
+        }
         }
         }
     }

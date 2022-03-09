@@ -125,7 +125,7 @@ public class ProblemasAsesoriasDoWhile {
         int e = 1;
         
         do
-        {    
+        {
             System.out.println("Ingrese cantidad");
             cantidad = Float.parseFloat (br.readLine());
 
@@ -180,7 +180,7 @@ public class ProblemasAsesoriasDoWhile {
         int g = 1;
         
         do
-        {    
+        {
             System.out.println("Ingrese numero de alumnos");
             numeroalumnos = Float.parseFloat(br.readLine());
 

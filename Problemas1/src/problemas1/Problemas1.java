@@ -50,7 +50,7 @@ public class Problemas1 {
             System.out.println("Son distintos");    
         }
         }
-        } 
+        }
         i++;
         }
     }

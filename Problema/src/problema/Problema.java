@@ -31,10 +31,10 @@ public class Problema {
         c = leer.nextInt (System.in);
         
         if (a + b = c){
-            System.out.println("Son iguales");    
+            System.out.println("Son iguales");
         }
         else (a + c = b){
-            System.out.println("Son iguales");    
+            System.out.println("Son iguales");
         }
     }
 }

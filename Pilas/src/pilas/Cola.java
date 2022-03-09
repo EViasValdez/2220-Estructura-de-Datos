@@ -13,7 +13,7 @@ import java.util.ArrayList;
      */
     public class Cola extends ArrayList {
         // Es agregado un elemento a la cola, que se añade al final de esta.
-        public void encolar(Object dato){
+        public void encolar(Object dato) {
             if (dato != null){
                 this.add (dato);
             }else{
@@ -32,7 +32,7 @@ import java.util.ArrayList;
             if (this.size() > 0){
                 datoAuxiliar = this.get (0);
             }
-            return datoAuxiliar;  
+            return datoAuxiliar;
         }
         // Devuelve "cierto" si la pila está vacía o falso en caso contrario (empty).
         public boolean vacia() {

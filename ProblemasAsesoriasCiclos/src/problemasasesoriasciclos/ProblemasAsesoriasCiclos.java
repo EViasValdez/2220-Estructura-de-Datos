@@ -30,7 +30,7 @@ public class ProblemasAsesoriasCiclos {
         float promedio;
         int a = 1;
         
-        while (a < 3){        
+        while (a < 3){
             System.out.println("Ingese calificacion 1");
             calificacion1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 2");

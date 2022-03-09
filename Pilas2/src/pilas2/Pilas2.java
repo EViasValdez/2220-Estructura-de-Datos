@@ -28,12 +28,12 @@ public class Pilas2 {
             Iterator iterator = pila.iterator();
             System.out.println("Elementos de la Pila : ");
             while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo con hasNext
-                System.out.print(iterator.next() + " ");  // se van imprimiendo cada uno de los elemntos de la lista.
+                System.out.print(iterator.next() + " "); // se van imprimiendo cada uno de los elemntos de la lista.
             }
         }
         System.out.println("\n Elemento en la cima de la pila " + pila.peek());
         System.out.println("\n Vamos a vaciar la pila");
-  
+
         // Mientras la pila no esta vacia se eliminara cada elemento de la cima con el metodo pop.
         while (!pila.empty())
         System.out.println(pila.pop());

@@ -35,7 +35,7 @@ public class ImpuestoArreglosMetodos {
             precio [i] = Float.parseFloat(br.readLine());
         }
         calculo(precio);  // Se manda llamar al metodo caluclo y se le pasa como parametro el arreglo llamado "precio".
-        }
+    }
         // Es creado un metodo publico estatico de tipo void llamado "calculo" que recibe como parametro de entrada el arreglo "precio []".
     public static void calculo(float [] precio){
         // Se utilizaran variables locales ya que solo funcionan en este metodo impuesto es una constante con

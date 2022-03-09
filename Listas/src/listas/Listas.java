@@ -26,7 +26,7 @@ public class Listas {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-
+        
         // El tipo de dato de la lista va en mayusculas String, float, Double, Int.
         List <String> ejemploLista = new ArrayList<String>();
 
@@ -47,10 +47,10 @@ public class Listas {
 
         System.out.println("Tamaño de la lista: " + ejemploLista.size());
         System.out.println("Primer elemento de la lista :" + ejemploLista.get(0));
-     
+
         // Agregar otro elemento a la lista.
         ejemploLista.add("Alicia");
-     
+
         System.out.println("Elementos de la lista con el que se agrego");
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
             System.out.println(ejemploLista.get(i));

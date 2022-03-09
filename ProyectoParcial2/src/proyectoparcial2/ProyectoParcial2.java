@@ -43,7 +43,7 @@ public class ProyectoParcial2 {
         for (int i = 18; i <= litros; i++) // El for se usa para ingresar la cantidad de litros en el deposito.
         {
             System.out.println("Usted ha ingresado " + litros + " litros");
-            deposito.add(i); 
+            deposito.add(i);
         }
         
         System.out.println("El tanque tiene estos litros");

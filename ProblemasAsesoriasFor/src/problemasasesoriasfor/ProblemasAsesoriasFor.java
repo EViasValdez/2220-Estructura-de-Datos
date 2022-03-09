@@ -70,15 +70,15 @@ public class ProblemasAsesoriasFor {
         {
             System.out.println("Ingese radio");
             radio = Float.parseFloat(br.readLine());
-        
+
             area2 = (float)(pi * (radio * radio));
             System.out.println("El area es " +  area2);
             System.out.println("Problema 4");
-        
+
             int ladoa;
             int ladoc;
             int ladob;
-        
+
             for (int d = 1; d < 3; d++)
             {
                 System.out.println("Ingrese lado a");
@@ -128,7 +128,7 @@ public class ProblemasAsesoriasFor {
         
         if (cantidad >= 1000)
         {
-            total = cantidad * 85;    
+            total = cantidad * 85;
         }
         else
         if (cantidad <= 1000)
@@ -186,7 +186,7 @@ public class ProblemasAsesoriasFor {
         else
         if (numeroalumnos >= 50 && numeroalumnos <= 99)
         {
-            total2 = 70 * numeroalumnos;    
+            total2 = 70 * numeroalumnos;
         }
         else
         if (numeroalumnos >= 30 && numeroalumnos <= 45)
