@@ -8,6 +8,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Incluye uno que otro trabajo que realize durante varias asesorias de esta materia y la de algoritmos.**
 
+**- Corregi algunos errores ortograficos de algunos textos.**
 <!----Separador de las notas---->
 
 <!----Directorio con ubicacion de archivos---->
@@ -39,17 +40,17 @@ Problemas1/src/problemas1/Problemas1.java,
 Problemas1/build.xml, 
 Problemas1/manifest.mf)
 <!----Separador---->
-###### impuestoArreglosMEtodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
-(impuestoArreglosMEtodos/build/classes/impuestoarreglosmetodos/ImpuestoArreglosMEtodos.class, 
-impuestoArreglosMEtodos/nbproject/private/private.properties, 
-impuestoArreglosMEtodos/nbproject/private/private.xml, 
-impuestoArreglosMEtodos/nbproject/build-impl.xml, 
-impuestoArreglosMEtodos/nbproject/genfiles.properties, 
-impuestoArreglosMEtodos/nbproject/project.properties, 
-impuestoArreglosMEtodos/nbproject/project.xml, 
-impuestoArreglosMEtodos/src/impuestoarreglosmetodos/ImpuestoArreglosMEtodos.java, 
-impuestoArreglosMEtodos/build.xml, 
-impuestoArreglosMEtodos/manifest.mf)
+###### ImpuestoArreglosMetodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
+(ImpuestoArreglosMetodos/build/classes/impuestoarreglosmetodos/ImpuestoArreglosMetodos.class, 
+ImpuestoArreglosMetodos/nbproject/private/private.properties, 
+ImpuestoArreglosMetodos/nbproject/private/private.xml, 
+ImpuestoArreglosMetodos/nbproject/build-impl.xml, 
+ImpuestoArreglosMetodos/nbproject/genfiles.properties, 
+ImpuestoArreglosMetodos/nbproject/project.properties, 
+ImpuestoArreglosMetodos/nbproject/project.xml, 
+ImpuestoArreglosMetodos/src/impuestoarreglosmetodos/ImpuestoArreglosMetodos.java, 
+ImpuestoArreglosMetodos/build.xml, 
+ImpuestoArreglosMetodos/manifest.mf)
 <!--Separador-->
 (ImpuestoCiclos/build/classes/impuestociclos/ImpuestoCiclos.class, 
 ImpuestoCiclos/nbproject/private/private.properties, 
