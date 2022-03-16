@@ -6,7 +6,8 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 <!----Notas---->
 **Notas**
 
-**- Incluye uno que otro trabajo que realize durante asesorias de esta materia y la de algoritmos.**
+**- Incluye uno que otro trabajo que realize durante varias asesorias de esta materia y la de algoritmos.**
+
 <!----Separador de las notas---->
 
 <!----Directorio con ubicacion de archivos---->
