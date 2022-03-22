@@ -34,7 +34,7 @@ public class ImpuestoArreglosMetodos {
             // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo.
             precio [i] = Float.parseFloat(br.readLine());
         }
-        calculo(precio);  // Se manda llamar al metodo caluclo y se le pasa como parametro el arreglo llamado "precio".
+        calculo (precio);  // Se manda llamar al metodo caluclo y se le pasa como parametro el arreglo llamado "precio".
     }
         // Es creado un metodo publico estatico de tipo void llamado "calculo" que recibe como parametro de entrada el arreglo "precio []".
     public static void calculo(float [] precio){

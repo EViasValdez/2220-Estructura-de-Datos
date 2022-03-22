@@ -44,7 +44,7 @@ public class ImpuestoArreglos {
             // lee datos y los asigna a las posiciones del arreglo la linea que se lee con el objeto
             // br y el metodo readline se convierte a un dato de tipo float con el metodo parse float
             // que pertenece a la clase de los Float y se le asigna a la variable "precio".
-            precio [i] = Float.parseFloat(br.readLine());
+            precio [i] = Float.parseFloat (br.readLine());
             // Se realiza la operacion del porcentaje, cada dato en cada posicion del arreglo "precio [i]".
             total = precio [i] + (precio [i] * impuesto);
             // Es enviado un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.

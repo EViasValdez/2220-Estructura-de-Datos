@@ -32,7 +32,7 @@ public class EjercicioPilas {
         for (int i = n; i <= 10; i++)
         {
             System.out.println("Elemento: " + (i));
-            pil.add(i);
+            pil.add (i);
         }
     }
 }
