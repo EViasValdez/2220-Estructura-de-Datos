@@ -78,6 +78,7 @@ public class ProyectoBDMain {
             SO.imprimirArreglo (lista);
             System.out.println("======================================");
         break;
+        
         case 4:
             System.out.println("Merge Sort");
             int [] actual = {5, 1, 6, 2, 3 ,4};
@@ -88,6 +89,7 @@ public class ProyectoBDMain {
             }
             System.out.println("======================================");
         break;
+
         case 5:
             System.out.println("Quick Sort");
             int [] ar = {4, 5, 1, 2, 3, 3};
