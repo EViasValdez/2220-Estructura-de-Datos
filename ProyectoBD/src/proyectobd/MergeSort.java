@@ -38,7 +38,7 @@ public class MergeSort {
                 ar [k++] = iz [i++];
             }
         else {
-            ar[k++] = de[j++];
+            ar [k++] = de [j++];
         }
         }
         while (i < izqu){

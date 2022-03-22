@@ -38,7 +38,7 @@ public class EjercicioColas {
         
         System.out.println(cola);    
         System.out.println("¿Cuantos elementos quisiera agregar?");
-        colaimpresion = Integer.parseInt(br.readLine());
+        colaimpresion = Integer.parseInt (br.readLine());
         
         for (int i = 1; i <= colaimpresion; i++)
         {

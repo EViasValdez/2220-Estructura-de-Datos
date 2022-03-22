@@ -47,14 +47,14 @@ public class EjercicioListas {
         opcion = Integer.parseInt(br.readLine());
         
         switch (opcion){
-        case 1:    
+        case 1:
             System.out.println("Inserte numero de calificaciones");
             numecalf = Integer.parseInt(br.readLine());
 
             for (int i = 0; i <= numecalf - 1; i++)
             {
                 System.out.println("Inserte la calificacion");
-                calif = Float.parseFloat(br.readLine());
+                calif = Float.parseFloat (br.readLine());
                 calificaciones.add(calif);
                 System.out.println("La calificacion agregada es " + calificaciones);
             }
@@ -66,35 +66,35 @@ public class EjercicioListas {
 
         case 3:
             System.out.println("Eliga la calificacion a eliminar");
-            eliminarcalificacion = Float.parseFloat(br.readLine());
+            eliminarcalificacion = Float.parseFloat (br.readLine());
             calificaciones.remove(eliminarcalificacion);
         break;
         case 4:
-            calificaciones.sort(null);
-            System.out.println(calificaciones);      
+            calificaciones.sort (null);
+            System.out.println(calificaciones);
         break;
 
         case 5:
-            Collections.sort(calificaciones, Collections.reverseOrder());
-            System.out.println(calificaciones);    
+            Collections.sort (calificaciones, Collections.reverseOrder());
+            System.out.println(calificaciones);
         break;
-            
+
         case 6:
             for (int i = 0; i <= calificaciones.size() - 1; i++) 
             {
                 if (calificaciones.get(i) >= 7)
-                {    
+                {
                     aprueba = aprueba + 1;
                 }
             }
         System.out.println("Total de calificaiones aprobadas " + aprueba);
         break;
-            
+
         case 7:
             for (int i = 0; i <= calificaciones.size() - 1; i++)
             {
                 suma = suma + calificaciones.get(i);
-            }    
+            }
             promedio = suma / calificaciones.size();
             System.out.println("El promedio es " + promedio);
         break; 
@@ -107,10 +107,10 @@ public class EjercicioListas {
                 calificaciones.add (calif);
                 System.out.println("La calificacion agregada es " + calificaciones);
             }
-        break;    
+        break;
         
         case 9:
-            System.out.println(calificaciones.subList(0, 5));    
+            System.out.println(calificaciones.subList(0, 5));
         break;    
         
         case 10:
