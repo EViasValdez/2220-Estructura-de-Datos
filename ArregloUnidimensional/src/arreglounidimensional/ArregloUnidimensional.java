@@ -22,11 +22,11 @@ public class ArregloUnidimensional {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
 
-        String nombres [] = {"Juan" , "Luis", "Maria"}; // Arreglo unidimensional de tipo String llamado "nombres" con valores iniciales.
+        String nombres [] = {"Juan", "Luis", "Maria"}; // Arreglo unidimensional de tipo String llamado "nombres" con valores iniciales.
         int numerodepiezas [] = {23, 45, 67, 89, 98}; // Arreglo unidimensional de tipo entero llamado "numerodepiezas" con valores iniciales.
         float calificaciones [] = {7.4f, 8.5f, 9.6f, 10, 5, 6.7f}; // Arreglo unidimensional de tipo float llamado "calificaciones" con valores iniciales hay que recordar que como los valores
         // son float se les agrega la letra "f" al final de cada valor.
-        char vocales [] = {'a', 'e','i','o','u'}; // Arreglo unidimensional de tipo caracter llamado "vocales" con valores iniciales.
+        char vocales [] = {'a', 'e', 'i', 'o', 'u'}; // Arreglo unidimensional de tipo caracter llamado "vocales" con valores iniciales.
         boolean tiene_auto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado "tiene_auto" con valores iniciales.
         String Apellidos [] = new String [8]; // Arreglo unidimensional de tipo String llamado "apellidos" de tamaño 8.
         // El nombre del arreglo se instancia con la palabra resdervada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes.

@@ -25,7 +25,7 @@ public class MergeSort {
         for (int c = med; c < b; c++){
             de [c - med] = a [c];
         }
-
+        
         mergeSort (iz, med);
         mergeSort (de, b - med);
         merge (a, iz, de, med, b - med);

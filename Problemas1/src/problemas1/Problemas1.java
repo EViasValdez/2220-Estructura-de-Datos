@@ -26,32 +26,32 @@ public class Problemas1 {
         
         int i = 1;
         while (i < 4){
-        System.out.println("Insterte Valores");
+            System.out.println("Insterte Valores");
         
-        System.out.println("Valor A");
-        a = leer.nextInt();
-        System.out.println("Valor B");
-        b = leer.nextInt();
-        System.out.println("Valor C");
-        c = leer.nextInt();
+            System.out.println("Valor A");
+            a = leer.nextInt();
+            System.out.println("Valor B");
+            b = leer.nextInt();
+            System.out.println("Valor C");
+            c = leer.nextInt();
         
-        if (a + b == c){
-            System.out.println("Son iguales " + a + "+ " + b + " = " + c);
-        }
-        else{
-        if (a + c == b){
-            System.out.println("Son iguales " + a + " + " + c + " = " + b);    
-        }
-        else{
-        if (b + c == a){
-            System.out.println("Son iguales " + b + " + " + c + " = " + a);    
-        }
-        else{
-            System.out.println("Son distintos");    
-        }
-        }
-        }
-        i++;
+            if (a + b == c){
+                System.out.println("Son iguales " + a + "+ " + b + " = " + c);
+            }
+            else{
+            if (a + c == b){
+                System.out.println("Son iguales " + a + " + " + c + " = " + b);
+            }
+            else{
+            if (b + c == a){
+                System.out.println("Son iguales " + b + " + " + c + " = " + a);
+            }
+            else{
+                System.out.println("Son distintos");
+            }
+            }
+            }
+            i++;
         }
     }
 }

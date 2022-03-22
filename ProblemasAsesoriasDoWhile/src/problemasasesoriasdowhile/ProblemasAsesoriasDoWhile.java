@@ -57,7 +57,7 @@ public class ProblemasAsesoriasDoWhile {
             base = Float.parseFloat(br.readLine());
             System.out.println("Ingese altura");
             altura = Float.parseFloat(br.readLine());
-        
+            
             area = (base * altura) / 2;
             System.out.println("El area es " + area);
         } while (b < 3);
@@ -77,11 +77,11 @@ public class ProblemasAsesoriasDoWhile {
             System.out.println("El area es " +  area2);
 
             System.out.println("Problema 4");
-        
+
             int ladoa;
             int ladoc;
             int ladob;
-        
+
             System.out.println("Ingrese lado a");
             ladoa = leer.nextInt();
             System.out.println("Ingrese lado b");
@@ -129,12 +129,12 @@ public class ProblemasAsesoriasDoWhile {
 
             if (cantidad >= 1000)
             {
-                total = cantidad * 85;    
+                total = cantidad * 85;
             }
         else
             if (cantidad <= 1000)
             {
-                total = cantidad * 90;    
+                total = cantidad * 90;
             }
             System.out.println(total);
         } while (e < 3);
@@ -189,7 +189,7 @@ public class ProblemasAsesoriasDoWhile {
             else
             if (numeroalumnos >= 50 && numeroalumnos <= 99)
             {
-                total2 = 70 * numeroalumnos;    
+                total2 = 70 * numeroalumnos;
             }
             else
             if (numeroalumnos >= 30 && numeroalumnos <= 45)

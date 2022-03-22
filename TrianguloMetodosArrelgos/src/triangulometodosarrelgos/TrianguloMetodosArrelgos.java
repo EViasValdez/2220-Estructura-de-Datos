@@ -27,6 +27,7 @@ public class TrianguloMetodosArrelgos {
         int ladoa;
         int ladob;
         int ladoc;
+        
         int lado [] = new int [3];
         
         Scanner leer = new Scanner (System.in);

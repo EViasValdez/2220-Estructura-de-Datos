@@ -36,10 +36,10 @@ public class Actividades {
         
         switch (el){
         case 1:
-            InputStreamReader isr = new InputStreamReader(System.in);    
+            InputStreamReader isr = new InputStreamReader(System.in);
             BufferedReader br = new BufferedReader (isr);
             
-            Queue <Integer> ventas = new LinkedList<>();        
+            Queue <Integer> ventas = new LinkedList<>();
             
             int ingr, venta;
             

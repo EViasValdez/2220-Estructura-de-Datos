@@ -27,13 +27,14 @@ public class Colas {
               // Muestra contenidos de la cola.
               System.out.println("Elements of queue-" + q);
               // "To remove the head of queue" elimina el primer elemento de la cola.
-              int removedele = q.remove(); 
-              System.out.println("removed element-" + removedele);
-              System.out.println(q); 
+              int removedele = q.remove();
+
+              System.out.println("Removed element-" + removedele);
+              System.out.println(q);
               // "To view the head of queue" muestra el primer elemento de la cola.
-              int head = q.peek(); 
-              System.out.println("head of queue-" + head);
-              int size = q.size();  // Asigna el tamaño de la cola con el metodo "size" de la cola "q" a la variable "size".
+              int head = q.peek();
+              System.out.println("Head of queue-" + head);
+              int size = q.size(); // Asigna el tamaño de la cola con el metodo "size" de la cola "q" a la variable "size".
               System.out.println("Size of queue-" + size);
         }
     }

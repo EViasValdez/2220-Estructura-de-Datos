@@ -96,7 +96,7 @@ public class ProblemasAsesorias {
         {
         if (numero < 0)
         {
-            System.out.println("El numero es negativo");   
+            System.out.println("El numero es negativo");
         }
         else
         if (numero == 0)
@@ -114,12 +114,12 @@ public class ProblemasAsesorias {
         
         if (cantidad >= 1000)
         {
-            total = cantidad * 85;    
+            total = cantidad * 85;
         }
         else
         if (cantidad <= 1000)
         {
-            total = cantidad * 90;    
+            total = cantidad * 90;
         }
         System.out.println(total);
         
@@ -167,7 +167,7 @@ public class ProblemasAsesorias {
         else
         if (numeroalumnos >= 50 && numeroalumnos <= 99)
         {
-            total2 = 70 * numeroalumnos;    
+            total2 = 70 * numeroalumnos;
         }
         else
         if (numeroalumnos >= 30 && numeroalumnos <= 45)

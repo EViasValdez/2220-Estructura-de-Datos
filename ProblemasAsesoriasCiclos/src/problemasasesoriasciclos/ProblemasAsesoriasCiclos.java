@@ -40,7 +40,7 @@ public class ProblemasAsesoriasCiclos {
             System.out.println("Ingrese calificacion 4");
             calificacion4 = Float.parseFloat(br.readLine());
 
-            promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4)/4;
+            promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
             
             System.out.println("El promedio es " + promedio);
             a++; 
@@ -136,12 +136,12 @@ public class ProblemasAsesoriasCiclos {
 
             if (cantidad >= 1000)
             {
-                total = cantidad * 85;    
+                total = cantidad * 85;
             }
             else
             if (cantidad <= 1000)
             {
-                total = cantidad * 90;    
+                total = cantidad * 90;
             }
             System.out.println(total);
             f++;
@@ -196,7 +196,7 @@ public class ProblemasAsesoriasCiclos {
             else
             if (numeroalumnos >= 50 && numeroalumnos <= 99)
             {
-                total2 = 70 * numeroalumnos;    
+                total2 = 70 * numeroalumnos;
             }
             else
             if (numeroalumnos >= 30 && numeroalumnos <= 45)

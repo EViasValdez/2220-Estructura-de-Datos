@@ -42,7 +42,7 @@ public class EjercicioCalificaciones {
             }
             else
             {
-                System.out.println("reprobado");  
+                System.out.println("reprobado");
             }
             // if (c2 >= 7)
             // {
@@ -50,7 +50,7 @@ public class EjercicioCalificaciones {
             // }
             // else
             // {
-            //     System.out.println("reprobado");  
+            //     System.out.println("reprobado");
             // }
             // if (c3 >= 7)
             // {
@@ -58,7 +58,7 @@ public class EjercicioCalificaciones {
             // }
             // else
             // {
-            //     System.out.println("reprobado");  
+            //     System.out.println("reprobado");
             // }
             // if (c4 >= 7)
             // {
@@ -66,7 +66,7 @@ public class EjercicioCalificaciones {
             // }
             // else
             // {
-            //     System.out.println("reprobado");  
+            //     System.out.println("reprobado");
             suma = suma + c1;
         i++;
         }
