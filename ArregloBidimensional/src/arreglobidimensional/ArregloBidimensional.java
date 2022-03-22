@@ -31,7 +31,7 @@ public class ArregloBidimensional {
             for (int i = 0; i < 3; i++)
             {
                 System.out.print(" Escribe tu calificacion del alumno  " + k + " de la materia " + i + ": " );
-                Calificaciones [k] [i] = Float.parseFloat (br.readLine());
+                Calificaciones [k] [i] = Float.parseFloat(br.readLine());
                 suma = suma + Calificaciones [k] [i];
             }
             System.out.println("La suma es :" + suma);

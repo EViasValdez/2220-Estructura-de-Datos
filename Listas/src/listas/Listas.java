@@ -65,7 +65,7 @@ public class Listas {
         ejemploLista.remove (1);
 
         System.out.println("Elementos de la lista despues de eliminar al elemeno de la posicion 1 de la lista");
-        System.out.println(ejemploLista);  
+        System.out.println(ejemploLista);
 
         System.out.println("Escribe un nombre ");
         nombre = br.readLine();
@@ -96,7 +96,7 @@ public class Listas {
         ejemploLista.sort (null);
         System.out.println(ejemploLista);
         // Ordenar una Lista de manera descendete de la Z a la A.
-        Collections.sort (ejemploLista,Collections.reverseOrder() );
+        Collections.sort (ejemploLista,Collections.reverseOrder());
         System.out.println(ejemploLista);
         
         // Vaciar la lista.

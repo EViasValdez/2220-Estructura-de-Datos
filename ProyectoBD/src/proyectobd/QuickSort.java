@@ -39,11 +39,11 @@ public class QuickSort {
                     inicio++;
                 }
         }
-    int temp = ar [inicio];
+        int temp = ar [inicio];
     
-    ar [inicio] = pivot;
-    ar [fin] = temp;
+        ar [inicio] = pivot;
+        ar [fin] = temp;
     
-    return inicio;
+        return inicio;
     }
 }

@@ -44,12 +44,12 @@ public class Actividades {
             int ingr, venta;
             
             System.out.println("Ingrese cuantas ventas");
-            ingr = Integer.parseInt (br.readLine());
+            ingr = Integer.parseInt(br.readLine());
             
             for (int i = 0; i <= ingr; i++)
             {
                 System.out.println("Monto de ventas");
-                venta = Integer.parseInt (br.readLine());
+                venta = Integer.parseInt(br.readLine());
                 ventas.add (venta);
             }
             

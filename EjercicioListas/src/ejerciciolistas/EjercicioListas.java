@@ -54,7 +54,7 @@ public class EjercicioListas {
             for (int i = 0; i <= numecalf - 1; i++)
             {
                 System.out.println("Inserte la calificacion");
-                calif = Float.parseFloat (br.readLine());
+                calif = Float.parseFloat(br.readLine());
                 calificaciones.add (calif);
                 System.out.println("La calificacion agregada es " + calificaciones);
             }
@@ -66,7 +66,7 @@ public class EjercicioListas {
 
         case 3:
             System.out.println("Eliga la calificacion a eliminar");
-            eliminarcalificacion = Float.parseFloat (br.readLine());
+            eliminarcalificacion = Float.parseFloat(br.readLine());
             calificaciones.remove (eliminarcalificacion);
         break;
         case 4:
@@ -93,7 +93,7 @@ public class EjercicioListas {
         case 7:
             for (int i = 0; i <= calificaciones.size() - 1; i++)
             {
-                suma = suma + calificaciones.get(i);
+                suma = suma + calificaciones.get (i);
             }
             promedio = suma / calificaciones.size();
             System.out.println("El promedio es " + promedio);
@@ -103,8 +103,8 @@ public class EjercicioListas {
             for (int i = 0; i <= 4; i++)
             {
                 System.out.println("Inserte la calificacion");
-                calif = Float.parseFloat (br.readLine());
-                calificaciones.add (calif);
+                calif = Float.parseFloat(br.readLine());
+                calificaciones.add(calif);
                 System.out.println("La calificacion agregada es " + calificaciones);
             }
         break;

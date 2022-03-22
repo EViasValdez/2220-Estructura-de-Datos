@@ -32,9 +32,9 @@ public class ImpuestoOO {
         // parseFloat el cual pertenece a la clase float y se asigna a la variable "precio".
         precio = Float.parseFloat(br.readLine());
         // Se agrega con el metodo set el valor del precio al atributo precio de la clase.
-        prod.setPrecio(precio);
+        prod.setPrecio (precio);
         // Se agrega con el metodo set el valor del impuesto al atributo precio de la clase.
-        prod.setImpuesto(prod.impuesto);
+        prod.setImpuesto (prod.impuesto);
         // Se imrpime el resultado que se esta calculando llamando al metodo "total",
         // que esta en la clase el cual muestra el resultado de la operacion.
         // Se pasan dos atrbutos que son el precio y el Impuesto.

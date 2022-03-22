@@ -28,7 +28,6 @@ public class ProblemasAsesoriasDoWhile {
         System.out.println("Problema 1");
         float calificacion1, calificacion2, calificacion3, calificacion4;
         float promedio;
-        
         int a = 1;
         
         do
@@ -46,7 +45,6 @@ public class ProblemasAsesoriasDoWhile {
             
             System.out.println("El promedio es " + promedio);
         } while (a < 3);
-        
         
         System.out.println("Problema 2");
         float base, altura;
@@ -75,7 +73,7 @@ public class ProblemasAsesoriasDoWhile {
         {
             System.out.println("Ingese radio");
             radio = Float.parseFloat(br.readLine());
-            area2 = (float)(pi * (radio * radio));
+            area2 = (float) (pi * (radio * radio));
             System.out.println("El area es " +  area2);
 
             System.out.println("Problema 4");
@@ -127,7 +125,7 @@ public class ProblemasAsesoriasDoWhile {
         do
         {
             System.out.println("Ingrese cantidad");
-            cantidad = Float.parseFloat (br.readLine());
+            cantidad = Float.parseFloat(br.readLine());
 
             if (cantidad >= 1000)
             {

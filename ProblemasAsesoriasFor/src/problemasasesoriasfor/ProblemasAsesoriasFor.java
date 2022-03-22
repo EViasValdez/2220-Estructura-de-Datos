@@ -124,7 +124,7 @@ public class ProblemasAsesoriasFor {
         for (int e = 1; e < 3; e++)
         {
             System.out.println("Ingrese cantidad");
-            cantidad = Float.parseFloat (br.readLine());
+            cantidad = Float.parseFloat(br.readLine());
         
         if (cantidad >= 1000)
         {
@@ -177,7 +177,7 @@ public class ProblemasAsesoriasFor {
         for (int g = 1; g < 3; g++)
         {
             System.out.println("Ingrese numero de alumnos");
-            numeroalumnos = Float.parseFloat (br.readLine());
+            numeroalumnos = Float.parseFloat(br.readLine());
         
         if (numeroalumnos >= 100)
         {

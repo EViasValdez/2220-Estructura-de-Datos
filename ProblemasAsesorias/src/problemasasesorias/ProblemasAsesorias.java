@@ -110,7 +110,7 @@ public class ProblemasAsesorias {
         float total = 0;
         
         System.out.println("Ingrese cantidad");
-        cantidad = Float.parseFloat (br.readLine());
+        cantidad = Float.parseFloat(br.readLine());
         
         if (cantidad >= 1000)
         {
