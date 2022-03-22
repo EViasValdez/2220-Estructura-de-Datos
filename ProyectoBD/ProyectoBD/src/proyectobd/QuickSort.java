@@ -40,6 +40,7 @@ public class QuickSort {
                 }
         }
     int temp = ar[inicio];
+    
     ar [inicio] = pivot;
     ar [fin] = temp;
     

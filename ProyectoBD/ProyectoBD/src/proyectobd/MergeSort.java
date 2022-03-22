@@ -25,9 +25,9 @@ public class MergeSort {
         for (int c = med; c < b; c++){
             de [c - med] = a [c];
         }
+
         mergeSort (iz, med);
         mergeSort (de, b - med);
-    
         merge (a, iz, de, med, b - med);
     }
     public static void merge(int[] ar, int iz[], int de[], int izqu, int dere){
@@ -49,7 +49,7 @@ public class MergeSort {
         }
     }
     public static void main(String[] args) {
-        int[] actual = {5, 1, 6, 2, 3 ,4};
+        int [] actual = {5, 1, 6, 2, 3 ,4};
         mergeSort (actual, actual.length);
 
         for (int i = 0; i < actual.length; i++)
