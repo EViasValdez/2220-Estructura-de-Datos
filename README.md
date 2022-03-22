@@ -415,4 +415,28 @@ Actividades/src/actividades/Actividades.java,
 Actividades/build.xml, 
 Actividades/manifest.mf)
 <!----Separador---->
+###### ProyectoBD - 16/12/20
+(ProyectoBD/build/classes/proyectobd/MergeSort.class, 
+ProyectoBD/build/classes/proyectobd/MetodoBurbuja.class, 
+ProyectoBD/build/classes/proyectobd/OrdenamientoPorInsercion.class, 
+ProyectoBD/build/classes/proyectobd/OrdenamientoPorSeleccion.class, 
+ProyectoBD/build/classes/proyectobd/ProyectoBDMain.class, 
+ProyectoBD/build/classes/proyectobd/QuickSort.class, 
+ProyectoBD/build/classes/.netbeans_automatic_build, 
+ProyectoBD/build/classes/.netbeans_update_resources, 
+ProyectoBD/nbproject/private/private.properties, 
+ProyectoBD/nbproject/private/private.xml, 
+ProyectoBD/nbproject/build-impl.xml, 
+ProyectoBD/nbproject/genfiles.properties, 
+ProyectoBD/nbproject/project.properties, 
+ProyectoBD/nbproject/project.xml, 
+ProyectoBD/src/proyectobd/MergeSort.java, 
+ProyectoBD/src/proyectobd/MetodoBurbuja.java, 
+ProyectoBD/src/proyectobd/OrdenamientoPorInsercion.java, 
+ProyectoBD/src/proyectobd/OrdenamientoPorSeleccion.java, 
+ProyectoBD/src/proyectobd/ProjectoBDMain.java, 
+ProyectoBD/src/proyectobd/QuickSort.java, 
+ProyectoBD/build.xml, 
+ProyectoBD/manifest.mf)
+<!----Separador---->
 <!----Separador del direrctorio con ubicacion de archivos---->
