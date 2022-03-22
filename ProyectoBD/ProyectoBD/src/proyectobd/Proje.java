@@ -96,6 +96,7 @@ public class ProyectoBDMain {
                 System.out.println(Arrays.toString (ar));
                 System.out.println("======================================");
         break;
+        
         }
         }
         while (!menu);

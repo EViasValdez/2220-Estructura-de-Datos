@@ -19,7 +19,7 @@ public class MetodoBurbuja {
         {
             for (int b = 0; b < arreglo.length - 1; b++)
             {
-                if (arreglo[a] > arreglo [b+1])
+                if (arreglo[a] > arreglo [b + 1])
                 {
                     auxiliar = arreglo [b];
                     arreglo [b] = arreglo [b + 1];

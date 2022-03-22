@@ -13,7 +13,7 @@ public class OrdenamientoPorSeleccion {
     public void OrdenSeleccion (int[] lista){
         for (int a = lista.length - 1; a > 0; a--){
             int valorMaximo = 0;
-    
+
             for (int b = 0; b < a; b++){
                 if (lista [b + 1] > lista [valorMaximo]){
                     valorMaximo = b + 1;
