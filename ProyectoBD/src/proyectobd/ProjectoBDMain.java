@@ -28,14 +28,13 @@ public class ProyectoBDMain {
                 System.out.println("Eliga una opcion de metodo");
                 int op;
                 Scanner teclado = new Scanner (System.in);
-
+                
                 System.out.println("1. Metodo Burbuja");
                 System.out.println("2. Ordenamiento por inserción");
                 System.out.println("3. Ordenamiento por selección");
                 System.out.println("4. Merge Sort");
                 System.out.println("5. Quick Sort");
                 op = teclado.nextInt();
-        
         switch (op){
         case 1:
                 System.out.println("Metodo burbuja");
@@ -64,7 +63,7 @@ public class ProyectoBDMain {
                                 System.out.println(auxiliar);
                                 System.out.println("======================================");
                         }
-                }    
+                }
         break;
 
         case 3:
