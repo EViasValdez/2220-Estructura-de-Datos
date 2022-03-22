@@ -21,8 +21,8 @@ public class ProblemasAsesoriasFor {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader(System.in);
-        BufferedReader br = new BufferedReader(isr);
+        InputStreamReader isr = new InputStreamReader (System.in);
+        BufferedReader br = new BufferedReader (isr);
         Scanner leer = new Scanner (System.in);
         
         System.out.println("Problema 1");
@@ -71,7 +71,7 @@ public class ProblemasAsesoriasFor {
             System.out.println("Ingese radio");
             radio = Float.parseFloat(br.readLine());
 
-            area2 = (float)(pi * (radio * radio));
+            area2 = (float) (pi * (radio * radio));
             System.out.println("El area es " +  area2);
             System.out.println("Problema 4");
 
@@ -177,7 +177,7 @@ public class ProblemasAsesoriasFor {
         for (int g = 1; g < 3; g++)
         {
             System.out.println("Ingrese numero de alumnos");
-            numeroalumnos = Float.parseFloat(br.readLine());
+            numeroalumnos = Float.parseFloat (br.readLine());
         
         if (numeroalumnos >= 100)
         {
