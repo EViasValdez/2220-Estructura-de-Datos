@@ -34,8 +34,8 @@ public class ArregloUnidimensional {
         double suma = 0, promedio = 0; // Variable suma inicializada en cero ya que sera una variable de tipo acumulador, promedio igual a cero sera el resultado de un operacion.
         int alto = 0, bajo = 0; // Variable de tipo contador inicializadas en 0.
 
-        System.out.println("El nombre de la posicion uno del arreglo nombres es: " + nombres [1]); // Muesrta el dato que se almaceno en la posicion 1 del arreglo en este casoo Luis
-        System.out.println("El numero de piezas de la posicion dos del arreglo numerodepiezas es: " + numerodepiezas [2]); // dato de la posicion 2 del arreglo numero de piezas 67
+        System.out.println("El nombre de la posicion uno del arreglo nombres es: " + nombres [1]); // Muesrta el dato que se almaceno en la posicion 1 del arreglo en este casoo "Luis".
+        System.out.println("El numero de piezas de la posicion dos del arreglo numerodepiezas es: " + numerodepiezas [2]); // Dato de la posicion 2 del arreglo numero de piezas 67.
         System.out.println("La calificacion de la posicion uno del arreglo calificaciones es: "+ calificaciones [0]);
         System.out.println("La vocal de la posicion cuatro del arreglo vocales es: "+ vocales [4]);
         System.out.println("La respuesta a tiene auto de la posicion tres del arreglo tiene_auto es: "+ tiene_auto [3]);
@@ -62,7 +62,7 @@ public class ArregloUnidimensional {
             if (salario [k] >= 20000){ // Si salario [k] es mayor o igual a 20000
                 alto++; // se sumara 1 a la variable alto ya que significa "alto = alto +1".
             }else{ // Si la condicion anterior no se cumple 
-            if (salario [k] < 20000){ // realiza esta condicion si el "salario[k]"" es menor a 20000
+            if (salario [k] < 20000){ // realiza esta condicion si el "salario[k]" es menor a 20000
                 bajo++; // se sumera 1 a la variable bajo, es decir "bajo = bajo + 1".
             }
         }

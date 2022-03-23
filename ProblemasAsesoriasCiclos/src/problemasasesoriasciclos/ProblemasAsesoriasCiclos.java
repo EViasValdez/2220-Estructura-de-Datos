@@ -56,7 +56,7 @@ public class ProblemasAsesoriasCiclos {
             base = Float.parseFloat(br.readLine());
             System.out.println("Ingese altura");
             altura = Float.parseFloat(br.readLine());
-        
+
             area = (base * altura) / 2;
             System.out.println("El area es " + area);
             b++;
@@ -90,9 +90,9 @@ public class ProblemasAsesoriasCiclos {
             ladob = leer.nextInt();
             System.out.println("Ingrese lado c");
             ladoc = leer.nextInt();
-        
+
             area = ladoa + ladob + ladoc;
-        
+
             System.out.println("El area es " + area);
             d++;
         }
@@ -114,7 +114,7 @@ public class ProblemasAsesoriasCiclos {
             {
             if (numero < 0)
             {
-                System.out.println("El numero es negativo");   
+                System.out.println("El numero es negativo");
             }
             else
             if (numero == 0)
@@ -175,7 +175,7 @@ public class ProblemasAsesoriasCiclos {
             if (cantidad3 > cantidad1 && cantidad3 > cantidad2)
             {
                 System.out.println("Cantidad 3 es mayor");
-            }    
+            }
             }
             g++;
         }

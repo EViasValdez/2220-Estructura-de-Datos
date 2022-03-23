@@ -76,8 +76,8 @@ public class ProblemasAsesoriasFor {
             System.out.println("Problema 4");
 
             int ladoa;
-            int ladoc;
             int ladob;
+            int ladoc;
 
             for (int d = 1; d < 3; d++)
             {
@@ -108,7 +108,7 @@ public class ProblemasAsesoriasFor {
         {
         if (numero < 0)
         {
-            System.out.println("El numero es negativo");   
+            System.out.println("El numero es negativo");
         }
         else
         if (numero == 0)
@@ -133,7 +133,7 @@ public class ProblemasAsesoriasFor {
         else
         if (cantidad <= 1000)
         {
-            total = cantidad * 90;    
+            total = cantidad * 90;
         }
             System.out.println(total);
         }
@@ -166,7 +166,7 @@ public class ProblemasAsesoriasFor {
             if (cantidad3 > cantidad1 && cantidad3 > cantidad2)
             {
                 System.out.println("Cantidad 3 es mayor");
-            }    
+            }
             }
         }
 

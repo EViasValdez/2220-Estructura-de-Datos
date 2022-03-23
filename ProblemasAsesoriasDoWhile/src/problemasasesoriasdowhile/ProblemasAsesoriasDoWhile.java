@@ -79,8 +79,8 @@ public class ProblemasAsesoriasDoWhile {
             System.out.println("Problema 4");
 
             int ladoa;
-            int ladoc;
             int ladob;
+            int ladoc;
 
             System.out.println("Ingrese lado a");
             ladoa = leer.nextInt();
@@ -111,9 +111,9 @@ public class ProblemasAsesoriasDoWhile {
                 System.out.println("El numero es negativo");   
             }
             else
-                if (numero == 0)
+            if (numero == 0)
             {
-                 System.out.println("El numero es neutro");
+                System.out.println("El numero es neutro");
             }
         } while (d > 3);
         
@@ -126,7 +126,7 @@ public class ProblemasAsesoriasDoWhile {
         {
             System.out.println("Ingrese cantidad");
             cantidad = Float.parseFloat(br.readLine());
-
+            
             if (cantidad >= 1000)
             {
                 total = cantidad * 85;

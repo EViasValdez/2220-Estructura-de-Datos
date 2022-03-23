@@ -25,6 +25,7 @@ public class TrianguloCiclos {
         Scanner leer = new Scanner (System.in);
         
         int i = 1;
+        
         while (i < 3){
             System.out.println("Ponga sus cantidades");
             System.out.println("Inserte primera cantidad");

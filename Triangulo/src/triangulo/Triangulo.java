@@ -46,5 +46,5 @@ public class Triangulo {
             System.out.println("El triangulo mostrado es un triangulo escaleno");
         }
         }
-    }   
+    }
 }

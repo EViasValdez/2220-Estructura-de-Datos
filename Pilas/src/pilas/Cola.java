@@ -18,7 +18,7 @@ import java.util.ArrayList;
                 this.add (dato);
             }else{
                 System.out.println("Introduzca un dato no nulo");
-            }  
+            }
         }
         // Se elimina el elemento frontal de la cola, refiriendose al primer elemento que entró.
         public void desencolar() {

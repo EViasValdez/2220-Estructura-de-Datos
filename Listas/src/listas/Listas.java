@@ -70,7 +70,7 @@ public class Listas {
         System.out.println("Escribe un nombre ");
         nombre = br.readLine();
 
-        // Agregar el elemento que se leyo a la Lista.
+        // Agregar el elemento que se agrego a la Lista.
         ejemploLista.add (nombre);
 
         // Otra manera de imprimir la Lista con la clase Iterator.

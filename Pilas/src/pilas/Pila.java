@@ -18,7 +18,7 @@ public class Pila extends ArrayList{
             this.add (dato);
         }else{
             System.out.println("Introduzca un dato no nulo");
-        }  
+        }
     }
     // Se elimina el elemento frontal de la pila (pop).
     public void desapilar(){
@@ -32,7 +32,7 @@ public class Pila extends ArrayList{
         if (this.size() > 0){
             datoAuxiliar = this.get (this.size() - 1);
         }
-    return datoAuxiliar;  
+    return datoAuxiliar;
     }
     // Devuelve "cierto" si la pila está vacía o falso en caso contrario (empty).
     public boolean vacia(){

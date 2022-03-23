@@ -40,17 +40,17 @@ public class TriangulosArreglos {
         ladoc = leer.nextInt();
         
         if (ladoa == ladob && ladob == ladoc){
-            System.out.println("El triangulo mostrado es un triangulo equilatero");    
+            System.out.println("El triangulo mostrado es un triangulo equilatero");
         }
         else
         {
         if (ladoa != ladob && ladob != ladoc){
-            System.out.println("El triangulo mostrado es un triangulo isoceles");    
+            System.out.println("El triangulo mostrado es un triangulo isoceles");
         }
         else
         {
         if (ladob != ladoc && ladob != ladoc)
-            System.out.println("El triangulo mostrado es un triangulo escaleno");    
+            System.out.println("El triangulo mostrado es un triangulo escaleno");
         }
         }
     }

@@ -61,7 +61,7 @@ public class EjercicioListas {
             break;
 
             case 2:
-                System.out.println("La calificacion agregada es " + calificaciones);    
+                System.out.println("La calificacion agregada es " + calificaciones);
             break;
 
             case 3:
@@ -99,7 +99,7 @@ public class EjercicioListas {
                 System.out.println("El promedio es " + promedio);
             break;
         
-            case 8:    
+            case 8:
                 for (int i = 0; i <= 4; i++)
                 {
                     System.out.println("Inserte la calificacion");
