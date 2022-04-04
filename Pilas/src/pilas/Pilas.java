@@ -20,10 +20,10 @@ public class Pilas {
         // TODO code application logic here
         System.out.println("------Pila------");
         Pila pila = new Pila(); // Es creado el objeto lalmado pila y se instancia a la clase "Pila".
-        pila.apilar("A"); // Se manda llamar al metodo "apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
-        pila.apilar("B");
-        pila.apilar("C");
-        pila.apilar("D");
+        pila.apilar ("A"); // Se manda llamar al metodo "apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
+        pila.apilar ("B");
+        pila.apilar ("C");
+        pila.apilar ("D");
 
         //Con la clase Iterator se recorre el objeto "pila" pues se creo el objeto "iterator" de la clase "Iterator"
         Iterator iterator = pila.iterator();
@@ -48,10 +48,10 @@ public class Pilas {
     
         System.out.println("------Cola------");
         Cola cola = new Cola();
-        cola.encolar("A");
-        cola.encolar("B");
-        cola.encolar("C");
-        cola.encolar("D");
+        cola.encolar ("A");
+        cola.encolar ("B");
+        cola.encolar ("C");
+        cola.encolar ("D");
         
         System.out.println("¿Esta vacia la cola?" + cola.vacia());
         System.out.println("Tamaño de la cola:" + cola.size());

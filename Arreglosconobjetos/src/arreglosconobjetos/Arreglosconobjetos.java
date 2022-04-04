@@ -35,7 +35,7 @@ public class Arreglosconobjetos {
         System.out.println("4. Mostrar el nombre de todos los pacientes menores de edad");
         
         System.out.println("Elige una opcion");
-        opc = leer.nextInt();  // Se lee una opcion del menu de la opcion 1 a la 4
+        opc = leer.nextInt();  // Se lee una opcion del menu de la opcion 1 a la 4.
         
         switch (opc) 
             // Instruccion switch la cual va a compañada de casos
@@ -57,10 +57,10 @@ public class Arreglosconobjetos {
                 // pacienteTemporal.setEdad (edad);
                 // pacienteTemporal.setPeso (peso);
                 Pacientes [i] = new Persona(); // Crea un objeto llamado "Pacientes [i] y se instancas a la clase "Persona"
-                Pacientes [i].setNombre(nombre); // Con el objeto "Pacientes [i] se manda llamar al metodo setNombre para que en este
+                Pacientes [i].setNombre (nombre); // Con el objeto "Pacientes [i] se manda llamar al metodo setNombre para que en este
                 // se escriba el nombre cuya variable se leyo "String nombre = leer.next();".
-                Pacientes [i].setEdad(edad);
-                Pacientes [i].setPeso(peso);
+                Pacientes [i].setEdad (edad);
+                Pacientes [i].setPeso (peso);
             }
         break;
 
@@ -72,7 +72,7 @@ public class Arreglosconobjetos {
             // int i = 1;
             for(int i = 0; i < Pacientes.length; i++) // Se recorre el arreglo Pacientes.
             {
-                if (Pacientes [i].getEdad() > pacientemayor.getEdad()) //Si la edad que se obtiene el arreglo de objetos es
+                if (Pacientes [i].getEdad() > pacientemayor.getEdad()) // Si la edad que se obtiene el arreglo de objetos es
                 // mayor a la edad que se obtiene en el objeto "pacientemayor" entonces
                 {
                     pacientemayor = Pacientes [i]; // dicha edad se asigna al objeto "pacientemayor".

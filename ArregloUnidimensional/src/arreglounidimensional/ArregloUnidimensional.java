@@ -65,7 +65,7 @@ public class ArregloUnidimensional {
             if (salario [k] < 20000){ // realiza esta condicion si el "salario[k]" es menor a 20000
                 bajo++; // se sumera 1 a la variable bajo, es decir "bajo = bajo + 1".
             }
-        }
+            }
         }
 
         System.out.println("Tamaño del arreglo salario: " + salario.length); // Imprime el tamaño del areglo.
