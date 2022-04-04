@@ -37,8 +37,9 @@ public class Arreglosconobjetos {
         System.out.println("Elige una opcion");
         opc = leer.nextInt();  // Se lee una opcion del menu de la opcion 1 a la 4
         
-        switch (opc) // Instruccion switch la cual va a compañada de casos
-            // Evalua a la variable opc dependiendo de la opcion qeu aqui se ingrese 
+        switch (opc) 
+            // Instruccion switch la cual va a compañada de casos
+            // Evalua a la variable opc dependiendo de la opcion que aqui se ingrese 
             // entrara al caso correspondiente caso 1, caso 2, caso 3, o caso 4.
         {
         case 1:     
@@ -66,8 +67,8 @@ public class Arreglosconobjetos {
 
         case 2:
             System.out.println("++++++++++++++ Mostrar el Paciente de mayor edad ++++++++++++++++++++++++++++++++++++++++++");
-            Persona pacientemayor;  // Crea un objeto llamado pacientemayor de tipo clase Persona
-            pacientemayor = Pacientes [0]; // Se asigna el objeto de la pocion 0 del arreglo Pacientes al objeto pacientemayor
+            Persona pacientemayor;  // Crea un objeto llamado "pacientemayor" de tipo clase "Persona"
+            pacientemayor = Pacientes [0]; // se asigna el objeto de la pocion 0 del arreglo Pacientes al objeto pacientemayor
             // int i = 1;
             for(int i = 0; i<Pacientes.length; i++) // Se recorre el arreglo Pacientes.
             {
@@ -81,7 +82,7 @@ public class Arreglosconobjetos {
         break;
 
         case 3:
-            System.out.println("++++++++++++++Mostrar todos los nombres de los pacientes++++++++++++++++++++++++++++++++++++++++++");
+            System.out.println("++++++++++++++ Mostrar todos los nombres de los pacientes ++++++++++++++++++++++++++++++++++++++++++");
             String mostrar = ""; 
             for (int i = 0; i < Pacientes.length; i++)
             {
@@ -91,24 +92,24 @@ public class Arreglosconobjetos {
         break;
         
         case 4:
-        System.out.println("+++++++++++++++++++Paceintes Menores de edad+++++++++++++++++++++++++++++++++++++");
-        String mostrar2 = ""; 
-        for (int i = 0; i<Pacientes.length; i++)
-        {
-            if (Pacientes [i].getEdad()< 18) // Si la edad que se obtiene del arreglo de objetos Pacientes
-                // es menor al numero 18 entonces
+            System.out.println("+++++++++++++++++++ Pacientes menores de edad +++++++++++++++++++++++++++++++++++++");
+            String mostrar2 = ""; 
+            for (int i = 0; i < Pacientes.length; i++)
             {
-            mostrar2 = mostrar2 + Pacientes [i].getNombre() + "\n" + Pacientes [i].getEdad() + "\n";
-            // Se obtiene el nombre de los pacientes su edad que cumplan con dicha condicion.
+                if (Pacientes [i].getEdad()< 18) // Si la edad que se obtiene del arreglo de objetos Pacientes
+                    // es menor al numero 18 entonces
+                {
+                mostrar2 = mostrar2 + Pacientes [i].getNombre() + "\n" + Pacientes [i].getEdad() + "\n";
+                // Se obtiene el nombre de los pacientes su edad que cumplan con dicha condicion.
+                }
             }
-        }
-        System.out.println("Los pacientes menores de edad son: " + mostrar2);
-                break;
+            System.out.println("Los pacientes menores de edad son: " + mostrar2);
+        break;
+        
     }
-     
-        System.out.println("Deseas mostrar el menu otra vez (si/no");
+        System.out.println("¿Deseas mostrar el menu otra vez? (si/no");
         otra = leer.next();
-        }while (otra.equals("si")); // Mientras la variable otra sea igual a "si" se regresa a la 
+        } while (otra.equals("si")); // Mientras la variable otra sea igual a "si" se regresa a la 
         // instruccion do e incia el ciclo.
         }
     }
