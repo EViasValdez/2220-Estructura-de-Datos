@@ -28,7 +28,7 @@ public class EjercicioCalificaciones {
         int i = 1;
         
         while (i <= 4){
-            System.out.println("ingresa la calificacion 1: ");
+            System.out.println("Ingresa la calificacion 1: ");
             c1 = leer.nextFloat();
             // System.out.println("ingresa la calificacion 2: ");
             // c2 = leer.nextFloat();
@@ -71,6 +71,6 @@ public class EjercicioCalificaciones {
         i++;
         }
         promedio = suma / 4;
-        System.out.println("tu promedio es:" + promedio);
+        System.out.println("Tu promedio es: " + promedio);
     }
 }

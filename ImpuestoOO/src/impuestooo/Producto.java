@@ -39,6 +39,7 @@ public class Producto {
     // Regresa el valor de la variable total la cual muestar el resulatdo de la operacion.
     public float total(float getprecio, float getimpuesto) {
         float total;
+        
         total = precio + (precio * impuesto);
         return total; 
     }

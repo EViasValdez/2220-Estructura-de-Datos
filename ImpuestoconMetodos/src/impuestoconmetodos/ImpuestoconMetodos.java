@@ -50,5 +50,5 @@ public class ImpuestoconMetodos {
        total = precio + (precio * impuesto); // Se realiza el calculo del total.
        return total; // return significa retornar o regresar regresa al main en donde fue llamado el metodo 
        // calculo, en este caso en la linea 47 y regresa el valor de la variable "total".
-    }   
+    }
 }

@@ -39,7 +39,7 @@ public class ImpuestoArreglos {
             // que es el valor inicial del arreglo, es decir la primer posicion del mismo
             // i < 4 es la condicion de fin de ciclo, es decir lo va a repetir 4 veces
             // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo
-            System.out.println("Escribe el Precio :");
+            System.out.println("Escribe el Precio: ");
             // Es leida la variable "precio [i]" ya que por tener corchetes es un arreglo,
             // lee datos y los asigna a las posiciones del arreglo la linea que se lee con el objeto
             // br y el metodo readline se convierte a un dato de tipo float con el metodo parse float

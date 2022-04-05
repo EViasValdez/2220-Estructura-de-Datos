@@ -45,7 +45,7 @@ public class EjercicioListas {
             System.out.println("10. Limpiar la lista");
             System.out.println("Eliga una opcion");
             opcion = Integer.parseInt(br.readLine());
-        
+
             switch (opcion){
             case 1:
                 System.out.println("Inserte numero de calificaciones");
@@ -69,11 +69,12 @@ public class EjercicioListas {
                 eliminarcalificacion = Float.parseFloat(br.readLine());
                 calificaciones.remove (eliminarcalificacion);
             break;
+
             case 4:
                 calificaciones.sort (null);
                 System.out.println(calificaciones);
             break;
-
+            
             case 5:
                 Collections.sort (calificaciones, Collections.reverseOrder());
                 System.out.println(calificaciones);
@@ -104,7 +105,7 @@ public class EjercicioListas {
                 {
                     System.out.println("Inserte la calificacion");
                     calif = Float.parseFloat(br.readLine());
-                    calificaciones.add(calif);
+                    calificaciones.add (calif);
                     System.out.println("La calificacion agregada es " + calificaciones);
                 }
             break;
