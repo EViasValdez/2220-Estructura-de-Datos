@@ -18,7 +18,7 @@ public class Arreglosconobjetos {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner (System.in);
-        Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado Pacientes 
+        Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado Pacientes
         // el cual esta instanciado a la Clase Persona de tamaño 4.
         // Es decir cada posicion del aareglo contendra un bjetos de la clase "persona"
         // en la posicion 0 del arreglo se almacenara el nombre, edad y peso de una persona.
@@ -65,12 +65,12 @@ public class Arreglosconobjetos {
         break;
 
         case 2:
-            System.out.println("++++++++++++++ Mostrar el Paciente de mayor edad ++++++++++++++++++++++++++++++++++++++++++");
+            System.out.println("++++++++++++++ Mostrar el Paciente de mayor edad ++++++++++++++");
             Persona pacientemayor;  // Crea un objeto llamado "pacientemayor" de tipo clase "Persona"
             pacientemayor = Pacientes [0]; // se asigna el objeto de la pocion 0 del arreglo Pacientes al objeto pacientemayor
 
             // int i = 1;
-            for(int i = 0; i < Pacientes.length; i++) // Se recorre el arreglo Pacientes.
+            for (int i = 0; i < Pacientes.length; i++) // Se recorre el arreglo Pacientes.
             {
                 if (Pacientes [i].getEdad() > pacientemayor.getEdad()) // Si la edad que se obtiene el arreglo de objetos es
                 // mayor a la edad que se obtiene en el objeto "pacientemayor" entonces
@@ -82,7 +82,7 @@ public class Arreglosconobjetos {
         break;
 
         case 3:
-            System.out.println("++++++++++++++ Mostrar todos los nombres de los pacientes ++++++++++++++++++++++++++++++++++++++++++");
+            System.out.println("++++++++++++++ Mostrar todos los nombres de los pacientes ++++++++++++++");
             String mostrar = "";
             for (int i = 0; i < Pacientes.length; i++)
             {
@@ -92,8 +92,9 @@ public class Arreglosconobjetos {
         break;
         
         case 4:
-            System.out.println("+++++++++++++++++++ Pacientes menores de edad +++++++++++++++++++++++++++++++++++++");
-            String mostrar2 = ""; 
+            System.out.println("++++++++++++++ Pacientes menores de edad ++++++++++++++");
+            String mostrar2 = "";
+
             for (int i = 0; i < Pacientes.length; i++)
             {
                 if (Pacientes [i].getEdad() < 18) // Si la edad que se obtiene del arreglo de objetos Pacientes
