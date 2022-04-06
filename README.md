@@ -440,3 +440,17 @@ ProyectoBD/build.xml,
 ProyectoBD/manifest.mf)
 <!----Separador---->
 <!----Separador del direrctorio con ubicacion de archivos---->
+
+
+<!----
+(Arreglosconobjetos/nbproject/private/private.properties, 
+Arreglosconobjetos/nbproject/private/private.xml, 
+Arreglosconobjetos/nbproject/build-impl.xml, 
+Arreglosconobjetos/nbproject/genfiles.properties, 
+Arreglosconobjetos/nbproject/project.properties, 
+Arreglosconobjetos/nbproject/project.xml, 
+Arreglosconobjetos/src/arreglosconobjetos/Arreglosconobjetos.java, 
+Arreglosconobjetos/src/arreglosconobjetos/Persona.java, 
+Arreglosconobjetos/build.xml, 
+Arreglosconobjetos/manifest.mf)
+>
