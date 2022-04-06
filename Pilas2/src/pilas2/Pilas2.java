@@ -38,6 +38,6 @@ public class Pilas2 {
         while (!pila.empty())
         System.out.println(pila.pop());
         // Se muestran los elementos de la pila despues de haberla vaciado.
-        System.out.println("Elementos de la pila " + pila);
+        System.out.println("Elementos de la pila: " + pila);
     }
 }

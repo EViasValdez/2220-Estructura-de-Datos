@@ -39,7 +39,7 @@ public class ProblemasAsesorias {
         
         promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
         
-        System.out.println("El promedio es " + promedio);
+        System.out.println("El promedio es: " + promedio);
         
         System.out.println("Problema 2");
         float base, altura;
@@ -51,7 +51,7 @@ public class ProblemasAsesorias {
         altura = Float.parseFloat(br.readLine());
         
         area = (base * altura) / 2;
-        System.out.println("El area es " + area);
+        System.out.println("El area es: " + area);
         
         System.out.println("Problema 3");
         float radio;
@@ -62,7 +62,7 @@ public class ProblemasAsesorias {
         radio = Float.parseFloat(br.readLine());
         
         area2 = (float) (pi * (radio * radio));
-        System.out.println("El area es " +  area2);
+        System.out.println("El area es: " +  area2);
         
         System.out.println("Problema 4");
         Scanner leer = new Scanner (System.in);
@@ -80,7 +80,7 @@ public class ProblemasAsesorias {
         
         area = ladoa + ladob + ladoc;
         
-        System.out.println("El area es " + area);
+        System.out.println("El area es: " + area);
         
         System.out.println("Problema 5");
         int numero;
@@ -174,6 +174,6 @@ public class ProblemasAsesorias {
         {
             total2 = 95 * numeroalumnos;
         }
-        System.out.println("El total es " + total2 + 1000);
+        System.out.println("El total es: " + total2 + 1000);
     }
 }

@@ -18,9 +18,9 @@ public class Arreglosconobjetos {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner (System.in);
-        Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado Pacientes
+        Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado "Pacientes"
         // el cual esta instanciado a la Clase Persona de tamaño 4.
-        // Es decir cada posicion del aareglo contendra un bjetos de la clase "persona"
+        // Cada posicion del arreglo contendra un objeto de la clase "persona"
         // en la posicion 0 del arreglo se almacenara el nombre, edad y peso de una persona.
         
         String otra;
@@ -33,7 +33,6 @@ public class Arreglosconobjetos {
             System.out.println("2. Mostrar el paciente de mayor edad");
             System.out.println("3. Mostrar el nombre de todos los pacientes");
             System.out.println("4. Mostrar el nombre de todos los pacientes menores de edad");
-        
             System.out.println("Elige una opcion");
             opc = leer.nextInt();  // Se lee una opcion del menu de la opcion 1 a la 4.
         
@@ -45,11 +44,11 @@ public class Arreglosconobjetos {
             case 1:     
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    System.out.println("Escribe el nombre:");
+                    System.out.println("Escribe el nombre: ");
                     String nombre = leer.next();
-                    System.out.println("Escribe tu edad:");
+                    System.out.println("Escribe tu edad: ");
                     int edad = leer.nextInt();
-                    System.out.println("Escribe tu peso:");
+                    System.out.println("Escribe tu peso: ");
                     float peso = leer.nextFloat();
 
                     // Persona pacienteTemporal = new Persona();

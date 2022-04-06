@@ -38,35 +38,35 @@ public class EjercicioCalificaciones {
             // c4 = leer.nextFloat();
             if (c1 >= 7)
             {
-                System.out.println("aprobado");
+                System.out.println("Aprobado");
             }
             else
             {
-                System.out.println("reprobado");
+                System.out.println("Reprobado");
             }
             // if (c2 >= 7)
             // {
-            //     System.out.println("aprobado");
+            //     System.out.println("Aprobado");
             // }
             // else
             // {
-            //     System.out.println("reprobado");
+            //     System.out.println("Reprobado");
             // }
             // if (c3 >= 7)
             // {
-            //     System.out.println("aprobado");
+            //     System.out.println("Aprobado");
             // }
             // else
             // {
-            //     System.out.println("reprobado");
+            //     System.out.println("Reprobado");
             // }
             // if (c4 >= 7)
             // {
-            //     System.out.println("aprobado");
+            //     System.out.println("Aprobado");
             // }
             // else
             // {
-            //     System.out.println("reprobado");
+            //     System.out.println("Reprobado");
             suma = suma + c1;
         i++;
         }

@@ -22,7 +22,6 @@ public class EjercicioColas {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
         

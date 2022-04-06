@@ -43,7 +43,7 @@ public class ProblemasAsesoriasFor {
 
             promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
             
-            System.out.println("El promedio es " + promedio);
+            System.out.println("El promedio es: " + promedio);
         }
         
         System.out.println("Problema 2");
@@ -58,7 +58,7 @@ public class ProblemasAsesoriasFor {
             altura = Float.parseFloat(br.readLine());
         
             area = (base * altura) / 2;
-            System.out.println("El area es " + area);
+            System.out.println("El area es: " + area);
         }
 
         System.out.println("Problema 3");
@@ -72,7 +72,7 @@ public class ProblemasAsesoriasFor {
             radio = Float.parseFloat(br.readLine());
 
             area2 = (float) (pi * (radio * radio));
-            System.out.println("El area es " +  area2);
+            System.out.println("El area es: " +  area2);
             System.out.println("Problema 4");
 
             int ladoa;
@@ -90,7 +90,7 @@ public class ProblemasAsesoriasFor {
 
                 area = ladoa + ladob + ladoc;
 
-                System.out.println("El area es " + area);
+                System.out.println("El area es: " + area);
             }
         }
         
@@ -194,6 +194,6 @@ public class ProblemasAsesoriasFor {
             total2 = 95 * numeroalumnos;
         }
         }
-        System.out.println("El total es " + total2 + 1000);
+        System.out.println("El total es: " + total2 + 1000);
     }
 }

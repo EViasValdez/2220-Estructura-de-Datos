@@ -32,11 +32,11 @@ public class Listas {
 
         String nombre;
 
-        ejemploLista.add("Juan");
-        ejemploLista.add("Pedro");
-        ejemploLista.add("José");
-        ejemploLista.add("María");
-        ejemploLista.add("Sofía");
+        ejemploLista.add ("Juan");
+        ejemploLista.add ("Pedro");
+        ejemploLista.add ("José");
+        ejemploLista.add ("María");
+        ejemploLista.add ("Sofía");
 
         // Imprimir elementos de la lista.
         System.out.println("Elementos de la lista ");
@@ -49,7 +49,7 @@ public class Listas {
         System.out.println("Primer elemento de la lista :" + ejemploLista.get(0));
 
         // Agregar otro elemento a la lista.
-        ejemploLista.add("Alicia");
+        ejemploLista.add ("Alicia");
 
         System.out.println("Elementos de la lista con el que se agrego");
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
