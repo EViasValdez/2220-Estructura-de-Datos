@@ -45,7 +45,7 @@ public class EjercicioColas {
             cola.add (i);
         }
         
-        System.out.println("El principal es:");
+        System.out.println("El principal es");
         int primero = cola.peek();
         System.out.println(primero);
         System.out.println(cola);

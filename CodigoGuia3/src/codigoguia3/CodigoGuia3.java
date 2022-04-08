@@ -25,15 +25,15 @@ public class CodigoGuia3 {
         
         double calificacion1, calificacion2, calificacion3, calificacion4, suma = 0, promedio = 0;
         
-        System.out.println("Escribe la calificacion numero 1:");
+        System.out.println("Escribe la calificacion 1");
         calificacion1 = Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificacion numero 2:");
+        System.out.println("Escribe la calificacion 2");
         calificacion2 = Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificacion numero 3:");
+        System.out.println("Escribe la calificacion 3");
         calificacion3 = Double.parseDouble(br.readLine());
-        System.out.println("Escribe la calificacion numero 4:");
+        System.out.println("Escribe la calificacion 4");
         calificacion4 = Double.parseDouble(br.readLine());
-        System.out.println("El promedio es " + calificaciones (calificacion1, calificacion2, calificacion3, calificacion4));
+        System.out.println("El promedio es: " + calificaciones (calificacion1, calificacion2, calificacion3, calificacion4));
     }
     public static double calificaciones (double calificiacion1, double calificacion2, double calificiacion3, double calificacion4) {
         double suma;

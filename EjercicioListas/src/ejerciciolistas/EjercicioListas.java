@@ -56,12 +56,12 @@ public class EjercicioListas {
                     System.out.println("Inserte la calificacion");
                     calif = Float.parseFloat(br.readLine());
                     calificaciones.add (calif);
-                    System.out.println("La calificacion agregada es " + calificaciones);
+                    System.out.println("La calificacion agregada es: " + calificaciones);
                 }
             break;
 
             case 2:
-                System.out.println("La calificacion agregada es " + calificaciones);
+                System.out.println("La calificacion agregada es: " + calificaciones);
             break;
 
             case 3:
@@ -88,7 +88,7 @@ public class EjercicioListas {
                         aprueba = aprueba + 1;
                     }
                 }
-            System.out.println("Total de calificaiones aprobadas " + aprueba);
+            System.out.println("Total de calificaiones aprobadas: " + aprueba);
             break;
 
             case 7:
@@ -97,7 +97,7 @@ public class EjercicioListas {
                     suma = suma + calificaciones.get (i);
                 }
                 promedio = suma / calificaciones.size();
-                System.out.println("El promedio es " + promedio);
+                System.out.println("El promedio es: " + promedio);
             break;
         
             case 8:
@@ -106,7 +106,7 @@ public class EjercicioListas {
                     System.out.println("Inserte la calificacion");
                     calif = Float.parseFloat(br.readLine());
                     calificaciones.add (calif);
-                    System.out.println("La calificacion agregada es " + calificaciones);
+                    System.out.println("La calificacion agregada es: " + calificaciones);
                 }
             break;
         
@@ -120,7 +120,7 @@ public class EjercicioListas {
             break;
 
         }
-        System.out.println("¿Quieres mostrar el menu otra vez?");
+        System.out.println("¿Quiere mostrar el menu otra vez?");
         regresar = br.readLine();
         }
     }

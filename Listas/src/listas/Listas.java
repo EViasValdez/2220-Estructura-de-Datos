@@ -46,7 +46,7 @@ public class Listas {
         }
 
         System.out.println("Tamaño de la lista: " + ejemploLista.size());
-        System.out.println("Primer elemento de la lista :" + ejemploLista.get(0));
+        System.out.println("Primer elemento de la lista: " + ejemploLista.get(0));
 
         // Agregar otro elemento a la lista.
         ejemploLista.add ("Alicia");
@@ -67,7 +67,7 @@ public class Listas {
         System.out.println("Elementos de la lista despues de eliminar al elemeno de la posicion 1 de la lista");
         System.out.println(ejemploLista);
 
-        System.out.println("Escribe un nombre ");
+        System.out.println("Escribe un nombre");
         nombre = br.readLine();
 
         // Agregar el elemento que se agrego a la Lista.

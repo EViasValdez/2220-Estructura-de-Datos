@@ -28,7 +28,7 @@ public class ImpuestoArreglosMetodos {
         float precio [] = new float [4]; // La variable global tendra alcance en todo el main y en los otros metodos de este proyecto.
         
         for (int i = 0; i < 4; i++){
-            System.out.println("Escribe el Precio: ");
+            System.out.println("Escribe el Precio");
             // "int i = 0"; es el valor inicial del arreglo, es decir la primer posicion del mismo.
             // i < 4 es la condicion de fin de ciclo, es decir lo va a repetir 4 veces.
             // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo.
@@ -47,7 +47,7 @@ public class ImpuestoArreglosMetodos {
             // Es multiplicado por el valor de la constante "impuesto".
             total = precio [i] + (precio [i] * impuesto);
             // Se imprime el resulatdo de cada calculo.
-            System.out.println("total es  " + total);
+            System.out.println("El total es " + total);
         }
     }
 }

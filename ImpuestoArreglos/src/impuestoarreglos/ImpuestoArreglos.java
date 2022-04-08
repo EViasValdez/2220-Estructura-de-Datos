@@ -48,7 +48,7 @@ public class ImpuestoArreglos {
             // Se realiza la operacion del porcentaje, cada dato en cada posicion del arreglo "precio [i]".
             total = precio [i] + (precio [i] * impuesto);
             // Es enviado un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.
-            System.out.println("Total a pagar con impuesto " + total);
+            System.out.println("Total a pagar con impuesto: " + total);
         }
     }
 }

@@ -28,13 +28,13 @@ public class EjercicioCalificaciones {
         int i = 1;
         
         while (i <= 4){
-            System.out.println("Ingresa la calificacion 1: ");
+            System.out.println("Ingresa la calificacion");
             c1 = leer.nextFloat();
-            // System.out.println("ingresa la calificacion 2: ");
+            // System.out.println("Ingresa la calificacion");
             // c2 = leer.nextFloat();
-            // System.out.println("ingresa la calificacion 3: ");
+            // System.out.println("Ingresa la calificacion");
             // c3 = leer.nextFloat();
-            // System.out.println("ingresa la calificacion 4: ");
+            // System.out.println("Ingresa la calificacion");
             // c4 = leer.nextFloat();
             if (c1 >= 7)
             {

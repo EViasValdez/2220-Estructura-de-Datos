@@ -45,11 +45,11 @@ public class Arreglosconobjetos {
             case 1:
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    System.out.println("Escribe el nombre: ");
+                    System.out.println("Escribe el nombre");
                     String nombre = leer.next();
-                    System.out.println("Escribe tu edad: ");
+                    System.out.println("Escribe tu edad");
                     int edad = leer.nextInt();
-                    System.out.println("Escribe tu peso: ");
+                    System.out.println("Escribe tu peso");
                     float peso = leer.nextFloat();
 
                     // Persona pacienteTemporal = new Persona();
@@ -84,6 +84,7 @@ public class Arreglosconobjetos {
             case 3:
                 System.out.println("++++++++++++++ Mostrar todos los nombres de los pacientes ++++++++++++++");
                 String mostrar = "";
+
                 for (int i = 0; i < Pacientes.length; i++)
                 {
                     mostrar = mostrar + Pacientes [i].getNombre() + "\n"; // Se imprime la variable mostrar que en un
@@ -108,9 +109,9 @@ public class Arreglosconobjetos {
             break;
 
     }
-            System.out.println("¿Deseas mostrar el menu otra vez? (Si/No");
+            System.out.println("¿Deseas mostrar el menu otra vez? (Si/No)");
             otra = leer.next();
         } while (otra.equals("si")); // Mientras la variable otra sea igual a "si" se regresa a la 
         // instruccion do e incia el ciclo.
-        }
     }
+}

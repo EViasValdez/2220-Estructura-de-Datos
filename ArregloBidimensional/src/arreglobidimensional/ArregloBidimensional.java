@@ -30,13 +30,13 @@ public class ArregloBidimensional {
             suma = 0;
             for (int i = 0; i < 3; i++)
             {
-                System.out.print(" Escribe tu calificacion del alumno  " + k + " de la materia " + i + ": " );
+                System.out.print("Escribe la calificacion del alumno  " + k + "y de la materia " + i + ": " );
                 Calificaciones [k] [i] = Float.parseFloat(br.readLine());
                 suma = suma + Calificaciones [k] [i];
             }
             System.out.println("La suma es: " + suma);
             promedio = suma / 3;
-            System.out.println("El promedio del alumno numero " + promedio);
+            System.out.println("El promedio del alumno es: " + promedio);
         }
     }
 }
