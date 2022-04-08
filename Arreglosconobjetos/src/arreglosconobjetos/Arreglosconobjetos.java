@@ -26,7 +26,8 @@ public class Arreglosconobjetos {
         String otra;
         int opc;
 
-        do { // Ciclo do while la instruccion do significa hacer el programa estara realizando este
+        do { 
+            // Ciclo do while la instruccion do significa hacer el programa estara realizando este
             // ciclo hasta que se cumpla la condicion del while.
             System.out.println("Hospital ABC");
             System.out.println("1. Ingresar datos del paciente");
@@ -34,14 +35,14 @@ public class Arreglosconobjetos {
             System.out.println("3. Mostrar el nombre de todos los pacientes");
             System.out.println("4. Mostrar el nombre de todos los pacientes menores de edad");
             System.out.println("Elige una opcion");
-            opc = leer.nextInt();  // Se lee una opcion del menu de la opcion 1 a la 4.
+            opc = leer.nextInt(); // Se lee una opcion del menu de la opcion 1 a la 4.
         
             switch (opc) 
                 // Instruccion switch la cual va a compañada de casos
                 // evalua a la variable opc dependiendo de la opcion que aqui se ingrese 
                 // entrara al caso correspondiente caso 1, caso 2, caso 3, o caso 4.
             {
-            case 1:     
+            case 1:
                 for (int i = 0; i < Pacientes.length; i++)
                 {
                     System.out.println("Escribe el nombre: ");

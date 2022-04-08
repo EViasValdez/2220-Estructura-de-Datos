@@ -37,8 +37,8 @@ public class Main {
                      suma = suma + Calificaciones [j] [i] [k];
                 }
             }
-            System.out.println("La suma es :" + suma);
+            System.out.println("La suma es: " + suma);
             promedio = suma / 12;
-            System.out.println("El promedio del alumno numero" + k +  " es : " + promedio);
+            System.out.println("El promedio del alumno numero" + k +  " es: " + promedio);
         }
     }

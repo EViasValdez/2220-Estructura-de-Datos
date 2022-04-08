@@ -34,6 +34,7 @@ public class QuickSort {
         for (int a = inicio; a < fin; a++){
             if (ar [a] < pivot){
                 int temp = ar [inicio];
+                
                 ar [inicio] = ar [a];
                 ar [a] = temp;
                 inicio++;

@@ -48,12 +48,12 @@ public class ArregloUnidimensional {
             System.out.println("El nombre de la posicion " + i + " es : " + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres[i]".
         }
         for (int j = 0; j < Apellidos.length; j++){ // Se recorre el arerglo "Apellidos" con la variable subindice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.
-            System.out.print("Escribe el apellido numero " + (j + 1) + ":"); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.
+            System.out.print("Escribe el apellido numero " + (j + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.
             Apellidos [j] = br.readLine(); // Se ingresan los datos al arreglo "Apellidos" cada dato segun el subindice "j".
         }
         // Se recorre el arreglo "salario".
         for (int k = 0; k < salario.length; k++){
-            System.out.print("Escribe el salario numero " + (k + 1) + ":"); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.
+            System.out.print("Escribe el salario numero " + (k + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.
             salario [k] = Double.parseDouble(br.readLine()); // Se ingresan los datos al arreglo salario cada dato segun el subindice k.
         }
         // Se recorre el arreglo "salario".
