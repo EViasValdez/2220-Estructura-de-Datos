@@ -442,7 +442,7 @@ ProyectoBD/manifest.mf)
 <!----Separador del direrctorio con ubicacion de archivos---->
 
 
-<!----
+<!---- Este todavia estoy pensando donde meterlo.
 (Arreglosconobjetos/nbproject/private/private.properties, 
 Arreglosconobjetos/nbproject/private/private.xml, 
 Arreglosconobjetos/nbproject/build-impl.xml, 
