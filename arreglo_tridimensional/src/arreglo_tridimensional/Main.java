@@ -39,6 +39,6 @@ public class Main {
             }
             System.out.println("La suma es: " + suma);
             promedio = suma / 12;
-            System.out.println("El promedio del alumno" + k +  " es: " + promedio);
+            System.out.println("El promedio del alumno " + k +  " es: " + promedio);
         }
     }
