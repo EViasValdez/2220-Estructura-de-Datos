@@ -32,13 +32,13 @@ public class Main {
             {
                 for (int j = 0; j < 4; j++)
                 {
-                     System.out.print("Escribe tu calificacion del alumno " + k + " del parcial" + i + " de la materia " + j + ": ");
+                     System.out.print("Escribe la calificacion del alumno " + k + " del parcial" + i + " de la materia " + j + ": ");
                      Calificaciones [j] [i] [k] = Float.parseFloat(br.readLine());
                      suma = suma + Calificaciones [j] [i] [k];
                 }
             }
             System.out.println("La suma es: " + suma);
             promedio = suma / 12;
-            System.out.println("El promedio del alumno " + k +  " es: " + promedio);
+            System.out.println("El promedio del alumno" + k +  " es: " + promedio);
         }
     }
