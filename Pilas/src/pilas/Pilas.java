@@ -33,7 +33,7 @@ public class Pilas {
         }
 
           System.out.println("¿Esta vacia la pila?" + pila.vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
-          System.out.println("Tamaño de la pila:" + pila.size()); // Muestra el tamaño de la pila.
+          System.out.println("Tamaño de la pila: " + pila.size()); // Muestra el tamaño de la pila.
 
         System.out.println(pila.cima()); // Manda llamar al metodo cima de la clase "Pila" y regresa el elemto de la cima de la pila
         pila.desapilar(); // Una vez estando en la cima en el primer elemento de la pila manda llamar al metodo desapilar de la 
@@ -63,7 +63,7 @@ public class Pilas {
         System.out.println(cola.frente());
         cola.desencolar();
 
-        System.out.println("Elementos en la cola " + cola);
+        System.out.println("Elementos en la cola: " + cola);
         System.out.println("¿Esta vacia la cola?" + cola.vacia());
       }
 }

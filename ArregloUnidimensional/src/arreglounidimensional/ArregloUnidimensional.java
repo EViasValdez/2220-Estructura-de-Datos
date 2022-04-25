@@ -77,6 +77,7 @@ public class ArregloUnidimensional {
     
         // Es declarada la variable mayor a la cual se el asigna como valor inicial el dato de la posicion cero del arreglo "salario".
         double mayor = salario [0];
+        
         for (int k = 0; k < salario.length; k++){ // Se recorre el arreglo "salario".
             if (mayor < salario [k]){ // Si la variable mayor es menor al valor de la posicion
                 mayor = salario [k]; // del arreglo "salario [k]" entonces ese valor se le asigna a la variable mayor.

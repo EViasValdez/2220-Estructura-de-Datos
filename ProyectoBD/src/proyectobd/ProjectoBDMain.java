@@ -27,7 +27,9 @@ public class ProyectoBDMain {
 
         do {
             System.out.println("Eliga una opcion de metodo");
+
             int op;
+
             Scanner teclado = new Scanner (System.in);
 
             System.out.println("1. Metodo Burbuja");
@@ -81,7 +83,7 @@ public class ProyectoBDMain {
             break;
 
             case 4:
-                System.out.println("Merge Sort");
+                System.out.println("Merge sort");
                 int [] actual = {5, 1, 6, 2, 3 ,4};
                 mergeSort (actual, actual.length);
 
@@ -92,7 +94,7 @@ public class ProyectoBDMain {
             break;
 
             case 5:
-                System.out.println("Quick Sort");
+                System.out.println("Quick sort");
                 int [] ar = {4, 5, 1, 2, 3, 3};
                 qs (ar, 0, ar.length - 1);
 

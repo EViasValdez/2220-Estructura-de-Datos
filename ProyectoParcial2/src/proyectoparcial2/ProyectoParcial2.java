@@ -37,7 +37,7 @@ public class ProyectoParcial2 {
         System.out.println("Pulse enter para continuar");
         br.readLine(); // Espera a la lectura de datos.
         
-        System.out.println("¿Cuantos litros quiere?");
+        System.out.println("¿Cuantos litros desea meter?");
         litros = Integer.parseInt(br.readLine()); // Se ingresa la cantidad de litros a colocar.
         
         for (int i = 18; i <= litros; i++) // El for se usa para ingresar la cantidad de litros en el deposito.
@@ -62,6 +62,6 @@ public class ProyectoParcial2 {
         
         System.out.println("En porcentaje");
         porcentaje = ((litros - garraf) * 100) / litros; // Se calculan los litros que quedaron para pasarlos a porcentaje.
-        System.out.println("El porcentaje es " + porcentaje + "%"); // Se muestran los litros a porcentaje.
+        System.out.println("El porcentaje es: " + porcentaje + "%"); // Se muestran los litros a porcentaje.
     }
 }

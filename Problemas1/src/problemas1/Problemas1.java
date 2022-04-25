@@ -26,7 +26,7 @@ public class Problemas1 {
         
         int i = 1;
         while (i < 4){
-            System.out.println("Insterte Valores");
+            System.out.println("Insterte valores");
         
             System.out.println("Valor A");
             a = leer.nextInt();

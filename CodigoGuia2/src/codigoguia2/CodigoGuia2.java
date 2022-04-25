@@ -34,6 +34,6 @@ public class CodigoGuia2 {
             suma = (suma + calificacion [i]);
         }
         promedio = suma / 4;
-        System.out.println("El promedio es " + promedio);
+        System.out.println("El promedio es: " + promedio);
     }
 }

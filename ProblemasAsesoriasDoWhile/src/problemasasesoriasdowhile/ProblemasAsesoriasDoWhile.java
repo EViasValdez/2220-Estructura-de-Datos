@@ -196,7 +196,7 @@ public class ProblemasAsesoriasDoWhile {
             {
                 total2 = 95 * numeroalumnos;
             }
-            System.out.println("El total es " + total2 + 1000);
+            System.out.println("El total es: " + total2 + 1000);
         } while (g < 3);
     }
 }

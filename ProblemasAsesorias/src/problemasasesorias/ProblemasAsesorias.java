@@ -138,18 +138,18 @@ public class ProblemasAsesorias {
         
         if (cantidad1 > cantidad2 && cantidad1 > cantidad3)
         {
-            System.out.println("Cantidad 1 es mayor");
+            System.out.println("La primera cantidad es mayor");
         }
         else
         {
         if (cantidad2 > cantidad1 && cantidad2 > cantidad3)
         {
-            System.out.println("Cantidad 2 es mayor");
+            System.out.println("La segunda cantidad es mayor");
         }
         else
         if (cantidad3 > cantidad1 && cantidad3 > cantidad2)
         {
-            System.out.println("Cantidad 3 es mayor");
+            System.out.println("La tercera cantidad es mayor");
         }    
         }
         
