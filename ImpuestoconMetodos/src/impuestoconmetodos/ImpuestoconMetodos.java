@@ -34,7 +34,7 @@ public class ImpuestoconMetodos {
         // que no traiga basura como valor inicial.
         float precio; // variable global es decir tiene alcance en el main y en los demas metodos del programa.
         // Se envia un mensaje en pantalla el cual mostrara "Escribe el precio".
-        System.out.println("Escribe elpPrecio");
+        System.out.println("Escribe el precio");
         // Se lee la variable precio la linea que se lee con el objeto "br" y con el metodo readline,
         // se convierte a un dato de tipo float con el metodo parse float
         // que pertenece a la clase de los Float y se le asigna a la variable "precio".

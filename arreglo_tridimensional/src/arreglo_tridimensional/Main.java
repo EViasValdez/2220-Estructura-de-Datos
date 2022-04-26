@@ -42,3 +42,4 @@ public class Main {
             System.out.println("El promedio del alumno" + k +  " es: " + promedio);
         }
     }
+}

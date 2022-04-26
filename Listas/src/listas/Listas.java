@@ -45,12 +45,14 @@ public class Listas {
             System.out.println(ejemploLista.get(i));
         }
 
+        System.out.println("");
         System.out.println("Tamaño de la lista: " + ejemploLista.size());
         System.out.println("Primer elemento de la lista: " + ejemploLista.get(0));
 
         // Agregar otro elemento a la lista.
         ejemploLista.add ("Alicia");
 
+        System.out.println("");
         System.out.println("Elementos de la lista con el que se agrego");
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
             System.out.println(ejemploLista.get(i));
@@ -58,15 +60,18 @@ public class Listas {
 
         ejemploLista.remove("Juan");
 
+        System.out.println("");
         System.out.println("Elementos de la lista despues de eliminar a Juan");
         System.out.println(ejemploLista);
 
         // Elimina al elemento de la posicion 1 de al Lista.
         ejemploLista.remove (1);
 
+        System.out.println("");
         System.out.println("Elementos de la lista despues de eliminar al elemeno de la posicion 1 de la lista");
         System.out.println(ejemploLista);
 
+        System.out.println("");
         System.out.println("Escribe un nombre");
         nombre = br.readLine();
 
