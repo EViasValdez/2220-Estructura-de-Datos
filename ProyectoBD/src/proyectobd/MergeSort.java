@@ -50,6 +50,7 @@ public class MergeSort {
     }
     public static void main(String[] args) {
         int [] actual = {5, 1, 6, 2, 3 ,4};
+        
         mergeSort (actual, actual.length);
 
         for (int i = 0; i < actual.length; i++){

@@ -27,7 +27,7 @@ public class Pilas {
 
         //Con la clase Iterator se recorre el objeto "pila" pues se creo el objeto "iterator" de la clase "Iterator"
         Iterator iterator = pila.iterator();
-        System.out.println("Elementos de la Pila: ");
+        System.out.println("Elementos de la pila: ");
         while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo con hasNext
             System.out.print(iterator.next() + " ");  // cada uno de los elemntos de la lista se van imprimiendo.
         }
@@ -54,7 +54,7 @@ public class Pilas {
         cola.encolar ("D");
         
         System.out.println("¿Esta vacia la cola?" + cola.vacia());
-        System.out.println("Tamaño de la cola" + cola.size());
+        System.out.println("Tamaño de la cola: " + cola.size());
 
         System.out.println(cola.frente());
         cola.desencolar();

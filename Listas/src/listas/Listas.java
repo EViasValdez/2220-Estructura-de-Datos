@@ -39,7 +39,7 @@ public class Listas {
         ejemploLista.add ("Sofía");
 
         // Imprimir elementos de la lista.
-        System.out.println("Elementos de la lista ");
+        System.out.println("Elementos de la lista");
 
         for (int i = 0; i <= ejemploLista.size() - 1; i++) {
             System.out.println(ejemploLista.get(i));

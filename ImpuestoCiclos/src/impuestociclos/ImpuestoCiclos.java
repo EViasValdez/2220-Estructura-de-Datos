@@ -38,7 +38,7 @@ public class ImpuestoCiclos {
         // mientras i sea menor a 4 - condicion de fin de ciclo.
         while (i < 4){
             // Se envia un mensaje en pantalla el cual mostrara "Escribe el precio".
-            System.out.println("Escribe el Precio");
+            System.out.println("Escribe el precio");
             // Es leida la variable "precio" la linea que se lee con el objeto br y el metodo readline
             // se convierte a un dato de tipo float con el metodo parse float que pertenece
             // a la clase de los Float y se le asigna a la variable "precio".

@@ -36,7 +36,7 @@ public class EjercicioColas {
         int n;
         
         System.out.println(cola);
-        System.out.println("¿Cuantos elementos quisiera agregar?");
+        System.out.println("¿Cuantos elementos quiere agregar?");
         colaimpresion = Integer.parseInt(br.readLine());
         
         for (int i = 1; i <= colaimpresion; i++)
@@ -54,6 +54,6 @@ public class EjercicioColas {
         int remover = cola.remove();
         System.out.println("Error " + remover);
         System.out.println(cola);
-        System.out.println("El ultimo es: ");
+        System.out.println("El ultimo es");
         }
     }

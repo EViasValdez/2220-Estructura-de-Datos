@@ -36,14 +36,14 @@ public class ArregloUnidimensional {
 
         System.out.println("El nombre de la posicion uno del arreglo nombres es: " + nombres [1]); // Muesrta el dato que se almaceno en la posicion 1 del arreglo en este casoo "Luis".
         System.out.println("El numero de piezas de la posicion dos del arreglo numerodepiezas es: " + numerodepiezas [2]); // Dato de la posicion 2 del arreglo numero de piezas 67.
-        System.out.println("La calificacion de la posicion uno del arreglo calificaciones es: "+ calificaciones [0]);
-        System.out.println("La vocal de la posicion cuatro del arreglo vocales es: "+ vocales [4]);
-        System.out.println("La respuesta a tiene auto de la posicion tres del arreglo tiene_auto es: "+ tiene_auto [3]);
+        System.out.println("La calificacion de la posicion uno del arreglo calificaciones es: " + calificaciones [0]);
+        System.out.println("La vocal de la posicion cuatro del arreglo vocales es: " + vocales [4]);
+        System.out.println("La respuesta a tiene auto de la posicion tres del arreglo tiene_auto es: " + tiene_auto [3]);
 
         // Mostrar todos los elementos del arreglo "nombres", se recorrera el arreglo con el ciclo for.
         for (int i = 0; i < nombres.length; i++){ // El metodo lenght hace regferencia a tamaño del arreglo es decir a 3.
             // Es mas eficiente utilizar este metodo ya que no se cometen errores en el tamaño del arreglo que hay que 
-            // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posicion 0 y termina en n-1,
+            // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posicion 0 y termina en n - 1,
             // que es el tamaño del arreglo es decir termina en la posicion 2.
             System.out.println("El nombre de la posicion " + i + " es : " + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres[i]".
         }
