@@ -45,6 +45,7 @@ public class ProblemasAsesoriasCiclos {
             System.out.println("El promedio es: " + promedio);
             a++; 
         }
+        System.out.println("");
         
         System.out.println("Problema 2");
         float base, altura;
@@ -61,6 +62,7 @@ public class ProblemasAsesoriasCiclos {
             System.out.println("El area es: " + area);
             b++;
         }
+        System.out.println("");
         
         System.out.println("Problema 3");
         float radio;
@@ -75,6 +77,7 @@ public class ProblemasAsesoriasCiclos {
             System.out.println("El area es: " +  area2);
             c++;
         }
+        System.out.println("");
         
         System.out.println("Problema 4");
         
@@ -96,6 +99,7 @@ public class ProblemasAsesoriasCiclos {
             System.out.println("El area es: " + area);
             d++;
         }
+        System.out.println("");
         
         System.out.println("Problema 5");
         
@@ -124,6 +128,7 @@ public class ProblemasAsesoriasCiclos {
             }
             e++;
         }
+        System.out.println("");
         
         System.out.println("Problema 6");
         float cantidad;
@@ -146,6 +151,7 @@ public class ProblemasAsesoriasCiclos {
             System.out.println(total);
             f++;
         }
+        System.out.println("");
         
         System.out.println("Problema 7");
         float cantidad1;
@@ -179,6 +185,7 @@ public class ProblemasAsesoriasCiclos {
             }
             g++;
         }
+        System.out.println("");
         
         System.out.println("Problema 8");
         float numeroalumnos;
@@ -206,5 +213,6 @@ public class ProblemasAsesoriasCiclos {
             System.out.println("El total es: " + total2 + 1000);
             h++;
         }
+        System.out.println("");
     }
 }
