@@ -26,15 +26,27 @@ public class Problema {
         
         System.out.println("Test con tres numeros");
         
-        a = leer.nextInt (System.in);
-        b = leer.nextInt (System.in);
-        c = leer.nextInt (System.in);
+        a = leer.nextInt ();
+        b = leer.nextInt ();
+        c = leer.nextInt ();
         
-        if (a + b = c){
+        if (a + b == c){
+            System.out.println("");
             System.out.println("Son iguales");
         }
-        else (a + c = b){
+        else
+        if (a + c == b){
+            System.out.println("");
             System.out.println("Son iguales");
         }
+        else
+        if (b + c == a){
+            System.out.println("");
+            System.out.println("Son iguales");
+        }
+        else{
+            System.out.println("");
+            System.out.println("Son distintos");
+         }
     }
 }
