@@ -34,7 +34,7 @@ public class Impuesto {
         float precio, impuesto = .05f, total = 0;
         // Es enviado un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el precio");
-        // Se lee la variable "precio" la linea que se lee con el objeto br y el
+        // Se lee la variable "precio" la linea que se lee con el objeto "br" y el
         // metodo readline se conviertido a un dato de tipo float con el metodo
         // parse float que pertenece a la clase de los Float y se le asigna a la variable "precio".
         precio = Float.parseFloat(br.readLine());

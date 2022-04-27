@@ -25,7 +25,7 @@ public class ImpuestoconMetodos {
         // Clase BuferredReader la cual se utiliza para convertir los datos que se lean,
         // ya que por default solo lee cadenas de caractres.
         BufferedReader br = new BufferedReader (isr);
-        // Se declararon los identificadores llamados precio de tipo float -variable - asi como impuesto,
+        // Se declararon los identificadores llamados precio (variable de tipo float) asi como impuesto,
         // solo que esta es una constante ya tiene deifnido un valor 0.05f la f se le agrega
         // para especificar que es de tipo flotante y total - varibale - inicializada en cero
         // debido a que no se conoce el valor de la variable por ser el resultado de una operacion

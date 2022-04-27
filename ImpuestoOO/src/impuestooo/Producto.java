@@ -17,7 +17,7 @@ public class Producto {
     // Atributo de la clase llamado impuesto con un valor inicial de 0.05f de tipo float de acceso publico.
     public float impuesto = 0.05f;
     // Metodos get y set para los atributos
-    // El metodo set significa que el valor quu se lea desde el main se le ponga al atributo "Precio".
+    // El metodo set significa que el valor que se lea desde el main se le ponga al atributo "Precio".
     // El metodo get significa obtener es decir el valor que se le haya asignado al atributo por medio del
     // metodo set con el metodo get se obtiene.
     // Todos los atributos deberan de tener estos metodos implementados.

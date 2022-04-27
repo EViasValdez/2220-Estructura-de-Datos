@@ -27,7 +27,7 @@ public class Pilas2 {
             // Con la clase Iterator vamos a recorrer los elementos de la pila y a mostrarla.
             Iterator iterator = pila.iterator();
             System.out.println("Elementos de la pila: ");
-            while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo con hasNext
+            while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo con hasNext.
                 System.out.print(iterator.next() + " "); // se van imprimiendo cada uno de los elemntos de la lista.
             }
         }
