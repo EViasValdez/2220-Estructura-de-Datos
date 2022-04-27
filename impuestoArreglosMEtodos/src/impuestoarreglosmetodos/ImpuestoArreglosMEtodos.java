@@ -29,17 +29,17 @@ public class ImpuestoArreglosMetodos {
         
         for (int i = 0; i < 4; i++){
             System.out.println("Escribe el precio");
-            // "int i = 0"; es el valor inicial del arreglo, es decir la primer posicion del mismo.
-            // i < 4 es la condicion de fin de ciclo, es decir lo va a repetir 4 veces.
-            // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo.
+            // "int i = 0;"" es el valor inicial del arreglo, es decir la primer posicion del mismo.
+            // "i < 4" es la condicion de fin de ciclo, que lo repetira 4 veces.
+            // i++ equivale a escribir "i = i + 1" refiriendose al contador que realiza el numero de veces del ciclo.
             precio [i] = Float.parseFloat(br.readLine());
         }
-        calculo (precio);  // Se manda llamar al metodo caluclo y se le pasa como parametro el arreglo llamado "precio".
+        calculo (precio);  // Se manda llamar al metodo "caluclo" y se le pasa como parametro el arreglo llamado "precio".
     }
         // Es creado un metodo publico estatico de tipo void llamado "calculo" que recibe como parametro de entrada el arreglo "precio []".
     public static void calculo(float [] precio){
-        // Se utilizaran variables locales ya que solo funcionan en este metodo impuesto es una constante con
-        // un valor iniciar de .05 y total esta inicializada en cero por ser una variable que guarda el resultado de una operacion
+        // Se utilizaran variables locales ya que solo funcionan en este metodo impuesto es una constante con un valor iniciar de
+        // .05 y total esta inicializada en cero por ser una variable que guarda el resultado de una operacion.
         float impuesto = .05f, total = 0;
         // Se recorre el arreglo recibido precio con el ciclo for.
         for (int i = 0; i < 4; i++){

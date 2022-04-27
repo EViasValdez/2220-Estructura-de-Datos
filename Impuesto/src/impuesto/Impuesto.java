@@ -24,19 +24,18 @@ public class Impuesto {
         // Clase Buferred Reader la cual se utiliza para convertir los
         // datos que se lean ya que por default solo lee cadenas de caractres.
         BufferedReader br = new BufferedReader (isr);
-        // Los identificadores "precio" (tipo float, que es una variable) asi como "impuesto"
-        // son definidos solo que esta es una constante ya tiene deifnido un valor 0.05f, a la f se le agrega
-        // para especificar que es de tipo flotante y total - varibale - inicializada en cero
-        // debido a que no se conoce el valor de la variable por ser el resultado de una operacion
-        // es decir todas las variables que sean el resultado de una operacion se inicializan con 0
-        // pues no se sabe su valor, no se va a leer y ademas para limpiar la variable es decir
-        // que no traiga basura como valor inicial.
+        // Los identificadores "precio" (tipo float, que es una variable) asi como "impuesto" son definidos
+        // solo que esta es una constante ya tiene deifnido un valor 0.05f, a la f se le agrega para especificar
+        // que es de tipo flotante y total (variable) que esta inicializada en cero debido a que no se conoce
+        // el valor de la variable por ser el resultado de una operacion es decir todas las variables que
+        // sean el resultado de una operacion se inicializan con 0 pues no se sabe su valor, no se va a leer y
+        // ademas para limpiar la variable es decir que no traiga basura como valor inicial.
         float precio, impuesto = .05f, total = 0;
         // Es enviado un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el precio");
-        // Se lee la variable "precio" la linea que se lee con el objeto "br" y el
-        // metodo readline se conviertido a un dato de tipo float con el metodo
-        // parse float que pertenece a la clase de los Float y se le asigna a la variable "precio".
+        // Se lee la variable "precio" la linea que se lee con el objeto "br" y el metodo readline se conviertido
+        // a un dato de tipo float con el metodo parse float que pertenece a la clase de los Float y se le asigna
+        // a la variable "precio".
         precio = Float.parseFloat(br.readLine());
         // La operacion del porcentaje se realiza.
         total = precio + (precio * impuesto);

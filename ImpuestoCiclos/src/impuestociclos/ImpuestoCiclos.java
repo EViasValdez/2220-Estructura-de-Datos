@@ -27,11 +27,11 @@ public class ImpuestoCiclos {
         BufferedReader br = new BufferedReader (isr);
         // Se declararon los identificadores llamados "precio" de tipo float -variable - asi como "impuesto"
         // solo que esta es una constante ya tiene deifnido un valor 0.05f la "f" se le agrega
-        // para especificar que es de tipo flotante y total - varibale - inicializada en cero
+        // para especificar que es de tipo flotante y "total" (variable) inicializada en cero
         // debido a que no se conoce el valor de la variable por ser el resultado de una operacion
         // es decir todas las variables que sean el resultado de una operacion se inicializan con 0
-        // pues no se conoce su valor, no se va a leer y ademas para limpiar la variable
-        // es decir que no traiga basura como valor inicial.
+        // pues no se conoce su valor, no se va a leer y ademas para limpiar la variable para que
+        // no traiga basura como valor inicial.
         float precio, impuesto = .05f, total = 0;
         int i = 0;
         // Variable de tipo entero Valor Inicial del ciclo,

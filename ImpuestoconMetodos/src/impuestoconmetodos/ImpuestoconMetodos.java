@@ -27,21 +27,21 @@ public class ImpuestoconMetodos {
         BufferedReader br = new BufferedReader (isr);
         // Se declararon los identificadores llamados precio (variable de tipo float) asi como impuesto,
         // solo que esta es una constante ya tiene deifnido un valor 0.05f la f se le agrega
-        // para especificar que es de tipo flotante y total - varibale - inicializada en cero
+        // para especificar que es de tipo flotante y total (variable) inicializada en cero
         // debido a que no se conoce el valor de la variable por ser el resultado de una operacion
         // es decir todas las variables que sean el resultado de una operacion se inicializan con 0
         // pues no se conoce su valor, no se va a leer y ademas para limpiar la variable es decir
         // que no traiga basura como valor inicial.
-        float precio; // variable global es decir tiene alcance en el main y en los demas metodos del programa.
+        float precio; // La variable tiene alcance en el main y en los demas metodos del programa.
         // Se envia un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el precio");
         // Se lee la variable precio la linea que se lee con el objeto "br" y con el metodo readline,
         // se convierte a un dato de tipo float con el metodo parse float
-        // que pertenece a la clase de los Float y se le asigna a la variable "precio".
+        // perteneciente a la clase de los Float y se le asigna a la variable "precio".
         precio = Float.parseFloat(br.readLine());
-        // Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del total,
-        // solo que se manda llamar al metodo calculo y se le pasa como parametro la variable precio va y
-        // busca en el main al metodo "calculo".
+        // Se envia un mensaje para imprimir el total de la variable  a la que se le asigno el valor del 
+        // total, solo que se manda llamar al metodo calculo y se le pasa como parametro la variable "precio"
+        // va y busca en el main al metodo "calculo".
         System.out.println("Total a pagar con impuesto: " + calculo (precio));
     }
     public static float calculo (float precio) { // Metodo calculo.
