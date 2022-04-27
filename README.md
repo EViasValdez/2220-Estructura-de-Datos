@@ -8,7 +8,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Incluye uno que otro trabajo que realize durante varias asesorias de esta materia y la de algoritmos.**
 
-**- Corregi algunos errores ortograficos de algunos textos.**
+**- Corregi algunos errores ortograficos de algunos textos, ademas de problemas de funcionamiento.**
 
 **- Realice la ejecucion de los proyectos en NetBeans y todo ya tiene el directorio "nbproject".**
 <!----Separador de las notas---->
@@ -180,6 +180,34 @@ TrianguloArregloUnidimensional/nbproject/project.xml,
 TrianguloArregloUnidimensional/src/trianguloarreglounidimensional/TrianguloArregloUnidimensional.java, 
 TrianguloArregloUnidimensional/build.xml, 
 TrianguloArregloUnidimensional/manifest.mf)
+<!----Separador---->
+###### Arreglosconobjetos - 31/01/20
+(Arreglosconobjetos/nbproject/private/private.properties, 
+Arreglosconobjetos/nbproject/private/private.xml, 
+Arreglosconobjetos/nbproject/build-impl.xml, 
+Arreglosconobjetos/nbproject/genfiles.properties, 
+Arreglosconobjetos/nbproject/project.properties, 
+Arreglosconobjetos/nbproject/project.xml, 
+Arreglosconobjetos/src/arreglosconobjetos/Arreglosconobjetos.java, 
+Arreglosconobjetos/src/arreglosconobjetos/Persona.java, 
+Arreglosconobjetos/build.xml, 
+Arreglosconobjetos/manifest.mf)
+<!----Separador---->
+###### Problema - 31/01/20
+(Problema/build/classes/problema/Problema.class, 
+Problema/build/classes/problema/Problema.rs, 
+Problema/build/classes/.netbeans_automatic_build, 
+Problema/build/classes/.netbeans_update_resources, 
+Problema/nbproject/private/config.properties, 
+Problema/nbproject/private/private.properties, 
+Problema/nbproject/private/private.xml, 
+Problema/nbproject/build-impl.xml, 
+Problema/nbproject/genfiles.properties, 
+Problema/nbproject/project.properties, 
+Problema/nbproject/project.xml, 
+Problema/src/problema/Problema.java, 
+Problema/build.xml, 
+Problema/manifest.mf)
 <!----Separador---->
 ###### arreglo_tridimensional, ArregloBidimensional, impuestoOO - 03/02/20
 (arreglo_tridimensional/build/classes/arreglo_tridimensional/Main.class, 
@@ -442,16 +470,3 @@ ProyectoBD/build.xml,
 ProyectoBD/manifest.mf)
 <!----Separador---->
 <!----Separador del direrctorio con ubicacion de archivos---->
-
-<!---- Este todavia estoy pensando donde ponerlo especificamente.
-(Arreglosconobjetos/nbproject/private/private.properties, 
-Arreglosconobjetos/nbproject/private/private.xml, 
-Arreglosconobjetos/nbproject/build-impl.xml, 
-Arreglosconobjetos/nbproject/genfiles.properties, 
-Arreglosconobjetos/nbproject/project.properties, 
-Arreglosconobjetos/nbproject/project.xml, 
-Arreglosconobjetos/src/arreglosconobjetos/Arreglosconobjetos.java, 
-Arreglosconobjetos/src/arreglosconobjetos/Persona.java, 
-Arreglosconobjetos/build.xml, 
-Arreglosconobjetos/manifest.mf)
->
