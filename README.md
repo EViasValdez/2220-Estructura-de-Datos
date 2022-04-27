@@ -9,6 +9,8 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 **- Incluye uno que otro trabajo que realize durante varias asesorias de esta materia y la de algoritmos.**
 
 **- Corregi algunos errores ortograficos de algunos textos.**
+
+**- Realice la ejecucion de los proyectos en NetBeans y todo ya tiene el directorio "nbproject".**
 <!----Separador de las notas---->
 
 <!----Directorio con ubicacion de archivos---->
