@@ -20,12 +20,12 @@ public class ImpuestoconMetodos {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        // Clase InputStreamReader la cual se utiliza para leer datos.
+        // La clase InputStreamReader la cual se utiliza para leer datos.
         InputStreamReader isr = new InputStreamReader (System.in);
-        // Clase BuferredReader la cual se utiliza para convertir los datos que se lean,
-        // ya que por default solo lee cadenas de caractres.
+        // La clase BuferredReader se utiliza para convertir los datos que se lean,
+        // ya que predeterminadamente solo lee cadenas de caractres.
         BufferedReader br = new BufferedReader (isr);
-        // Se declararon los identificadores llamados precio (variable de tipo float) asi como impuesto,
+        // Se declararon los identificadores llamados "precio" (variable de tipo float) asi como "impuesto",
         // solo que esta es una constante ya tiene deifnido un valor 0.05f la f se le agrega
         // para especificar que es de tipo flotante y total (variable) inicializada en cero
         // debido a que no se conoce el valor de la variable por ser el resultado de una operacion
@@ -48,7 +48,7 @@ public class ImpuestoconMetodos {
         // Varibales locales de este metodo "impuesto" y "total", se realizar la operacion del porcentaje.
        float impuesto = .05f, total = 0;
        total = precio + (precio * impuesto); // Se realiza el calculo del total.
-       return total; // return significa retornar o regresar regresa al main en donde fue llamado el metodo 
-       // calculo, en este caso en la linea 47 y regresa el valor de la variable "total".
+       return total; // return significa retornar o regresar lleva de regreso al main en donde fue llamado
+       // el metodo calculo, en este caso en la linea 47 y regresa el valor de la variable "total".
     }
 }

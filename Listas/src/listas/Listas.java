@@ -27,7 +27,7 @@ public class Listas {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
         
-        // El tipo de dato de la lista va en mayusculas String, float, Double, Int.
+        // El tipo de dato de la lista va en mayusculas (String, float, Double, Int).
         List <String> ejemploLista = new ArrayList<String>();
 
         String nombre;

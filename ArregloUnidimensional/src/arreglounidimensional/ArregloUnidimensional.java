@@ -60,10 +60,10 @@ public class ArregloUnidimensional {
         for (int k = 0; k < salario.length; k++){
             suma = suma + salario [k]; // Se realiza la suma de los salarios con la variable de tipo acumulador llamada "suma" se ira sumando cada salario de cada posicion del arreglo con el subindice "k" por ello "salario[k]".
             if (salario [k] >= 20000){ // Si "salario [k]" es mayor o igual a 20000
-                alto++; // se sumara 1 a la variable alto ya que significa "alto = alto + 1".
-            }else{ // Si la condicion anterior no se cumple 
+                alto++; // se sumara 1 a la variable "alto" ya que significa "alto = alto + 1".
+            }else{ // Si la condicion anterior no se cumple
             if (salario [k] < 20000){ // se realiza esta condicion si el "salario[k]" es menor a 20000
-                bajo++; // se sumera 1 a la variable bajo, es decir "bajo = bajo + 1".
+                bajo++; // se suma 1 a la variable "bajo", es decir "bajo = bajo + 1".
             }
             }
         }

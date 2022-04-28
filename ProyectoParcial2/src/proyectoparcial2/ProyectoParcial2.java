@@ -23,12 +23,12 @@ public class ProyectoParcial2 {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr); // Permite agregar el "br.readline" en el Integer.
+        BufferedReader br = new BufferedReader (isr); // Permite agregar el br.readline en el Integer.
         
         Queue <Integer> deposito = new LinkedList<>(); // Es donde se crea la cola.
         
         int litros; // Se declara la variable de los litros en entero.
-        float porcentaje; // Se delclara el porcentaje en flotante.
+        float porcentaje; // Se declara el porcentaje en flotante.
         float resultado; // Aqui es similar al porcentaje pero con el resultado.
         
         System.out.println("El tanque tiene estos litros");
