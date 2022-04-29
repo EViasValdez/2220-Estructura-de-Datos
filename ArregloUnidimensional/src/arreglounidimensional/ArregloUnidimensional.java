@@ -34,18 +34,18 @@ public class ArregloUnidimensional {
         double suma = 0, promedio = 0; // Variable "suma" inicializada en cero ya que sera una variable de tipo acumulador, promedio igual a cero sera el resultado de un operacion.
         int alto = 0, bajo = 0; // Variable de tipo contador inicializadas en 0.
 
-        System.out.println("El nombre de la posicion uno del arreglo nombres es: " + nombres [1]); // Muesrta el dato que se almaceno en la posicion 1 del arreglo en este casoo "Luis".
-        System.out.println("El numero de piezas de la posicion dos del arreglo numerodepiezas es: " + numerodepiezas [2]); // Dato de la posicion 2 del arreglo numero de piezas 67.
+        System.out.println("El nombre de la posicion uno del arreglo nombres es: " + nombres [1]); // Muesrta el dato que se almaceno en la posicion 1 del arreglo en este caso "Luis".
+        System.out.println("El numero de piezas de la posicion dos del arreglo numerodepiezas es: " + numerodepiezas [2]); // Dato de la posicion 2 del arreglo "numerodepiezas".
         System.out.println("La calificacion de la posicion uno del arreglo calificaciones es: " + calificaciones [0]);
         System.out.println("La vocal de la posicion cuatro del arreglo vocales es: " + vocales [4]);
         System.out.println("La respuesta a tiene auto de la posicion tres del arreglo tiene_auto es: " + tiene_auto [3]);
 
         // Mostrar todos los elementos del arreglo "nombres", se recorrera el arreglo con el ciclo for.
-        for (int i = 0; i < nombres.length; i++){ // El metodo lenght hace regferencia a tamaño del arreglo es decir a 3.
+        for (int i = 0; i < nombres.length; i++){ // El metodo length hace regferencia a tamaño del arreglo es decir a 3.
             // Es mas eficiente utilizar este metodo ya que no se cometen errores en el tamaño del arreglo que hay que 
             // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posicion 0 y termina en n - 1,
             // que es el tamaño del arreglo es decir termina en la posicion 2.
-            System.out.println("El nombre de la posicion " + i + " es : " + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres[i]".
+            System.out.println("El nombre de la posicion" + i + " es: " + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres[i]".
         }
         for (int j = 0; j < Apellidos.length; j++){ // Se recorre el arerglo "Apellidos" con la variable subindice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.
             System.out.print("Escribe el apellido numero " + (j + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.
@@ -59,8 +59,8 @@ public class ArregloUnidimensional {
         // Se recorre el arreglo "salario".
         for (int k = 0; k < salario.length; k++){
             suma = suma + salario [k]; // Se realiza la suma de los salarios con la variable de tipo acumulador llamada "suma" se ira sumando cada salario de cada posicion del arreglo con el subindice "k" por ello "salario[k]".
-            if (salario [k] >= 20000){ // Si "salario [k]" es mayor o igual a 20000
-                alto++; // se sumara 1 a la variable "alto" ya que significa "alto = alto + 1".
+            if (salario [k] >= 20000){ // Si "salario [k]" es mayor o igual a 20000 se sumara 1
+                alto++; // a la variable "alto" ya que significa "alto = alto + 1".
             }else{ // Si la condicion anterior no se cumple
             if (salario [k] < 20000){ // se realiza esta condicion si el "salario[k]" es menor a 20000
                 bajo++; // se suma 1 a la variable "bajo", es decir "bajo = bajo + 1".

@@ -38,9 +38,8 @@ public class Arreglosconobjetos {
             opc = leer.nextInt(); // Se lee una opcion del menu de la opcion 1 a la 4.
         
             switch (opc) 
-                // Instruccion switch la cual va a compañada de casos evalua a
-                // la variable "opc" dependiendo de la opcion que ingrese entrara
-                // al caso correspondiente caso 1, caso 2, caso 3, o caso 4.
+                // La instruccion switch va acompañada de casos evalua a la variable "opc" dependiendo
+                // de la opcion que ingrese entrara al caso correspondiente caso 1, caso 2, caso 3, o caso 4.
             {
             case 1:
                 for (int i = 0; i < Pacientes.length; i++)
@@ -56,7 +55,7 @@ public class Arreglosconobjetos {
                     // pacienteTemporal.setNombre (nombre);
                     // pacienteTemporal.setEdad (edad);
                     // pacienteTemporal.setPeso (peso);
-                    Pacientes [i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancas a la clase "Persona"
+                    Pacientes [i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
                     Pacientes [i].setNombre (nombre); // Con el objeto "Pacientes [i] se manda llamar al metodo setNombre para que en este
                     // se escriba el nombre cuya variable se leyo "String nombre = leer.next();".
                     Pacientes [i].setEdad (edad);
@@ -87,8 +86,8 @@ public class Arreglosconobjetos {
 
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    mostrar = mostrar + Pacientes [i].getNombre() + "\n"; // Se imprime la variable mostrar que en un
-                } // inicio esta vacia pues asi se declaro y se le van agregando el nombre de las personas de cada posicion del arreglo "Personas".
+                    mostrar = mostrar + Pacientes [i].getNombre() + "\n"; // Se imprime la variable mostrar que en un inicio esta vacia pues
+                } // asi se declaro y se le van agregando el nombre de las personas de cada posicion del arreglo "Personas".
                 System.out.println(mostrar);
             break;
 
