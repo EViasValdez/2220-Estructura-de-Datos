@@ -43,7 +43,7 @@ public class ProblemasAsesoriasDoWhile {
             
             promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
             
-            System.out.println("El promedio es " + promedio);
+            System.out.println("El promedio es: " + promedio);
         } while (a < 3);
         
         System.out.println("Problema 2");
@@ -131,7 +131,7 @@ public class ProblemasAsesoriasDoWhile {
             {
                 total = cantidad * 85;
             }
-        else
+            else
             if (cantidad <= 1000)
             {
                 total = cantidad * 90;

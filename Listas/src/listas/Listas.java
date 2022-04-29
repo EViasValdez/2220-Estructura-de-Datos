@@ -64,7 +64,7 @@ public class Listas {
         System.out.println("Elementos de la lista despues de eliminar a Juan");
         System.out.println(ejemploLista);
 
-        // Elimina al elemento de la posicion 1 de al Lista.
+        // Elimina al elemento de la posicion 1 de la lista.
         ejemploLista.remove (1);
 
         System.out.println("");
@@ -75,7 +75,7 @@ public class Listas {
         System.out.println("Escribe un nombre");
         nombre = br.readLine();
 
-        // Agregar el elemento que se agrego a la Lista.
+        // Agregar el elemento que se agrego a la lista.
         ejemploLista.add (nombre);
 
         // Otra manera de imprimir la Lista con la clase Iterator.
@@ -92,7 +92,7 @@ public class Listas {
         // Si la lista esta vacia.
         System.out.println(ejemploLista.isEmpty());
 
-        // Cambiar el elemento del subindice 1 de la lista por Felix.
+        // Cambiar el elemento del subindice 1 de la lista por "Felix".
         ejemploLista.set (1, "Félix");
         System.out.println(ejemploLista);
         // Obtener datos entre un subindice y otro.
@@ -100,7 +100,7 @@ public class Listas {
         // Metodo dosr ordena la lista de manera ascendente (en este caso de la A a la Z).
         ejemploLista.sort (null);
         System.out.println(ejemploLista);
-        // Ordenar una Lista de manera descendete de la Z a la A.
+        // Ordena una lista de manera descendete de la Z a la A.
         Collections.sort (ejemploLista,Collections.reverseOrder());
         System.out.println(ejemploLista);
         

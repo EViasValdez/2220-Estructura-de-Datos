@@ -26,11 +26,11 @@ public class ImpuestoArreglos {
         // se lean ya que predeterminadamente solo lee cadenas de caractres.
         BufferedReader br = new BufferedReader (isr);
         // Se declararon los identificadores llamados "precio" de tipo float (cuyo tamaño es de 4) asi como "impuesto"
-        // solo que esta constante ya tiene deifnido un valor 0.05f, la f se le agrega para especificar
-        // que es de tipo flotante y total, su valor es de 0 debido a que no se conoce el valor de la
-        // variable por ser el resultado de una operacion, todas las variables que sean el resultado 
-        // de una operacion se inicializan con 0 pues si su valor es desconocido la operacion no se
-        // leera y ademas para limpiar la variable con el proposito de que no traiga basura como valor inicial.
+        // solo que esta constante ya tiene deifnido un valor 0.05f, la f se le agrega para especificar que es de tipo
+        // flotante y total, su valor es de 0 debido a que no se conoce el valor de la variable por ser el resultado de
+        // una operacion, todas las variables que sean el resultado de una operacion se inicializan con 0 pues si su
+        // valor es desconocido la operacion no se leera y ademas para limpiar la variable con el proposito de que no
+        // traiga basura como valor inicial.
         float precio [] = new float [4], impuesto = .05f, total = 0; // Todas las variables con globales.
         
         for (int i = 0; i < 4; i++){

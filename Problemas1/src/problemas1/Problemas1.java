@@ -36,15 +36,15 @@ public class Problemas1 {
             c = leer.nextInt();
         
             if (a + b == c){
-                System.out.println("Son iguales " + a + "+ " + b + " = " + c);
+                System.out.println("Son iguales " + a + "+" + b + " = " + c);
             }
             else{
             if (a + c == b){
-                System.out.println("Son iguales " + a + " + " + c + " = " + b);
+                System.out.println("Son iguales " + a + "+" + c + " = " + b);
             }
             else{
             if (b + c == a){
-                System.out.println("Son iguales " + b + " + " + c + " = " + a);
+                System.out.println("Son iguales " + b + "+" + c + " = " + a);
             }
             else{
                 System.out.println("Son distintos");

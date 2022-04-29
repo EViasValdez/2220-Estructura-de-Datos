@@ -28,8 +28,8 @@ public class Pilas {
         //Con la clase Iterator se recorre el objeto "pila" pues se creo el objeto "iterator" de la clase "Iterator"
         Iterator iterator = pila.iterator();
         System.out.println("Elementos de la pila: ");
-        while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo con hasNext
-            System.out.print(iterator.next() + " ");  // cada uno de los elemntos de la lista se van imprimiendo.
+        while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo
+            System.out.print(iterator.next() + " ");  // con hasNext cada uno de los elemntos de la lista se van imprimiendo.
         }
 
           System.out.println("¿Esta vacia la pila? " + pila.vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
@@ -45,7 +45,7 @@ public class Pilas {
 
         System.out.println("¿Esta vacia la pila? " + pila.vacia()); // Manda llamar al metodo "vacia" de la Clase "Pila".
         // Verifica si la pila esta vacia con el metodo "Empty".
-    
+      
         System.out.println("------Cola------");
         Cola cola = new Cola();
         cola.encolar ("A");

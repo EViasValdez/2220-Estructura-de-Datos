@@ -28,15 +28,15 @@ public class ImpuestoOO {
         float precio;
         // Es enviado un mensaje a pantalla con la leyenda "Escribe el precio".
         System.out.println("Escribe el precio");
-        // Es leida una linea que se convierte a un dato de tipo float con el metodo
-        // parseFloat el cual pertenece a la clase float y se asigna a la variable "precio".
+        // Es leida una linea que se convierte a un dato de tipo float con el metodo parseFloat el cual pertenece
+        // a la clase float y se asigna a la variable "precio".
         precio = Float.parseFloat(br.readLine());
         // Se agrega con el metodo set el valor del precio al atributo precio de la clase.
         prod.setPrecio (precio);
         // Se agrega con el metodo set el valor del impuesto al atributo precio de la clase.
         prod.setImpuesto (prod.impuesto);
-        // Se imrpime el resultado que se esta calculando llamando al metodo "total",
-        // que esta en la clase el cual muestra el resultado de la operacion.
+        // Se imrpime el resultado que se esta calculando llamando al metodo "total", que esta en la clase el
+        // cual muestra el resultado de la operacion.
         // Se pasan dos atrbutos que son el precio y el impuesto.
         System.out.println("El total a pagar es: " + prod.total(prod.getPrecio(), prod.getImpuesto()));
     }
