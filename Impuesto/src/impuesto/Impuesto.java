@@ -21,7 +21,7 @@ public class Impuesto {
     public static void main(String[] args) throws IOException {
         // Clase Input la cual se utiliza para leer datos.
         InputStreamReader isr = new InputStreamReader (System.in);
-        // Clase Buferred Reader la cual se utiliza para convertir los
+        // Clase BuferredReader la cual se utiliza para convertir los
         // datos que se lean ya que por default solo lee cadenas de caractres.
         BufferedReader br = new BufferedReader (isr);
         // Los identificadores "precio" (tipo float, que es una variable) asi como "impuesto" son definidos solo que
