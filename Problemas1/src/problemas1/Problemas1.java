@@ -25,6 +25,7 @@ public class Problemas1 {
         Scanner leer = new Scanner (System.in);
         
         int i = 1;
+        
         while (i < 4){
             System.out.println("Insterte valores");
         

@@ -20,10 +20,10 @@ public class ImpuestoArreglos {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        // Clase Input la cual se utiliza para leer datos
+        // La clase Input se usa para leer datos
         InputStreamReader isr = new InputStreamReader (System.in);
-        // Clase BuferredReader la cual se utiliza para convertir los datos que
-        // se lean ya que predeterminadamente solo lee cadenas de caractres.
+        // La clase BuferredReader se utiliza para convertir los datos que
+        // se lean ya que predeterminadamente solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader (isr);
         // Se declararon los identificadores llamados "precio" de tipo float (cuyo tamaño es de 4) asi como "impuesto"
         // solo que esta constante ya tiene deifnido un valor 0.05f, la f se le agrega para especificar que es de tipo

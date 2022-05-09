@@ -19,8 +19,8 @@ public class Arreglosconobjetos {
         // TODO code application logic here
         Scanner leer = new Scanner (System.in);
         Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado "Pacientes"
-        // el cual esta instanciado a la Clase Persona de tamaño 4.
-        // Cada posicion del arreglo contendra un objeto de la clase "persona" en la posicion 0
+        // el cual esta instanciado a la Clase "Persona" de tamaño 4.
+        // Cada posicion del arreglo contendra un objeto de la clase "Persona" en la posicion 0
         // del arreglo se almacenara el nombre, edad y peso de una persona.
         
         String otra;

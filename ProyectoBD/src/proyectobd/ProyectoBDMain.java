@@ -85,6 +85,7 @@ public class ProyectoBDMain {
             case 4:
                 System.out.println("Merge sort");
                 int [] actual = {5, 1, 6, 2, 3 ,4};
+
                 mergeSort (actual, actual.length);
 
                 for (int i = 0; i < actual.length; i++){
@@ -96,6 +97,7 @@ public class ProyectoBDMain {
             case 5:
                 System.out.println("Quick sort");
                 int [] ar = {4, 5, 1, 2, 3, 3};
+                
                 qs (ar, 0, ar.length - 1);
 
                 System.out.println(Arrays.toString (ar));
