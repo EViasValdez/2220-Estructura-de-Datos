@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author Alumnos
+ * @author Eduardo
  */
 public class ArregloUnidimensional {
 

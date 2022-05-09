@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author ALUMNOS
+ * @author Eduardo
  */
 public class EjercicioListas {
 

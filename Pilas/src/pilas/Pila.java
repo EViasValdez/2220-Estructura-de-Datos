@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Biblioteca digital
+ * @author Eduardo
  */
 public class Pila extends ArrayList{
     // Se añade un elemento a la pila (push).

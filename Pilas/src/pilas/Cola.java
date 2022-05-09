@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Biblioteca digital
+ * @author Eduardo
  */
 public class Cola extends ArrayList {
     // Es agregado un elemento a la cola, que se añade al final de esta.

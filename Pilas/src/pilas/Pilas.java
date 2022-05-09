@@ -9,7 +9,7 @@ import java.util.Iterator;
 
 /**
  *
- * @author Biblioteca digital
+ * @author Eduardo
  */
 public class Pilas {
 

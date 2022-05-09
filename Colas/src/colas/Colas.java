@@ -10,7 +10,7 @@ import java.util.Queue;
 
 /**
  *
- * @author Alumnos
+ * @author Eduardo
  */
 public class Colas {
 

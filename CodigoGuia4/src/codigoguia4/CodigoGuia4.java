@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author ALUMNOS
+ * @author Eduardo
  */
 public class CodigoGuia4 {
 

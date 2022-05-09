@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Biblioteca digital
+ * @author Eduardo
  */
 public class TrianguloMetodos {
 

@@ -13,7 +13,7 @@ import java.util.Queue;
 
 /**
  *
- * @author ALUMNOS
+ * @author Eduardo
  */
 public class EjercicioColas {
 
