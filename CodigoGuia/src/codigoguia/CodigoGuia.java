@@ -41,7 +41,7 @@ public class CodigoGuia {
             promedio = suma / 4;
             
             contador = contador + 1;
-    }
+        }
         System.out.println("El promedio es " + promedio);
     }
 }

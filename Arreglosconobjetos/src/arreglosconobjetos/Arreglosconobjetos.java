@@ -18,6 +18,7 @@ public class Arreglosconobjetos {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner (System.in);
+
         Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado "Pacientes"
         // el cual esta instanciado a la Clase "Persona" de tamaño 4.
         // Cada posicion del arreglo contendra un objeto de la clase "Persona" en la posicion 0
@@ -38,7 +39,7 @@ public class Arreglosconobjetos {
             opc = leer.nextInt(); // Se lee una opcion del menu de la opcion 1 a la 4.
         
             switch (opc) 
-                // La instruccion switch va acompañada de casos evalua a la variable "opc" dependiendo
+                // La instruccion switch va acompañada de casos que evaluan a la variable "opc" dependiendo
                 // de la opcion que ingrese entrara al caso correspondiente caso 1, caso 2, caso 3, o caso 4.
             {
             case 1:
