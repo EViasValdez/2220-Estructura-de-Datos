@@ -6,7 +6,7 @@ package arreglosconobjetos;
 
 /**
  *
- * @author KEVIN
+ * @author KEVIN (Correciones por EViasValdez)
  */
 public class Persona {
     private String nombre;

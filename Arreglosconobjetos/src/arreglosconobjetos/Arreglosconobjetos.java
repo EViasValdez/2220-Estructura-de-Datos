@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author KEVIN
+ * @author KEVIN (Correciones por EViasValdez)
  */
 public class Arreglosconobjetos {
 

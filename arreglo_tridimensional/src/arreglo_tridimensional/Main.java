@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author Kevin_Enoc
+ * @author Kevin_Enoc (Correciones por EViasValdez)
  */
 public class Main {
 

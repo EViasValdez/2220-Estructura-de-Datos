@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author ALUMNOS
+ * @author EViasValdez
  */
 public class Actividades {
 
