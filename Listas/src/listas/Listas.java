@@ -15,7 +15,7 @@ import java.util.List;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class Listas {
 

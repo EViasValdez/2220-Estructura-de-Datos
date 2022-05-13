@@ -10,7 +10,7 @@ import java.util.Stack;
 
 /**
  *
- * @author ALUMNOS
+ * @author EViasValdez
  */
 public class Pilas2 {
 

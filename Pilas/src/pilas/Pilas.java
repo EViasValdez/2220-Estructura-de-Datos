@@ -9,7 +9,7 @@ import java.util.Iterator;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class Pilas {
 
