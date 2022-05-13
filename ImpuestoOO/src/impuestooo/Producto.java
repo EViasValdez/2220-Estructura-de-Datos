@@ -7,7 +7,7 @@ package impuestooo;
 
 /**
  *
- * @author yayis
+ * @author yayis (Correciones por EViasValdez)
  */
 
 // Clase llamada Producto

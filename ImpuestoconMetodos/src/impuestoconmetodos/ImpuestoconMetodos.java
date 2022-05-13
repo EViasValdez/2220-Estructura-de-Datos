@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author yayis
+ * @author yayis (Correciones por EViasValdez)
  */
 public class ImpuestoconMetodos {
 

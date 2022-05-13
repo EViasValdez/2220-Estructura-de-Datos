@@ -12,7 +12,7 @@ import java.util.Stack;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class EjercicioPilas {
 
