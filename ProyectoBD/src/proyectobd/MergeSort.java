@@ -7,7 +7,7 @@ package proyectobd;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class MergeSort {
     public static void mergeSort(int[] a, int b){

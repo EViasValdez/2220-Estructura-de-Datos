@@ -7,7 +7,7 @@ package proyectobd;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class OrdenamientoPorInsercion {
     public static void main(String[] args) {

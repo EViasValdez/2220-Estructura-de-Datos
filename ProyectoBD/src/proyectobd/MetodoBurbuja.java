@@ -7,7 +7,7 @@ package proyectobd;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class MetodoBurbuja {
     public static int[] MetodBurbu(int[] arreglo)

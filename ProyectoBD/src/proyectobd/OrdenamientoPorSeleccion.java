@@ -7,7 +7,7 @@ package proyectobd;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class OrdenamientoPorSeleccion {
     public void OrdenSeleccion (int[] lista){

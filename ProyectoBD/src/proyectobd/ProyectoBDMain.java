@@ -13,7 +13,7 @@ import static proyectobd.QuickSort.qs;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class ProyectoBDMain {
 
