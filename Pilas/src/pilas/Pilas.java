@@ -55,7 +55,6 @@ public class Pilas {
         
         System.out.println("¿Esta vacia la cola?" + cola.vacia());
         System.out.println("Tamaño de la cola: " + cola.size());
-
         System.out.println(cola.frente());
         cola.desencolar();
         System.out.println(cola.frente());
