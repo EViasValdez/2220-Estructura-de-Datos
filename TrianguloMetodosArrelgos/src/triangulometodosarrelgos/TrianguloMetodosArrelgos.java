@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Eduardo
+ * @author EViasValdez
  */
 public class TrianguloMetodosArrelgos {
 

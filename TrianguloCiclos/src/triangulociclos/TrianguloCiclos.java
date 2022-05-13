@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author yayis
+ * @author yayis (Correcciones por EViasValdez)
  */
 public class TrianguloCiclos {
 
