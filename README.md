@@ -12,7 +12,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Realice la ejecucion de los proyectos en NetBeans y cada uno ya tiene el directorio "nbproject".**
 
-**- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenian el formato de NB fueron agregados en formato correspondiente.**
+**- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenian el formato de NB fueron agregados en formato correspondiente de forma posterior.**
 <!----Separador de las notas---->
 
 <!----Directorio con ubicacion de archivos---->
