@@ -36,7 +36,6 @@ public class Persona {
     public void setPeso(float peso) {
         this.peso = peso;
     }
-
     /**
      * @return the nombre
      */

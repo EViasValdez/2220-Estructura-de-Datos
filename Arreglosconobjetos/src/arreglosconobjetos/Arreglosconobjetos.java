@@ -40,7 +40,7 @@ public class Arreglosconobjetos {
         
             switch (opc) 
                 // La instruccion switch va acompañada de casos que evaluan a la variable "opc" dependiendo
-                // de la opcion que ingrese entrara al caso correspondiente caso 1, caso 2, caso 3, o caso 4.
+                // de la opcion que ingrese entrara al caso correspondiente.
             {
             case 1:
                 for (int i = 0; i < Pacientes.length; i++)

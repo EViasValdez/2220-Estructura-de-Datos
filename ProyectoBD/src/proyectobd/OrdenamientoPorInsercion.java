@@ -19,10 +19,10 @@ public class OrdenamientoPorInsercion {
             auxiliar = listaorden [a];
             b = a - 1;
 
-                while ((b >= 0) && listaorden [b] > auxiliar){
-                    listaorden [b + 1] = listaorden [b--];
-                    System.out.println(auxiliar);
-                }
+            while ((b >= 0) && listaorden [b] > auxiliar){
+                listaorden [b + 1] = listaorden [b--];
+                System.out.println(auxiliar);
+            }
         }
     }
 }
