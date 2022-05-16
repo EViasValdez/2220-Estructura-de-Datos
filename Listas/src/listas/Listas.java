@@ -97,7 +97,7 @@ public class Listas {
         System.out.println(ejemploLista);
         // Obtener datos entre un subindice y otro.
         System.out.println(ejemploLista.subList(0, 2));
-        // Metodo dosr ordena la lista de manera ascendente (en este caso de la A a la Z).
+        // El metodo ordena la lista de manera ascendente (en este caso de la A a la Z).
         ejemploLista.sort (null);
         System.out.println(ejemploLista);
         // Ordena una lista de manera descendete de la Z a la A.
