@@ -45,7 +45,7 @@ public class ArregloUnidimensional {
             // Es mas eficiente utilizar este metodo ya que no se cometen errores en el tamaño del arreglo que hay que 
             // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posicion 0 y termina en n - 1,
             // que es el tamaño del arreglo es decir termina en la posicion 2.
-            System.out.println("El nombre de la posicion" + i + " es: " + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres[i]".
+            System.out.println("El nombre de la posicion" + i + " es: " + nombres [i]); // Muestra la posicion del arreglo con la variable "i" y el dato de cada posicion del arreglo con "nombres [i]".
         }
         for (int j = 0; j < Apellidos.length; j++){ // Se recorre el arerglo "Apellidos" con la variable subindice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.
             System.out.print("Escribe el apellido numero " + (j + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subindice para que muestre el nuemro 1 primero.
@@ -62,7 +62,7 @@ public class ArregloUnidimensional {
             if (salario [k] >= 20000){ // Si "salario [k]" es mayor o igual a 20000 se sumara 1
                 alto++; // a la variable "alto" ya que significa "alto = alto + 1".
             }else{ // Si la condicion anterior no se cumple
-            if (salario [k] < 20000){ // se realiza esta condicion si el "salario[k]" es menor a 20000
+            if (salario [k] < 20000){ // se realiza esta condicion si el "salario [k]" es menor a 20000
                 bajo++; // se suma 1 a la variable "bajo", es decir "bajo = bajo + 1".
             }
             }
