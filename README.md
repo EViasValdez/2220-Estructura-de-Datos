@@ -30,7 +30,19 @@ EjercicioCalificaciones/build.xml,
 EjercicioCalificaciones/manifest.mf)
 <!----Separador---->
 ###### Problema, Problemas1 - 21/01/20
-(Problema/src/problema/Problema.java, 
+(Problema/build/classes/problema/Problema.class, 
+Problema/build/classes/problema/Problema.rs, 
+Problema/build/classes/.netbeans_automatic_build, 
+Problema/build/classes/.netbeans_update_resources, 
+Problema/nbproject/private/config.properties, 
+Problema/nbproject/private/private.properties, 
+Problema/nbproject/private/private.xml, 
+Problema/nbproject/build-impl.xml, 
+Problema/nbproject/genfiles.properties, 
+Problema/nbproject/project.properties, 
+Problema/nbproject/project.xml, 
+Problema/src/problema/Problema.java, 
+Problema/build.xml, 
 Problema/manifest.mf)
 <!--Separador-->
 (Problemas1/build/classes/problemas1/Problemas1.class, 
