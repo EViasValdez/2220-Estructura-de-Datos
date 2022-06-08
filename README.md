@@ -415,6 +415,8 @@ Pilas/build.xml,
 Pilas/manifest.mf)
 <!--Separador-->
 (Pilas2/build/classes/pilas2/Pilas2.class, 
+Pilas2/build/classes/.netbeans_automatic_build, 
+Pilas2/build/classes/.netbeans_update_resources, 
 Pilas2/nbproject/private/private.properties, 
 Pilas2/nbproject/private/private.xml, 
 Pilas2/nbproject/build-impl.xml, 
@@ -436,14 +438,16 @@ EjercicioPilas/src/EjercicioPilas/EjercicioPilas.java,
 EjercicioPilas/build.xml, 
 EjercicioPilas/manifest.mf)
 <!--Separador-->
-(EjercicioColas/build/classes/ejerciciopilas/EjercicioColas.class, 
+(EjercicioColas/build/classes/ejerciciocolas/EjercicioColas.class, 
+EjercicioColas/build/classes/.netbeans_automatic_build, 
+EjercicioColas/build/classes/.netbeans_update_resources, 
 EjercicioColas/nbproject/private/private.properties, 
 EjercicioColas/nbproject/private/private.xml, 
 EjercicioColas/nbproject/build-impl.xml, 
 EjercicioColas/nbproject/genfiles.properties, 
 EjercicioColas/nbproject/project.properties, 
 EjercicioColas/nbproject/project.xml, 
-EjercicioColas/src/EjercicioColas/EjercicioColas.java, 
+EjercicioColas/src/ejerciciocolas/EjercicioColas.java, 
 EjercicioColas/build.xml, 
 EjercicioColas/manifest.mf)
 <!----Separador---->
@@ -460,15 +464,17 @@ ProyectoParcial2/build.xml,
 ProyectoParcial2/manifest.mf)
 <!----Separador---->
 ###### Actividades - 27/02/20
-(Actividades/build/classes/actividades/Actividades.class, 
-Actividades/nbproject/private/private.properties, 
-Actividades/nbproject/private/private.xml, 
-Actividades/nbproject/build-impl.xml, 
-Actividades/nbproject/genfiles.properties, 
-Actividades/nbproject/project.properties, 
-Actividades/nbproject/project.xml, 
-Actividades/src/actividades/Actividades.java, 
-Actividades/build.xml, 
+(Actividades/build/classes/actividades/Actividades.class
+Actividades/build/classes/.netbeans_automatic_build
+Actividades/build/classes/.netbeans_update_resources
+Actividades/nbproject/private/private.properties
+Actividades/nbproject/private/private.xml
+Actividades/nbproject/build-impl.xml
+Actividades/nbproject/genfiles.properties
+Actividades/nbproject/project.properties
+Actividades/nbproject/project.xml
+Actividades/src/actividades/Actividades.java
+Actividades/build.xml
 Actividades/manifest.mf)
 <!----Separador---->
 ###### ProyectoBD - 16/12/20
