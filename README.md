@@ -351,6 +351,8 @@ Tipodedatos/build.xml,
 Tipodedatos/manifest.mf)
 <!--Separador-->
 (Listas/build/classes/listas/Listas.class, 
+Listas/build/classes/.netbeans_automatic_build, 
+Listas/build/classes/.netbeans_update_resources, 
 Listas/nbproject/private/private.properties, 
 Listas/nbproject/private/private.xml, 
 Listas/nbproject/build-impl.xml, 
@@ -362,6 +364,8 @@ Listas/build.xml,
 Listas/manifest.mf)
 <!--Separador-->
 (EjercicioListas/build/classes/ejerciciolistas/EjercicioListas.class, 
+EjercicioListas/build/classes/.netbeans_automatic_build, 
+EjercicioListas/build/classes/.netbeans_update_resources, 
 EjercicioListas/nbproject/private/private.properties, 
 EjercicioListas/nbproject/private/private.xml, 
 EjercicioListas/nbproject/build-impl.xml, 
