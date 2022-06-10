@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author KEVIN (Correciones por EViasValdez)
+ * @author KEVIN (Correcciones por EViasValdez)
  */
 public class Arreglosconobjetos {
 
@@ -21,26 +21,26 @@ public class Arreglosconobjetos {
 
         Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado "Pacientes"
         // el cual esta instanciado a la Clase "Persona" de tamaño 4.
-        // Cada posicion del arreglo contendra un objeto de la clase "Persona" en la posicion 0
+        // Cada posición del arreglo contendrá un objeto de la clase "Persona" en la posición 0
         // del arreglo se almacenara el nombre, edad y peso de una persona.
         
         String otra;
         int opc;
 
         do { 
-            // Ciclo do while la instruccion do significa hacer el programa estara realizando este
-            // ciclo hasta que se cumpla la condicion del while.
+            // Ciclo do while la instrucción do significa hacer el programa estará realizando este
+            // ciclo hasta que se cumpla la condición del while.
             System.out.println("Hospital ABC");
             System.out.println("1. Ingresar datos del paciente");
             System.out.println("2. Mostrar el paciente de mayor edad");
             System.out.println("3. Mostrar el nombre de todos los pacientes");
             System.out.println("4. Mostrar el nombre de todos los pacientes menores de edad");
-            System.out.println("Elige una opcion");
-            opc = leer.nextInt(); // Se lee una opcion del menu de la opcion 1 a la 4.
+            System.out.println("Elige una opción");
+            opc = leer.nextInt(); // Se lee una opción del menu de la opción 1 a la 4.
         
             switch (opc) 
-                // La instruccion switch va acompañada de casos que evaluan a la variable "opc" dependiendo
-                // de la opcion que ingrese entrara al caso correspondiente.
+                // La instrucción switch va acompañada de casos que evalúan a la variable "opc" dependiendo
+                // de la opción que ingrese entrara al caso correspondiente.
             {
             case 1:
                 for (int i = 0; i < Pacientes.length; i++)
@@ -57,8 +57,8 @@ public class Arreglosconobjetos {
                     // pacienteTemporal.setEdad (edad);
                     // pacienteTemporal.setPeso (peso);
                     Pacientes [i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
-                    Pacientes [i].setNombre (nombre); // Con el objeto "Pacientes [i] se manda llamar al metodo setNombre para que en este
-                    // se escriba el nombre cuya variable se leyo "String nombre = leer.next();".
+                    Pacientes [i].setNombre (nombre); // Con el objeto "Pacientes [i] se manda llamar al método setNombre para que en este
+                    // se escriba el nombre cuya variable se leyó "String nombre = leer.next();".
                     Pacientes [i].setEdad (edad);
                     Pacientes [i].setPeso (peso);
                 }
@@ -67,7 +67,7 @@ public class Arreglosconobjetos {
             case 2:
                 System.out.println("++++++++++++++ Mostrar el Paciente de mayor edad ++++++++++++++");
                 Persona pacientemayor;  // Crea un objeto llamado "pacientemayor" de tipo clase "Persona"
-                pacientemayor = Pacientes [0]; // se asigna el objeto de la pocion 0 del arreglo "Pacientes" al objeto pacientemayor
+                pacientemayor = Pacientes [0]; // se asigna el objeto de la poción 0 del arreglo "Pacientes" al objeto pacientemayor
 
                 // int i = 1;
                 for (int i = 0; i < Pacientes.length; i++) // Se recorre el arreglo "Pacientes".
@@ -88,7 +88,7 @@ public class Arreglosconobjetos {
                 for (int i = 0; i < Pacientes.length; i++)
                 {
                     mostrar = mostrar + Pacientes [i].getNombre() + "\n"; // Se imprime la variable mostrar que en un inicio esta vacia pues
-                } // asi se declaro y se le van agregando el nombre de las personas de cada posicion del arreglo "Personas".
+                } // asi se declaro y se le van agregando el nombre de las personas de cada posición del arreglo "Personas".
                 System.out.println(mostrar);
             break;
 
@@ -102,7 +102,7 @@ public class Arreglosconobjetos {
                         // es menor al numero 18 entonces
                     {
                     mostrar2 = mostrar2 + Pacientes [i].getNombre() + "\n" + Pacientes [i].getEdad() + "\n";
-                    // se obtiene el nombre de los pacientes su edad que cumplan con dicha condicion.
+                    // se obtiene el nombre de los pacientes su edad que cumplan con dicha condición.
                     }
                 }
                 System.out.println("Los pacientes menores de edad son: " + mostrar2);
@@ -112,6 +112,6 @@ public class Arreglosconobjetos {
             System.out.println("¿Deseas mostrar el menu otra vez? (Si/No)");
             otra = leer.next();
         } while (otra.equals("si")); // Mientras la variable otra sea igual a "si" se regresa a la 
-        // instruccion do e incia el ciclo.
+        // instrucción do e inicia el ciclo.
     }
 }

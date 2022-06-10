@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author yayis (Correciones por EViasValdez)
+ * @author yayis (Correcciones por EViasValdez)
  */
 public class EjercicioCalificaciones {
 
@@ -28,13 +28,13 @@ public class EjercicioCalificaciones {
         int i = 1;
         
         while (i <= 4){
-            System.out.println("Ingresa la calificacion");
+            System.out.println("Ingresa la calificación");
             c1 = leer.nextFloat();
-            // System.out.println("Ingresa la calificacion");
+            // System.out.println("Ingresa la calificación");
             // c2 = leer.nextFloat();
-            // System.out.println("Ingresa la calificacion");
+            // System.out.println("Ingresa la calificación");
             // c3 = leer.nextFloat();
-            // System.out.println("Ingresa la calificacion");
+            // System.out.println("Ingresa la calificación");
             // c4 = leer.nextFloat();
             if (c1 >= 7)
             {

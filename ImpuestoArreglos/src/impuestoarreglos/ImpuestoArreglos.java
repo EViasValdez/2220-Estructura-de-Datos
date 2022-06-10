@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author yayis (Correciones por EViasValdez)
+ * @author yayis (Correcciones por EViasValdez)
  */
 public class ImpuestoArreglos {
 
@@ -23,26 +23,26 @@ public class ImpuestoArreglos {
         // La clase Input se usa para leer datos
         InputStreamReader isr = new InputStreamReader (System.in);
         // La clase BuferredReader se utiliza para convertir los datos que
-        // se lean ya que predeterminadamente solo lee cadenas de caracteres.
+        // se lean ya que de forma predeterminada solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader (isr);
         // Se declararon los identificadores llamados "precio" de tipo float (cuyo tamaño es de 4) asi como "impuesto"
-        // solo que esta constante ya tiene deifnido un valor 0.05f, la f se le agrega para especificar que es de tipo
+        // solo que esta constante ya tiene definido un valor 0.05f, la f se le agrega para especificar que es de tipo
         // flotante y total, su valor es de 0 debido a que no se conoce el valor de la variable por ser el resultado de
-        // una operacion, todas las variables que sean el resultado de una operacion se inicializan con 0 pues si su
-        // valor es desconocido la operacion no se leera y ademas para limpiar la variable con el proposito de que no
+        // una operación, todas las variables que sean el resultado de una operación se inicializan con 0 pues si su
+        // valor es desconocido la operación no se leerá y ademas para limpiar la variable con el propósito de que no
         // traiga basura como valor inicial.
         float precio [] = new float [4], impuesto = .05f, total = 0; // Todas las variables con globales.
         
         for (int i = 0; i < 4; i++){
             // Se recorre con el ciclo for el arreglo "int i = 0;" que es el valor inicial del arreglo, es decir
-            // la primer posicion del mismo "i < 4" es la condicion de fin de ciclo, es decir lo va a repetir 4 veces
+            // la primer posición del mismo "i < 4" es la condición de fin de ciclo, es decir lo va a repetir 4 veces
             // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo
             System.out.println("Escribe el precio: ");
-            // Es leida la variable "precio [i]" ya que por tener corchetes es un arreglo, lee datos y los asigna a las posiciones
-            // del arreglo la linea que se lee con el objeto "br" y el metodo readline se convierte a un dato de tipo float
-            // con el metodo parse float que pertenece a la clase de los Float y se le asigna a la variable "precio".
+            // Es leída la variable "precio [i]" ya que por tener corchetes es un arreglo, lee datos y los asigna a las posiciones
+            // del arreglo la linea que se lee con el objeto "br" y el método readline se convierte a un dato de tipo float
+            // con el método parse float que pertenece a la clase de los Float y se le asigna a la variable "precio".
             precio [i] = Float.parseFloat (br.readLine());
-            // Se realiza la operacion del porcentaje, cada dato en cada posicion del arreglo "precio [i]".
+            // Se realiza la operación del porcentaje, cada dato en cada posición del arreglo "precio [i]".
             total = precio [i] + (precio [i] * impuesto);
             // Es enviado un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.
             System.out.println("Total a pagar con impuesto: " + total);

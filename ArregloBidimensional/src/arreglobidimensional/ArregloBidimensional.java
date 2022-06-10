@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author yayis (Correciones por EViasValdez)
+ * @author yayis (Correcciones por EViasValdez)
  */
 public class ArregloBidimensional {
 
@@ -21,7 +21,7 @@ public class ArregloBidimensional {
     public static void main(String[] args) throws IOException {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        // 3 parciales calificacion de dos alumnos.
+        // 3 parciales calificación de dos alumnos.
         float Calificaciones [] [] = new float [2] [3];
         float suma = 0, promedio = 0;
         
@@ -30,7 +30,7 @@ public class ArregloBidimensional {
             suma = 0;
             for (int i = 0; i < 3; i++)
             {
-                System.out.print("Escribe la calificacion del alumno  " + k + "y de la materia " + i + ": " );
+                System.out.print("Escribe la calificación del alumno  " + k + "y de la materia " + i + ": " );
                 Calificaciones [k] [i] = Float.parseFloat(br.readLine());
                 suma = suma + Calificaciones [k] [i];
             }

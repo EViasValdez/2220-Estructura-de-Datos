@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author yayis (Correciones por EViasValdez)
+ * @author yayis (Correcciones por EViasValdez)
  */
 public class ImpuestoArreglosMetodos {
 
@@ -22,31 +22,31 @@ public class ImpuestoArreglosMetodos {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         // La clase "BuferredReader" se utiliza para convertir los datos
-        // que se lean, ya que predeterminadamente solo lee cadenas de caractres.
+        // que se lean, ya que de forma predeterminada solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader (isr);
          // Se declararan los identificadores llamados "precio" de tipo float (cuyo arreglo es de tamaño 4).
-        float precio [] = new float [4]; // La variable global tendra alcance en todo el main y en los otros metodos de este proyecto.
+        float precio [] = new float [4]; // La variable global tendrá alcance en todo el main y en los otros métodos de este proyecto.
         
         for (int i = 0; i < 4; i++){
             System.out.println("Escribe el precio");
-            // "int i = 0;" es el valor inicial del arreglo, es decir la primer posicion del mismo.
-            // "i < 4" es la condicion de fin de ciclo, que lo repetira 4 veces.
-            // "i++" equivale a escribir "i = i + 1" refiriendose al contador que realiza el numero de veces del ciclo.
+            // "int i = 0;" es el valor inicial del arreglo, es decir la primer posición del mismo.
+            // "i < 4" es la condición de fin de ciclo, que lo repetirá 4 veces.
+            // "i++" equivale a escribir "i = i + 1" refiriéndose al contador que realiza el numero de veces del ciclo.
             precio [i] = Float.parseFloat(br.readLine());
         }
-        calculo (precio);  // Se manda llamar al metodo "caluclo" y se le pasa como parametro el arreglo llamado "precio".
+        calculo (precio);  // Se manda llamar al método "calculo" y se le pasa como parámetro el arreglo llamado "precio".
     }
-        // Es creado un metodo publico estatico de tipo void llamado "calculo" que recibe como parametro de entrada el arreglo "precio []".
+        // Es creado un método publico estatico de tipo void llamado "calculo" que recibe como parámetro de entrada el arreglo "precio []".
     public static void calculo(float [] precio){
-        // Se utilizaran variables locales ya que solo funcionan en este metodo impuesto es una constante con un
-        // valor inicial de .05 y total esta inicializada en cero por ser una variable que guarda el resultado de una operacion.
+        // Se utilizaran variables locales ya que solo funcionan en este método impuesto es una constante con un
+        // valor inicial de .05 y total esta inicializada en cero por ser una variable que guarda el resultado de una operación.
         float impuesto = .05f, total = 0;
         // Se recorre el arreglo recibido precio con el ciclo for.
         for (int i = 0; i < 4; i++){
-            // Se realiza el calculo del total cada valor de cada posicion del arreglo "precio [i]".
+            // Se realiza el calculo del total cada valor de cada posición del arreglo "precio [i]".
             // Es multiplicado por el valor de la constante "impuesto".
             total = precio [i] + (precio [i] * impuesto);
-            // Se imprime el resulatdo de cada calculo.
+            // Se imprime el resultado de cada calculo.
             System.out.println("El total es: " + total);
         }
     }

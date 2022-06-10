@@ -34,7 +34,7 @@ public class Colas {
               // "To view the head of queue" muestra el primer elemento de la cola.
               int head = q.peek();
               System.out.println("Head of queue: " + head);
-              int size = q.size(); // Asigna el tamaño de la cola con el metodo "size" de la cola "q" a la variable "size".
+              int size = q.size(); // Asigna el tamaño de la cola con el método "size" de la cola "q" a la variable "size".
               System.out.println("Size of queue: " + size);
         }
     }

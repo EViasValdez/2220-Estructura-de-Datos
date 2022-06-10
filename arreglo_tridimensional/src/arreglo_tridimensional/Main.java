@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 /**
  *
- * @author Kevin_Enoc (Correciones por EViasValdez)
+ * @author Kevin_Enoc (Correcciones por EViasValdez)
  */
 public class Main {
 
@@ -32,7 +32,7 @@ public class Main {
             {
                 for (int j = 0; j < 4; j++)
                 {
-                     System.out.print("Escribe la calificacion del alumno " + k + " del parcial" + i + " de la materia " + j + ": ");
+                     System.out.print("Escribe la calificación del alumno " + k + " del parcial" + i + " de la materia " + j + ": ");
                      Calificaciones [j] [i] [k] = Float.parseFloat(br.readLine());
                      suma = suma + Calificaciones [j] [i] [k];
                 }

@@ -25,7 +25,7 @@ public class CodigoGuia3 {
         
         double calificacion1, calificacion2, calificacion3, calificacion4, suma = 0, promedio = 0;
         
-        System.out.println("Escribe la calificacion 1");
+        System.out.println("Escribe la calificación 1");
         calificacion1 = Double.parseDouble(br.readLine());
         System.out.println("Escribe la calificacion 2");
         calificacion2 = Double.parseDouble(br.readLine());
