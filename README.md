@@ -1,22 +1,22 @@
 # Estructura de datos
-<!----Descripcion---->
+<!----Descripción---->
 Estos son los trabajos que hice durante el segundo cuatrimestre, estos documentos fueron completamente creados con el lenguaje Java.
-<!----Separador de la descripcion ---->
+<!----Separador de la descripción ---->
 
 <!----Notas---->
 **Notas**
 
-**- Incluye uno que otro trabajo que realize durante varias asesorias de esta materia y la de algoritmos.**
+**- Incluye uno que otro trabajo que realize durante varias asesorías de esta materia y la de algoritmos.**
 
-**- Corregi algunos errores ortograficos de algunos textos, ademas de problemas de funcionamiento.**
+**- Corregí algunos errores ortográficos de algunos textos, ademas de problemas de funcionamiento.**
 
-**- Realice la ejecucion de los proyectos en NetBeans y cada uno ya tiene el directorio "nbproject".**
+**- Realice la ejecución de los proyectos en NetBeans y cada uno ya tiene el directorio "nbproject".**
 
-**- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenian el formato de NB fueron agregados en formato correspondiente.**
+**- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB fueron agregados en formato correspondiente.**
 <!----Separador de las notas---->
 
-<!----Directorio con ubicacion de archivos---->
-# Directorio con ubicacion de archivos
+<!----Directorio con ubicación de archivos---->
+# Directorio con ubicación de archivos
 ###### EjercicioCalifiaciones - 20/01/20
 (EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class, 
 EjercicioCalificaciones/nbproject/private/private.properties, 
@@ -546,4 +546,4 @@ ProyectoBD/src/proyectobd/QuickSort.java,
 ProyectoBD/build.xml, 
 ProyectoBD/manifest.mf)
 <!----Separador---->
-<!----Separador del direrctorio con ubicacion de archivos---->
+<!----Separador del directorio con ubicación de archivos---->
