@@ -32,12 +32,12 @@ public class Pilas {
             System.out.print(iterator.next() + " ");  // con hasNext cada uno de los elemntos de la lista se van imprimiendo.
         }
 
-          System.out.println("¿Esta vacia la pila? " + pila.vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
-          System.out.println("Tamaño de la pila: " + pila.size()); // Muestra el tamaño de la pila.
+        System.out.println("¿Esta vacia la pila? " + pila.vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
+        System.out.println("Tamaño de la pila: " + pila.size()); // Muestra el tamaño de la pila.
 
         System.out.println(pila.cima()); // Manda llamar al metodo cima de la clase "Pila" y regresa el elemto de la cima de la pila
         pila.desapilar(); // Una vez estando en la cima en el primer elemento de la pila manda llamar al metodo desapilar de la 
-        System.out.println(pila.cima());// clase Pila en el metodo desapilar elimina el elemento de la pila con el metodo "remove".
+        System.out.println(pila.cima()); // clase Pila en el metodo desapilar elimina el elemento de la pila con el metodo "remove".
         pila.desapilar();
         System.out.println(pila.cima());
         pila.desapilar();

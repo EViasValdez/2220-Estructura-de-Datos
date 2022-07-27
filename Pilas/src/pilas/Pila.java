@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author EViasValdez
  */
-public class Pila extends ArrayList{
+public class Pila extends ArrayList {
     // Se añade un elemento a la pila (push).
     public void apilar(Object dato){
         if (dato != null){
