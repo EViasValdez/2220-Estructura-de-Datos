@@ -27,7 +27,7 @@ public class EjercicioCalificaciones {
         // float c4;
         int i = 1;
         
-        while (i <= 4){
+        while (i <= 4) {
             System.out.println("Ingresa la calificación");
             c1 = leer.nextFloat();
             // System.out.println("Ingresa la calificación");

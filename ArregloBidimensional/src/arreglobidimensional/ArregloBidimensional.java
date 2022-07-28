@@ -30,7 +30,7 @@ public class ArregloBidimensional {
             suma = 0;
             for (int i = 0; i < 3; i++)
             {
-                System.out.print("Escribe la calificación del alumno  " + k + "y de la materia " + i + ": " );
+                System.out.print("Escribe la calificación del alumno  " + k + "y de la materia " + i + ": ");
                 Calificaciones [k] [i] = Float.parseFloat(br.readLine());
                 suma = suma + Calificaciones [k] [i];
             }

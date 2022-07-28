@@ -34,7 +34,7 @@ public class Actividades {
         int el = 0;
         el = leer.nextInt();
         
-        switch (el){
+        switch (el) {
         case 1:
             InputStreamReader isr = new InputStreamReader(System.in);
             BufferedReader br = new BufferedReader (isr);

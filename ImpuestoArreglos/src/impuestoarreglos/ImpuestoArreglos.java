@@ -33,7 +33,7 @@ public class ImpuestoArreglos {
         // traiga basura como valor inicial.
         float precio [] = new float [4], impuesto = .05f, total = 0; // Todas las variables con globales.
         
-        for (int i = 0; i < 4; i++){
+        for (int i = 0; i < 4; i++) {
             // Se recorre con el ciclo for el arreglo "int i = 0;" que es el valor inicial del arreglo, es decir
             // la primer posición del mismo "i < 4" es la condición de fin de ciclo, es decir lo va a repetir 4 veces
             // i++ equivale a escribir i = i + 1 es decir es el contador que realiza el numero de veces del ciclo

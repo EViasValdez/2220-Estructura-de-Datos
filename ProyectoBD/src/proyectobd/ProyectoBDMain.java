@@ -39,7 +39,7 @@ public class ProyectoBDMain {
             System.out.println("5. Quick Sort");
             op = teclado.nextInt();
 
-            switch (op){
+            switch (op) {
             case 1:
                 System.out.println("Metodo burbuja");
                 int arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
@@ -57,7 +57,7 @@ public class ProyectoBDMain {
                 int a, b;
                 int auxiliar;
 
-                for (a = 1; a < 100; a++){
+                for (a = 1; a < 100; a++) {
                     auxiliar = listaorden [a];
                     b = a - 1;
 
@@ -88,7 +88,7 @@ public class ProyectoBDMain {
 
                 mergeSort (actual, actual.length);
 
-                for (int i = 0; i < actual.length; i++){
+                for (int i = 0; i < actual.length; i++) {
                     System.out.println(actual [i]);
                 }
                 System.out.println("======================================");

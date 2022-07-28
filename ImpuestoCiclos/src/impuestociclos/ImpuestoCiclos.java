@@ -35,7 +35,7 @@ public class ImpuestoCiclos {
         int i = 0;
         // Variable de tipo entero Valor Inicial del ciclo,
         // mientras i sea menor a 4 - condición de fin de ciclo.
-        while (i < 4){
+        while (i < 4) {
             // Se envía un mensaje en pantalla el cual mostrara "Escribe el precio".
             System.out.println("Escribe el precio");
             // Es leída la variable "precio" la linea que se lee con el objeto br y el método readline

@@ -30,17 +30,17 @@ public class Problema {
         b = leer.nextInt ();
         c = leer.nextInt ();
         
-        if (a + b == c){
+        if (a + b == c) {
             System.out.println("");
             System.out.println("Son iguales");
         }
         else
-        if (a + c == b){
+        if (a + c == b) {
             System.out.println("");
             System.out.println("Son iguales");
         }
         else
-        if (b + c == a){
+        if (b + c == a) {
             System.out.println("");
             System.out.println("Son iguales");
         }

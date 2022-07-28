@@ -15,11 +15,11 @@ public class OrdenamientoPorInsercion {
         int a, b;
         int auxiliar;
     
-        for (a = 1; a < 100; a++){
+        for (a = 1; a < 100; a++) {
             auxiliar = listaorden [a];
             b = a - 1;
 
-            while ((b >= 0) && listaorden [b] > auxiliar){
+            while ((b >= 0) && listaorden [b] > auxiliar) {
                 listaorden [b + 1] = listaorden [b--];
                 System.out.println(auxiliar);
             }

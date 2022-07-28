@@ -22,7 +22,7 @@ public class Colas {
         Queue <Integer> q = new LinkedList<>(); 
         
         // Agrega los elementos {0, 1, 2, 3, 4} a la cola.
-        for (int i = 0; i < 5; i++){
+        for (int i = 0; i < 5; i++) {
               q.add (i);
               // Muestra contenidos de la cola.
               System.out.println("Elements of queue: " + q);

@@ -10,7 +10,7 @@ package proyectobd;
  * @author EViasValdez
  */
 public class MergeSort {
-    public static void mergeSort(int[] a, int b){
+    public static void mergeSort(int[] a, int b) {
         if (b < 2){
             return;
         }
@@ -19,10 +19,10 @@ public class MergeSort {
         int [] iz = new int [med];
         int [] de = new int [b - med];
     
-        for (int c = 0; c < med; c++){
+        for (int c = 0; c < med; c++) {
             iz [c] = a [c];
         }
-        for (int c = med; c < b; c++){
+        for (int c = med; c < b; c++) {
             de [c - med] = a [c];
         }
         
@@ -30,10 +30,10 @@ public class MergeSort {
         mergeSort (de, b - med);
         merge (a, iz, de, med, b - med);
     }
-    public static void merge(int[] ar, int iz[], int de[], int izqu, int dere){
+    public static void merge(int[] ar, int iz[], int de[], int izqu, int dere) {
         int i = 0, j = 0, k = 0;
 
-        while (i < izqu && j < dere){
+        while (i < izqu && j < dere) {
             if (iz [i] <= de [j]){
                 ar [k++] = iz [i++];
             }
@@ -53,7 +53,7 @@ public class MergeSort {
         
         mergeSort (actual, actual.length);
 
-        for (int i = 0; i < actual.length; i++){
+        for (int i = 0; i < actual.length; i++) {
             System.out.println(actual [i]);
         }
     }

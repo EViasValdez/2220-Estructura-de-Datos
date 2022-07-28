@@ -26,7 +26,7 @@ public class Problemas1 {
         
         int i = 1;
         
-        while (i < 4){
+        while (i < 4) {
             System.out.println("Insterte valores");
         
             System.out.println("Valor A");
@@ -36,15 +36,15 @@ public class Problemas1 {
             System.out.println("Valor C");
             c = leer.nextInt();
         
-            if (a + b == c){
+            if (a + b == c) {
                 System.out.println("Son iguales " + a + "+" + b + " = " + c);
             }
             else{
-            if (a + c == b){
+            if (a + c == b) {
                 System.out.println("Son iguales " + a + "+" + c + " = " + b);
             }
             else{
-            if (b + c == a){
+            if (b + c == a) {
                 System.out.println("Son iguales " + b + "+" + c + " = " + a);
             }
             else{

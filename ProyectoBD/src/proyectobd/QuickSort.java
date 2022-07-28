@@ -21,18 +21,18 @@ public class QuickSort {
     public static void qs (int[] ar, int inicio, int fin){
         int particion = particion(ar, inicio, fin);
     
-        if (particion - 1 > inicio){
+        if (particion - 1 > inicio) {
             qs (ar, inicio, particion - 1);
         }
-        if (particion + 1 < fin){
+        if (particion + 1 < fin) {
             qs (ar, fin, particion - 1);
         }
     }
     public static int particion(int[] ar, int inicio, int fin){
         int pivot = ar [fin];
     
-        for (int a = inicio; a < fin; a++){
-            if (ar [a] < pivot){
+        for (int a = inicio; a < fin; a++) {
+            if (ar [a] < pivot) {
                 int temp = ar [inicio];
                 
                 ar [inicio] = ar [a];
