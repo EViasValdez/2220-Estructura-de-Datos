@@ -32,7 +32,7 @@ public class TrianguloMetodosArrelgos {
         
         Scanner leer = new Scanner (System.in);
         
-        for (int i = 0; i < 3; i++){
+        for (int i = 0; i < 3; i++) {
             System.out.println("Ponga sus cantidades");
             lado [i] = Integer.parseInt(br.readLine());
         }

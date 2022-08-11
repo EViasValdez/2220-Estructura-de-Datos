@@ -18,7 +18,7 @@ public class QuickSort {
 
         System.out.println(Arrays.toString (ar));
     }
-    public static void qs (int[] ar, int inicio, int fin){
+    public static void qs (int[] ar, int inicio, int fin) {
         int particion = particion(ar, inicio, fin);
     
         if (particion - 1 > inicio) {
@@ -28,7 +28,7 @@ public class QuickSort {
             qs (ar, fin, particion - 1);
         }
     }
-    public static int particion(int[] ar, int inicio, int fin){
+    public static int particion(int[] ar, int inicio, int fin) {
         int pivot = ar [fin];
     
         for (int a = inicio; a < fin; a++) {

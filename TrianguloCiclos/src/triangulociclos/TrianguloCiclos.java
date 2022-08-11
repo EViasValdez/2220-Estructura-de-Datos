@@ -26,7 +26,7 @@ public class TrianguloCiclos {
         
         int i = 1;
         
-        while (i < 3){
+        while (i < 3) {
             System.out.println("Ponga sus cantidades");
             System.out.println("Inserte primera cantidad");
             ladoa = leer.nextInt();

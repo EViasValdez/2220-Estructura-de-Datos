@@ -34,17 +34,17 @@ public class MergeSort {
         int i = 0, j = 0, k = 0;
 
         while (i < izqu && j < dere) {
-            if (iz [i] <= de [j]){
+            if (iz [i] <= de [j]) {
                 ar [k++] = iz [i++];
             }
         else {
             ar [k++] = de [j++];
         }
         }
-        while (i < izqu){
+        while (i < izqu) {
             ar [k++] = iz [i++];
         }
-        while (j < dere){
+        while (j < dere) {
             ar [k++] = de [j++];
         }
     }

@@ -31,7 +31,7 @@ public class Tipodedatos {
         nombre = br.readLine();
         
         System.out.println("Escribe tu grupo");
-        grupo = (char) br.read();
+        grupo = (char)br.read();
         
         System.out.println("Escribe tu promedio");
         promedio = Float.parseFloat(br.readLine());
