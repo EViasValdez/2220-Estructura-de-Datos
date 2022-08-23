@@ -39,8 +39,8 @@ public class Arreglosconobjetos {
             opc = leer.nextInt(); // Se lee una opción del menu de la opción 1 a la 4.
         
             switch (opc) 
-                // La instrucción switch va acompañada de casos que evalúan a la variable "opc" dependiendo
-                // de la opción que ingrese entrara al caso correspondiente.
+            // La instrucción switch va acompañada de casos que evalúan a la variable "opc" dependiendo
+            // de la opción que ingrese entrara al caso correspondiente.
             {
             case 1:
                 for (int i = 0; i < Pacientes.length; i++)

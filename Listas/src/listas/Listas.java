@@ -103,7 +103,7 @@ public class Listas {
         // Ahora con este metodo los ordena de manera descendete de la Z a la A.
         Collections.sort (ejemploLista,Collections.reverseOrder());
         System.out.println(ejemploLista);
-        
+
         // Vaciar la lista.
         ejemploLista.clear();
         System.out.println(ejemploLista);

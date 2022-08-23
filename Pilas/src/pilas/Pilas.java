@@ -45,14 +45,14 @@ public class Pilas {
 
         System.out.println("¿Esta vacia la pila? " + pila.vacia()); // Manda llamar al metodo "vacia" de la Clase "Pila".
         // Verifica si la pila esta vacia con el metodo "Empty".
-      
+
         System.out.println("------Cola------");
         Cola cola = new Cola();
         cola.encolar ("A");
         cola.encolar ("B");
         cola.encolar ("C");
         cola.encolar ("D");
-        
+
         System.out.println("¿Esta vacia la cola?" + cola.vacia());
         System.out.println("Tamaño de la cola: " + cola.size());
         System.out.println(cola.frente());
