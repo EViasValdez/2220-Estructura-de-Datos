@@ -18,8 +18,8 @@ public class Producto {
     public float impuesto = 0.05f;
     // Metodos get y set para los atributos.
     // El metodo set significa que el valor que se lea desde el main se le ponga al atributo "Precio".
-    // El metodo get significa obtener es decir el valor que se le haya asignado al atributo por medio del
-    // metodo set con el metodo get se obtiene.
+    // Tambien significa obtener es decir el valor que se le haya asignado al atributo por medio del
+    // metodo set con el metodo get es obtenido.
     // Todos los atributos deberan de tener estos metodos implementados.
     // En esta clase no se especifico el metodo constructor.
     public float getPrecio() {
