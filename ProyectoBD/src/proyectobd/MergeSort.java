@@ -11,7 +11,7 @@ package proyectobd;
  */
 public class MergeSort {
     public static void mergeSort(int[] a, int b) {
-        if (b < 2){
+        if (b < 2) {
             return;
         }
 

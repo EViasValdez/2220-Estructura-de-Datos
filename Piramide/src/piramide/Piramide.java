@@ -17,7 +17,7 @@ public class Piramide {
     public static void main(String[] args) {
         // TODO code application logic here
         int uno = 100000;
-            
+        
         for (int x = uno; x <= uno; x++) {
             for (int y = 2; x <= uno; y++) {
                 System.out.println("*");
