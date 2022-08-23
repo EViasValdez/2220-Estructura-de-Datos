@@ -38,8 +38,9 @@ public class ImpuestoArreglosMetodos {
     }
         // Es creado un método publico estatico de tipo void llamado "calculo" que recibe como parámetro de entrada el arreglo "precio []".
     public static void calculo(float [] precio) {
-        // Se utilizaran variables locales ya que solo funcionan en este método impuesto es una constante con un
-        // valor inicial de .05 y total esta inicializada en cero por ser una variable que guarda el resultado de una operación.
+        // Se utilizaran variables locales ya que solo funcionan en este método impuesto es una constante 
+        // con un valor inicial de .05 y total esta inicializada en cero por ser una variable que guarda el 
+        // resultado de una operación.
         float impuesto = .05f, total = 0;
         // Se recorre el arreglo recibido precio con el ciclo for.
         for (int i = 0; i < 4; i++) {

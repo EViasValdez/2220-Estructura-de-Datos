@@ -23,7 +23,7 @@ public class Pilas2 {
         // Se recorre con un ciclo pop al objeto "pila" para ingresar datos en la pila con el metodo push.
         for (int x = 1; x <= 10; x++) {
             pila.push (Integer.toString(x));
-            // Con la clase Iterator vamos a recorrer los elementos de la pila y a mostrarla.
+            // Con la clase Iterator se recorreran los elementos de la pila y a mostrarla.
             Iterator iterator = pila.iterator();
             System.out.println("Elementos de la pila: ");
             while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo con hasNext

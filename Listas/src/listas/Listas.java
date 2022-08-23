@@ -100,7 +100,7 @@ public class Listas {
         // El metodo ordena la lista de manera ascendente (en este caso de la A a la Z).
         ejemploLista.sort (null);
         System.out.println(ejemploLista);
-        // Ordena una lista de manera descendete de la Z a la A.
+        // Ahora con este metodo los ordena de manera descendete de la Z a la A.
         Collections.sort (ejemploLista,Collections.reverseOrder());
         System.out.println(ejemploLista);
         
