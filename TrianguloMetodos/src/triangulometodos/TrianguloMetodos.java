@@ -21,9 +21,9 @@ public class TrianguloMetodos {
         int ladoa;
         int ladob;
         int ladoc;
-        
+
         Scanner leer = new Scanner (System.in);
-        
+
         System.out.println("Ponga sus cantidades");
         System.out.println("Inserte primera cantidad");
         ladoa = leer.nextInt();
@@ -31,7 +31,7 @@ public class TrianguloMetodos {
         ladob = leer.nextInt();
         System.out.println("Inserte tercera cantidad");
         ladoc = leer.nextInt();
-        
+
         triangulo (ladoa, ladob, ladoc);
     }
     public static void triangulo(int ladoa, int ladob, int ladoc) {

@@ -22,15 +22,15 @@ public class TriangulosArreglos {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         int ladoa;
         int ladob;
         int ladoc;
-        
+
         int lado [] = new int [3];
-        
+
         Scanner leer = new Scanner (System.in);
-        
+
         System.out.println("Ponga sus cantidades");
         System.out.println("Inserte primera cantidad");
         ladoa = leer.nextInt();
@@ -38,7 +38,7 @@ public class TriangulosArreglos {
         ladob = leer.nextInt();
         System.out.println("Inserte tercera cantidad");
         ladoc = leer.nextInt();
-        
+
         if (ladoa == ladob && ladob == ladoc) {
             System.out.println("El triangulo mostrado es un triangulo equilatero");
         }

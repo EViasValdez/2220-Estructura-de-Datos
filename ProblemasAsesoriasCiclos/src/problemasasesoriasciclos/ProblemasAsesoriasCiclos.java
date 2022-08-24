@@ -24,12 +24,12 @@ public class ProblemasAsesoriasCiclos {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
         Scanner leer = new Scanner (System.in);
-        
+
         System.out.println ("Problema 1");
         float calificacion1, calificacion2, calificacion3, calificacion4;
         float promedio;
         int a = 1;
-        
+
         while (a < 3) {
             System.out.println("Ingese calificacion 1");
             calificacion1 = Float.parseFloat(br.readLine());
@@ -51,7 +51,7 @@ public class ProblemasAsesoriasCiclos {
         float base, altura;
         float area;
         int b = 1;
-        
+
         while (b < 3) {
             System.out.println("Ingrese base");
             base = Float.parseFloat(br.readLine());
@@ -69,7 +69,7 @@ public class ProblemasAsesoriasCiclos {
         double pi = 3.1416;
         float area2;
         int c = 1;
-        
+
         while (c < 3) {
             System.out.println("Ingese radio");
             radio = Float.parseFloat(br.readLine());
@@ -78,14 +78,14 @@ public class ProblemasAsesoriasCiclos {
             c++;
         }
         System.out.println("");
-        
+
         System.out.println("Problema 4");
-        
+
         int ladoa;
         int ladoc;
         int ladob;
         int d = 1;
-        
+
         while (d < 3) {
             System.out.println("Ingrese lado a");
             ladoa = leer.nextInt();
@@ -102,10 +102,10 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("");
         
         System.out.println("Problema 5");
-        
+
         int numero;
         int e = 1;
-        
+
         while (e < 3) {
             System.out.println("Ingese numero");
             numero = leer.nextInt();
@@ -129,12 +129,12 @@ public class ProblemasAsesoriasCiclos {
             e++;
         }
         System.out.println("");
-        
+
         System.out.println("Problema 6");
         float cantidad;
         float total = 0;
         int f = 1;
-        
+
         while (f < 3) {
             System.out.println("Ingrese cantidad");
             cantidad = Float.parseFloat (br.readLine());
@@ -152,7 +152,7 @@ public class ProblemasAsesoriasCiclos {
             f++;
         }
         System.out.println("");
-        
+
         System.out.println("Problema 7");
         float cantidad1;
         float cantidad2;
@@ -166,7 +166,7 @@ public class ProblemasAsesoriasCiclos {
             cantidad2 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese cantidad 3");
             cantidad3 = Float.parseFloat(br.readLine());
-        
+
             if (cantidad1 > cantidad2 && cantidad1 > cantidad3)
             {
                 System.out.println("Cantidad 1 es mayor");
@@ -186,12 +186,12 @@ public class ProblemasAsesoriasCiclos {
             g++;
         }
         System.out.println("");
-        
+
         System.out.println("Problema 8");
         float numeroalumnos;
         float total2 = 0;
         int h = 1;
-        
+
         while (h > 3) {
             System.out.println("Ingrese numero de alumnos");
             numeroalumnos = Float.parseFloat(br.readLine());

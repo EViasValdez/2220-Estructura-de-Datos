@@ -22,9 +22,9 @@ public class CodigoGuia3 {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         double calificacion1, calificacion2, calificacion3, calificacion4, suma = 0, promedio = 0;
-        
+
         System.out.println("Escribe la calificación 1");
         calificacion1 = Double.parseDouble(br.readLine());
         System.out.println("Escribe la calificacion 2");
@@ -38,10 +38,10 @@ public class CodigoGuia3 {
     public static double calificaciones(double calificiacion1, double calificacion2, double calificiacion3, double calificacion4) {
         double suma;
         double promedio;
-        
+
         suma = (calificiacion1 + calificacion2 + calificiacion3 + calificacion4);
         promedio = suma / 4;
-        
+
         return promedio;
     }
 }

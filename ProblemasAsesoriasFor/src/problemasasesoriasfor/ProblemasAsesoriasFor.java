@@ -24,9 +24,9 @@ public class ProblemasAsesoriasFor {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
         Scanner leer = new Scanner (System.in);
-        
+
         System.out.println("Problema 1");
-        
+
         float calificacion1, calificacion2, calificacion3, calificacion4;
         float promedio;
         
@@ -93,13 +93,13 @@ public class ProblemasAsesoriasFor {
                 System.out.println("El area es: " + area);
             }
         }
-        
+
         System.out.println("Problema 5");
         int numero;
-        
+
         System.out.println("Ingese numero");
         numero = leer.nextInt();
-        
+
         if (numero > 0)
         {
             System.out.println("El numero es positivo");
@@ -116,7 +116,7 @@ public class ProblemasAsesoriasFor {
              System.out.println("El numero es neutro");
         }
         }
-        
+
         System.out.println("Problema 6");
         float cantidad;
         float total = 0;
@@ -137,12 +137,12 @@ public class ProblemasAsesoriasFor {
         }
             System.out.println(total);
         }
-        
+
         System.out.println("Problema 7");
         float cantidad1;
         float cantidad2;
         float cantidad3;
-        
+
         for (int f = 1; f < 3; f++)
         {
             System.out.println("Ingrese cantidad 1");
@@ -151,7 +151,7 @@ public class ProblemasAsesoriasFor {
             cantidad2 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese cantidad 3");
             cantidad3 = Float.parseFloat(br.readLine());
-        
+
             if (cantidad1 > cantidad2 && cantidad1 > cantidad3)
             {
                 System.out.println("Cantidad 1 es mayor");
@@ -173,12 +173,12 @@ public class ProblemasAsesoriasFor {
         System.out.println("Problema 8");
         float numeroalumnos;
         float total2 = 0;
-        
+
         for (int g = 1; g < 3; g++)
         {
             System.out.println("Ingrese numero de alumnos");
             numeroalumnos = Float.parseFloat(br.readLine());
-        
+
         if (numeroalumnos >= 100)
         {
             total2 = 65 * numeroalumnos;

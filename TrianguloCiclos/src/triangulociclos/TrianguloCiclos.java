@@ -21,11 +21,11 @@ public class TrianguloCiclos {
         int ladoa;
         int ladob;
         int ladoc;
-        
+
         Scanner leer = new Scanner (System.in);
-        
+
         int i = 1;
-        
+
         while (i < 3) {
             System.out.println("Ponga sus cantidades");
             System.out.println("Inserte primera cantidad");
@@ -34,7 +34,7 @@ public class TrianguloCiclos {
             ladob = leer.nextInt();
             System.out.println("Inserte tercera cantidad");
             ladoc = leer.nextInt();
-            
+
             if (ladoa == ladob && ladob == ladoc) {
                 System.out.println("El triangulo mostrado es un triangulo equilatero");
             }

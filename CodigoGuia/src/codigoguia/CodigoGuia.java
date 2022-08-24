@@ -22,10 +22,10 @@ public class CodigoGuia {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         double calificacion1, calificacion2, calificacion3, calificacion4, suma = 0, promedio = 0;
         int contador = 0;
-        
+
         while (contador <= 4)
         {
             System.out.println("Escribe la calificación 1");

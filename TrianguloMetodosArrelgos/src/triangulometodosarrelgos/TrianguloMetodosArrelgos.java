@@ -23,15 +23,15 @@ public class TrianguloMetodosArrelgos {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         int ladoa;
         int ladob;
         int ladoc;
-        
+
         int lado [] = new int [3];
-        
+
         Scanner leer = new Scanner (System.in);
-        
+
         for (int i = 0; i < 3; i++) {
             System.out.println("Ponga sus cantidades");
             lado [i] = Integer.parseInt(br.readLine());

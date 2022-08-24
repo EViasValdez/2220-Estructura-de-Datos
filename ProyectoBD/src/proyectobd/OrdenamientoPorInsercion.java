@@ -14,7 +14,7 @@ public class OrdenamientoPorInsercion {
         int [] listaorden = new int [100];
         int a, b;
         int auxiliar;
-    
+
         for (a = 1; a < 100; a++) {
             auxiliar = listaorden [a];
             b = a - 1;

@@ -22,15 +22,15 @@ public class CodigoGuia2 {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         double calificacion [] = new double [4];
         double suma = 0, promedio = 0;
-        
+
         for (int i = 0; i < 4; i++)
         {
             System.out.println("Escribe la calificación");
             calificacion [i] = Double.parseDouble(br.readLine());
-        
+
             suma = (suma + calificacion [i]);
         }
         promedio = suma / 4;

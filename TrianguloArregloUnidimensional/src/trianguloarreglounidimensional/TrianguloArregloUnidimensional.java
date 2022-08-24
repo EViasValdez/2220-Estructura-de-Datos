@@ -22,9 +22,9 @@ public class TrianguloArregloUnidimensional {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         int lados [] = new int [3];
-        
+
         for (int i = 0; i < lados.length; i++)
         {
             System.out.println("Escribe el lado " + (i + 1) + ":");

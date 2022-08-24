@@ -33,7 +33,7 @@ public class MetodoBurbuja {
     public static void main(String[] args) {
         int arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
         int orden [] = MetodBurbu (arreglo);
-        
+
         for (int a = 0; a < orden.length;a++) {
             System.out.println(orden [a]);
         }

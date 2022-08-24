@@ -24,12 +24,12 @@ public class ProblemasAsesoriasDoWhile {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
         Scanner leer = new Scanner (System.in);
-        
+
         System.out.println("Problema 1");
         float calificacion1, calificacion2, calificacion3, calificacion4;
         float promedio;
         int a = 1;
-        
+
         do
         {
             System.out.println("Ingese calificacion 1");
@@ -40,9 +40,9 @@ public class ProblemasAsesoriasDoWhile {
             calificacion3 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 4");
             calificacion4 = Float.parseFloat(br.readLine());
-            
+
             promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
-            
+
             System.out.println("El promedio es: " + promedio);
         } while (a < 3);
         
@@ -50,25 +50,25 @@ public class ProblemasAsesoriasDoWhile {
         float base, altura;
         float area;
         int b = 1;
-        
+
         do
         {
             System.out.println("Ingrese base");
             base = Float.parseFloat(br.readLine());
             System.out.println("Ingese altura");
             altura = Float.parseFloat(br.readLine());
-            
+
             area = (base * altura) / 2;
             System.out.println("El area es " + area);
         } while (b < 3);
-        
+
         System.out.println("Problema 3");
         float radio;
         double pi = 3.1416;
         float area2;
-        
+
         int c = 1;
-        
+
         do
         {
             System.out.println("Ingese radio");
@@ -88,18 +88,18 @@ public class ProblemasAsesoriasDoWhile {
             ladob = leer.nextInt();
             System.out.println("Ingrese lado c");
             ladoc = leer.nextInt();
-        
+
             area = ladoa + ladob + ladoc;
-        
+
             System.out.println("El area es " + area);
         } while (c > 3);
             System.out.println("Problema 5");
             int numero;
             int d = 1;
-        
+
             System.out.println("Ingese numero");
             numero = leer.nextInt();
-        
+
             if (numero > 0)
             {
                 System.out.println("El numero es positivo");
@@ -116,12 +116,12 @@ public class ProblemasAsesoriasDoWhile {
                 System.out.println("El numero es neutro");
             }
         } while (d > 3);
-        
+
         System.out.println("Problema 6");
         float cantidad;
         float total = 0;
         int e = 1;
-        
+
         do
         {
             System.out.println("Ingrese cantidad");
@@ -138,13 +138,13 @@ public class ProblemasAsesoriasDoWhile {
             }
             System.out.println(total);
         } while (e < 3);
-        
+
         System.out.println("Problema 7");
         float cantidad1;
         float cantidad2;
         float cantidad3;
         int f = 1;
-        
+
         do
         {
             System.out.println("Ingrese cantidad 1");
@@ -171,12 +171,12 @@ public class ProblemasAsesoriasDoWhile {
             }
             }
         } while (f < 3);
-        
+
         System.out.println("Problema 8");
         float numeroalumnos;
         float total2 = 0;
         int g = 1;
-        
+
         do
         {
             System.out.println("Ingrese numero de alumnos");
