@@ -25,13 +25,13 @@ public class EjercicioListas {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         List <Float> calificaciones = new ArrayList<Float>();
-        
+
         int numecalf, opcion, aprueba = 0;
         float calif, eliminarcalificacion, promedio, suma = 0;
         String regresar = "si";
-        
+
         while (regresar.equals("si")) {
             System.out.println("1. Ingresar en una lista N calificaciones");
             System.out.println("2. Mostrar la lista de las calificaciones");
@@ -119,7 +119,7 @@ public class EjercicioListas {
                 System.out.println(calificaciones);
             break;
 
-        }
+            }
         System.out.println("¿Quiere mostrar el menu otra vez?");
         regresar = br.readLine();
         }

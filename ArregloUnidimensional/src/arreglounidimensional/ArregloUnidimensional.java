@@ -74,10 +74,10 @@ public class ArregloUnidimensional {
         System.out.println("El promedio de los salarios es: " + promedio); // Imprime el promedio de los salarios.
         System.out.println("El total de los salarios altos es: " + alto); // Muestra el total de los salarios altos.
         System.out.println("El total de los salarios bajos es: " + bajo); // Muestra el total de los salarios bajos.
-    
+
         // Es declarada la variable mayor a la cual se el asigna como valor inicial el dato de la posición cero del arreglo "salario".
         double mayor = salario [0];
-        
+
         for (int k = 0; k < salario.length; k++) { // Se recorre el arreglo "salario".
             if (mayor < salario [k]) { // Si la variable mayor es menor al valor de la posición
                 mayor = salario [k]; // del arreglo "salario [k]" entonces ese valor se le asigna a la variable mayor.

@@ -39,7 +39,7 @@ public class CodigoGuia {
 
             suma = (calificacion1 + calificacion2 + calificacion3 + calificacion4);
             promedio = suma / 4;
-            
+
             contador = contador + 1;
         }
         System.out.println("El promedio es " + promedio);

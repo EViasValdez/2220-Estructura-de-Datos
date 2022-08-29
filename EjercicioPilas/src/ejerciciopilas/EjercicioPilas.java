@@ -23,9 +23,9 @@ public class EjercicioPilas {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         Stack <Integer> pil = new Stack<Integer>();
-        
+
         System.out.println("¿Cuantos elementos se agregaran?");
         int n = Integer.parseInt(br.readLine());
         

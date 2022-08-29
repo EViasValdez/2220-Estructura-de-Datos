@@ -107,8 +107,7 @@ public class Arreglosconobjetos {
                 }
                 System.out.println("Los pacientes menores de edad son: " + mostrar2);
             break;
-
-    }
+            }
             System.out.println("¿Deseas mostrar el menu otra vez? (Si/No)");
             otra = leer.next();
         } while (otra.equals("si")); // Mientras la variable otra sea igual a "si" se regresa a la 

@@ -26,7 +26,7 @@ public class Listas {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         // El tipo de dato de la lista va en mayusculas (String, float, Double, Int).
         List <String> ejemploLista = new ArrayList<String>();
 
@@ -80,7 +80,7 @@ public class Listas {
 
         // Otra manera de imprimir la Lista con la clase Iterator.
         Iterator i = ejemploLista.iterator();
-        
+
         while (i.hasNext())
         {
             System.out.println(i.next());

@@ -24,17 +24,17 @@ public class EjercicioColas {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        
+
         int colaimpresion;
-        
+
         System.out.println("Seleccione una opción");
         System.out.println("1");
         System.out.println("2");
-        
+
         Queue <Integer> cola = new LinkedList<>();
-        
+
         int n;
-        
+
         System.out.println(cola);
         System.out.println("¿Cuantos elementos quiere agregar?");
         colaimpresion = Integer.parseInt(br.readLine());
@@ -44,12 +44,12 @@ public class EjercicioColas {
             System.out.println("Documentos a imprimir: " + i);
             cola.add (i);
         }
-        
+
         System.out.println("El principal es");
         int primero = cola.peek();
         System.out.println(primero);
         System.out.println(cola);
-        
+
         System.out.println("Elemento a quitar");
         int remover = cola.remove();
         System.out.println("Error " + remover);
