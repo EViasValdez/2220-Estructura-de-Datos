@@ -21,21 +21,21 @@ public class Problemas1 {
         int a;
         int b;
         int c;
-        
+
         Scanner leer = new Scanner (System.in);
-        
+
         int i = 1;
-        
+
         while (i < 4) {
             System.out.println("Insterte valores");
-        
+
             System.out.println("Valor A");
             a = leer.nextInt();
             System.out.println("Valor B");
             b = leer.nextInt();
             System.out.println("Valor C");
             c = leer.nextInt();
-        
+
             if (a + b == c) {
                 System.out.println("Son iguales " + a + "+" + b + " = " + c);
             }

@@ -19,17 +19,17 @@ public class Problema {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner leer = new Scanner (System.in);
-        
+
         int a;
         int b;
         int c;
-        
+
         System.out.println("Test con tres numeros");
-        
+
         a = leer.nextInt ();
         b = leer.nextInt ();
         c = leer.nextInt ();
-        
+
         if (a + b == c) {
             System.out.println("");
             System.out.println("Son iguales");
