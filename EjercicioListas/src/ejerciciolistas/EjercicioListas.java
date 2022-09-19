@@ -35,15 +35,15 @@ public class EjercicioListas {
         while (regresar.equals("si")) {
             System.out.println("1. Ingresar en una lista N calificaciones");
             System.out.println("2. Mostrar la lista de las calificaciones");
-            System.out.println("3. Eliminar un elemento a la lista que el usuario indique y en la opción que indique");
+            System.out.println("3. Eliminar un elemento a la lista que el usuario indique y en la opcion que indique");
             System.out.println("4. Mostrar las calificaciones de forma ascendente");
             System.out.println("5. Mostrar las calificaciones de forma descendente");
             System.out.println("6. Mostrar aquellas calificaciones aprobadas y cuantas son (aprobadas mayor o igual a 7)");
-            System.out.println("7. Calcular el promedio de las calificaciones utilizando el método size");
+            System.out.println("7. Calcular el promedio de las calificaciones utilizando el metodo size");
             System.out.println("8. Agregar otras 5 calificaciones");
-            System.out.println("9. Mostrar los elementos de las listas desde la posición 5 a la 10");
+            System.out.println("9. Mostrar los elementos de las listas desde la posicion 5 a la 10");
             System.out.println("10. Limpiar la lista");
-            System.out.println("Elige una opción");
+            System.out.println("Elige una opcion");
             opcion = Integer.parseInt(br.readLine());
 
             switch (opcion) {
@@ -53,7 +53,7 @@ public class EjercicioListas {
 
                 for (int i = 0; i <= numecalf - 1; i++)
                 {
-                    System.out.println("Inserte la calificación");
+                    System.out.println("Inserte la calificacion");
                     calif = Float.parseFloat(br.readLine());
                     calificaciones.add (calif);
                     System.out.println("La calificación agregada es: " + calificaciones);
@@ -65,7 +65,7 @@ public class EjercicioListas {
             break;
 
             case 3:
-                System.out.println("Eliga la calificación a eliminar");
+                System.out.println("Eliga la calificacion a eliminar");
                 eliminarcalificacion = Float.parseFloat(br.readLine());
                 calificaciones.remove (eliminarcalificacion);
             break;
@@ -106,7 +106,7 @@ public class EjercicioListas {
                     System.out.println("Inserte la calificación");
                     calif = Float.parseFloat(br.readLine());
                     calificaciones.add (calif);
-                    System.out.println("La calificación agregada es: " + calificaciones);
+                    System.out.println("La calificacion agregada es: " + calificaciones);
                 }
             break;
         

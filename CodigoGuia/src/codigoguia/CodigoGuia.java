@@ -28,7 +28,7 @@ public class CodigoGuia {
 
         while (contador <= 4)
         {
-            System.out.println("Escribe la calificación 1");
+            System.out.println("Escribe la calificacion 1");
             calificacion1 = Double.parseDouble(br.readLine());
             System.out.println("Escribe la calificacion 2");
             calificacion2 = Double.parseDouble(br.readLine());

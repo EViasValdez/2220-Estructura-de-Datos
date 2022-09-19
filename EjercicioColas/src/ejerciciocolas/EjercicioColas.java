@@ -27,7 +27,7 @@ public class EjercicioColas {
 
         int colaimpresion;
 
-        System.out.println("Seleccione una opción");
+        System.out.println("Seleccione una opcion");
         System.out.println("1");
         System.out.println("2");
 

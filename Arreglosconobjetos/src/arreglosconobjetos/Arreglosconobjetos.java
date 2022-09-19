@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author KEVIN (Correcciones por EViasValdez)
  */
-public class Arreglosconobjetos {
+public class ArreglosconObjetos {
 
     /**
      * @param args the command line arguments
@@ -35,7 +35,7 @@ public class Arreglosconobjetos {
             System.out.println("2. Mostrar el paciente de mayor edad");
             System.out.println("3. Mostrar el nombre de todos los pacientes");
             System.out.println("4. Mostrar el nombre de todos los pacientes menores de edad");
-            System.out.println("Elige una opción");
+            System.out.println("Elige una opcion");
             opc = leer.nextInt(); // Se lee una opción del menu de la opción 1 a la 4.
         
             switch (opc) 
