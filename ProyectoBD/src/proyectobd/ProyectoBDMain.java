@@ -33,8 +33,8 @@ public class ProyectoBDMain {
             Scanner teclado = new Scanner (System.in);
 
             System.out.println("1. Metodo Burbuja");
-            System.out.println("2. Ordenamiento por inserción");
-            System.out.println("3. Ordenamiento por selección");
+            System.out.println("2. Ordenamiento por insercion");
+            System.out.println("3. Ordenamiento por seleccion");
             System.out.println("4. Merge Sort");
             System.out.println("5. Quick Sort");
             op = teclado.nextInt();

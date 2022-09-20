@@ -53,5 +53,6 @@ public class TriangulosArreglos {
             System.out.println("El triangulo mostrado es un triangulo escaleno");
         }
         }
+        }
     }
 }
