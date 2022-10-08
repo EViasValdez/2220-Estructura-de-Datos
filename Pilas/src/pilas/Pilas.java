@@ -63,6 +63,6 @@ public class Pilas {
         cola.desencolar();
 
         System.out.println("Elementos en la cola: " + cola);
-        System.out.println("¿Esta vacia la cola?" + cola.vacia());
+        System.out.println("¿Esta vacia la cola? " + cola.vacia());
       }
 }
