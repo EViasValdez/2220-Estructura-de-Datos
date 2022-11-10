@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pilas;
+package pilas1;
 
 import java.util.Iterator;
 
@@ -11,7 +11,7 @@ import java.util.Iterator;
  *
  * @author EViasValdez
  */
-public class Pilas {
+public class Pilas1 {
 
     /**
      * @param args the command line arguments

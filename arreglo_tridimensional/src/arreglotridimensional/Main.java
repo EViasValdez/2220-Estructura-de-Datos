@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package arreglo_tridimensional;
+package arreglotridimensional;
 
 import java.io.BufferedReader;
 import java.io.IOException;
