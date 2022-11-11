@@ -10,7 +10,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Corregí algunos errores ortográficos de algunos textos (Pese a que tuve que dejar sin puntuaciones las líneas de código que mostraran texto), además de problemas de funcionamiento.**
 
-**- Realice la ejecución de los proyectos en NetBeans y cada uno ya tiene el directorio "nbproject".**
+**- Abri los programas en NetBeans y cada uno ya tiene el directorio "nbproject".**
 
 **- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
 <!----Separador de las notas---->
