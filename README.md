@@ -21,7 +21,6 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 <!----Separador de las notas---->
 
 <!----Directorio con ubicación de archivos---->
-
 # Directorio con ubicación de archivos
 ###### EjercicioCalifiaciones - 20/01/20
 (EjercicioCalificaciones/build/classes/ejerciciocalificaciones/EjercicioCalificaciones.class,
@@ -627,6 +626,5 @@ ProyectoBD/src/proyectobd/ProjectoBDMain.java,
 ProyectoBD/src/proyectobd/QuickSort.java,
 ProyectoBD/build.xml,
 ProyectoBD/manifest.mf)
-
 <!----Separador---->
 <!----Separador del directorio con ubicación de archivos---->

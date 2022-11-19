@@ -28,7 +28,7 @@ public class ArreglosconObjetos {
         int opc;
 
         do { 
-            // Ciclo do while la instrucción do significa hacer el programa estará realizando este
+            // En el ciclo do while la instrucción do significa hacer el programa estará realizando este
             // ciclo hasta que se cumpla la condición del while.
             System.out.println("Hospital ABC");
             System.out.println("1. Ingresar datos del paciente");

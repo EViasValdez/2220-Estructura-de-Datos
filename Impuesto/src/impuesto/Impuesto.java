@@ -19,7 +19,7 @@ public class Impuesto {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        // La lase Input se utiliza para leer datos.
+        // La clase Input se utiliza para leer datos.
         InputStreamReader isr = new InputStreamReader (System.in);
         // La clase BuferredReader se utiliza para convertir los
         // datos que se lean ya que indeterminadamente solo lee cadenas de caracteres.
