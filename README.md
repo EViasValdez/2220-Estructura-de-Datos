@@ -1,13 +1,10 @@
 # Estructura de datos
 
 <!----Descripción---->
-
 Estos son los trabajos que hice durante el segundo cuatrimestre, estos documentos fueron completamente creados con el lenguaje Java.
-
 <!----Separador de la descripción ---->
 
 <!----Notas---->
-
 **Notas**
 
 **- Incluye uno que otro trabajo que realice durante varias asesorías de esta materia y la de algoritmos.**
@@ -17,7 +14,6 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 **- Abri los programas en NetBeans y cada uno ya tiene el directorio "nbproject".**
 
 **- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
-
 <!----Separador de las notas---->
 
 <!----Directorio con ubicación de archivos---->
