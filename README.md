@@ -1,4 +1,4 @@
-# Estructura de datos
+# Estructura de datos.
 
 <!----Descripción---->
 Estos son los trabajos que hice durante el segundo cuatrimestre, estos documentos fueron completamente creados con el lenguaje Java.
