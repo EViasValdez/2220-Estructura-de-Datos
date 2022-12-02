@@ -27,143 +27,143 @@ public class ProblemasAsesoriasFor {
 
         System.out.println("Problema 1");
 
-        float calificacion1, calificacion2, calificacion3, calificacion4;
-        float promedio;
+        float Calificacion1, Calificacion2, Calificacion3, Calificacion4;
+        float Promedio;
         
         for (int a = 1; a < 3; a++)
         {
             System.out.println("Ingese calificacion 1");
-            calificacion1 = Float.parseFloat(br.readLine());
+            Calificacion1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 2");
-            calificacion2 = Float.parseFloat(br.readLine());
+            Calificacion2 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 3");
-            calificacion3 = Float.parseFloat(br.readLine());
+            Calificacion3 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 4");
-            calificacion4 = Float.parseFloat(br.readLine());
+            Calificacion4 = Float.parseFloat(br.readLine());
 
-            promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
+            Promedio = (Calificacion1 +  Calificacion2 + Calificacion3 + Calificacion4) / 4;
             
-            System.out.println("El promedio es: " + promedio);
+            System.out.println("El Promedio es: " + Promedio);
         }
         
         System.out.println("Problema 2");
-        float base, altura;
-        float area;
+        float Base, Altura;
+        float Area;
         
         for (int b = 1; b < 3; b++)
         {
             System.out.println("Ingrese base");
-            base = Float.parseFloat(br.readLine());
-            System.out.println("Ingese altura");
-            altura = Float.parseFloat(br.readLine());
+            Base = Float.parseFloat(br.readLine());
+            System.out.println("Ingese Altura");
+            Altura = Float.parseFloat(br.readLine());
         
-            area = (base * altura) / 2;
+            Area = (Base * Altura) / 2;
             System.out.println("El area es: " + area);
         }
 
         System.out.println("Problema 3");
-        float radio;
+        float Radio;
         double pi = 3.1416;
-        float area2;
+        float Area2;
         
         for (int c = 1; c < 3; c++)
         {
             System.out.println("Ingese radio");
             radio = Float.parseFloat(br.readLine());
 
-            area2 = (float) (pi * (radio * radio));
-            System.out.println("El area es: " +  area2);
+            Area2 = (float) (pi * (radio * radio));
+            System.out.println("El area es: " +  Area2);
             System.out.println("Problema 4");
 
-            int ladoa;
-            int ladob;
-            int ladoc;
+            int Ladoa;
+            int Ladob;
+            int Ladoc;
 
             for (int d = 1; d < 3; d++)
             {
                 System.out.println("Ingrese lado a");
-                ladoa = leer.nextInt();
+                Ladoa = leer.nextInt();
                 System.out.println("Ingrese lado b");
-                ladob = leer.nextInt();
+                Ladob = leer.nextInt();
                 System.out.println("Ingrese lado c");
-                ladoc = leer.nextInt();
+                Ladoc = leer.nextInt();
 
-                area = ladoa + ladob + ladoc;
+                Area = Ladoa + Ladob + Ladoc;
 
-                System.out.println("El area es: " + area);
+                System.out.println("El area es: " + Area);
             }
         }
 
         System.out.println("Problema 5");
-        int numero;
+        int Numero;
 
         System.out.println("Ingese numero");
-        numero = leer.nextInt();
+        Numero = leer.nextInt();
 
-        if (numero > 0)
+        if (Numero > 0)
         {
             System.out.println("El numero es positivo");
         }
         else
         {
-        if (numero < 0)
+        if (Numero < 0)
         {
             System.out.println("El numero es negativo");
         }
         else
-        if (numero == 0)
+        if (Numero == 0)
         {
              System.out.println("El numero es neutro");
         }
         }
 
         System.out.println("Problema 6");
-        float cantidad;
-        float total = 0;
+        float Cantidad;
+        float Total = 0;
         
         for (int e = 1; e < 3; e++)
         {
             System.out.println("Ingrese cantidad");
-            cantidad = Float.parseFloat(br.readLine());
+            Cantidad = Float.parseFloat(br.readLine());
         
         if (cantidad >= 1000)
         {
-            total = cantidad * 85;
+            Total = Cantidad * 85;
         }
         else
         if (cantidad <= 1000)
         {
-            total = cantidad * 90;
+            Total = Cantidad * 90;
         }
             System.out.println(total);
         }
 
         System.out.println("Problema 7");
-        float cantidad1;
-        float cantidad2;
-        float cantidad3;
+        float Cantidad1;
+        float Cantidad2;
+        float Cantidad3;
 
         for (int f = 1; f < 3; f++)
         {
             System.out.println("Ingrese cantidad 1");
-            cantidad1 = Float.parseFloat(br.readLine());
+            Cantidad1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese cantidad 2");
-            cantidad2 = Float.parseFloat(br.readLine());
+            Cantidad2 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese cantidad 3");
-            cantidad3 = Float.parseFloat(br.readLine());
+            Cantidad3 = Float.parseFloat(br.readLine());
 
-            if (cantidad1 > cantidad2 && cantidad1 > cantidad3)
+            if (Cantidad1 > Cantidad2 && Cantidad1 > Cantidad3)
             {
                 System.out.println("Cantidad 1 es mayor");
             }
             else
             {
-            if (cantidad2 > cantidad1 && cantidad2 > cantidad3)
+            if (Cantidad2 > Cantidad1 && Cantidad2 > Cantidad3)
             {
                 System.out.println("Cantidad 2 es mayor");
             }
             else
-            if (cantidad3 > cantidad1 && cantidad3 > cantidad2)
+            if (Cantidad3 > Cantidad1 && Cantidad3 > Cantidad2)
             {
                 System.out.println("Cantidad 3 es mayor");
             }
@@ -171,27 +171,27 @@ public class ProblemasAsesoriasFor {
         }
 
         System.out.println("Problema 8");
-        float numeroalumnos;
+        float Numeroalumnos;
         float total2 = 0;
 
         for (int g = 1; g < 3; g++)
         {
             System.out.println("Ingrese numero de alumnos");
-            numeroalumnos = Float.parseFloat(br.readLine());
+            Numeroalumnos = Float.parseFloat(br.readLine());
 
-        if (numeroalumnos >= 100)
+        if (NumeroAlumnos >= 100)
         {
-            total2 = 65 * numeroalumnos;
+            total2 = 65 * NumeroAlumnos;
         }
         else
-        if (numeroalumnos >= 50 && numeroalumnos <= 99)
+        if (NumeroAlumnos >= 50 && NumeroAlumnos <= 99)
         {
-            total2 = 70 * numeroalumnos;
+            total2 = 70 * NumeroAlumnos;
         }
         else
-        if (numeroalumnos >= 30 && numeroalumnos <= 45)
+        if (NumeroAlumnos >= 30 && NumeroAlumnos <= 45)
         {
-            total2 = 95 * numeroalumnos;
+            total2 = 95 * NumeroAlumnos;
         }
         }
         System.out.println("El total es: " + total2 + 1000);
