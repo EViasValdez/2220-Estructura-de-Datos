@@ -18,29 +18,29 @@ public class Problema1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner leer = new Scanner (System.in);
+        Scanner Leer = new Scanner (System.in);
 
-        int a;
-        int b;
-        int c;
+        int A;
+        int B;
+        int C;
 
         System.out.println("Test con tres numeros");
 
-        a = leer.nextInt ();
-        b = leer.nextInt ();
-        c = leer.nextInt ();
+        A = Leer.nextInt ();
+        B = Leer.nextInt ();
+        C = Leer.nextInt ();
 
-        if (a + b == c) {
+        if (A + B == C) {
             System.out.println("");
             System.out.println("Son iguales");
         }
         else
-        if (a + c == b) {
+        if (A + C == B) {
             System.out.println("");
             System.out.println("Son iguales");
         }
         else
-        if (b + c == a) {
+        if (B + C == A) {
             System.out.println("");
             System.out.println("Son iguales");
         }
