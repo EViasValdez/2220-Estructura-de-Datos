@@ -22,67 +22,67 @@ public class ArregloUnidimensional {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
 
-        String nombres [] = {"Juan", "Luis", "Maria"}; // Arreglo unidimensional de tipo String llamado "nombres" con valores iniciales.
-        int numerodepiezas [] = {23, 45, 67, 89, 98}; // Arreglo unidimensional de tipo entero llamado "numerodepiezas" con valores iniciales.
-        float calificaciones [] = {7.4f, 8.5f, 9.6f, 10, 5, 6.7f}; // Arreglo unidimensional de tipo float llamado "calificaciones" con valores
+        String Nombres [] = {"Juan", "Luis", "Maria"}; // Arreglo unidimensional de tipo String llamado "Nombres" con valores iniciales.
+        int NumerodePiezas [] = {23, 45, 67, 89, 98}; // Arreglo unidimensional de tipo entero llamado "NumerodePiezas" con valores iniciales.
+        float Calificaciones [] = {7.4f, 8.5f, 9.6f, 10, 5, 6.7f}; // Arreglo unidimensional de tipo float llamado "Calificaciones" con valores
         // iniciales hay que recordar que como los valores son float se les agrega la letra "f" al final de cada valor.
-        char vocales [] = {'a', 'e', 'i', 'o', 'u'}; // Arreglo unidimensional de tipo carácter llamado "vocales" con valores iniciales.
-        boolean tiene_auto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado "tiene_auto" con valores iniciales.
+        char Vocales [] = {'a', 'e', 'i', 'o', 'u'}; // Arreglo unidimensional de tipo carácter llamado "Vocales" con valores iniciales.
+        boolean Tiene_Auto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado "Tiene_Auto" con valores iniciales.
         String Apellidos [] = new String [8]; // Arreglo unidimensional de tipo String llamado "apellidos" de tamaño 8.
         // El nombre del arreglo se instancia con la palabra reservada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes.
-        double salario [] = new double [10]; // Arreglo unidimensional de tipo double llamado "salario" de tamaño 10.
-        double suma = 0, promedio = 0; // Variable "suma" inicializada en cero ya que sera una variable de tipo acumulador, promedio igual a cero sera el resultado de un operación.
-        int alto = 0, bajo = 0; // Variable de tipo contador inicializadas en 0.
+        double Salario [] = new double [10]; // Arreglo unidimensional de tipo double llamado "Salario" de tamaño 10.
+        double Suma = 0, Promedio = 0; // Variable "Suma" inicializada en cero ya que sera una variable de tipo acumulador, Promedio igual a cero sera el resultado de un operación.
+        int Alto = 0, Bajo = 0; // Variable de tipo contador inicializadas en 0.
 
-        System.out.println("El nombre de la posicion uno del arreglo nombres es: " + nombres [1]); // Muestra el dato que se almaceno en la posición 1 del arreglo en este caso "Luis".
-        System.out.println("El numero de piezas de la posicion dos del arreglo numerodepiezas es: " + numerodepiezas [2]); // Dato de la posición 2 del arreglo "numerodepiezas".
-        System.out.println("La calificacion de la posicion uno del arreglo calificaciones es: " + calificaciones [0]);
-        System.out.println("La vocal de la posición cuatro del arreglo vocales es: " + vocales [4]);
-        System.out.println("La respuesta a tiene auto de la posición tres del arreglo tiene_auto es: " + tiene_auto [3]);
+        System.out.println("El nombre de la posicion uno del arreglo Nombres es: " + Nombres [1]); // Muestra el dato que se almaceno en la posición 1 del arreglo en este caso "Luis".
+        System.out.println("El numero de piezas de la posicion dos del arreglo NumerodePiezas es: " + NumerodePiezas [2]); // Dato de la posición 2 del arreglo "NumerodePiezas".
+        System.out.println("La calificacion de la posicion uno del arreglo Calificaciones es: " + Calificaciones [0]);
+        System.out.println("La vocal de la posición cuatro del arreglo Vocales es: " + Vocales [4]);
+        System.out.println("La respuesta a tiene auto de la posición tres del arreglo Tiene_Auto es: " + Tiene_Auto [3]);
 
-        // Mostrar todos los elementos del arreglo "nombres", se recorrerá el arreglo con el ciclo for.
-        for (int i = 0; i < nombres.length; i++) { // El método length hace referencia a tamaño del arreglo es decir a 3.
+        // Mostrar todos los elementos del arreglo "Nombres", se recorrerá el arreglo con el ciclo for.
+        for (int i = 0; i < Nombres.length; i++) { // El método length hace referencia a tamaño del arreglo es decir a 3.
             // Es mas eficiente utilizar este método ya que no se cometen errores en el tamaño del arreglo que hay que 
             // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posición 0 y termina en n - 1,
             // que es el tamaño del arreglo es decir termina en la posición 2.
-            System.out.println("El nombre de la posicion" + i + " es: " + nombres [i]); // Muestra la posición del arreglo con la variable "i" y el dato de cada posición del arreglo con "nombres [i]".
+            System.out.println("El nombre de la posicion " + i + " es: " + Nombres [i]); // Muestra la posición del arreglo con la variable "i" y el dato de cada posición del arreglo con "Nombres [i]".
         }
         for (int j = 0; j < Apellidos.length; j++) { // Se recorre el arreglo "Apellidos" con la variable subíndice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.
             System.out.print("Escribe el apellido numero " + (j + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subíndice para que muestre el numero 1 primero.
             Apellidos [j] = br.readLine(); // Se ingresan los datos al arreglo "Apellidos" cada dato según el subíndice "j".
         }
-        // Se recorre el arreglo "salario".
-        for (int k = 0; k < salario.length; k++) {
-            System.out.print("Escribe el salario numero " + (k + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subíndice para que muestre el numero 1 primero.
-            salario [k] = Double.parseDouble(br.readLine()); // Se ingresan los datos al arreglo salario cada dato segun el subíndice "k".
+        // Se recorre el arreglo "Salario".
+        for (int k = 0; k < Salario.length; k++) {
+            System.out.print("Escribe el Salario numero " + (k + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subíndice para que muestre el numero 1 primero.
+            Salario [k] = Double.parseDouble(br.readLine()); // Se ingresan los datos al arreglo Salario cada dato segun el subíndice "k".
         }
-        // Se recorre el arreglo "salario".
-        for (int k = 0; k < salario.length; k++) {
-            suma = suma + salario [k]; // Se realiza la suma de los salarios con la variable de tipo acumulador llamada "suma" se ira sumando cada salario de cada posición del arreglo con el subindice "k" por ello "salario[k]".
-            if (salario [k] >= 20000) { // Si "salario [k]" es mayor o igual a 20000 se sumara 1
-                alto++; // a la variable "alto" ya que significa "alto = alto + 1".
+        // Se recorre el arreglo "Salario".
+        for (int k = 0; k < Salario.length; k++) {
+            Suma = Suma + Salario [k]; // Se realiza la Suma de los salarios con la variable de tipo acumulador llamada "Suma" se ira sumando cada Salario de cada posición del arreglo con el subindice "k" por ello "Salario[k]".
+            if (Salario [k] >= 20000) { // Si "Salario [k]" es Mayor o igual a 20000 se sumara 1
+                Alto++; // a la variable "Alto" ya que significa "Alto = Alto + 1".
             }else{ // Si la condición anterior no se cumple
-            if (salario [k] < 20000) { // se realiza esta condición si el "salario [k]" es menor a 20000
-                bajo++; // se suma 1 a la variable "bajo", es decir "bajo = bajo + 1".
+            if (Salario [k] < 20000) { // se realiza esta condición si el "Salario [k]" es menor a 20000
+                Bajo++; // se Suma 1 a la variable "Bajo", es decir "Bajo = Bajo + 1".
             }
             }
         }
 
-        System.out.println("Tamaño del arreglo salario: " + salario.length); // Imprime el tamaño del arreglo.
-        promedio = suma / salario.length; // Calcula el promedio de los salarios.
-        System.out.println("El total de los salarios es: " + suma); // Muestra el total de los salarios.
-        System.out.println("El promedio de los salarios es: " + promedio); // Imprime el promedio de los salarios.
-        System.out.println("El total de los salarios altos es: " + alto); // Muestra el total de los salarios altos.
-        System.out.println("El total de los salarios bajos es: " + bajo); // Muestra el total de los salarios bajos.
+        System.out.println("Tamaño del arreglo Salario: " + Salario.length); // Imprime el tamaño del arreglo.
+        Promedio = Suma / Salario.length; // Calcula el Promedio de los salarios.
+        System.out.println("El total de los salarios es: " + Suma); // Muestra el total de los salarios.
+        System.out.println("El Promedio de los salarios es: " + Promedio); // Imprime el Promedio de los salarios.
+        System.out.println("El total de los salarios altos es: " + Alto); // Muestra el total de los salarios altos.
+        System.out.println("El total de los salarios bajos es: " + Bajo); // Muestra el total de los salarios bajos.
 
-        // Es declarada la variable mayor a la cual se el asigna como valor inicial el dato de la posición cero del arreglo "salario".
-        double mayor = salario [0];
+        // Es declarada la variable Mayor a la cual se el asigna como valor inicial el dato de la posición cero del arreglo "Salario".
+        double Mayor = Salario [0];
 
-        for (int k = 0; k < salario.length; k++) { // Se recorre el arreglo "salario".
-            if (mayor < salario [k]) { // Si la variable mayor es menor al valor de la posición
-                mayor = salario [k]; // del arreglo "salario [k]" entonces ese valor se le asigna a la variable mayor.
+        for (int k = 0; k < Salario.length; k++) { // Se recorre el arreglo "Salario".
+            if (Mayor < Salario [k]) { // Si la variable Mayor es menor al valor de la posición
+                Mayor = Salario [k]; // del arreglo "Salario [k]" entonces ese valor se le asigna a la variable Mayor.
             }
         }
-        System.out.println("El salario mas alto es: " + mayor); // Muestra el salario mas alto.
+        System.out.println("El Salario mas Alto es: " + Mayor); // Muestra el Salario mas alto.
     }
 }

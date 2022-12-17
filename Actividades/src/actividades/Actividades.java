@@ -24,43 +24,43 @@ public class Actividades {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         System.out.println("Elige un problema");
-        System.out.println("1. Captura de las ventas de un comisionista de forma mensual");
-        System.out.println("2. Captura de las ventas de 30 comisionistas de forma mensual");
-        System.out.println("3. Captura de las ventas de 20 comisionistas de forma mensual y de cinco productos diferentes");
+        System.out.println("1. Captura de las Ventas de un comisionista de forma mensual");
+        System.out.println("2. Captura de las Ventas de 30 comisionistas de forma mensual");
+        System.out.println("3. Captura de las Ventas de 20 comisionistas de forma mensual y de cinco productos diferentes");
         System.out.println("4. Controlar los autos que entran en un estacionamiento");
         
         Scanner leer = new Scanner (System.in);
         
-        int el = 0;
-        el = leer.nextInt();
+        int El = 0;
+        El = leer.nextInt();
         
-        switch (el) {
+        switch (El) {
         case 1:
             InputStreamReader isr = new InputStreamReader(System.in);
             BufferedReader br = new BufferedReader (isr);
             
-            Queue <Integer> ventas = new LinkedList<>();
+            Queue <Integer> Ventas = new LinkedList<>();
             
-            int ingr, venta;
+            int Ingr, Venta;
             
             System.out.println("Ingrese cuantas ventas");
-            ingr = Integer.parseInt(br.readLine());
+            Ingr = Integer.parseInt(br.readLine());
             
-            for (int i = 0; i <= ingr; i++)
+            for (int i = 0; i <= Ingr; i++)
             {
                 System.out.println("Monto de ventas");
-                venta = Integer.parseInt(br.readLine());
-                ventas.add (venta);
+                Venta = Integer.parseInt(br.readLine());
+                Ventas.add (Venta);
             }
             
             System.out.println("Sus ingresos son");
-            System.out.println(ventas);
+            System.out.println(Ventas);
             
             System.out.println("El mayor es");
-            int arriba = ventas.peek();
+            int Arriba = Ventas.peek();
             
-            System.out.println(arriba);
-            System.out.println(ventas);
+            System.out.println(Arriba);
+            System.out.println(Ventas);
         break;
 
         case 2:

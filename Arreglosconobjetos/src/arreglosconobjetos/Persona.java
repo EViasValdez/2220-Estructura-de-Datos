@@ -9,34 +9,34 @@ package arreglosconobjetos;
  * @author KEVIN (Correciones por EViasValdez)
  */
 public class Persona {
-    private String nombre;
-    private int edad;
-    private float peso;
+    private String Nombre;
+    private int Edad;
+    private float Peso;
 
     public String getNombre() {
-        return nombre;
+        return Nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
     }
 
     public int getEdad() {
-        return edad;
+        return Edad;
     }
 
-    public void setEdad(int edad) {
-        this.edad = edad;
+    public void setEdad(int Edad) {
+        this.Edad = Edad;
     }
 
     public float getPeso() {
-        return peso;
+        return Peso;
     }
 
-    public void setPeso(float peso) {
-        this.peso = peso;
+    public void setPeso(float Peso) {
+        this.Peso = Peso;
     }
     /**
-     * @return the nombre
+     * @return the Nombre
      */
 }

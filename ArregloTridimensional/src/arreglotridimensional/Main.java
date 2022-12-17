@@ -23,23 +23,23 @@ public class Main {
         BufferedReader br = new BufferedReader (isr);
         // 3 parciales de 4 calificaciones de dos alumnos.
         float Calificaciones [] [] [] = new float [4] [3] [2];
-        float suma = 0, promedio = 0;
+        float Suma = 0, Promedio = 0;
 
         for (int k = 0; k < 2; k++)
         {
-            suma = 0;
+            Suma = 0;
             for (int i = 0; i < 3; i++)
             {
                 for (int j = 0; j < 4; j++)
                 {
-                     System.out.print("Escribe la calificación del alumno " + k + " del parcial" + i + " de la materia " + j + ": ");
+                     System.out.print("Escribe la calificacion del alumno " + k + " del parcial " + i + " de la materia " + j + ": ");
                      Calificaciones [j] [i] [k] = Float.parseFloat(br.readLine());
-                     suma = suma + Calificaciones [j] [i] [k];
+                     Suma = Suma + Calificaciones [j] [i] [k];
                 }
             }
-            System.out.println("La suma es: " + suma);
-            promedio = suma / 12;
-            System.out.println("El promedio del alumno" + k +  " es: " + promedio);
+            System.out.println("La suma es: " + Suma);
+            Promedio = Suma / 12;
+            System.out.println("El promedio del alumno" + k +  " es: " + Promedio);
         }
     }
 }

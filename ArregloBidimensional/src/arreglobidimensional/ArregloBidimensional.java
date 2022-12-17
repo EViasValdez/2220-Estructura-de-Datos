@@ -23,20 +23,20 @@ public class ArregloBidimensional {
         BufferedReader br = new BufferedReader (isr);
         // 3 parciales calificación de dos alumnos.
         float Calificaciones [] [] = new float [2] [3];
-        float suma = 0, promedio = 0;
+        float Suma = 0, Promedio = 0;
 
         for (int k = 0; k < 2; k++)
         {
-            suma = 0;
+            Suma = 0;
             for (int i = 0; i < 3; i++)
             {
                 System.out.print("Escribe la calificacion del alumno " + k + " y de la materia " + i + ": ");
                 Calificaciones [k] [i] = Float.parseFloat(br.readLine());
-                suma = suma + Calificaciones [k] [i];
+                Suma = Suma + Calificaciones [k] [i];
             }
-            System.out.println("La suma es: " + suma);
-            promedio = suma / 3;
-            System.out.println("El promedio del alumno es: " + promedio);
+            System.out.println("La Suma es: " + Suma);
+            Promedio = Suma / 3;
+            System.out.println("El promedio del alumno es: " + Promedio);
         }
     }
 }

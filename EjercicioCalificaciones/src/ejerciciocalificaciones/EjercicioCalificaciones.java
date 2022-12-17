@@ -18,25 +18,25 @@ public class EjercicioCalificaciones {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner leer = new Scanner (System.in);
+        Scanner Leer = new Scanner (System.in);
 
-        float promedio, suma = 0;
-        float c1;
-        // float c2;
-        // float c3;
-        // float c4;
+        float Promedio, Suma = 0;
+        float C1;
+        // float C2;
+        // float C3;
+        // float C4;
         int i = 1;
 
         while (i <= 4) {
             System.out.println("Ingresa la calificacion");
-            c1 = leer.nextFloat();
+            C1 = Leer.nextFloat();
             // System.out.println("Ingresa la calificación");
-            // c2 = leer.nextFloat();
+            // C2 = Leer.nextFloat();
             // System.out.println("Ingresa la calificación");
-            // c3 = leer.nextFloat();
+            // C3 = Leer.nextFloat();
             // System.out.println("Ingresa la calificación");
-            // c4 = leer.nextFloat();
-            if (c1 >= 7)
+            // C4 = Leer.nextFloat();
+            if (C1 >= 7)
             {
                 System.out.println("Aprobado");
             }
@@ -44,7 +44,7 @@ public class EjercicioCalificaciones {
             {
                 System.out.println("Reprobado");
             }
-            // if (c2 >= 7)
+            // if (C2 >= 7)
             // {
             //     System.out.println("Aprobado");
             // }
@@ -52,7 +52,7 @@ public class EjercicioCalificaciones {
             // {
             //     System.out.println("Reprobado");
             // }
-            // if (c3 >= 7)
+            // if (C3 >= 7)
             // {
             //     System.out.println("Aprobado");
             // }
@@ -60,17 +60,17 @@ public class EjercicioCalificaciones {
             // {
             //     System.out.println("Reprobado");
             // }
-            // if (c4 >= 7)
+            // if (C4 >= 7)
             // {
             //     System.out.println("Aprobado");
             // }
             // else
             // {
             //     System.out.println("Reprobado");
-            suma = suma + c1;
+            Suma = Suma + C1;
         i++;
         }
-        promedio = suma / 4;
-        System.out.println("Tu promedio es: " + promedio);
+        Promedio = Suma / 4;
+        System.out.println("Tu Promedio es: " + Promedio);
     }
 }
