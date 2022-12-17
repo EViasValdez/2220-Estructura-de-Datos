@@ -13,9 +13,9 @@ import java.util.ArrayList;
  */
 public class Pila extends ArrayList {
     // Se añade un elemento a la pila (push).
-    public void apilar(Object dato) {
-        if (dato != null) {
-            this.add (dato);
+    public void apilar(Object Dato) {
+        if (Dato != null) {
+            this.add (Dato);
         }else{
             System.out.println("Introduzca un dato no nulo");
         }
@@ -28,11 +28,11 @@ public class Pila extends ArrayList {
     }
     // Regresa el elemento que esta en la cima de la pila (top o peek).
     public Object cima() {
-        Object datoAuxiliar = null;
+        Object DatoAuxiliar = null;
         if (this.size() > 0) {
-            datoAuxiliar = this.get (this.size() - 1);
+            DatoAuxiliar = this.get (this.size() - 1);
         }
-    return datoAuxiliar;
+    return DatoAuxiliar;
     }
     // Devuelve "cierto" si la pila está vacía o falso en caso contrario (empty).
     public boolean vacia() {
