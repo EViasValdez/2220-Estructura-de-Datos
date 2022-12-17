@@ -18,34 +18,34 @@ public class TrianguloCiclos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int ladoa;
-        int ladob;
-        int ladoc;
+        int LadoA;
+        int LadoB;
+        int LadoC;
 
-        Scanner leer = new Scanner (System.in);
+        Scanner Leer = new Scanner (System.in);
 
         int i = 1;
 
         while (i < 3) {
             System.out.println("Ponga sus cantidades");
             System.out.println("Inserte primera cantidad");
-            ladoa = leer.nextInt();
+            LadoA = Leer.nextInt();
             System.out.println("Inserte segunda cantidad");
-            ladob = leer.nextInt();
+            LadoB = Leer.nextInt();
             System.out.println("Inserte tercera cantidad");
-            ladoc = leer.nextInt();
+            LadoC = Leer.nextInt();
 
-            if (ladoa == ladob && ladob == ladoc) {
+            if (LadoA == LadoB && LadoB == LadoC) {
                 System.out.println("El triangulo mostrado es un triangulo equilatero");
             }
             else
             {
-            if (ladoa != ladob && ladob != ladoc) {
+            if (LadoA != LadoB && LadoB != LadoC) {
                 System.out.println("El triangulo mostrado es un triangulo isoceles");
             }
             else
             {
-            if (ladob != ladoc && ladob != ladoc) {
+            if (LadoB != LadoC && LadoB != LadoC) {
                 System.out.println("El triangulo mostrado es un triangulo escaleno");
             }
             }

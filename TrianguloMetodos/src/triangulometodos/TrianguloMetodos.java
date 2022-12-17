@@ -18,34 +18,34 @@ public class TrianguloMetodos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int ladoa;
-        int ladob;
-        int ladoc;
+        int LadoA;
+        int LadoB;
+        int LadoC;
 
         Scanner leer = new Scanner (System.in);
 
         System.out.println("Ponga sus cantidades");
         System.out.println("Inserte primera cantidad");
-        ladoa = leer.nextInt();
+        LadoA = leer.nextInt();
         System.out.println("Inserte segunda cantidad");
-        ladob = leer.nextInt();
+        LadoB = leer.nextInt();
         System.out.println("Inserte tercera cantidad");
-        ladoc = leer.nextInt();
+        LadoC = leer.nextInt();
 
-        triangulo (ladoa, ladob, ladoc);
+        triangulo (LadoA, LadoB, LadoC);
     }
-    public static void triangulo(int ladoa, int ladob, int ladoc) {
-        if (ladoa == ladob && ladob == ladoc) {
+    public static void triangulo(int LadoA, int LadoB, int LadoC) {
+        if (LadoA == LadoB && LadoB == LadoC) {
             System.out.println("El triangulo mostrado es un triangulo equilatero");
         }
         else
         {
-        if (ladoa != ladob && ladob != ladoc) {
+        if (LadoA != LadoB && LadoB != LadoC) {
             System.out.println("El triangulo mostrado es un triangulo isoceles");
         }
         else
         {
-        if (ladob != ladoc && ladob != ladoc) {
+        if (LadoB != LadoC && LadoB != LadoC) {
             System.out.println("El triangulo mostrado es un triangulo escaleno");
         }
         }

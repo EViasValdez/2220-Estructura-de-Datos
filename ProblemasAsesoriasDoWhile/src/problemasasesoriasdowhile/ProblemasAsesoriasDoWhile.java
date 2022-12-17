@@ -26,39 +26,39 @@ public class ProblemasAsesoriasDoWhile {
         Scanner leer = new Scanner (System.in);
 
         System.out.println("Problema 1");
-        float calificacion1, calificacion2, calificacion3, calificacion4;
-        float promedio;
+        float Calificacion1, Calificacion2, Calificacion3, Calificacion4;
+        float Promedio;
         int a = 1;
 
         do
         {
             System.out.println("Ingese calificacion 1");
-            calificacion1 = Float.parseFloat(br.readLine());
+            Calificacion1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 2");
-            calificacion2 = Float.parseFloat(br.readLine());
+            Calificacion2 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 3");
-            calificacion3 = Float.parseFloat(br.readLine());
+            Calificacion3 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 4");
-            calificacion4 = Float.parseFloat(br.readLine());
+            Calificacion4 = Float.parseFloat(br.readLine());
 
-            promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
+            Promedio = (Calificacion1 +  Calificacion2 + Calificacion3 + Calificacion4) / 4;
 
-            System.out.println("El promedio es: " + promedio);
+            System.out.println("El promedio es: " + Promedio);
         } while (a < 3);
         
         System.out.println("Problema 2");
-        float base, altura;
+        float Base, altura;
         float area;
         int b = 1;
 
         do
         {
             System.out.println("Ingrese base");
-            base = Float.parseFloat(br.readLine());
+            Base = Float.parseFloat(br.readLine());
             System.out.println("Ingese altura");
             altura = Float.parseFloat(br.readLine());
 
-            area = (base * altura) / 2;
+            area = (Base * altura) / 2;
             System.out.println("El area es " + area);
         } while (b < 3);
 
@@ -78,20 +78,20 @@ public class ProblemasAsesoriasDoWhile {
 
             System.out.println("Problema 4");
 
-            int ladoa;
-            int ladob;
-            int ladoc;
+            int LadoA;
+            int LadoB;
+            int LadoC;
 
             System.out.println("Ingrese lado a");
-            ladoa = leer.nextInt();
+            LadoA = leer.nextInt();
             System.out.println("Ingrese lado b");
-            ladob = leer.nextInt();
+            LadoB = leer.nextInt();
             System.out.println("Ingrese lado c");
-            ladoc = leer.nextInt();
+            LadoC = leer.nextInt();
 
-            area = ladoa + ladob + ladoc;
+            Area = LadoA + LadoB + LadoC;
 
-            System.out.println("El area es " + area);
+            System.out.println("El area es " + Area);
         } while (c > 3);
             System.out.println("Problema 5");
             int numero;

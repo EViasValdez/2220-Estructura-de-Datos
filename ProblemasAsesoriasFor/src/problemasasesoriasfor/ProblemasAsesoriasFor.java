@@ -23,7 +23,7 @@ public class ProblemasAsesoriasFor {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
-        Scanner leer = new Scanner (System.in);
+        Scanner Leer = new Scanner (System.in);
 
         System.out.println("Problema 1");
 
@@ -75,20 +75,20 @@ public class ProblemasAsesoriasFor {
             System.out.println("El area es: " +  Area2);
             System.out.println("Problema 4");
 
-            int Ladoa;
-            int Ladob;
-            int Ladoc;
+            int LadoA;
+            int LadoB;
+            int LadoC;
 
             for (int d = 1; d < 3; d++)
             {
                 System.out.println("Ingrese lado a");
-                Ladoa = leer.nextInt();
+                LadoA = Leer.nextInt();
                 System.out.println("Ingrese lado b");
-                Ladob = leer.nextInt();
+                LadoB = Leer.nextInt();
                 System.out.println("Ingrese lado c");
-                Ladoc = leer.nextInt();
+                LadoC = Leer.nextInt();
 
-                Area = Ladoa + Ladob + Ladoc;
+                Area = LadoA + LadoB + LadoC;
 
                 System.out.println("El area es: " + Area);
             }
@@ -98,7 +98,7 @@ public class ProblemasAsesoriasFor {
         int Numero;
 
         System.out.println("Ingese numero");
-        Numero = leer.nextInt();
+        Numero = Leer.nextInt();
 
         if (Numero > 0)
         {
@@ -119,7 +119,7 @@ public class ProblemasAsesoriasFor {
 
         System.out.println("Problema 6");
         float Cantidad;
-        float Total = 0;
+        float Total1 = 0;
         
         for (int e = 1; e < 3; e++)
         {
@@ -128,14 +128,14 @@ public class ProblemasAsesoriasFor {
         
         if (cantidad >= 1000)
         {
-            Total = Cantidad * 85;
+            Total1 = Cantidad * 85;
         }
         else
         if (cantidad <= 1000)
         {
-            Total = Cantidad * 90;
+            Total1 = Cantidad * 90;
         }
-            System.out.println(total);
+            System.out.println(Total1);
         }
 
         System.out.println("Problema 7");
@@ -172,7 +172,7 @@ public class ProblemasAsesoriasFor {
 
         System.out.println("Problema 8");
         float Numeroalumnos;
-        float total2 = 0;
+        float Total2 = 0;
 
         for (int g = 1; g < 3; g++)
         {
@@ -181,19 +181,19 @@ public class ProblemasAsesoriasFor {
 
         if (NumeroAlumnos >= 100)
         {
-            total2 = 65 * NumeroAlumnos;
+            Total2 = 65 * NumeroAlumnos;
         }
         else
         if (NumeroAlumnos >= 50 && NumeroAlumnos <= 99)
         {
-            total2 = 70 * NumeroAlumnos;
+            Total2 = 70 * NumeroAlumnos;
         }
         else
         if (NumeroAlumnos >= 30 && NumeroAlumnos <= 45)
         {
-            total2 = 95 * NumeroAlumnos;
+            Total2 = 95 * NumeroAlumnos;
         }
         }
-        System.out.println("El total es: " + total2 + 1000);
+        System.out.println("El total es: " + Total2 + 1000);
     }
 }

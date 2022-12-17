@@ -24,33 +24,33 @@ public class TrianguloMetodosArrelgos {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
 
-        int ladoa;
-        int ladob;
-        int ladoc;
+        int LadoA;
+        int LadoB;
+        int LadoC;
 
-        int lado [] = new int [3];
+        int Lado [] = new int [3];
 
-        Scanner leer = new Scanner (System.in);
+        Scanner Leer = new Scanner (System.in);
 
         for (int i = 0; i < 3; i++) {
             System.out.println("Ponga sus cantidades");
-            lado [i] = Integer.parseInt(br.readLine());
+            Lado [i] = Integer.parseInt(br.readLine());
         }
-        triangulo (lado);
+        triangulo (Lado);
     }
-    public static void triangulo(int lado[]) {
+    public static void triangulo(int Lado[]) {
         for (int i = 0; i < 3; i++) {
-            if (lado [0] == lado [1] && lado [2] == lado [0]){
+            if (Lado [0] == Lado [1] && Lado [2] == Lado [0]){
                 System.out.println("El triangulo mostrado es un triangulo equilatero");
             }
             else
             {
-            if (lado [0] != lado [1] && lado [2] != lado [0]){
+            if (Lado [0] != Lado [1] && Lado [2] != Lado [0]){
                 System.out.println("El triangulo mostrado es un triangulo isoceles");
             }
             else
             {
-            if (lado [0] != lado [1] && lado [2] != lado [0])
+            if (Lado [0] != Lado [1] && Lado [2] != Lado [0])
                 System.out.println("El triangulo mostrado es un triangulo escaleno");
             }
             }

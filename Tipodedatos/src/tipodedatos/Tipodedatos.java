@@ -23,17 +23,17 @@ public class Tipodedatos {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
 
-        String nombre;
-        char grupo;
-        float promedio;
+        String Nombre;
+        char Grupo;
+        float Promedio;
 
         System.out.println("Escribe tu nombre");
-        nombre = br.readLine();
+        Nombre = br.readLine();
 
         System.out.println("Escribe tu grupo");
-        grupo = (char)br.read();
+        Grupo = (char)br.read();
 
         System.out.println("Escribe tu promedio");
-        promedio = Float.parseFloat(br.readLine());
+        Promedio = Float.parseFloat(br.readLine());
     }
 }

@@ -11,16 +11,16 @@ package proyectobd;
  */
 public class OrdenamientoPorInsercion {
     public static void main(String[] args) {
-        int [] listaorden = new int [100];
+        int [] ListaOrden = new int [100];
         int a, b;
         int auxiliar;
 
         for (a = 1; a < 100; a++) {
-            auxiliar = listaorden [a];
+            auxiliar = ListaOrden [a];
             b = a - 1;
 
-            while ((b >= 0) && listaorden [b] > auxiliar) {
-                listaorden [b + 1] = listaorden [b--];
+            while ((b >= 0) && ListaOrden [b] > auxiliar) {
+                ListaOrden [b + 1] = ListaOrden [b--];
                 System.out.println(auxiliar);
             }
         }

@@ -15,46 +15,46 @@ public class MergeSort {
             return;
         }
 
-        int med = b / 2;
-        int [] iz = new int [med];
-        int [] de = new int [b - med];
+        int Med = b / 2;
+        int [] Iz = new int [Med];
+        int [] De = new int [b - Med];
     
-        for (int c = 0; c < med; c++) {
-            iz [c] = a [c];
+        for (int c = 0; c < Med; c++) {
+            Iz [c] = a [c];
         }
-        for (int c = med; c < b; c++) {
-            de [c - med] = a [c];
+        for (int c = Med; c < b; c++) {
+            De [c - Med] = a [c];
         }
         
-        mergeSort (iz, med);
-        mergeSort (de, b - med);
-        merge (a, iz, de, med, b - med);
+        mergeSort (Iz, Med);
+        mergeSort (De, b - Med);
+        merge (a, Iz, De, Med, b - Med);
     }
-    public static void merge(int[] ar, int iz[], int de[], int izqu, int dere) {
+    public static void merge(int[] Ar, int Iz[], int De[], int Izqu, int Dere) {
         int i = 0, j = 0, k = 0;
 
-        while (i < izqu && j < dere) {
-            if (iz [i] <= de [j]) {
-                ar [k++] = iz [i++];
+        while (i < Izqu && j < Dere) {
+            if (Iz [i] <= De [j]) {
+                Ar [k++] = Iz [i++];
             }
         else {
-            ar [k++] = de [j++];
+            Ar [k++] = De [j++];
         }
         }
-        while (i < izqu) {
-            ar [k++] = iz [i++];
+        while (i < Izqu) {
+            Ar [k++] = Iz [i++];
         }
-        while (j < dere) {
-            ar [k++] = de [j++];
+        while (j < Dere) {
+            Ar [k++] = De [j++];
         }
     }
     public static void main(String[] args) {
-        int [] actual = {5, 1, 6, 2, 3 ,4};
+        int [] Actual = {5, 1, 6, 2, 3 ,4};
 
-        mergeSort (actual, actual.length);
+        mergeSort (Actual, Actual.length);
 
-        for (int i = 0; i < actual.length; i++) {
-            System.out.println(actual [i]);
+        for (int i = 0; i < Actual.length; i++) {
+            System.out.println(Actual [i]);
         }
     }
 }

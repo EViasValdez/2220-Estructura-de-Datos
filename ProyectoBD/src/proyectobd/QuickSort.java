@@ -13,38 +13,38 @@ import java.util.Arrays;
  */
 public class QuickSort {
     public static void main(String[] args) {
-        int [] ar = {4, 5, 1, 2, 3, 3};
-        qs (ar, 0, ar.length - 1);
+        int [] Ar = {4, 5, 1, 2, 3, 3};
+        Qs (Ar, 0, Ar.length - 1);
 
-        System.out.println(Arrays.toString (ar));
+        System.out.println(Arrays.toString (Ar));
     }
-    public static void qs (int[] ar, int inicio, int fin) {
-        int particion = particion(ar, inicio, fin);
+    public static void Qs (int[] Ar, int Inicio, int Fin) {
+        int Particion = Particion(Ar, Inicio, Fin);
     
-        if (particion - 1 > inicio) {
-            qs (ar, inicio, particion - 1);
+        if (Particion - 1 > Inicio) {
+            Qs (Ar, Inicio, Particion - 1);
         }
-        if (particion + 1 < fin) {
-            qs (ar, fin, particion - 1);
+        if (Particion + 1 < Fin) {
+            Qs (Ar, Fin, Particion - 1);
         }
     }
-    public static int particion(int[] ar, int inicio, int fin) {
-        int pivot = ar [fin];
+    public static int Particion(int[] Ar, int Inicio, int Fin) {
+        int Pivot = Ar [Fin];
     
-        for (int a = inicio; a < fin; a++) {
-            if (ar [a] < pivot) {
-                int temp = ar [inicio];
+        for (int a = Inicio; a < Fin; a++) {
+            if (Ar [a] < Pivot) {
+                int Temp = Ar [Inicio];
                 
-                ar [inicio] = ar [a];
-                ar [a] = temp;
-                inicio++;
+                Ar [Inicio] = Ar [a];
+                Ar [a] = Temp;
+                Inicio++;
             }
         }
-        int temp = ar [inicio];
+        int Temp = Ar [Inicio];
     
-        ar [inicio] = pivot;
-        ar [fin] = temp;
+        Ar [Inicio] = Pivot;
+        Ar [Fin] = Temp;
     
-        return inicio;
+        return Inicio;
     }
 }

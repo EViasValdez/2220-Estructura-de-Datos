@@ -10,32 +10,32 @@ package proyectobd;
  * @author EViasValdez
  */
 public class MetodoBurbuja {
-    public static int[] MetodBurbu(int[] arreglo)
+    public static int[] MetodBurbu(int[] Arreglo)
     {
-        int auxiliar;
-        int [] orden;
+        int Auxiliar;
+        int [] Orden;
 
-        for (int a = 2; a < arreglo.length; a++)
+        for (int a = 2; a < Arreglo.length; a++)
         {
-            for (int b = 0; b < arreglo.length - 1; b++)
+            for (int b = 0; b < Arreglo.length - 1; b++)
             {
-                if (arreglo[a] > arreglo [b + 1])
+                if (Arreglo[a] > Arreglo [b + 1])
                 {
-                    auxiliar = arreglo [b];
-                    arreglo [b] = arreglo [b + 1];
-                    arreglo [b + 1] = auxiliar;
+                    Auxiliar = Arreglo [b];
+                    Arreglo [b] = Arreglo [b + 1];
+                    Arreglo [b + 1] = Auxiliar;
                 }
             }
         }
-        orden = arreglo;
-        return orden;
+        Orden = Arreglo;
+        return Orden;
     }
     public static void main(String[] args) {
-        int arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
-        int orden [] = MetodBurbu (arreglo);
+        int Arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
+        int Orden [] = MetodBurbu (Arreglo);
 
-        for (int a = 0; a < orden.length;a++) {
-            System.out.println(orden [a]);
+        for (int a = 0; a < Orden.length; a++) {
+            System.out.println(Orden [a]);
         }
     }
 }
