@@ -26,16 +26,16 @@ public class EjercicioListas {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
 
-        List <Float> calificaciones = new ArrayList<Float>();
+        List <Float> Calificaciones = new ArrayList<Float>();
 
-        int numecalf, opcion, aprueba = 0;
-        float calif, eliminarcalificacion, promedio, suma = 0;
-        String regresar = "si";
+        int NumeCalf, Opcion, Aprueba = 0;
+        float Calif, EliminarCalificacion, Promedio, Suma = 0;
+        String Regresar = "si";
 
-        while (regresar.equals("si")) {
+        while (Regresar.equals("si")) {
             System.out.println("1. Ingresar en una lista N calificaciones");
             System.out.println("2. Mostrar la lista de las calificaciones");
-            System.out.println("3. Eliminar un elemento a la lista que el usuario indique y en la opcion que indique");
+            System.out.println("3. Eliminar un elemento a la lista que el usuario indique y en la Opcion que indique");
             System.out.println("4. Mostrar las calificaciones de forma ascendente");
             System.out.println("5. Mostrar las calificaciones de forma descendente");
             System.out.println("6. Mostrar aquellas calificaciones aprobadas y cuantas son (aprobadas mayor o igual a 7)");
@@ -43,70 +43,70 @@ public class EjercicioListas {
             System.out.println("8. Agregar otras 5 calificaciones");
             System.out.println("9. Mostrar los elementos de las listas desde la posicion 5 a la 10");
             System.out.println("10. Limpiar la lista");
-            System.out.println("Elige una opcion");
-            opcion = Integer.parseInt(br.readLine());
+            System.out.println("Elige una Opcion");
+            Opcion = Integer.parseInt(br.readLine());
 
-            switch (opcion) {
+            switch (Opcion) {
             case 1:
                 System.out.println("Inserte numero de calificaciones");
-                numecalf = Integer.parseInt(br.readLine());
+                NumeCalf = Integer.parseInt(br.readLine());
 
-                for (int i = 0; i <= numecalf - 1; i++)
+                for (int i = 0; i <= NumeCalf - 1; i++)
                 {
                     System.out.println("Inserte la calificacion");
-                    calif = Float.parseFloat(br.readLine());
-                    calificaciones.add (calif);
-                    System.out.println("La calificación agregada es: " + calificaciones);
+                    Calif = Float.parseFloat(br.readLine());
+                    Calificaciones.add (Calif);
+                    System.out.println("La calificación agregada es: " + Calificaciones);
                 }
             break;
 
             case 2:
-                System.out.println("La calificación agregada es: " + calificaciones);
+                System.out.println("La calificación agregada es: " + Calificaciones);
             break;
 
             case 3:
                 System.out.println("Eliga la calificacion a eliminar");
-                eliminarcalificacion = Float.parseFloat(br.readLine());
-                calificaciones.remove (eliminarcalificacion);
+                EliminarCalificacion = Float.parseFloat(br.readLine());
+                Calificaciones.remove (EliminarCalificacion);
             break;
 
             case 4:
-                calificaciones.sort (null);
-                System.out.println(calificaciones);
+                Calificaciones.sort (null);
+                System.out.println(Calificaciones);
             break;
             
             case 5:
-                Collections.sort (calificaciones, Collections.reverseOrder());
-                System.out.println(calificaciones);
+                Collections.sort (Calificaciones, Collections.reverseOrder());
+                System.out.println(Calificaciones);
             break;
 
             case 6:
-                for (int i = 0; i <= calificaciones.size() - 1; i++) 
+                for (int i = 0; i <= Calificaciones.size() - 1; i++) 
                 {
-                    if (calificaciones.get (i) >= 7)
+                    if (Calificaciones.get (i) >= 7)
                     {
-                        aprueba = aprueba + 1;
+                        Aprueba = Aprueba + 1;
                     }
                 }
-            System.out.println("Total de calificaciones aprobadas: " + aprueba);
+            System.out.println("Total de calificaciones aprobadas: " + Aprueba);
             break;
 
             case 7:
-                for (int i = 0; i <= calificaciones.size() - 1; i++)
+                for (int i = 0; i <= Calificaciones.size() - 1; i++)
                 {
-                    suma = suma + calificaciones.get (i);
+                    Suma = Suma + Calificaciones.get (i);
                 }
-                promedio = suma / calificaciones.size();
-                System.out.println("El promedio es: " + promedio);
+                Promedio = Suma / Calificaciones.size();
+                System.out.println("El promedio es: " + Promedio);
             break;
         
             case 8:
                 for (int i = 0; i <= 4; i++)
                 {
                     System.out.println("Inserte la calificación");
-                    calif = Float.parseFloat(br.readLine());
-                    calificaciones.add (calif);
-                    System.out.println("La calificacion agregada es: " + calificaciones);
+                    Calif = Float.parseFloat(br.readLine());
+                    Calificaciones.add (Calif);
+                    System.out.println("La calificacion agregada es: " + Calificaciones);
                 }
             break;
         
@@ -115,13 +115,13 @@ public class EjercicioListas {
             break;
         
             case 10:
-                calificaciones.clear();
-                System.out.println(calificaciones);
+                Calificaciones.clear();
+                System.out.println(Calificaciones);
             break;
 
             }
         System.out.println("¿Quiere mostrar el menu otra vez?");
-        regresar = br.readLine();
+        Regresar = br.readLine();
         }
     }
 }

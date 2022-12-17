@@ -53,7 +53,7 @@ public class ArregloUnidimensional {
         }
         // Se recorre el arreglo "Salario".
         for (int k = 0; k < Salario.length; k++) {
-            System.out.print("Escribe el Salario numero " + (k + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subíndice para que muestre el numero 1 primero.
+            System.out.print("Escribe el salario numero " + (k + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subíndice para que muestre el numero 1 primero.
             Salario [k] = Double.parseDouble(br.readLine()); // Se ingresan los datos al arreglo Salario cada dato segun el subíndice "k".
         }
         // Se recorre el arreglo "Salario".
