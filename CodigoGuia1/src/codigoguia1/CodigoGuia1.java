@@ -23,25 +23,25 @@ public class CodigoGuia1 {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
 
-        double calificacion1, calificacion2, calificacion3, calificacion4, suma = 0, promedio = 0;
-        int contador = 0;
+        double Calificacion1, Calificacion2, Calificacion3, Calificacion4, Suma = 0, Promedio = 0;
+        int Contador = 0;
 
-        while (contador <= 4)
+        while (Contador <= 4)
         {
             System.out.println("Escribe la calificacion 1");
-            calificacion1 = Double.parseDouble(br.readLine());
+            Calificacion1 = Double.parseDouble(br.readLine());
             System.out.println("Escribe la calificacion 2");
-            calificacion2 = Double.parseDouble(br.readLine());
+            Calificacion2 = Double.parseDouble(br.readLine());
             System.out.println("Escribe la calificacion 3");
-            calificacion3 = Double.parseDouble(br.readLine());
+            Calificacion3 = Double.parseDouble(br.readLine());
             System.out.println("Escribe la calificacion 4");
-            calificacion4 = Double.parseDouble(br.readLine());
+            Calificacion4 = Double.parseDouble(br.readLine());
 
-            suma = (calificacion1 + calificacion2 + calificacion3 + calificacion4);
-            promedio = suma / 4;
+            Suma = (Calificacion1 + Calificacion2 + Calificacion3 + Calificacion4);
+            Promedio = Suma / 4;
 
-            contador = contador + 1;
+            Contador = Contador + 1;
         }
-        System.out.println("El promedio es " + promedio);
+        System.out.println("El promedio es " + Promedio);
     }
 }

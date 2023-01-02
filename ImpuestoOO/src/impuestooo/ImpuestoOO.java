@@ -25,14 +25,14 @@ public class ImpuestoOO {
         // Instanciamiento del objeto llamado "prod" a la clase "Producto", es decir se esta creando un objeto.
         Producto prod = new Producto();
         // Declaración de la variable precio de tipo float.
-        float precio;
+        float Precio;
         // Es enviado un mensaje a pantalla con el texto "Escribe el precio".
         System.out.println("Escribe el precio");
         // Es leída una linea que se convierte a un dato de tipo float con el método parseFloat el cual pertenece
         // a la clase float y se asigna a la variable "precio".
-        precio = Float.parseFloat(br.readLine());
+        Precio = Float.parseFloat(br.readLine());
         // Se agrega con el método set el valor del precio al atributo "precio" de la clase.
-        prod.setPrecio (precio);
+        prod.setPrecio (Precio);
         // Se agrega con el método set el valor del impuesto al atributo "precio" de la clase.
         prod.setImpuesto (prod.impuesto);
         // Se imprime el resultado que se esta calculando llamando al método "total", que esta en la clase el

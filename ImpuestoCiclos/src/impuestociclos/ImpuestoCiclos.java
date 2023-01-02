@@ -31,7 +31,7 @@ public class ImpuestoCiclos {
         // de la variable por ser el resultado de una operación es decir todas las variables que sean el resultado
         // de una operación se inicializan con 0 pues no se conoce su valor, no se va a leer y ademas para limpiar
         // la variable para que no traiga basura como valor inicial.
-        float precio, impuesto = .05f, total = 0;
+        float Precio, Impuesto = .05f, Total = 0;
         int i = 0;
         // Variable de tipo entero Valor Inicial del ciclo,
         // mientras i sea menor a 4 - condición de fin de ciclo.
@@ -41,11 +41,11 @@ public class ImpuestoCiclos {
             // Es leída la variable "precio" la linea que se lee con el objeto br y el método readline
             // se convierte a un dato de tipo float con el método parse float que pertenece a la
             // clase de los Float y se le asigna a la variable "precio".
-            precio = Float.parseFloat(br.readLine());
+            Precio = Float.parseFloat(br.readLine());
             // Se realiza la operación del porcentaje.
-            total = precio + (precio * impuesto);
+            Total = Precio + (Precio * Impuesto);
             // Es enviado un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.
-            System.out.println("Total a pagar con impuesto: " + total);
+            System.out.println("Total a pagar con impuesto: " + Total);
             i++; // Contador para ir incrementando el ciclo "i = i + 1".
         }
     }

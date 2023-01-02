@@ -171,13 +171,13 @@ public class ProblemasAsesoriasFor {
         }
 
         System.out.println("Problema 8");
-        float Numeroalumnos;
+        float NumeroAlumnos;
         float Total2 = 0;
 
         for (int g = 1; g < 3; g++)
         {
             System.out.println("Ingrese numero de alumnos");
-            Numeroalumnos = Float.parseFloat(br.readLine());
+            NumeroAlumnos = Float.parseFloat(br.readLine());
 
         if (NumeroAlumnos >= 100)
         {

@@ -20,6 +20,7 @@ public class Pilas1 {
         // TODO code application logic here
         System.out.println("------Pila------");
         Pila Pila = new Pila(); // Es creado el objeto lalmado pila y se instancia a la clase "Pila".
+        
         Pila.apilar ("A"); // Se manda llamar al metodo "apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
         Pila.apilar ("B");
         Pila.apilar ("C");

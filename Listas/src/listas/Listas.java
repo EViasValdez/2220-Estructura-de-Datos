@@ -28,58 +28,58 @@ public class Listas {
         BufferedReader br = new BufferedReader (isr);
 
         // El tipo de dato de la lista va en mayusculas (String, float, Double, Int).
-        List <String> ejemploLista = new ArrayList<String>();
+        List <String> EjemploLista = new ArrayList<String>();
 
-        String nombre;
+        String Nombre;
 
-        ejemploLista.add ("Juan");
-        ejemploLista.add ("Pedro");
-        ejemploLista.add ("José");
-        ejemploLista.add ("María");
-        ejemploLista.add ("Sofía");
+        EjemploLista.add ("Juan");
+        EjemploLista.add ("Pedro");
+        EjemploLista.add ("José");
+        EjemploLista.add ("María");
+        EjemploLista.add ("Sofía");
 
         // Imprimir elementos de la lista.
         System.out.println("Elementos de la lista");
 
-        for (int i = 0; i <= ejemploLista.size() - 1; i++) {
-            System.out.println(ejemploLista.get(i));
+        for (int i = 0; i <= EjemploLista.size() - 1; i++) {
+            System.out.println(EjemploLista.get(i));
         }
 
         System.out.println("");
-        System.out.println("Tamaño de la lista: " + ejemploLista.size());
-        System.out.println("Primer elemento de la lista: " + ejemploLista.get(0));
+        System.out.println("Tamaño de la lista: " + EjemploLista.size());
+        System.out.println("Primer elemento de la lista: " + EjemploLista.get(0));
 
         // Agregar otro elemento a la lista.
-        ejemploLista.add ("Alicia");
+        EjemploLista.add ("Alicia");
 
         System.out.println("");
         System.out.println("Elementos de la lista con el que se agrego");
-        for (int i = 0; i <= ejemploLista.size() - 1; i++) {
-            System.out.println(ejemploLista.get(i));
+        for (int i = 0; i <= EjemploLista.size() - 1; i++) {
+            System.out.println(EjemploLista.get(i));
         }
 
-        ejemploLista.remove("Juan");
+        EjemploLista.remove("Juan");
 
         System.out.println("");
         System.out.println("Elementos de la lista despues de eliminar a Juan");
-        System.out.println(ejemploLista);
+        System.out.println(EjemploLista);
 
         // Elimina al elemento de la posicion 1 de la lista.
-        ejemploLista.remove (1);
+        EjemploLista.remove (1);
 
         System.out.println("");
         System.out.println("Elementos de la lista despues de eliminar al elemeno de la posicion 1 de la lista");
-        System.out.println(ejemploLista);
+        System.out.println(EjemploLista);
 
         System.out.println("");
         System.out.println("Escribe un nombre");
-        nombre = br.readLine();
+        Nombre = br.readLine();
 
         // Agregar el elemento que se agrego a la lista.
-        ejemploLista.add (nombre);
+        EjemploLista.add (Nombre);
 
         // Otra manera de imprimir la Lista con la clase Iterator.
-        Iterator i = ejemploLista.iterator();
+        Iterator i = EjemploLista.iterator();
 
         while (i.hasNext())
         {
@@ -87,25 +87,25 @@ public class Listas {
         }
 
         // Si la lista contiene a un elmento.
-        System.out.println(ejemploLista.contains("José"));
+        System.out.println(EjemploLista.contains("José"));
 
         // Si la lista esta vacia.
-        System.out.println(ejemploLista.isEmpty());
+        System.out.println(EjemploLista.isEmpty());
 
         // Cambiar el elemento del subindice 1 de la lista por "Felix".
-        ejemploLista.set (1, "Félix");
-        System.out.println(ejemploLista);
+        EjemploLista.set (1, "Félix");
+        System.out.println(EjemploLista);
         // Obtener datos entre un subindice y otro.
-        System.out.println(ejemploLista.subList(0, 2));
+        System.out.println(EjemploLista.subList(0, 2));
         // El metodo ordena la lista de manera ascendente (en este caso de la A a la Z).
-        ejemploLista.sort (null);
-        System.out.println(ejemploLista);
+        EjemploLista.sort (null);
+        System.out.println(EjemploLista);
         // Ahora con este metodo los ordena de manera descendete de la Z a la A.
-        Collections.sort (ejemploLista,Collections.reverseOrder());
-        System.out.println(ejemploLista);
+        Collections.sort (EjemploLista,Collections.reverseOrder());
+        System.out.println(EjemploLista);
 
         // Vaciar la lista.
-        ejemploLista.clear();
-        System.out.println(ejemploLista);
+        EjemploLista.clear();
+        System.out.println(EjemploLista);
     }
 }

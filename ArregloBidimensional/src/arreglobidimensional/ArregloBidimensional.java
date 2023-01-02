@@ -34,7 +34,7 @@ public class ArregloBidimensional {
                 Calificaciones [k] [i] = Float.parseFloat(br.readLine());
                 Suma = Suma + Calificaciones [k] [i];
             }
-            System.out.println("La Suma es: " + Suma);
+            System.out.println("La suma es: " + Suma);
             Promedio = Suma / 3;
             System.out.println("El promedio del alumno es: " + Promedio);
         }

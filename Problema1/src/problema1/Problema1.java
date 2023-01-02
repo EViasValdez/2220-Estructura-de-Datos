@@ -26,9 +26,9 @@ public class Problema1 {
 
         System.out.println("Test con tres numeros");
 
-        A = Leer.nextInt ();
-        B = Leer.nextInt ();
-        C = Leer.nextInt ();
+        A = Leer.nextInt();
+        B = Leer.nextInt();
+        C = Leer.nextInt();
 
         if (A + B == C) {
             System.out.println("");
@@ -44,7 +44,7 @@ public class Problema1 {
             System.out.println("");
             System.out.println("Son iguales");
         }
-        else{
+        else {
             System.out.println("");
             System.out.println("Son distintos");
          }

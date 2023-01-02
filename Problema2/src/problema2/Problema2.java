@@ -18,11 +18,11 @@ public class Problema2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int a;
-        int b;
-        int c;
+        int A;
+        int B;
+        int C;
 
-        Scanner leer = new Scanner (System.in);
+        Scanner Leer = new Scanner (System.in);
 
         int i = 1;
 
@@ -30,22 +30,22 @@ public class Problema2 {
             System.out.println("Insterte valores");
 
             System.out.println("Valor A");
-            a = leer.nextInt();
+            A = Leer.nextInt();
             System.out.println("Valor B");
-            b = leer.nextInt();
+            B = Leer.nextInt();
             System.out.println("Valor C");
-            c = leer.nextInt();
+            C = Leer.nextInt();
 
-            if (a + b == c) {
-                System.out.println("Son iguales " + a + "+" + b + " = " + c);
+            if (A + B == C) {
+                System.out.println("Son iguales " + A + "+" + B + " = " + C);
             }
             else{
-            if (a + c == b) {
-                System.out.println("Son iguales " + a + "+" + c + " = " + b);
+            if (A + C == B) {
+                System.out.println("Son iguales " + A + "+" + C + " = " + B);
             }
             else{
-            if (b + c == a) {
-                System.out.println("Son iguales " + b + "+" + c + " = " + a);
+            if (B + C == A) {
+                System.out.println("Son iguales " + B + "+" + C + " = " + A);
             }
             else{
                 System.out.println("Son distintos");

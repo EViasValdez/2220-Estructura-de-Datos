@@ -31,13 +31,13 @@ public class ImpuestoconMetodos {
         // el resultado de una operación es decir todas las variables que sean el resultado de una operación se 
         // inicializan con 0 pues no se conoce su valor, no se va a leer y ademas para limpiar la variable es
         // decir que no traiga basura como valor inicial.
-        float precio; // La variable tiene alcance en el main y en los demás métodos del programa.
+        float Precio; // La variable tiene alcance en el main y en los demás métodos del programa.
         // Se envía un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el precio");
         // Se lee la variable precio la linea que se lee con el objeto "br" y con el método readline,
         // se convierte a un dato de tipo float con el método parse float
         // perteneciente a la clase de los Float y se le asigna a la variable "precio".
-        precio = Float.parseFloat(br.readLine());
+        Precio = Float.parseFloat(br.readLine());
         // Se envía un mensaje para imprimir el total de la variable a la que se le asigno el valor del 
         // total, solo que se manda llamar al método "calculo" y se le pasa como parámetro la variable "precio"
         // va y busca en el main al método "calculo".
@@ -45,9 +45,9 @@ public class ImpuestoconMetodos {
     }
     public static float calculo(float precio) { // Método calculo.
         // Varibales locales de este método "impuesto" y "total", se realizar la operación del porcentaje.
-       float impuesto = .05f, total = 0;
-       total = precio + (precio * impuesto); // Se realiza el calculo del total.
-       return total; // return (que significa retornar o regresar) lleva de regreso al main en donde fue llamado
+       float Impuesto = .05f, total = 0;
+       Total = Precio + (Precio * Impuesto); // Se realiza el calculo del total.
+       return Total; // return (que significa retornar o regresar) lleva de regreso al main en donde fue llamado
        // el método "calculo", en este caso en la linea 47 y regresa el valor de la variable "total".
     }
 }
