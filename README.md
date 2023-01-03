@@ -16,7 +16,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 **- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
 <!----Separador de las notas---->
 
-<!----Directorio con ubicación de archivos---->
+<!----Directorio con descripcion de los programas---->
 # Directorio con ubicación de archivos
 ###### EjercicioCalifiaciones - 20/01/20
 Texto por ser escrito.
@@ -190,4 +190,4 @@ Texto por ser escrito.
 ###### ProyectoBD - 16/12/20
 Texto por ser escrito.
 <!----Separador---->
-<!----Separador del directorio con ubicación de archivos---->
+<!----Separador del directorio con descripcion de los programas---->
