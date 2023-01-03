@@ -50,7 +50,7 @@ public class Actividades {
             {
                 System.out.println("Monto de ventas");
                 Venta = Integer.parseInt(br.readLine());
-                Ventas.add (Venta);
+                Ventas.add(Venta);
             }
             
             System.out.println("Sus ingresos son");
