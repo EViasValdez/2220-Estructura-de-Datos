@@ -21,13 +21,14 @@ public class Pilas1 {
         System.out.println("------Pila------");
         Pila Pila = new Pila(); // Es creado el objeto lalmado pila y se instancia a la clase "Pila".
         
-        Pila.apilar ("A"); // Se manda llamar al metodo "apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
-        Pila.apilar ("B");
-        Pila.apilar ("C");
-        Pila.apilar ("D");
+        Pila.apilar("A"); // Se manda llamar al metodo "apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
+        Pila.apilar("B");
+        Pila.apilar("C");
+        Pila.apilar("D");
 
         //Con la clase Iterator se recorre el objeto "pila" pues se creo el objeto "iterator" de la clase "Iterator"
-        Iterator iterator = pila.iterator();
+        Iterator iterator = Pila.iterator();
+
         System.out.println("Elementos de la pila: ");
         while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo
             System.out.print(iterator.next() + " ");  // con hasNext cada uno de los elemntos de la lista se van imprimiendo.
@@ -36,11 +37,11 @@ public class Pilas1 {
         System.out.println("¿Esta vacia la pila? " + Pila.vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
         System.out.println("Tamaño de la pila: " + Pila.size()); // Muestra el tamaño de la pila.
 
-        System.out.println(pila.cima()); // Manda llamar al metodo cima de la clase "Pila" y regresa el elemto de la cima de la pila
+        System.out.println(Pila.cima()); // Manda llamar al metodo cima de la clase "Pila" y regresa el elemto de la cima de la pila
         Pila.desapilar(); // Una vez estando en la cima en el primer elemento de la pila manda llamar al metodo desapilar de la 
-        System.out.println(pila.cima()); // clase Pila en el metodo desapilar elimina el elemento de la pila con el metodo "remove".
+        System.out.println(Pila.cima()); // clase Pila en el metodo desapilar elimina el elemento de la pila con el metodo "remove".
         Pila.desapilar();
-        System.out.println(pila.cima());
+        System.out.println(Pila.cima());
         Pila.desapilar();
         System.out.println("Elementos en la pila " + Pila); // Imprime los elementos de la pila.
 
@@ -49,10 +50,10 @@ public class Pilas1 {
 
         System.out.println("------Cola------");
         Cola Cola = new Cola();
-        Cola.encolar ("A");
-        Cola.encolar ("B");
-        Cola.encolar ("C");
-        Cola.encolar ("D");
+        Cola.encolar("A");
+        Cola.encolar("B");
+        Cola.encolar("C");
+        Cola.encolar("D");
 
         System.out.println("¿Esta vacia la cola?" + Cola.vacia());
         System.out.println("Tamaño de la cola: " + Cola.size());

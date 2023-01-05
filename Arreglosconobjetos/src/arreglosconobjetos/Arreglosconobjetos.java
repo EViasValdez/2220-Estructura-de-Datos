@@ -17,7 +17,7 @@ public class ArreglosconObjetos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner Leer = new Scanner (System.in);
+        Scanner Leer = new Scanner(System.in);
 
         Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado "Pacientes"
         // el cual esta instanciado a la Clase "Persona" de tamaño 4.

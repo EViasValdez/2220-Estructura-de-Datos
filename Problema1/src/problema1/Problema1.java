@@ -18,7 +18,7 @@ public class Problema1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner Leer = new Scanner (System.in);
+        Scanner Leer = new Scanner(System.in);
 
         int A;
         int B;

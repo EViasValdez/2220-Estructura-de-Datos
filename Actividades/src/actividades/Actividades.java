@@ -29,7 +29,7 @@ public class Actividades {
         System.out.println("3. Captura de las Ventas de 20 comisionistas de forma mensual y de cinco productos diferentes");
         System.out.println("4. Controlar los autos que entran en un estacionamiento");
         
-        Scanner leer = new Scanner (System.in);
+        Scanner leer = new Scanner(System.in);
         
         int El = 0;
         El = leer.nextInt();

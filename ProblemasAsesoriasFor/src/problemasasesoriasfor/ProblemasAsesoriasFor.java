@@ -21,9 +21,9 @@ public class ProblemasAsesoriasFor {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);
-        Scanner Leer = new Scanner (System.in);
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
+        Scanner Leer = new Scanner(System.in);
 
         System.out.println("Problema 1");
 
@@ -58,7 +58,7 @@ public class ProblemasAsesoriasFor {
             Altura = Float.parseFloat(br.readLine());
         
             Area = (Base * Altura) / 2;
-            System.out.println("El area es: " + area);
+            System.out.println("El area es: " + Area);
         }
 
         System.out.println("Problema 3");
@@ -69,9 +69,9 @@ public class ProblemasAsesoriasFor {
         for (int c = 1; c < 3; c++)
         {
             System.out.println("Ingese radio");
-            radio = Float.parseFloat(br.readLine());
+            Radio = Float.parseFloat(br.readLine());
 
-            Area2 = (float) (pi * (radio * radio));
+            Area2 = (float) (pi * (Radio * Radio));
             System.out.println("El area es: " +  Area2);
             System.out.println("Problema 4");
 
@@ -126,12 +126,12 @@ public class ProblemasAsesoriasFor {
             System.out.println("Ingrese cantidad");
             Cantidad = Float.parseFloat(br.readLine());
         
-        if (cantidad >= 1000)
+        if (Cantidad >= 1000)
         {
             Total1 = Cantidad * 85;
         }
         else
-        if (cantidad <= 1000)
+        if (Cantidad <= 1000)
         {
             Total1 = Cantidad * 90;
         }

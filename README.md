@@ -60,19 +60,19 @@ Es lo mismo que en el programa previo pero utiliza un scanner para poder leer va
 <!----Separador---->
 
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
-Texto por ser escrito.
+Calculo del area del triangulo utilizando metodos.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Calculo del area del triangulo utilizando metodos y arreglos.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Calculo del area del triangulo utilizando unicamente arreglos.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Agregacion de impuestos usando arreglos.
 
 <!----Separador---->
 
@@ -157,23 +157,23 @@ Tambien lo mismo pero usando estructuras for.
 <!----Separador---->
 
 ###### Colas, Pilas1, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
-Texto por ser escrito.
+Programa de ejemplo que muestra el funcionamiento de una cola.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Utilizacion de una pila.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Programa de manejo de pilas usando un recorrido al ciclo pop.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Agregacion de metodos usando el metodo de pilas.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Agregacion de datos usando el metodo de colas.
 
 <!----Separador---->
 

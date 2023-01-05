@@ -22,7 +22,7 @@ public class TrianguloCiclos {
         int LadoB;
         int LadoC;
 
-        Scanner Leer = new Scanner (System.in);
+        Scanner Leer = new Scanner(System.in);
 
         int i = 1;
 

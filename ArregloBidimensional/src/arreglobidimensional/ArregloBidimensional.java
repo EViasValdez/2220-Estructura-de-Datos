@@ -19,8 +19,8 @@ public class ArregloBidimensional {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
         // 3 parciales calificación de dos alumnos.
         float Calificaciones [] [] = new float [2] [3];
         float Suma = 0, Promedio = 0;

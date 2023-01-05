@@ -21,8 +21,8 @@ public class EjercicioPilas {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
 
         Stack <Integer> Pil = new Stack<Integer>();
 
