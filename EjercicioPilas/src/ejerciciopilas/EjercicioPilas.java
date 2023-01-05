@@ -24,15 +24,15 @@ public class EjercicioPilas {
         InputStreamReader isr = new InputStreamReader (System.in);
         BufferedReader br = new BufferedReader (isr);
 
-        Stack <Integer> pil = new Stack<Integer>();
+        Stack <Integer> Pil = new Stack<Integer>();
 
         System.out.println("¿Cuantos elementos se agregaran?");
-        int n = Integer.parseInt(br.readLine());
+        int N = Integer.parseInt(br.readLine());
         
-        for (int i = n; i <= 10; i++)
+        for (int i = N; i <= 10; i++)
         {
             System.out.println("Elemento: " + (i));
-            pil.add (i);
+            Pil.add(i);
         }
     }
 }

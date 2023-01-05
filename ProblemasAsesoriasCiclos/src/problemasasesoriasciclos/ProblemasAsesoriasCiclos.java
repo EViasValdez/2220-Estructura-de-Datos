@@ -82,8 +82,8 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("Problema 4");
 
         int ladoa;
-        int ladoc;
         int ladob;
+        int ladoc;
         int d = 1;
 
         while (d < 3) {

@@ -17,18 +17,18 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 <!----Separador de las notas---->
 
 <!----Directorio con descripcion de los programas---->
-# Directorio con ubicación de archivos
+# Descripcion de los programas
 ###### EjercicioCalifiaciones - 20/01/20
-Texto por ser escrito.
+Se verifica que una calificacion sea aprobatoria o reprobatoria.
 
 <!----Separador---->
 
-###### Problema, Problemas1 - 21/01/20
-Texto por ser escrito.
+###### Problema1, Problema2 - 21/01/20
+Verifica si uno o varios numeros coinciden de acuerdo a lo ingresado.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Es similar al programa anterior solo que se muestran los valores que fueron ingresados.
 
 <!----Separador---->
 
@@ -50,12 +50,12 @@ Texto por ser escrito.
 <!----Separador---->
 
 ###### Triangulo - 24/01/20
-Texto por ser escrito.
+Se muestra que tipo de triangulo se puede mostrar de acuerdo a los valores.
 
 <!----Separador---->
 
 ###### TrianguloCiclos - 25/01/20
-Texto por ser escrito.
+Es lo mismo que en el programa previo pero utiliza un scanner para poder leer valores.
 
 <!----Separador---->
 
@@ -95,7 +95,7 @@ Texto por ser escrito.
 
 <!----Separador---->
 
-###### arreglo_tridimensional, ArregloBidimensional, impuestoOO - 03/02/20
+###### ArregloTridimensional, ArregloBidimensional, ImpuestoOO - 03/02/20
 Texto por ser escrito.
 
 <!--Separador-->
@@ -104,7 +104,7 @@ Texto por ser escrito.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Se realiza una serie de calculos para colocar un inpuesto a un producto por medio de la programacion orientada a objetos.
 
 <!----Separador---->
 
@@ -139,20 +139,20 @@ Texto por ser escrito.
 <!----Separador---->
 
 ###### ProblemasAsesorias - 08/02/20
-Texto por ser escrito.
+Coleccion de ejercicios realizados en las asesorias.
 
 <!----Separador---->
 
 ###### ProblemasAsesoriasCiclos, ProblemasAsesoriasDoWhile, ProblemasAsesoriasFor - 10/02/20
-Texto por ser escrito.
+Al igual que el anterior programa tiene los mismos ejercicios solo que se utilizan ciclos.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Lo mismo pero se usa un menu con el metodo DoWhile.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Tambien lo mismo pero usando estructuras for.
 
 <!----Separador---->
 

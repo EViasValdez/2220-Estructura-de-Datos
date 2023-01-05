@@ -30,7 +30,7 @@ public class Impuesto {
         // por ser el resultado de una operación es decir todas las variables que sean el resultado de una operación
         // se inicializan con 0 pues no se sabe su valor, no se va a leer y ademas para limpiar la variable es decir
         // que no traiga basura como valor inicial.
-        float Precio, Impuesto = .05f, total = 0;
+        float Precio, Impuesto = .05f, Total = 0;
         // Es enviado un mensaje en pantalla el cual mostrara "Escribe el Precio".
         System.out.println("Escribe el precio");
         // Se lee la variable "Precio" la linea que se lee con el objeto "br" y el método readline se ha convertido a un
@@ -38,8 +38,8 @@ public class Impuesto {
         // variable "Precio".
         Precio = Float.parseFloat(br.readLine());
         // La operación del porcentaje se realiza.
-        total = Precio + (Precio * Impuesto);
+        Total = Precio + (Precio * Impuesto);
         // Se envía un mensaje para imprimir el total de la variable a la que se le asigno el valor del total.
-        System.out.println("Total a pagar con impuesto: " + total);
+        System.out.println("Total a pagar con impuesto: " + Total);
     }
 }

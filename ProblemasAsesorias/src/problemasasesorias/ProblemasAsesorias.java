@@ -25,65 +25,65 @@ public class ProblemasAsesorias {
         BufferedReader br = new BufferedReader (isr);
 
         System.out.println("Problema 1");
-        float calificacion1, calificacion2, calificacion3, calificacion4;
-        float promedio;
+        float Calificacion1, Calificacion2, Calificacion3, Calificacion4;
+        float Promedio;
 
         System.out.println("Ingese calificacion 1");
-        calificacion1 = Float.parseFloat(br.readLine());
+        Calificacion1 = Float.parseFloat(br.readLine());
         System.out.println("Ingrese calificacion 2");
-        calificacion2 = Float.parseFloat(br.readLine());
+        Calificacion2 = Float.parseFloat(br.readLine());
         System.out.println("Ingrese calificacion 3");
-        calificacion3 = Float.parseFloat(br.readLine());
+        Calificacion3 = Float.parseFloat(br.readLine());
         System.out.println("Ingrese calificacion 4");
-        calificacion4 = Float.parseFloat(br.readLine());
+        Calificacion4 = Float.parseFloat(br.readLine());
 
-        promedio = (calificacion1 +  calificacion2 + calificacion3 + calificacion4) / 4;
+        Promedio = (Calificacion1 +  Calificacion2 + Calificacion3 + Calificacion4) / 4;
 
-        System.out.println("El promedio es: " + promedio);
+        System.out.println("El promedio es: " + Promedio);
         System.out.println("");
 
         System.out.println("Problema 2");
-        float base, altura;
-        float area;
+        float Base, Altura;
+        float Area;
 
         System.out.println("Ingrese base");
-        base = Float.parseFloat(br.readLine());
+        Base = Float.parseFloat(br.readLine());
         System.out.println("Ingese altura");
-        altura = Float.parseFloat(br.readLine());
+        Altura = Float.parseFloat(br.readLine());
 
-        area = (base * altura) / 2;
+        Area = (Base * Altura) / 2;
         System.out.println("El area es: " + area);
         System.out.println("");
 
         System.out.println("Problema 3");
-        float radio;
-        double pi = 3.1416;
-        float area2;
+        float Radio;
+        double Pi = 3.1416;
+        float Area2;
 
         System.out.println("Ingese radio");
-        radio = Float.parseFloat(br.readLine());
+        Radio = Float.parseFloat(br.readLine());
 
-        area2 = (float) (pi * (radio * radio));
-        System.out.println("El area es: " +  area2);
+        Area2 = (float) (Pi * (Radio * Radio));
+        System.out.println("El area es: " +  Area2);
         System.out.println("");
 
         System.out.println("Problema 4");
         Scanner leer = new Scanner (System.in);
 
-        int ladoa;
-        int ladoc;
-        int ladob;
+        int LadoA;
+        int LadoB;
+        int LadoC;
+        
+        System.out.println("Ingrese lado A");
+        LadoA = leer.nextInt();
+        System.out.println("Ingrese lado B");
+        LadoB = leer.nextInt();
+        System.out.println("Ingrese lado C");
+        LadoC = leer.nextInt();
 
-        System.out.println("Ingrese lado a");
-        ladoa = leer.nextInt();
-        System.out.println("Ingrese lado b");
-        ladob = leer.nextInt();
-        System.out.println("Ingrese lado c");
-        ladoc = leer.nextInt();
+        Area = LadoA + LadoB + LadoC;
 
-        area = ladoa + ladob + ladoc;
-
-        System.out.println("El area es: " + area);
+        System.out.println("El area es: " + Area);
         System.out.println("");
 
         System.out.println("Problema 5");
@@ -130,29 +130,29 @@ public class ProblemasAsesorias {
         System.out.println("");
 
         System.out.println("Problema 7");
-        float cantidad1;
-        float cantidad2;
-        float cantidad3;
+        float Cantidad1;
+        float Cantidad2;
+        float Cantidad3;
 
         System.out.println("Ingrese cantidad 1");
-        cantidad1 = Float.parseFloat(br.readLine());
+        Cantidad1 = Float.parseFloat(br.readLine());
         System.out.println("Ingrese cantidad 2");
-        cantidad2 = Float.parseFloat(br.readLine());
+        Cantidad2 = Float.parseFloat(br.readLine());
         System.out.println("Ingrese cantidad 3");
-        cantidad3 = Float.parseFloat(br.readLine());
+        Cantidad3 = Float.parseFloat(br.readLine());
 
-        if (cantidad1 > cantidad2 && cantidad1 > cantidad3)
+        if (Cantidad1 > Cantidad2 && Cantidad1 > Cantidad3)
         {
             System.out.println("La primera cantidad es mayor");
         }
         else
         {
-        if (cantidad2 > cantidad1 && cantidad2 > cantidad3)
+        if (Cantidad2 > Cantidad1 && Cantidad2 > Cantidad3)
         {
             System.out.println("La segunda cantidad es mayor");
         }
         else
-        if (cantidad3 > cantidad1 && cantidad3 > cantidad2)
+        if (Cantidad3 > Cantidad1 && Cantidad3 > Cantidad2)
         {
             System.out.println("La tercera cantidad es mayor");
         }    
@@ -160,27 +160,27 @@ public class ProblemasAsesorias {
         System.out.println("");
 
         System.out.println("Problema 8");
-        float numeroalumnos;
-        float total2 = 0;
+        float NumeroAlumnos;
+        float Total2 = 0;
 
         System.out.println("Ingrese numero de alumnos");
-        numeroalumnos = Float.parseFloat(br.readLine());
+        NumeroAlumnos = Float.parseFloat(br.readLine());
 
-        if (numeroalumnos >= 100)
+        if (NumeroAlumnos >= 100)
         {
-            total2 = 65 * numeroalumnos;
+            Total2 = 65 * NumeroAlumnos;
         }
         else
-        if (numeroalumnos >= 50 && numeroalumnos <= 99)
+        if (NumeroAlumnos >= 50 && NumeroAlumnos <= 99)
         {
-            total2 = 70 * numeroalumnos;
+            Total2 = 70 * NumeroAlumnos;
         }
         else
-        if (numeroalumnos >= 30 && numeroalumnos <= 45)
+        if (NumeroAlumnos >= 30 && NumeroAlumnos <= 45)
         {
-            total2 = 95 * numeroalumnos;
+            Total2 = 95 * NumeroAlumnos;
         }
-        System.out.println("El total es: " + total2 + 1000);
+        System.out.println("El total es: " + Total2 + 1000);
         System.out.println("");
     }
 }
