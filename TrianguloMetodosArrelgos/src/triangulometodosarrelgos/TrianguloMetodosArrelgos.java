@@ -21,8 +21,8 @@ public class TrianguloMetodosArrelgos {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
 
         int LadoA;
         int LadoB;
@@ -30,7 +30,7 @@ public class TrianguloMetodosArrelgos {
 
         int Lado [] = new int [3];
 
-        Scanner Leer = new Scanner (System.in);
+        Scanner Leer = new Scanner(System.in);
 
         for (int i = 0; i < 3; i++) {
             System.out.println("Ponga sus cantidades");

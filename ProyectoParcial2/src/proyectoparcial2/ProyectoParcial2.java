@@ -22,8 +22,8 @@ public class ProyectoParcial2 {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr); // Permite agregar el br.readline en el Integer.
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr); // Permite agregar el br.readline en el Integer.
 
         Queue <Integer> Deposito = new LinkedList<>(); // Es donde se crea la cola.
 

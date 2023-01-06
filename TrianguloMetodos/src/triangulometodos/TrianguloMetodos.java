@@ -22,7 +22,7 @@ public class TrianguloMetodos {
         int LadoB;
         int LadoC;
 
-        Scanner leer = new Scanner (System.in);
+        Scanner leer = new Scanner(System.in);
 
         System.out.println("Ponga sus cantidades");
         System.out.println("Inserte primera cantidad");
