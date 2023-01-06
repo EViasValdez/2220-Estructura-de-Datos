@@ -111,22 +111,22 @@ public class ProblemasAsesorias {
         System.out.println("");
 
         System.out.println("Problema 6");
-        float cantidad;
-        float total = 0;
+        float Cantidad;
+        float Total = 0;
 
         System.out.println("Ingrese cantidad");
-        cantidad = Float.parseFloat(br.readLine());
+        Cantidad = Float.parseFloat(br.readLine());
 
-        if (cantidad >= 1000)
+        if (Cantidad >= 1000)
         {
-            total = cantidad * 85;
+            Total = Cantidad * 85;
         }
         else
-        if (cantidad <= 1000)
+        if (Cantidad <= 1000)
         {
-            total = cantidad * 90;
+            Total = Cantidad * 90;
         }
-        System.out.println(total);
+        System.out.println(Total);
         System.out.println("");
 
         System.out.println("Problema 7");

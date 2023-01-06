@@ -21,9 +21,9 @@ public class ProblemasAsesoriasCiclos {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);
-        Scanner leer = new Scanner (System.in);
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
+        Scanner leer = new Scanner(System.in);
 
         System.out.println ("Problema 1");
         float Calificacion1, Calificacion2, Calificacion3, Calificacion4;
@@ -65,16 +65,16 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("");
         
         System.out.println("Problema 3");
-        float radio;
-        double pi = 3.1416;
-        float area2;
+        float Radio;
+        double Pi = 3.1416;
+        float Area2;
         int c = 1;
 
         while (c < 3) {
             System.out.println("Ingese radio");
-            radio = Float.parseFloat(br.readLine());
-            area2 = (float) (pi * (radio * radio));
-            System.out.println("El area es: " +  area2);
+            Radio = Float.parseFloat(br.readLine());
+            Area2 = (float) (Pi * (Radio * Radio));
+            System.out.println("El area es: " +  Area2);
             c++;
         }
         System.out.println("");

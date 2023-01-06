@@ -13,15 +13,15 @@ public class OrdenamientoPorInsercion {
     public static void main(String[] args) {
         int [] ListaOrden = new int [100];
         int a, b;
-        int auxiliar;
+        int Auxiliar;
 
         for (a = 1; a < 100; a++) {
-            auxiliar = ListaOrden [a];
+            Auxiliar = ListaOrden [a];
             b = a - 1;
 
-            while ((b >= 0) && ListaOrden [b] > auxiliar) {
+            while ((b >= 0) && ListaOrden [b] > Auxiliar) {
                 ListaOrden [b + 1] = ListaOrden [b--];
-                System.out.println(auxiliar);
+                System.out.println(Auxiliar);
             }
         }
     }

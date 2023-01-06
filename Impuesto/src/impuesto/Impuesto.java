@@ -20,10 +20,10 @@ public class Impuesto {
      */
     public static void main(String[] args) throws IOException {
         // La clase Input se utiliza para leer datos.
-        InputStreamReader isr = new InputStreamReader (System.in);
+        InputStreamReader isr = new InputStreamReader(System.in);
         // La clase BufferedReader se utiliza para convertir los
         // datos que se lean ya que indeterminadamente solo lee cadenas de caracteres.
-        BufferedReader br = new BufferedReader (isr);
+        BufferedReader br = new BufferedReader(isr);
         // Los identificadores "Precio" (tipo float, que es una variable) asi como "Impuesto" son definidos solo que
         // esta es una constante ya tiene definido un valor 0.05f, a la f se le agrega para especificar que es de tipo
         // flotante y total (variable) que esta inicializada en cero debido a que no se conoce el valor de la variable

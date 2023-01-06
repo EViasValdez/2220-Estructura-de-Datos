@@ -41,12 +41,12 @@ public class ImpuestoArreglosMetodos {
         // Se utilizaran variables locales ya que solo funcionan en este método impuesto es una constante 
         // con un valor inicial de .05 y Total esta inicializada en cero por ser una variable que guarda el 
         // resultado de una operación.
-        float impuesto = .05f, Total = 0;
+        float Impuesto = .05f, Total = 0;
         // Se recorre el arreglo recibido Precio con el ciclo for.
         for (int i = 0; i < 4; i++) {
             // Se realiza el calculo del Total cada valor de cada posición del arreglo "Precio [i]".
             // Es multiplicado por el valor de la constante "impuesto".
-            Total = Precio [i] + (Precio [i] * impuesto);
+            Total = Precio [i] + (Precio [i] * Impuesto);
             // Se imprime el resultado de cada calculo.
             System.out.println("El total es: " + Total);
         }

@@ -63,7 +63,7 @@ public class ProblemasAsesoriasFor {
 
         System.out.println("Problema 3");
         float Radio;
-        double pi = 3.1416;
+        double Pi = 3.1416;
         float Area2;
         
         for (int c = 1; c < 3; c++)
@@ -71,7 +71,7 @@ public class ProblemasAsesoriasFor {
             System.out.println("Ingese radio");
             Radio = Float.parseFloat(br.readLine());
 
-            Area2 = (float) (pi * (Radio * Radio));
+            Area2 = (float) (Pi * (Radio * Radio));
             System.out.println("El area es: " +  Area2);
             System.out.println("Problema 4");
 

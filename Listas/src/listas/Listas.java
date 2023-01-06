@@ -24,19 +24,19 @@ public class Listas {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
 
         // El tipo de dato de la lista va en mayusculas (String, float, Double, Int).
         List <String> EjemploLista = new ArrayList<String>();
 
         String Nombre;
 
-        EjemploLista.add ("Juan");
-        EjemploLista.add ("Pedro");
-        EjemploLista.add ("José");
-        EjemploLista.add ("María");
-        EjemploLista.add ("Sofía");
+        EjemploLista.add("Juan");
+        EjemploLista.add("Pedro");
+        EjemploLista.add("José");
+        EjemploLista.add("María");
+        EjemploLista.add("Sofía");
 
         // Imprimir elementos de la lista.
         System.out.println("Elementos de la lista");
@@ -50,7 +50,7 @@ public class Listas {
         System.out.println("Primer elemento de la lista: " + EjemploLista.get(0));
 
         // Agregar otro elemento a la lista.
-        EjemploLista.add ("Alicia");
+        EjemploLista.add("Alicia");
 
         System.out.println("");
         System.out.println("Elementos de la lista con el que se agrego");

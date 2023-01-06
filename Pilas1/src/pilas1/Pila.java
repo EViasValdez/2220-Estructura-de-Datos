@@ -16,7 +16,7 @@ public class Pila extends ArrayList {
     public void apilar(Object Dato) {
         if (Dato != null) {
             this.add (Dato);
-        }else{
+        } else {
             System.out.println("Introduzca un dato no nulo");
         }
     }

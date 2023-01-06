@@ -16,7 +16,7 @@ public class Cola extends ArrayList {
     public void encolar(Object Dato) {
         if (Dato != null) {
             this.add (Dato);
-        }else{
+        } else {
             System.out.println("Introduzca un dato no nulo");
         }
     }

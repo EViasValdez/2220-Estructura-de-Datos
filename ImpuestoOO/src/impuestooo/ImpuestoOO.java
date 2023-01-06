@@ -20,8 +20,8 @@ public class ImpuestoOO {
      */
     public static void main(String[] args) throws IOException {
         // Librerías para leer y convertir datos.
-        InputStreamReader isr = new InputStreamReader (System.in);
-        BufferedReader br = new BufferedReader (isr);
+        InputStreamReader isr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(isr);
         // Instanciamiento del objeto llamado "prod" a la clase "Producto", es decir se esta creando un objeto.
         Producto prod = new Producto();
         // Declaración de la variable precio de tipo float.

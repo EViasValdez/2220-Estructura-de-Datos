@@ -76,9 +76,9 @@ public class ProyectoBDMain {
 
                 int [] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};
 
-                SO.imprimirArreglo (Lista);
-                SO.OrdenSeleccion (Lista);
-                SO.imprimirArreglo (Lista);
+                SO.imprimirArreglo(Lista);
+                SO.OrdenSeleccion(Lista);
+                SO.imprimirArreglo(Lista);
                 System.out.println("======================================");
             break;
 
