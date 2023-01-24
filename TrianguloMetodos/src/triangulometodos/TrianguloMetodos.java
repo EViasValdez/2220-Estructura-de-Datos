@@ -32,9 +32,9 @@ public class TrianguloMetodos {
         System.out.println("Inserte tercera cantidad");
         LadoC = leer.nextInt();
 
-        triangulo (LadoA, LadoB, LadoC);
+        Triangulo(LadoA, LadoB, LadoC);
     }
-    public static void triangulo(int LadoA, int LadoB, int LadoC) {
+    public static void Triangulo(int LadoA, int LadoB, int LadoC) {
         if (LadoA == LadoB && LadoB == LadoC) {
             System.out.println("El triangulo mostrado es un triangulo equilatero");
         }

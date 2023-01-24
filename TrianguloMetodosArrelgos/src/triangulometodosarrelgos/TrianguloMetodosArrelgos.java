@@ -36,9 +36,9 @@ public class TrianguloMetodosArrelgos {
             System.out.println("Ponga sus cantidades");
             Lado [i] = Integer.parseInt(br.readLine());
         }
-        triangulo (Lado);
+        Triangulo(Lado);
     }
-    public static void triangulo(int Lado[]) {
+    public static void Triangulo(int Lado[]) {
         for (int i = 0; i < 3; i++) {
             if (Lado [0] == Lado [1] && Lado [2] == Lado [0]){
                 System.out.println("El triangulo mostrado es un triangulo equilatero");
