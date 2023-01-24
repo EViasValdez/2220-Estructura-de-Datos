@@ -98,7 +98,7 @@ public class Listas {
         // Obtener datos entre un subindice y otro.
         System.out.println(EjemploLista.subList(0, 2));
         // El metodo ordena la lista de manera ascendente (en este caso de la A a la Z).
-        EjemploLista.sort (null);
+        EjemploLista.sort(null);
         System.out.println(EjemploLista);
         // Ahora con este metodo los ordena de manera descendete de la Z a la A.
         Collections.sort (EjemploLista,Collections.reverseOrder());
