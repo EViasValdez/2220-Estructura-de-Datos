@@ -10,8 +10,7 @@ package proyectobd;
  * @author EViasValdez
  */
 public class MetodoBurbuja {
-    public static int[] MetodBurbu(int[] Arreglo)
-    {
+    public static int[] MetodBurbu(int[] Arreglo) {
         int Auxiliar;
         int [] Orden;
 

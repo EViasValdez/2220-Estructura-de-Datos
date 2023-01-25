@@ -23,6 +23,7 @@ public class ProblemasAsesoriasFor {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
+        
         Scanner Leer = new Scanner(System.in);
 
         System.out.println("Problema 1");

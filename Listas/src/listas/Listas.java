@@ -76,7 +76,7 @@ public class Listas {
         Nombre = br.readLine();
 
         // Agregar el elemento que se agrego a la lista.
-        EjemploLista.add (Nombre);
+        EjemploLista.add(Nombre);
 
         // Otra manera de imprimir la Lista con la clase Iterator.
         Iterator i = EjemploLista.iterator();
@@ -101,7 +101,7 @@ public class Listas {
         EjemploLista.sort(null);
         System.out.println(EjemploLista);
         // Ahora con este metodo los ordena de manera descendete de la Z a la A.
-        Collections.sort (EjemploLista,Collections.reverseOrder());
+        Collections.sort (EjemploLista, Collections.reverseOrder());
         System.out.println(EjemploLista);
 
         // Vaciar la lista.

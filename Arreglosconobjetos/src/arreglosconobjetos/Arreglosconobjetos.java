@@ -57,10 +57,10 @@ public class ArreglosconObjetos {
                     // pacienteTemporal.setEdad (Edad);
                     // pacienteTemporal.setPeso (Peso);
                     Pacientes [i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
-                    Pacientes [i].setNombre (Nombre); // Con el objeto "Pacientes [i] se manda llamar al método setNombre para que en este
+                    Pacientes [i].setNombre(Nombre); // Con el objeto "Pacientes [i] se manda llamar al método setNombre para que en este
                     // se escriba el Nombre cuya variable se leyó "String Nombre = Leer.next();".
-                    Pacientes [i].setEdad (Edad);
-                    Pacientes [i].setPeso (Peso);
+                    Pacientes [i].setEdad(Edad);
+                    Pacientes [i].setPeso(Peso);
                 }
             break;
 

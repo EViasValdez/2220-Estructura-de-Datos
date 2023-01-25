@@ -10,7 +10,7 @@ package proyectobd;
  * @author EViasValdez
  */
 public class OrdenamientoPorSeleccion {
-    public void OrdenSeleccion (int[] Lista){
+    public void OrdenSeleccion (int[] Lista) {
         for (int a = Lista.length - 1; a > 0; a--) {
             int ValorMaximo = 0;
 
@@ -21,7 +21,7 @@ public class OrdenamientoPorSeleccion {
             }
         }
     }
-    public void imprimirArreglo(int[] Lista){
+    public void imprimirArreglo(int[] Lista) {
         for (int a = 0; a < Lista.length; a++) {
             System.out.printf("%d \t", Lista [a]);
         }
