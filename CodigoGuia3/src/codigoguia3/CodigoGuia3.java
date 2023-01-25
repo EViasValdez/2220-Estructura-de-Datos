@@ -39,7 +39,7 @@ public class CodigoGuia3 {
         double Suma;
         double Promedio;
 
-        Suma = (calificiacion1 + Calificacion2 + Calificiacion3 + Calificacion4);
+        Suma = (Calificiacion1 + Calificacion2 + Calificiacion3 + Calificacion4);
         Promedio = Suma / 4;
 
         return Promedio;
