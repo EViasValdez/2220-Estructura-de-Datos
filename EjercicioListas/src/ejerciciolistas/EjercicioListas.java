@@ -111,7 +111,7 @@ public class EjercicioListas {
             break;
         
             case 9:
-                System.out.println(calificaciones.subList(0, 5));
+                System.out.println(Calificaciones.subList(0, 5));
             break;
         
             case 10:

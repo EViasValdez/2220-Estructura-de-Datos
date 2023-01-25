@@ -34,7 +34,7 @@ public class ImpuestoOO {
         // Se agrega con el método set el valor del precio al atributo "precio" de la clase.
         Prod.setPrecio(Precio);
         // Se agrega con el método set el valor del impuesto al atributo "precio" de la clase.
-        Prod.setImpuesto(Prod.impuesto);
+        Prod.setImpuesto(Prod.Impuesto);
         // Se imprime el resultado que se esta calculando llamando al método "total", que esta en la clase el
         // cual muestra el resultado de la operación.
         // Se pasan dos atributos que son el precio y el impuesto.
