@@ -48,17 +48,17 @@ public class ProblemasAsesoriasCiclos {
         System.out.println("");
         
         System.out.println("Problema 2");
-        float base, altura;
+        float Base, Altura;
         float Area;
         int b = 1;
 
         while (b < 3) {
             System.out.println("Ingrese base");
-            base = Float.parseFloat(br.readLine());
+            Base = Float.parseFloat(br.readLine());
             System.out.println("Ingese altura");
-            altura = Float.parseFloat(br.readLine());
+            Altura = Float.parseFloat(br.readLine());
 
-            Area = (base * altura) / 2;
+            Area = (Base * Altura) / 2;
             System.out.println("El area es: " + Area);
             b++;
         }

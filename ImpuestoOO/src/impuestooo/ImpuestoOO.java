@@ -22,8 +22,8 @@ public class ImpuestoOO {
         // Librerías para leer y convertir datos.
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
-        // Instanciamiento del objeto llamado "prod" a la clase "Producto", es decir se esta creando un objeto.
-        Producto prod = new Producto();
+        // Instanciamiento del objeto llamado "Prod" a la clase "Producto", es decir se esta creando un objeto.
+        Producto Prod = new Producto();
         // Declaración de la variable precio de tipo float.
         float Precio;
         // Es enviado un mensaje a pantalla con el texto "Escribe el precio".
@@ -32,12 +32,12 @@ public class ImpuestoOO {
         // a la clase float y se asigna a la variable "precio".
         Precio = Float.parseFloat(br.readLine());
         // Se agrega con el método set el valor del precio al atributo "precio" de la clase.
-        prod.setPrecio(Precio);
+        Prod.setPrecio(Precio);
         // Se agrega con el método set el valor del impuesto al atributo "precio" de la clase.
-        prod.setImpuesto(prod.impuesto);
+        Prod.setImpuesto(Prod.impuesto);
         // Se imprime el resultado que se esta calculando llamando al método "total", que esta en la clase el
         // cual muestra el resultado de la operación.
         // Se pasan dos atributos que son el precio y el impuesto.
-        System.out.println("El total a pagar es: " + prod.total(prod.getPrecio(), prod.getImpuesto()));
+        System.out.println("El total a pagar es: " + Prod.total(Prod.getPrecio(), Prod.getImpuesto()));
     }
 }
