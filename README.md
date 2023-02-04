@@ -24,11 +24,7 @@ Se verifica que una calificacion sea aprobatoria o reprobatoria.
 <!----Separador---->
 
 ###### Problema1, Problema2 - 21/01/20
-Verifica si uno o varios numeros coinciden de acuerdo a lo ingresado.
-
-<!--Separador-->
-
-Es similar al programa anterior solo que se muestran los valores que fueron ingresados.
+Verifica si uno o varios numeros coinciden de acuerdo a lo ingresado, en el otro solo que se muestran los valores que fueron ingresados.
 
 <!----Separador---->
 
@@ -60,17 +56,7 @@ Es lo mismo que en el programa previo pero utiliza un scanner para poder leer va
 <!----Separador---->
 
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
-Calculo del area del triangulo utilizando metodos, incluye otras dos versiones donde se usan metodos y arreglos y unicamente arreglos.
-
-<!--Separador-->
-
-Calculo del area del triangulo utilizando unicamente arreglos.
-
-<!--Separador-->
-
-Agregacion de impuestos usando arreglos.
-
-<!----Separador---->
+Calculo del area del triangulo utilizando metodos, incluye otras dos versiones donde se usan metodos y arreglos y unicamente arreglos. 
 
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 Texto por ser escrito.
