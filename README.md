@@ -107,7 +107,7 @@ Texto por ser escrito.
 
 <!----Separador---->
 
-###### Tipodedatos, Listas, EjercicioListas - 06/02/20
+###### TipodeDatos, Listas, EjercicioListas - 06/02/20
 Texto por ser escrito.
 
 <!--Separador-->
