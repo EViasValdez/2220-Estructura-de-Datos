@@ -67,7 +67,7 @@ Texto por ser escrito.
 
 <!----Separador---->
 
-###### Arreglosconobjetos - 31/01/20
+###### ArreglosconObjetos - 31/01/20
 Texto por ser escrito.
 
 <!----Separador---->
