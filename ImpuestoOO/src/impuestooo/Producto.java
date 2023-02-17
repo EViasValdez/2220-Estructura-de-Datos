@@ -34,13 +34,13 @@ public class Producto {
     public void setImpuesto(float Impuesto) {
         this.Impuesto = Impuesto;
     }
-    // Metodo de tipo float llamado "total" de acceso publico que recibe
+    // Metodo de tipo float llamado  Total" de acceso publico que recibe
     // como parametros el precio, el impuesto y que se leyeron desde el main.
-    // Regresa el valor de la variable total la cual muestar el resulatdo de la operacion.
-    public float total(float getprecio, float getimpuesto) {
-        float total;
+    // Regresa el valor de la variable  Total" la cual muestra el resulatdo de la operacion.
+    public float Total(float getprecio, float getimpuesto) {
+        float Total;
 
-        total = Precio + (Precio * Impuesto);
-        return total; 
+        Total = Precio + (Precio * Impuesto);
+        return Total; 
     }
 }
