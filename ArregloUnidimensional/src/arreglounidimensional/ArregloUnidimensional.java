@@ -27,7 +27,7 @@ public class ArregloUnidimensional {
         float Calificaciones [] = {7.4f, 8.5f, 9.6f, 10, 5, 6.7f}; // Arreglo unidimensional de tipo float llamado "Calificaciones" con valores
         // iniciales hay que recordar que como los valores son float se les agrega la letra "f" al final de cada valor.
         char Vocales [] = {'a', 'e', 'i', 'o', 'u'}; // Arreglo unidimensional de tipo carácter llamado "Vocales" con valores iniciales.
-        boolean Tiene_Auto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado "Tiene_Auto" con valores iniciales.
+        boolean TieneAuto [] = {true, false, false, true, false}; // Arreglo unidimensional de tipo booleano llamado "TieneAuto" con valores iniciales.
         String Apellidos [] = new String [8]; // Arreglo unidimensional de tipo String llamado "apellidos" de tamaño 8.
         // El nombre del arreglo se instancia con la palabra reservada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes.
         double Salario [] = new double [10]; // Arreglo unidimensional de tipo double llamado "Salario" de tamaño 10.
@@ -38,7 +38,7 @@ public class ArregloUnidimensional {
         System.out.println("El numero de piezas de la posicion dos del arreglo NumerodePiezas es: " + NumerodePiezas [2]); // Dato de la posición 2 del arreglo "NumerodePiezas".
         System.out.println("La calificacion de la posicion uno del arreglo Calificaciones es: " + Calificaciones [0]);
         System.out.println("La vocal de la posición cuatro del arreglo Vocales es: " + Vocales [4]);
-        System.out.println("La respuesta a tiene auto de la posición tres del arreglo Tiene_Auto es: " + Tiene_Auto [3]);
+        System.out.println("La respuesta a tiene auto de la posición tres del arreglo TieneAuto es: " + TieneAuto [3]);
 
         // Mostrar todos los elementos del arreglo "Nombres", se recorrerá el arreglo con el ciclo for.
         for (int i = 0; i < Nombres.length; i++) { // El método length hace referencia a tamaño del arreglo es decir a 3.

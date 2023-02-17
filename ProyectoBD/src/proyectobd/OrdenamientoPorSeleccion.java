@@ -21,7 +21,7 @@ public class OrdenamientoPorSeleccion {
             }
         }
     }
-    public void imprimirArreglo(int[] Lista) {
+    public void ImprimirArreglo(int[] Lista) {
         for (int a = 0; a < Lista.length; a++) {
             System.out.printf("%d \t", Lista [a]);
         }
@@ -36,8 +36,8 @@ public class OrdenamientoPorSeleccion {
         OrdenamientoPorSeleccion SO = new OrdenamientoPorSeleccion();
         int [] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};
 
-        SO.imprimirArreglo(Lista);
+        SO.ImprimirArreglo(Lista);
         SO.OrdenSeleccion(Lista);
-        SO.imprimirArreglo(Lista);
+        SO.ImprimirArreglo(Lista);
     }
 }
