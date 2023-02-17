@@ -7,7 +7,7 @@ package proyectobd;
 
 import java.util.Arrays;
 import java.util.Scanner;
-import static proyectobd.MergeSort.mergeSort;
+import static proyectobd.MergeSort.MergeSort;
 import static proyectobd.MetodoBurbuja.MetodBurbu;
 import static proyectobd.QuickSort.Qs;
 
@@ -76,9 +76,9 @@ public class ProyectoBDMain {
 
                 int [] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};
 
-                SO.imprimirArreglo(Lista);
+                SO.ImprimirArreglo(Lista);
                 SO.OrdenSeleccion(Lista);
-                SO.imprimirArreglo(Lista);
+                SO.ImprimirArreglo(Lista);
                 System.out.println("======================================");
             break;
 
@@ -86,7 +86,7 @@ public class ProyectoBDMain {
                 System.out.println("Merge sort");
                 int [] Actual = {5, 1, 6, 2, 3 ,4};
 
-                mergeSort (Actual, Actual.length);
+                MergeSort (Actual, Actual.length);
 
                 for (int i = 0; i < Actual.length; i++) {
                     System.out.println(Actual [i]);
