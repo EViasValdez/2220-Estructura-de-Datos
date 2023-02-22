@@ -9,7 +9,7 @@ Estos son los trabajos que hice durante el segundo cuatrimestre, estos documento
 
 **- Incluye uno que otro trabajo que realice durante varias asesorías de esta materia y la de algoritmos.**
 
-**- Corregí algunos errores ortográficos de algunos textos (Pese a que tuve que dejar sin puntuaciones las líneas de código que mostraran texto), además de problemas de funcionamiento.**
+**- Corregí algunos errores ortográficos de algunos proyectos (Pese a que tuve que dejar sin puntuaciones las líneas de código que mostraran texto), además de problemas de funcionamiento.**
 
 **- Abri los programas en NetBeans y cada uno ya tiene el directorio "nbproject".**
 
