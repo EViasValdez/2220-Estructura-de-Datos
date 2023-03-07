@@ -9,6 +9,7 @@ package proyectobd;
  *
  * @author EViasValdez
  */
+
 public class OrdenamientoPorInsercion {
     public static void main(String[] args) {
         int [] ListaOrden = new int [100];

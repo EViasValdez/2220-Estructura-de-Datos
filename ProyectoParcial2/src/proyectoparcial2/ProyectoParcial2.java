@@ -15,8 +15,8 @@ import java.util.Queue;
  *
  * @author EViasValdez
  */
-public class ProyectoParcial2 {
 
+public class ProyectoParcial2 {
     /**
      * @param args the command line arguments
      */

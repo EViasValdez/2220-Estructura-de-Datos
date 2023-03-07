@@ -14,8 +14,8 @@ import java.util.Scanner;
  *
  * @author EViasValdez
  */
-public class ProblemasAsesoriasCiclos {
 
+public class ProblemasAsesoriasCiclos {
     /**
      * @param args the command line arguments
      */

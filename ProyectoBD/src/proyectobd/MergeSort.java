@@ -9,6 +9,7 @@ package proyectobd;
  *
  * @author EViasValdez
  */
+
 public class MergeSort {
     public static void MergeSort(int[] a, int b) {
         if (b < 2) {

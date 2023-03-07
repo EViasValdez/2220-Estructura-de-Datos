@@ -9,6 +9,7 @@ package proyectobd;
  *
  * @author EViasValdez
  */
+
 public class OrdenamientoPorSeleccion {
     public void OrdenSeleccion (int[] Lista) {
         for (int a = Lista.length - 1; a > 0; a--) {

@@ -13,8 +13,8 @@ import java.util.Scanner;
  *
  * @author EViasValdez
  */
-public class TriangulosArreglos {
 
+public class TriangulosArreglos {
     /**
      * @param args the command line arguments
      */

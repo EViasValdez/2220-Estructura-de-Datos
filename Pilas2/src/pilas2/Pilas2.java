@@ -12,8 +12,8 @@ import java.util.Stack;
  *
  * @author EViasValdez
  */
-public class Pilas2 {
 
+public class Pilas2 {
     /**
      * @param args the command line arguments
      */

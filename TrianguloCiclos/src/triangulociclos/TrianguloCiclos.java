@@ -11,8 +11,8 @@ import java.util.Scanner;
  *
  * @author yayis (Correcciones por EViasValdez)
  */
-public class TrianguloCiclos {
 
+public class TrianguloCiclos {
     /**
      * @param args the command line arguments
      */

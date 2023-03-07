@@ -12,8 +12,8 @@ import java.io.InputStreamReader;
  *
  * @author Eduardo
  */
-public class TipodeDatos {
 
+public class TipodeDatos {
     /**
      * @param args the command line arguments
      */

@@ -15,8 +15,8 @@ import static proyectobd.QuickSort.Qs;
  *
  * @author EViasValdez
  */
-public class ProyectoBDMain {
 
+public class ProyectoBDMain {
     /**
      * @param args the command line arguments
      */

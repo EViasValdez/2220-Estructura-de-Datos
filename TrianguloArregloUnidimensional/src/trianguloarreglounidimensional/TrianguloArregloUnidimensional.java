@@ -13,8 +13,8 @@ import java.io.InputStreamReader;
  *
  * @author EViasValdez
  */
-public class TrianguloArregloUnidimensional {
 
+public class TrianguloArregloUnidimensional {
     /**
      * @param args the command line arguments
      */

@@ -14,8 +14,8 @@ import java.util.Scanner;
  *
  * @author EViasValdez
  */
-public class TrianguloMetodosArrelgos {
 
+public class TrianguloMetodosArrelgos {
     /**
      * @param args the command line arguments
      */

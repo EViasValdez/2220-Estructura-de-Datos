@@ -9,8 +9,8 @@ package piramide;
  *
  * @author EViasValdez
  */
-public class Piramide {
 
+public class Piramide {
     /**
      * @param args the command line arguments
      */
