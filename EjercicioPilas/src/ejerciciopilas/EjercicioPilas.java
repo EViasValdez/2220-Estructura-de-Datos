@@ -14,8 +14,8 @@ import java.util.Stack;
  *
  * @author EViasValdez
  */
-public class EjercicioPilas {
 
+public class EjercicioPilas {
     /**
      * @param args the command line arguments
      */

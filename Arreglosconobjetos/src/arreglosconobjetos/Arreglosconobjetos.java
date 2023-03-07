@@ -10,8 +10,8 @@ import java.util.Scanner;
  *
  * @author KEVIN (Correcciones por EViasValdez)
  */
-public class ArreglosconObjetos {
 
+public class ArreglosconObjetos {
     /**
      * @param args the command line arguments
      */

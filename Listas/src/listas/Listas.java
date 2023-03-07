@@ -17,8 +17,8 @@ import java.util.List;
  *
  * @author EViasValdez
  */
-public class Listas {
 
+public class Listas {
     /**
      * @param args the command line arguments
      */

@@ -16,8 +16,8 @@ import java.util.Scanner;
  *
  * @author EViasValdez
  */
-public class Actividades {
 
+public class Actividades {
     /**
      * @param args the command line arguments
      */

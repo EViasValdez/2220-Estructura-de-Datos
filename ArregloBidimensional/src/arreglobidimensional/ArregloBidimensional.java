@@ -13,8 +13,8 @@ import java.io.InputStreamReader;
  *
  * @author yayis (Correcciones por EViasValdez)
  */
-public class ArregloBidimensional {
 
+public class ArregloBidimensional {
     /**
      * @param args the command line arguments
      */

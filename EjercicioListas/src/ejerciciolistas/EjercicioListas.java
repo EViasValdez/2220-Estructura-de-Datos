@@ -16,8 +16,8 @@ import java.util.List;
  *
  * @author EViasValdez
  */
-public class EjercicioListas {
 
+public class EjercicioListas {
     /**
      * @param args the command line arguments
      */

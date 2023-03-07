@@ -13,8 +13,8 @@ import java.io.InputStreamReader;
  *
  * @author EViasValdez
  */
-public class CodigoGuia2 {
 
+public class CodigoGuia2 {
     /**
      * @param args the command line arguments
      */

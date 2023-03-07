@@ -12,8 +12,8 @@ import java.util.Queue;
  *
  * @author EViasValdez
  */
-public class Colas {
 
+public class Colas {
     /**
      * @param args the command line arguments
      */
