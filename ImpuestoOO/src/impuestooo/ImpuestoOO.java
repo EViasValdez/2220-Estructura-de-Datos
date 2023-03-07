@@ -38,6 +38,6 @@ public class ImpuestoOO {
         // Se imprime el resultado que se esta calculando llamando al método "total", que esta en la clase el
         // cual muestra el resultado de la operación.
         // Se pasan dos atributos que son el precio y el impuesto.
-        System.out.println("El total a pagar es: " + Prod.total(Prod.getPrecio(), Prod.getImpuesto()));
+        System.out.println("El total a pagar es: " + Prod.Total(Prod.getPrecio(), Prod.getImpuesto()));
     }
 }
