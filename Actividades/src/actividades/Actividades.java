@@ -24,9 +24,9 @@ public class Actividades {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         System.out.println("Elige un problema");
-        System.out.println("1. Captura de las Ventas de un comisionista de forma mensual");
-        System.out.println("2. Captura de las Ventas de 30 comisionistas de forma mensual");
-        System.out.println("3. Captura de las Ventas de 20 comisionistas de forma mensual y de cinco productos diferentes");
+        System.out.println("1. Captura de las ventas de un comisionista de forma mensual");
+        System.out.println("2. Captura de las ventas de 30 comisionistas de forma mensual");
+        System.out.println("3. Captura de las ventas de 20 comisionistas de forma mensual y de cinco productos diferentes");
         System.out.println("4. Controlar los autos que entran en un estacionamiento");
         
         Scanner leer = new Scanner(System.in);
