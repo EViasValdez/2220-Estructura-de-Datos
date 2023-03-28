@@ -91,21 +91,9 @@ Se realiza una serie de calculos para colocar un inpuesto a un producto por medi
 <!----Separador---->
 
 ###### CodigoGuia1, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
-Texto por ser escrito.
+Promedio de calificacion en forma normal, usando arreglos y clases.
 
 <!--Separador-->
-
-Texto por ser escrito.
-
-<!--Separador-->
-
-Texto por ser escrito.
-
-<!--Separador-->
-
-Texto por ser escrito.
-
-<!----Separador---->
 
 ###### TipodeDatos, Listas, EjercicioListas - 06/02/20
 Texto por ser escrito.
