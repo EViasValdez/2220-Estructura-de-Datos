@@ -35,5 +35,4 @@ public class TipodeDatos {
         System.out.println("Escribe tu promedio");
         Promedio = Float.parseFloat(br.readLine());
     }
-    
 }
