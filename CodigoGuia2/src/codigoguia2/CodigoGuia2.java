@@ -23,17 +23,17 @@ public class CodigoGuia2 {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
 
-        double calificacion [] = new double [4];
-        double suma = 0, promedio = 0;
+        double Calificacion [] = new double [4];
+        double Suma = 0, Promedio = 0;
 
         for (int i = 0; i < 4; i++)
         {
             System.out.println("Escribe la calificacion");
-            calificacion [i] = Double.parseDouble(br.readLine());
+            Calificacion [i] = Double.parseDouble(br.readLine());
 
-            suma = (suma + calificacion [i]);
+            Suma = (Suma + Calificacion [i]);
         }
-        promedio = suma / 4;
-        System.out.println("El promedio es: " + promedio);
+        promedio = Suma / 4;
+        System.out.println("El promedio es: " + Promedio);
     }
 }
