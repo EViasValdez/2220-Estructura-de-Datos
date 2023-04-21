@@ -22,22 +22,22 @@ public class Producto {
     // metodo set con el metodo get es obtenido.
     // Todos los atributos deberan de tener estos metodos implementados.
     // En esta clase no se especifico el metodo constructor.
-    public float getPrecio() {
+    public float GetPrecio() {
         return Precio;
     }
-    public void setPrecio(float Precio) {
+    public void SetPrecio(float Precio) {
         this.Precio = Precio;
     }
-    public float getImpuesto() {
+    public float GetImpuesto() {
         return Impuesto;
     }
-    public void setImpuesto(float Impuesto) {
+    public void SetImpuesto(float Impuesto) {
         this.Impuesto = Impuesto;
     }
     // Metodo de tipo float llamado  Total" de acceso publico que recibe
     // como parametros el precio, el impuesto y que se leyeron desde el main.
     // Regresa el valor de la variable  Total" la cual muestra el resulatdo de la operacion.
-    public float Total(float getprecio, float getimpuesto) {
+    public float Total(float Getprecio, float Getimpuesto) {
         float Total;
 
         Total = Precio + (Precio * Impuesto);

@@ -8,32 +8,28 @@ package arreglosconobjetos;
  *
  * @author KEVIN (Correciones por EViasValdez)
  */
+
 public class Persona {
     private String Nombre;
     private int Edad;
     private float Peso;
 
-    public String getNombre() {
+    public String GetNombre() {
         return Nombre;
     }
-
-    public void setNombre(String Nombre) {
+    public void SetNombre(String Nombre) {
         this.Nombre = Nombre;
     }
-
-    public int getEdad() {
+    public int GetEdad() {
         return Edad;
     }
-
-    public void setEdad(int Edad) {
+    public void SetEdad(int Edad) {
         this.Edad = Edad;
     }
-
-    public float getPeso() {
+    public float GetPeso() {
         return Peso;
     }
-
-    public void setPeso(float Peso) {
+    public void SetPeso(float Peso) {
         this.Peso = Peso;
     }
     /**

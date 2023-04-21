@@ -18,7 +18,7 @@ public class Problema1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner Leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
 
         int A;
         int B;
@@ -26,9 +26,9 @@ public class Problema1 {
 
         System.out.println("Test con tres numeros");
 
-        A = Leer.nextInt();
-        B = Leer.nextInt();
-        C = Leer.nextInt();
+        A = leer.nextInt();
+        B = leer.nextInt();
+        C = leer.nextInt();
 
         if (A + B == C) {
             System.out.println("");

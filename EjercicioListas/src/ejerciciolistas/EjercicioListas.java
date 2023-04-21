@@ -55,7 +55,7 @@ public class EjercicioListas {
                 {
                     System.out.println("Inserte la calificacion");
                     Calif = Float.parseFloat(br.readLine());
-                    Calificaciones.add (Calif);
+                    Calificaciones.add(Calif);
                     System.out.println("La calificación agregada es: " + Calificaciones);
                 }
             break;
@@ -67,11 +67,11 @@ public class EjercicioListas {
             case 3:
                 System.out.println("Eliga la calificacion a eliminar");
                 EliminarCalificacion = Float.parseFloat(br.readLine());
-                Calificaciones.remove (EliminarCalificacion);
+                Calificaciones.remove(EliminarCalificacion);
             break;
 
             case 4:
-                Calificaciones.sort (null);
+                Calificaciones.sort(null);
                 System.out.println(Calificaciones);
             break;
             
@@ -83,7 +83,7 @@ public class EjercicioListas {
             case 6:
                 for (int i = 0; i <= Calificaciones.size() - 1; i++) 
                 {
-                    if (Calificaciones.get (i) >= 7)
+                    if (Calificaciones.get(i) >= 7)
                     {
                         Aprueba = Aprueba + 1;
                     }
@@ -94,7 +94,7 @@ public class EjercicioListas {
             case 7:
                 for (int i = 0; i <= Calificaciones.size() - 1; i++)
                 {
-                    Suma = Suma + Calificaciones.get (i);
+                    Suma = Suma + Calificaciones.get(i);
                 }
                 Promedio = Suma / Calificaciones.size();
                 System.out.println("El promedio es: " + Promedio);
@@ -105,7 +105,7 @@ public class EjercicioListas {
                 {
                     System.out.println("Inserte la calificación");
                     Calif = Float.parseFloat(br.readLine());
-                    Calificaciones.add (Calif);
+                    Calificaciones.add(Calif);
                     System.out.println("La calificacion agregada es: " + Calificaciones);
                 }
             break;

@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class Cola extends ArrayList {
     // Es agregado un elemento a la cola, que se añade al final de esta.
-    public void encolar(Object Dato) {
+    public void Encolar(Object Dato) {
         if (Dato != null) {
             this.add (Dato);
         } else {
@@ -22,13 +22,13 @@ public class Cola extends ArrayList {
         }
     }
     // Se elimina el elemento frontal de la cola, refiriendose al primer elemento que entró.
-    public void desencolar() {
+    public void Desencolar() {
         if (this.size() > 0) {
             this.remove (0);
         }
     }
     // Es devuelto el elemento frontal de la cola, que es el primer elemento que entró.
-    public Object frente() {
+    public Object Frente() {
         Object DatoAuxiliar = null;
         if (this.size() > 0) {
             DatoAuxiliar = this.get (0);
@@ -36,7 +36,7 @@ public class Cola extends ArrayList {
         return DatoAuxiliar;
     }
     // Devuelve "cierto" si la pila está vacía o falso en caso contrario (empty).
-    public boolean vacia() {
+    public boolean Vacia() {
         return this.isEmpty();
     }
 }

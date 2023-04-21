@@ -87,23 +87,23 @@ public class ProblemasAsesorias {
         System.out.println("");
 
         System.out.println("Problema 5");
-        int numero;
+        int Numero;
 
         System.out.println("Ingese numero");
-        numero = leer.nextInt();
+        Numero = leer.nextInt();
 
-        if (numero > 0)
+        if (Numero > 0)
         {
             System.out.println("El numero es positivo");
         }
         else
         {
-        if (numero < 0)
+        if (Numero < 0)
         {
             System.out.println("El numero es negativo");
         }
         else
-        if (numero == 0)
+        if (Numero == 0)
         {
              System.out.println("El numero es neutro");
         }

@@ -37,7 +37,7 @@ public class ArregloUnidimensional {
         System.out.println("El nombre de la posicion uno del arreglo Nombres es: " + Nombres [1]); // Muestra el dato que se almaceno en la posición 1 del arreglo en este caso "Luis".
         System.out.println("El numero de piezas de la posicion dos del arreglo NumerodePiezas es: " + NumerodePiezas [2]); // Dato de la posición 2 del arreglo "NumerodePiezas".
         System.out.println("La calificacion de la posicion uno del arreglo Calificaciones es: " + Calificaciones [0]);
-        System.out.println("La vocal de la posición cuatro del arreglo Vocales es: " + Vocales [4]);
+        System.out.println("La vocal de la posición cuatro del arreglo vocales es: " + Vocales [4]);
         System.out.println("La respuesta a tiene auto de la posición tres del arreglo TieneAuto es: " + TieneAuto [3]);
 
         // Mostrar todos los elementos del arreglo "Nombres", se recorrerá el arreglo con el ciclo for.
@@ -49,20 +49,20 @@ public class ArregloUnidimensional {
         }
         for (int j = 0; j < Apellidos.length; j++) { // Se recorre el arreglo "Apellidos" con la variable subíndice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.
             System.out.print("Escribe el apellido numero " + (j + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subíndice para que muestre el numero 1 primero.
-            Apellidos [j] = br.readLine(); // Se ingresan los datos al arreglo "Apellidos" cada dato según el subíndice "j".
+            Apellidos[j] = br.readLine(); // Se ingresan los datos al arreglo "Apellidos" cada dato según el subíndice "j".
         }
         // Se recorre el arreglo "Salario".
         for (int k = 0; k < Salario.length; k++) {
             System.out.print("Escribe el salario numero " + (k + 1) + ": "); // Como el arreglo inicia en cero se le sumo uno al subíndice para que muestre el numero 1 primero.
-            Salario [k] = Double.parseDouble(br.readLine()); // Se ingresan los datos al arreglo Salario cada dato segun el subíndice "k".
+            Salario[k] = Double.parseDouble(br.readLine()); // Se ingresan los datos al arreglo Salario cada dato segun el subíndice "k".
         }
         // Se recorre el arreglo "Salario".
         for (int k = 0; k < Salario.length; k++) {
-            Suma = Suma + Salario [k]; // Se realiza la Suma de los salarios con la variable de tipo acumulador llamada "Suma" se ira sumando cada Salario de cada posición del arreglo con el subindice "k" por ello "Salario[k]".
-            if (Salario [k] >= 20000) { // Si "Salario [k]" es Mayor o igual a 20000 se sumara 1
+            Suma = Suma + Salario[k]; // Se realiza la Suma de los salarios con la variable de tipo acumulador llamada "Suma" se ira sumando cada Salario de cada posición del arreglo con el subindice "k" por ello "Salario[k]".
+            if (Salario[k] >= 20000) { // Si "Salario [k]" es Mayor o igual a 20000 se sumara 1
                 Alto++; // a la variable "Alto" ya que significa "Alto = Alto + 1".
             }else{ // Si la condición anterior no se cumple
-            if (Salario [k] < 20000) { // se realiza esta condición si el "Salario [k]" es menor a 20000
+            if (Salario[k] < 20000) { // se realiza esta condición si el "Salario [k]" es menor a 20000
                 Bajo++; // se Suma 1 a la variable "Bajo", es decir "Bajo = Bajo + 1".
             }
             }

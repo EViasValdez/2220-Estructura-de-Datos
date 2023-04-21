@@ -27,9 +27,9 @@ public class MergeSort {
             De [c - Med] = a [c];
         }
         
-        MergeSort (Iz, Med);
-        MergeSort (De, b - Med);
-        Merge (a, Iz, De, Med, b - Med);
+        MergeSort(Iz, Med);
+        MergeSort(De, b - Med);
+        Merge(a, Iz, De, Med, b - Med);
     }
     public static void Merge(int[] Ar, int Iz[], int De[], int Izqu, int Dere) {
         int i = 0, j = 0, k = 0;

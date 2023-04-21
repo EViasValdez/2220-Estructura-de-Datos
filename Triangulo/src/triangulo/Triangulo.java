@@ -22,15 +22,15 @@ public class Triangulo {
         int LadoB;
         int LadoC;
 
-        Scanner Leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
 
         System.out.println("Ponga sus cantidades");
         System.out.println("Inserte primera cantidad");
-        LadoA = Leer.nextInt();
+        LadoA = leer.nextInt();
         System.out.println("Inserte segunda cantidad");
-        LadoB = Leer.nextInt();
+        LadoB = leer.nextInt();
         System.out.println("Inserte tercera cantidad");
-        LadoC = Leer.nextInt();
+        LadoC = leer.nextInt();
 
         if (LadoA == LadoB && LadoB == LadoC) {
             System.out.println("El triangulo mostrado es un triangulo equilatero");

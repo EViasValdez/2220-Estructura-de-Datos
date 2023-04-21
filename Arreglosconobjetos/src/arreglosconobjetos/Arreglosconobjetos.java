@@ -17,7 +17,7 @@ public class ArreglosconObjetos {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Scanner Leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
 
         Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado "Pacientes"
         // el cual esta instanciado a la Clase "Persona" de tamaño 4.
@@ -36,7 +36,7 @@ public class ArreglosconObjetos {
             System.out.println("3. Mostrar el Nombre de todos los pacientes");
             System.out.println("4. Mostrar el Nombre de todos los pacientes menores de Edad");
             System.out.println("Elige una opcion");
-            Opc = Leer.nextInt(); // Se lee una opción del menu de la opción 1 a la 4.
+            Opc = leer.nextInt(); // Se lee una opción del menu de la opción 1 a la 4.
         
             switch (Opc) 
             // La instrucción switch va acompañada de casos que evalúan a la variable "Opc" dependiendo
@@ -46,21 +46,21 @@ public class ArreglosconObjetos {
                 for (int i = 0; i < Pacientes.length; i++)
                 {
                     System.out.println("Escribe el nombre");
-                    String Nombre = Leer.next();
+                    String Nombre = leer.next();
                     System.out.println("Escribe tu edad");
-                    int Edad = Leer.nextInt();
+                    int Edad = leer.nextInt();
                     System.out.println("Escribe tu peso");
-                    float Peso = Leer.nextFloat();
+                    float Peso = leer.nextFloat();
 
                     // Persona pacienteTemporal = new Persona();
                     // pacienteTemporal.setNombre (Nombre);
                     // pacienteTemporal.setEdad (Edad);
                     // pacienteTemporal.setPeso (Peso);
-                    Pacientes [i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
-                    Pacientes [i].setNombre(Nombre); // Con el objeto "Pacientes [i] se manda llamar al método setNombre para que en este
-                    // se escriba el Nombre cuya variable se leyó "String Nombre = Leer.next();".
-                    Pacientes [i].setEdad(Edad);
-                    Pacientes [i].setPeso(Peso);
+                    Pacientes[i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
+                    Pacientes[i].setNombre(Nombre); // Con el objeto "Pacientes [i] se manda llamar al método setNombre para que en este
+                    // se escriba el Nombre cuya variable se leyó "String Nombre = leer.next();".
+                    Pacientes[i].setEdad(Edad);
+                    Pacientes[i].setPeso(Peso);
                 }
             break;
 
@@ -72,7 +72,7 @@ public class ArreglosconObjetos {
                 // int i = 1;
                 for (int i = 0; i < Pacientes.length; i++) // Se recorre el arreglo "Pacientes".
                 {
-                    if (Pacientes [i].getEdad() > PacienteMayor.getEdad()) // Si la Edad que se obtiene el arreglo de objetos es
+                    if (Pacientes[i].getEdad() > PacienteMayor.getEdad()) // Si la Edad que se obtiene el arreglo de objetos es
                     // mayor a la Edad que se obtiene en el objeto "PacienteMayor" entonces
                     {
                         PacienteMayor = Pacientes [i]; // dicha Edad se asigna al objeto "PacienteMayor".
@@ -98,7 +98,7 @@ public class ArreglosconObjetos {
 
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    if (Pacientes [i].getEdad() < 18) // Si la Edad que se obtiene del arreglo de objetos "Pacientes"
+                    if (Pacientes[i].getEdad() < 18) // Si la Edad que se obtiene del arreglo de objetos "Pacientes"
                         // es menor al numero 18 entonces
                     {
                     Mostrar2 = Mostrar2 + Pacientes [i].getNombre() + "\n" + Pacientes [i].getEdad() + "\n";
@@ -109,7 +109,7 @@ public class ArreglosconObjetos {
             break;
             }
             System.out.println("¿Deseas mostrar el menu Otra vez? (Si/No)");
-            Otra = Leer.next();
+            Otra = leer.next();
         } while (Otra.equals("si")); // Mientras la variable Otra sea igual a "si" se regresa a la 
         // instrucción do e inicia el ciclo.
     }
