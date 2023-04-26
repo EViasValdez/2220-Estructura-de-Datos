@@ -53,14 +53,14 @@ public class ArreglosconObjetos {
                     float Peso = leer.nextFloat();
 
                     // Persona pacienteTemporal = new Persona();
-                    // pacienteTemporal.setNombre (Nombre);
-                    // pacienteTemporal.setEdad (Edad);
-                    // pacienteTemporal.setPeso (Peso);
+                    // pacienteTemporal.SetNombre (Nombre);
+                    // pacienteTemporal.SetEdad (Edad);
+                    // pacienteTemporal.SetPeso (Peso);
                     Pacientes[i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
-                    Pacientes[i].setNombre(Nombre); // Con el objeto "Pacientes [i] se manda llamar al método setNombre para que en este
+                    Pacientes[i].SetNombre(Nombre); // Con el objeto "Pacientes [i] se manda llamar al método SetNombre para que en este
                     // se escriba el Nombre cuya variable se leyó "String Nombre = leer.next();".
-                    Pacientes[i].setEdad(Edad);
-                    Pacientes[i].setPeso(Peso);
+                    Pacientes[i].SetEdad(Edad);
+                    Pacientes[i].SetPeso(Peso);
                 }
             break;
 
@@ -72,13 +72,13 @@ public class ArreglosconObjetos {
                 // int i = 1;
                 for (int i = 0; i < Pacientes.length; i++) // Se recorre el arreglo "Pacientes".
                 {
-                    if (Pacientes[i].getEdad() > PacienteMayor.getEdad()) // Si la Edad que se obtiene el arreglo de objetos es
+                    if (Pacientes[i].GetEdad() > PacienteMayor.GetEdad()) // Si la Edad que se obtiene el arreglo de objetos es
                     // mayor a la Edad que se obtiene en el objeto "PacienteMayor" entonces
                     {
                         PacienteMayor = Pacientes [i]; // dicha Edad se asigna al objeto "PacienteMayor".
                     }
                 }
-                System.out.println("El Paciente mayor de edad es: " + PacienteMayor.getNombre());
+                System.out.println("El Paciente mayor de edad es: " + PacienteMayor.GetNombre());
             break;
             
             case 3:
@@ -87,7 +87,7 @@ public class ArreglosconObjetos {
 
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    Mostrar = Mostrar + Pacientes [i].getNombre() + "\n"; // Se imprime la variable Mostrar que en un inicio esta vacia pues
+                    Mostrar = Mostrar + Pacientes [i].GetNombre() + "\n"; // Se imprime la variable Mostrar que en un inicio esta vacia pues
                 } // asi se declaro y se le van agregando el Nombre de las personas de cada posición del arreglo "Personas".
                 System.out.println(Mostrar);
             break;
@@ -98,10 +98,10 @@ public class ArreglosconObjetos {
 
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    if (Pacientes[i].getEdad() < 18) // Si la Edad que se obtiene del arreglo de objetos "Pacientes"
+                    if (Pacientes[i].GetEdad() < 18) // Si la Edad que se obtiene del arreglo de objetos "Pacientes"
                         // es menor al numero 18 entonces
                     {
-                    Mostrar2 = Mostrar2 + Pacientes [i].getNombre() + "\n" + Pacientes [i].getEdad() + "\n";
+                    Mostrar2 = Mostrar2 + Pacientes [i].GetNombre() + "\n" + Pacientes [i].GetEdad() + "\n";
                     // se obtiene el Nombre de los pacientes su Edad que cumplan con dicha condición.
                     }
                 }

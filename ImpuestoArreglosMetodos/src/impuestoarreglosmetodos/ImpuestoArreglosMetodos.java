@@ -25,14 +25,14 @@ public class ImpuestoArreglosMetodos {
         // que se lean, ya que de forma predeterminada solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader (isr);
          // Se declararan los identificadores llamados "precio" de tipo float (cuyo arreglo es de tamaño 4).
-        float Precio [] = new float [4]; // La variable global tendrá alcance en todo el main y en los otros métodos de este proyecto.
+        float Precio [] = new float[4]; // La variable global tendrá alcance en todo el main y en los otros métodos de este proyecto.
         
         for (int i = 0; i < 4; i++) {
             System.out.println("Escribe el precio");
             // "int i = 0;" es el valor inicial del arreglo, es decir la primer posición del mismo.
             // "i < 4" es la condición de fin de ciclo, que lo repetirá 4 veces.
             // "i++" equivale a escribir "i = i + 1" refiriéndose al contador que realiza el numero de veces del ciclo.
-            Precio [i] = Float.parseFloat(br.readLine());
+            Precio[i] = Float.parseFloat(br.readLine());
         }
         Calculo(Precio);  // Se manda llamar al método "Calculo" y se le pasa como parámetro el arreglo llamado "precio".
     }
@@ -44,9 +44,9 @@ public class ImpuestoArreglosMetodos {
         float Impuesto = .05f, Total = 0;
         // Se recorre el arreglo recibido Precio con el ciclo for.
         for (int i = 0; i < 4; i++) {
-            // Se realiza el calculo del Total cada valor de cada posición del arreglo "Precio [i]".
+            // Se realiza el calculo del Total cada valor de cada posición del arreglo "Precio[i]".
             // Es multiplicado por el valor de la constante "impuesto".
-            Total = Precio [i] + (Precio [i] * Impuesto);
+            Total = Precio[i] + (Precio[i] * Impuesto);
             // Se imprime el resultado de cada calculo.
             System.out.println("El total es: " + Total);
         }

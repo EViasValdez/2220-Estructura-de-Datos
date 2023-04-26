@@ -46,8 +46,8 @@ public class EjercicioColas {
         }
 
         System.out.println("El principal es");
-        int primero = Cola.peek();
-        System.out.println(primero);
+        int Primero = Cola.peek();
+        System.out.println(Primero);
         System.out.println(Cola);
 
         System.out.println("Elemento a quitar");

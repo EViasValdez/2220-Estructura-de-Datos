@@ -33,7 +33,7 @@ public class CodigoGuia2 {
 
             Suma = (Suma + Calificacion [i]);
         }
-        promedio = Suma / 4;
+        Promedio = Suma / 4;
         System.out.println("El promedio es: " + Promedio);
     }
 }

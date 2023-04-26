@@ -76,7 +76,7 @@ public class EjercicioListas {
             break;
             
             case 5:
-                Collections.sort (Calificaciones, Collections.reverseOrder());
+                Collections.sort(Calificaciones, Collections.reverseOrder());
                 System.out.println(Calificaciones);
             break;
 
