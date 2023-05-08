@@ -28,21 +28,21 @@ public class TrianguloArregloUnidimensional {
         for (int i = 0; i < Lados.length; i++)
         {
             System.out.println("Escribe el lado " + (i + 1) + ":");
-            Lados [i] = Integer.parseInt(br.readLine());
+            Lados[i] = Integer.parseInt(br.readLine());
         }
         for (int i = 0; i < Lados.length; i++)
         {
-            if (Lados [0] == Lados [1] && Lados [1] == Lados [2]) {
+            if (Lados[0] == Lados[1] && Lados[1] == Lados[2]) {
                 System.out.println("El triangulo mostrado es un triangulo equilatero");
             }
             else
             {
-            if (Lados [0] != Lados [1] && Lados [1] != Lados [2]) {
+            if (Lados[0] != Lados[1] && Lados[1] != Lados[2]) {
                 System.out.println("El triangulo mostrado es un triangulo isoceles");
             }
             else
             {
-            if (Lados [1] != Lados [2] && Lados [1] != Lados [2])
+            if (Lados[1] != Lados[2] && Lados[1] != Lados[2])
                 System.out.println("El triangulo mostrado es un triangulo escaleno");
             }
             }

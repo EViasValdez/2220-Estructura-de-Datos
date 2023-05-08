@@ -21,7 +21,7 @@ public class OrdenamientoPorInsercion {
             b = a - 1;
 
             while ((b >= 0) && ListaOrden [b] > Auxiliar) {
-                ListaOrden [b + 1] = ListaOrden [b--];
+                ListaOrden[b + 1] = ListaOrden[b--];
                 System.out.println(Auxiliar);
             }
         }

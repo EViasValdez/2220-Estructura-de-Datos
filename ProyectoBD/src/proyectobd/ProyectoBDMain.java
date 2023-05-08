@@ -43,7 +43,7 @@ public class ProyectoBDMain {
             case 1:
                 System.out.println("Metodo burbuja");
                 int Arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
-                int Orden [] = MetodBurbu (Arreglo);
+                int Orden [] = MetodBurbu(Arreglo);
 
                 for (int a = 0; a < Orden.length;a++){
                     System.out.println(Orden [a]);
@@ -61,7 +61,7 @@ public class ProyectoBDMain {
                     Auxiliar = ListaOrden [a];
                     b = a - 1;
 
-                    while ((b >= 0) && ListaOrden [b] > Auxiliar){
+                    while ((b >= 0) && ListaOrden [b] > Auxiliar) {
                         ListaOrden [b + 1] = ListaOrden [b--];
                         ListaOrden [b + 1] = Auxiliar;
                         System.out.println(Auxiliar);

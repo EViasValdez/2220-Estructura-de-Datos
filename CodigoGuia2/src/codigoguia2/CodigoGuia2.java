@@ -29,9 +29,9 @@ public class CodigoGuia2 {
         for (int i = 0; i < 4; i++)
         {
             System.out.println("Escribe la calificacion");
-            Calificacion [i] = Double.parseDouble(br.readLine());
+            Calificacion[i] = Double.parseDouble(br.readLine());
 
-            Suma = (Suma + Calificacion [i]);
+            Suma = (Suma + Calificacion[i]);
         }
         Promedio = Suma / 4;
         System.out.println("El promedio es: " + Promedio);

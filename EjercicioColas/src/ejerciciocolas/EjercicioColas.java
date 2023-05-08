@@ -42,7 +42,7 @@ public class EjercicioColas {
         for (int i = 1; i <= ColaImpresion; i++)
         {
             System.out.println("Documentos a imprimir: " + i);
-            Cola.add (i);
+            Cola.add(i);
         }
 
         System.out.println("El principal es");

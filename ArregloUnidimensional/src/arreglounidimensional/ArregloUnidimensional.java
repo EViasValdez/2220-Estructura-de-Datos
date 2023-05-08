@@ -59,10 +59,10 @@ public class ArregloUnidimensional {
         // Se recorre el arreglo "Salario".
         for (int k = 0; k < Salario.length; k++) {
             Suma = Suma + Salario[k]; // Se realiza la Suma de los salarios con la variable de tipo acumulador llamada "Suma" se ira sumando cada Salario de cada posición del arreglo con el subindice "k" por ello "Salario[k]".
-            if (Salario[k] >= 20000) { // Si "Salario [k]" es Mayor o igual a 20000 se sumara 1
+            if (Salario[k] >= 20000) { // Si "Salario[k]" es Mayor o igual a 20000 se sumara 1
                 Alto++; // a la variable "Alto" ya que significa "Alto = Alto + 1".
             }else{ // Si la condición anterior no se cumple
-            if (Salario[k] < 20000) { // se realiza esta condición si el "Salario [k]" es menor a 20000
+            if (Salario[k] < 20000) { // se realiza esta condición si el "Salario[k]" es menor a 20000
                 Bajo++; // se Suma 1 a la variable "Bajo", es decir "Bajo = Bajo + 1".
             }
             }
@@ -79,8 +79,8 @@ public class ArregloUnidimensional {
         double Mayor = Salario [0];
 
         for (int k = 0; k < Salario.length; k++) { // Se recorre el arreglo "Salario".
-            if (Mayor < Salario [k]) { // Si la variable Mayor es menor al valor de la posición
-                Mayor = Salario [k]; // del arreglo "Salario [k]" entonces ese valor se le asigna a la variable Mayor.
+            if (Mayor < Salario[k]) { // Si la variable Mayor es menor al valor de la posición
+                Mayor = Salario[k]; // del arreglo "Salario[k]" entonces ese valor se le asigna a la variable Mayor.
             }
         }
         System.out.println("El Salario mas Alto es: " + Mayor); // Muestra el Salario mas alto.

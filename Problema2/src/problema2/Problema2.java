@@ -22,7 +22,7 @@ public class Problema2 {
         int B;
         int C;
 
-        Scanner leer = new Scanner(System.in);
+        Scanner Leer = new Scanner(System.in);
 
         int i = 1;
 
@@ -30,11 +30,11 @@ public class Problema2 {
             System.out.println("Inserte valores");
 
             System.out.println("Valor A");
-            A = leer.nextInt();
+            A = Leer.nextInt();
             System.out.println("Valor B");
-            B = leer.nextInt();
+            B = Leer.nextInt();
             System.out.println("Valor C");
-            C = leer.nextInt();
+            C = Leer.nextInt();
 
             if (A + B == C) {
                 System.out.println("Son iguales " + A + "+" + B + " = " + C);

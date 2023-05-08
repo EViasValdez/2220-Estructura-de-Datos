@@ -24,7 +24,7 @@ public class ProblemasAsesoriasFor {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         
-        Scanner leer = new Scanner(System.in);
+        Scanner Leer = new Scanner(System.in);
 
         System.out.println("Problema 1");
 
@@ -83,11 +83,11 @@ public class ProblemasAsesoriasFor {
             for (int d = 1; d < 3; d++)
             {
                 System.out.println("Ingrese lado a");
-                LadoA = leer.nextInt();
+                LadoA = Leer.nextInt();
                 System.out.println("Ingrese lado b");
-                LadoB = leer.nextInt();
+                LadoB = Leer.nextInt();
                 System.out.println("Ingrese lado c");
-                LadoC = leer.nextInt();
+                LadoC = Leer.nextInt();
 
                 Area = LadoA + LadoB + LadoC;
 
@@ -99,7 +99,7 @@ public class ProblemasAsesoriasFor {
         int Numero;
 
         System.out.println("Ingese numero");
-        Numero = leer.nextInt();
+        Numero = Leer.nextInt();
 
         if (Numero > 0)
         {

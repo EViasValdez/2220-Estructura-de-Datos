@@ -16,7 +16,7 @@ public class OrdenamientoPorSeleccion {
             int ValorMaximo = 0;
 
             for (int b = 0; b < a; b++) {
-                if (Lista [b + 1] > Lista [ValorMaximo]) {
+                if (Lista[b + 1] > Lista[ValorMaximo]) {
                     ValorMaximo = b + 1;
                 }
             }
@@ -24,14 +24,14 @@ public class OrdenamientoPorSeleccion {
     }
     public void ImprimirArreglo(int[] Lista) {
         for (int a = 0; a < Lista.length; a++) {
-            System.out.printf("%d \t", Lista [a]);
+            System.out.printf("%d \t", Lista[a]);
         }
         System.out.println();
     }
     public void swap(int[] Lista, int a, int b) {
-        int Valor = Lista [b];
-        Lista [b] = Lista [a];
-        Lista [a] = Valor;
+        int Valor = Lista[b];
+        Lista[b] = Lista[a];
+        Lista[a] = Valor;
     }
     public static void main(String[] args) {
         OrdenamientoPorSeleccion SO = new OrdenamientoPorSeleccion();

@@ -23,7 +23,7 @@ public class ProblemasAsesoriasDoWhile {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
-        Scanner leer = new Scanner(System.in);
+        Scanner Leer = new Scanner(System.in);
 
         System.out.println("Problema 1");
         float Calificacion1, Calificacion2, Calificacion3, Calificacion4;
@@ -83,11 +83,11 @@ public class ProblemasAsesoriasDoWhile {
             int LadoC;
 
             System.out.println("Ingrese lado a");
-            LadoA = leer.nextInt();
+            LadoA = Leer.nextInt();
             System.out.println("Ingrese lado b");
-            LadoB = leer.nextInt();
+            LadoB = Leer.nextInt();
             System.out.println("Ingrese lado c");
-            LadoC = leer.nextInt();
+            LadoC = Leer.nextInt();
 
             Area = LadoA + LadoB + LadoC;
 
@@ -98,7 +98,7 @@ public class ProblemasAsesoriasDoWhile {
             int d = 1;
 
             System.out.println("Ingese numero");
-            numero = leer.nextInt();
+            numero = Leer.nextInt();
 
             if (numero > 0)
             {
