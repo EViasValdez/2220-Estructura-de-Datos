@@ -34,7 +34,7 @@ public class Pilas1 {
             System.out.print(iterator.next() + " ");  // con hasNext cada uno de los elemntos de la lista se van imprimiendo.
         }
 
-        System.out.println("¿Esta vacia la pila? " + Pila.vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
+        System.out.println("¿Esta vacia la pila? " + Pila.Vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
         System.out.println("Tamaño de la pila: " + Pila.size()); // Muestra el tamaño de la pila.
 
         System.out.println(Pila.Cima()); // Manda llamar al metodo "Cima" de la clase "Pila" y regresa el elemento de la cima de la pila
@@ -50,19 +50,19 @@ public class Pilas1 {
 
         System.out.println("------Cola------");
         Cola Cola = new Cola();
-        Cola.encolar("A");
-        Cola.encolar("B");
-        Cola.encolar("C");
-        Cola.encolar("D");
+        Cola.Encolar("A");
+        Cola.Encolar("B");
+        Cola.Encolar("C");
+        Cola.Encolar("D");
 
         System.out.println("¿Esta vacia la cola?" + Cola.Vacia());
         System.out.println("Tamaño de la cola: " + Cola.size());
-        System.out.println(Cola.frente());
-        Cola.desencolar();
-        System.out.println(Cola.frente());
-        Cola.desencolar();
-        System.out.println(Cola.frente());
-        Cola.desencolar();
+        System.out.println(Cola.Frente());
+        Cola.Desencolar();
+        System.out.println(Cola.Frente());
+        Cola.Desencolar();
+        System.out.println(Cola.Frente());
+        Cola.Desencolar();
 
         System.out.println("Elementos en la cola: " + Cola);
         System.out.println("¿Esta vacia la cola? " + Cola.Vacia());
