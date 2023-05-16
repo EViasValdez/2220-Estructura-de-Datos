@@ -33,8 +33,8 @@ public class Main {
                 for (int j = 0; j < 4; j++)
                 {
                      System.out.print("Escribe la calificacion del alumno " + k + " del parcial " + i + " de la materia " + j + ": ");
-                     Calificaciones [j] [i] [k] = Float.parseFloat(br.readLine());
-                     Suma = Suma + Calificaciones [j] [i] [k];
+                     Calificaciones[j][i][k] = Float.parseFloat(br.readLine());
+                     Suma = Suma + Calificaciones[j][i][k];
                 }
             }
             System.out.println("La suma es: " + Suma);

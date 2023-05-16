@@ -34,13 +34,11 @@ public class Problema1 {
             System.out.println("");
             System.out.println("Son iguales");
         }
-        else
-        if (A + C == B) {
+        else if (A + C == B) {
             System.out.println("");
             System.out.println("Son iguales");
         }
-        else
-        if (B + C == A) {
+        else if (B + C == A) {
             System.out.println("");
             System.out.println("Son iguales");
         }

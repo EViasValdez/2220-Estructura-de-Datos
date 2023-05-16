@@ -28,13 +28,13 @@ public class TrianguloMetodosArrelgos {
         int LadoB;
         int LadoC;
 
-        int Lado [] = new int [3];
+        int Lado[] = new int[3];
 
         Scanner Leer = new Scanner(System.in);
 
         for (int i = 0; i < 3; i++) {
             System.out.println("Ponga sus cantidades");
-            Lado [i] = Integer.parseInt(br.readLine());
+            Lado[i] = Integer.parseInt(br.readLine());
         }
         Triangulo(Lado);
     }

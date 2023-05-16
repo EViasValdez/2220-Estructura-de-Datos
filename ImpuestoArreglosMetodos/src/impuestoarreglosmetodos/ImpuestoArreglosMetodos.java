@@ -25,7 +25,7 @@ public class ImpuestoArreglosMetodos {
         // que se lean, ya que de forma predeterminada solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader (isr);
          // Se declararan los identificadores llamados "precio" de tipo float (cuyo arreglo es de tamaño 4).
-        float Precio [] = new float[4]; // La variable global tendrá alcance en todo el main y en los otros métodos de este proyecto.
+        float Precio[] = new float[4]; // La variable global tendrá alcance en todo el main y en los otros métodos de este proyecto.
         
         for (int i = 0; i < 4; i++) {
             System.out.println("Escribe el precio");

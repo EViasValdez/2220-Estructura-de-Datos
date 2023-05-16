@@ -27,7 +27,7 @@ public class TriangulosArreglos {
         int LadoB;
         int LadoC;
 
-        int Lado [] = new int [3];
+        int Lado[] = new int[3];
 
         Scanner Leer = new Scanner (System.in);
 

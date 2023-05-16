@@ -19,7 +19,7 @@ public class ArreglosconObjetos {
         // TODO code application logic here
         Scanner leer = new Scanner(System.in);
 
-        Persona [] Pacientes = new Persona [4]; // Se declara un arreglo de objetos llamado "Pacientes"
+        Persona [] Pacientes = new Persona[4]; // Se declara un arreglo de objetos llamado "Pacientes"
         // el cual esta instanciado a la Clase "Persona" de tamaño 4.
         // Cada posición del arreglo contendrá un objeto de la clase "Persona" en la posición 0
         // del arreglo se almacenara el Nombre, Edad y Peso de una persona.
@@ -75,7 +75,7 @@ public class ArreglosconObjetos {
                     if (Pacientes[i].GetEdad() > PacienteMayor.GetEdad()) // Si la Edad que se obtiene el arreglo de objetos es
                     // mayor a la Edad que se obtiene en el objeto "PacienteMayor" entonces
                     {
-                        PacienteMayor = Pacientes [i]; // dicha Edad se asigna al objeto "PacienteMayor".
+                        PacienteMayor = Pacientes[i]; // dicha Edad se asigna al objeto "PacienteMayor".
                     }
                 }
                 System.out.println("El Paciente mayor de edad es: " + PacienteMayor.GetNombre());
@@ -87,7 +87,7 @@ public class ArreglosconObjetos {
 
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    Mostrar = Mostrar + Pacientes [i].GetNombre() + "\n"; // Se imprime la variable Mostrar que en un inicio esta vacia pues
+                    Mostrar = Mostrar + Pacientes[i].GetNombre() + "\n"; // Se imprime la variable Mostrar que en un inicio esta vacia pues
                 } // asi se declaro y se le van agregando el Nombre de las personas de cada posición del arreglo "Personas".
                 System.out.println(Mostrar);
             break;
@@ -101,7 +101,7 @@ public class ArreglosconObjetos {
                     if (Pacientes[i].GetEdad() < 18) // Si la Edad que se obtiene del arreglo de objetos "Pacientes"
                         // es menor al numero 18 entonces
                     {
-                    Mostrar2 = Mostrar2 + Pacientes [i].GetNombre() + "\n" + Pacientes [i].GetEdad() + "\n";
+                    Mostrar2 = Mostrar2 + Pacientes[i].GetNombre() + "\n" + Pacientes[i].GetEdad() + "\n";
                     // se obtiene el Nombre de los pacientes su Edad que cumplan con dicha condición.
                     }
                 }

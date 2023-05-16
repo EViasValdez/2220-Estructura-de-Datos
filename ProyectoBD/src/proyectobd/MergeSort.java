@@ -17,8 +17,8 @@ public class MergeSort {
         }
 
         int Med = b / 2;
-        int [] Iz = new int [Med];
-        int [] De = new int [b - Med];
+        int[] Iz = new int[Med];
+        int[] De = new int[b - Med];
     
         for (int c = 0; c < Med; c++) {
             Iz [c] = a [c];
@@ -35,18 +35,18 @@ public class MergeSort {
         int i = 0, j = 0, k = 0;
 
         while (i < Izqu && j < Dere) {
-            if (Iz [i] <= De [j]) {
-                Ar [k++] = Iz [i++];
+            if (Iz[i] <= De[j]) {
+                Ar[k++] = Iz[i++];
             }
         else {
-            Ar [k++] = De [j++];
+            Ar[k++] = De[j++];
         }
         }
         while (i < Izqu) {
-            Ar [k++] = Iz [i++];
+            Ar[k++] = Iz[i++];
         }
         while (j < Dere) {
-            Ar [k++] = De [j++];
+            Ar[k++] = De[j++];
         }
     }
     public static void main(String[] args) {
@@ -55,7 +55,7 @@ public class MergeSort {
         MergeSort (Actual, Actual.length);
 
         for (int i = 0; i < Actual.length; i++) {
-            System.out.println(Actual [i]);
+            System.out.println(Actual[i]);
         }
     }
 }

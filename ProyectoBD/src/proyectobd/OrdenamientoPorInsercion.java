@@ -12,15 +12,15 @@ package proyectobd;
 
 public class OrdenamientoPorInsercion {
     public static void main(String[] args) {
-        int [] ListaOrden = new int [100];
+        int [] ListaOrden = new int[100];
         int a, b;
         int Auxiliar;
 
         for (a = 1; a < 100; a++) {
-            Auxiliar = ListaOrden [a];
+            Auxiliar = ListaOrden[a];
             b = a - 1;
 
-            while ((b >= 0) && ListaOrden [b] > Auxiliar) {
+            while ((b >= 0) && ListaOrden[b] > Auxiliar) {
                 ListaOrden[b + 1] = ListaOrden[b--];
                 System.out.println(Auxiliar);
             }

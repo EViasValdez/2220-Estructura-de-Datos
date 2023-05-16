@@ -19,11 +19,11 @@ public class MetodoBurbuja {
         {
             for (int b = 0; b < Arreglo.length - 1; b++)
             {
-                if (Arreglo[a] > Arreglo [b + 1])
+                if (Arreglo[a] > Arreglo[b + 1])
                 {
-                    Auxiliar = Arreglo [b];
-                    Arreglo [b] = Arreglo [b + 1];
-                    Arreglo [b + 1] = Auxiliar;
+                    Auxiliar = Arreglo[b];
+                    Arreglo[b] = Arreglo[b + 1];
+                    Arreglo[b + 1] = Auxiliar;
                 }
             }
         }
@@ -35,7 +35,7 @@ public class MetodoBurbuja {
         int Orden [] = MetodBurbu (Arreglo);
 
         for (int a = 0; a < Orden.length; a++) {
-            System.out.println(Orden [a]);
+            System.out.println(Orden[a]);
         }
     }
 }
