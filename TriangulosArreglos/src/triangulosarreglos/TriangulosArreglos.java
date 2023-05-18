@@ -29,7 +29,7 @@ public class TriangulosArreglos {
 
         int Lado[] = new int[3];
 
-        Scanner Leer = new Scanner (System.in);
+        Scanner Leer = new Scanner(System.in);
 
         System.out.println("Ponga sus cantidades");
         System.out.println("Inserte primera cantidad");

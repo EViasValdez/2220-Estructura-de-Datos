@@ -37,7 +37,7 @@ public class ImpuestoArreglosMetodos {
         Calculo(Precio);  // Se manda llamar al método "Calculo" y se le pasa como parámetro el arreglo llamado "precio".
     }
         // Es creado un método publico estatico de tipo void llamado "Calculo" que recibe como parámetro de entrada el arreglo "precio []".
-    public static void Calculo(float [] Precio) {
+    public static void Calculo(float[] Precio) {
         // Se utilizaran variables locales ya que solo funcionan en este método impuesto es una constante 
         // con un valor inicial de .05 y Total esta inicializada en cero por ser una variable que guarda el 
         // resultado de una operación.

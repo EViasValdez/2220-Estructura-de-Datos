@@ -31,7 +31,7 @@ public class ImpuestoArreglos {
         // una operación, todas las variables que sean el resultado de una operación se inicializan con 0 pues si su
         // valor es desconocido la operación no se leerá y ademas para limpiar la variable con el propósito de que no
         // traiga basura como valor inicial.
-        float Precio [] = new float [4], Impuesto = .05f, Total = 0; // Todas las variables con globales.
+        float Precio[] = new float[4], Impuesto = .05f, Total = 0; // Todas las variables con globales.
         
         for (int i = 0; i < 4; i++) {
             // Se recorre con el ciclo for el arreglo "int i = 0;" que es el valor inicial del arreglo, es decir

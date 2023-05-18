@@ -21,10 +21,10 @@ public class MergeSort {
         int[] De = new int[b - Med];
     
         for (int c = 0; c < Med; c++) {
-            Iz [c] = a [c];
+            Iz[c] = a[c];
         }
         for (int c = Med; c < b; c++) {
-            De [c - Med] = a [c];
+            De[c - Med] = a[c];
         }
         
         MergeSort(Iz, Med);
@@ -50,7 +50,7 @@ public class MergeSort {
         }
     }
     public static void main(String[] args) {
-        int [] Actual = {5, 1, 6, 2, 3 ,4};
+        int[] Actual = {5, 1, 6, 2, 3 ,4};
 
         MergeSort (Actual, Actual.length);
 
