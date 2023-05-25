@@ -20,10 +20,10 @@ public class ImpuestoArreglosMetodos {
      */
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
-        InputStreamReader isr = new InputStreamReader (System.in);
+        InputStreamReader isr = new InputStreamReader(System.in);
         // La clase "BuferredReader" se utiliza para convertir los datos
         // que se lean, ya que de forma predeterminada solo lee cadenas de caracteres.
-        BufferedReader br = new BufferedReader (isr);
+        BufferedReader br = new BufferedReader(isr);
          // Se declararan los identificadores llamados "precio" de tipo float (cuyo arreglo es de tamaño 4).
         float Precio[] = new float[4]; // La variable global tendrá alcance en todo el main y en los otros métodos de este proyecto.
         

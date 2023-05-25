@@ -24,7 +24,7 @@ public class CodigoGuia4 {
         BufferedReader br = new BufferedReader(isr);
 
         double Calificacion1, Calificacion2, Calificacion3, Calificacion4, Suma = 0, Promedio = 0;
-        double Calificacion [] = new double[4];
+        double Calificacion[] = new double[4];
 
         System.out.println("Escribe la calificacion 1");
         Calificacion1 = Double.parseDouble(br.readLine());
