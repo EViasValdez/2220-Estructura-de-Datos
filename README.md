@@ -25,19 +25,19 @@ Verifica si uno o varios numeros coinciden de acuerdo a lo ingresado, en el otro
 <!----Separador---->
 
 ###### ImpuestoArreglosMetodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
-Texto por ser escrito.
+Agregacion de impuestos usando metodos.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Mismo programa pero con la utilizacion de ciclos.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Usando lo mismo pero usando metodos.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Programa original de los impuestos, del cual derivan los demas archivos.
 
 <!----Separador---->
 
@@ -74,11 +74,11 @@ Texto por ser escrito.
 <!----Separador---->
 
 ###### ArregloTridimensional, ArregloBidimensional, ImpuestoOO - 03/02/20
-Texto por ser escrito.
+Arreglo de tres dimensiones.
 
 <!--Separador-->
 
-Texto por ser escrito.
+Arreglo de dos dimensiones.
 
 <!--Separador-->
 
@@ -144,15 +144,15 @@ Agregacion de datos usando el metodo de colas.
 <!----Separador---->
 
 ###### ProyectoParcial2 - 20/02/20
-Texto por ser escrito.
+Proyecto del segundo parcial de la materia.
 
 <!----Separador---->
 
 ###### Actividades - 27/02/20
-Texto por ser escrito.
+Programa incompleto con actividades.
 
 <!----Separador---->
 
 ###### ProyectoBD - 16/12/20
-Texto por ser escrito.
+
 <!----Separador del directorio con descripcion de los programas---->
