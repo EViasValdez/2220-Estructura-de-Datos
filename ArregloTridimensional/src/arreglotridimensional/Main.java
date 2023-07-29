@@ -22,7 +22,7 @@ public class Main {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         // 3 parciales de 4 calificaciones de dos alumnos.
-        float Calificaciones [] [] [] = new float [4] [3] [2];
+        float Calificaciones[][][] = new float [4][3][2];
         float Suma = 0, Promedio = 0;
 
         for (int k = 0; k < 2; k++)
