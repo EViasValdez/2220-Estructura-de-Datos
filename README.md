@@ -27,15 +27,15 @@ Verifica si uno o varios numeros coinciden de acuerdo a lo ingresado, en el otro
 ###### ImpuestoArreglosMetodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
 Agregacion de impuestos usando metodos.
 
-<!--Separador-->
+<!----Separador---->
 
 Mismo programa pero con la utilizacion de ciclos.
 
-<!--Separador-->
+<!----Separador---->
 
 Usando lo mismo pero usando metodos.
 
-<!--Separador-->
+<!----Separador---->
 
 Programa original de los impuestos, del cual derivan los demas archivos.
 
@@ -112,46 +112,46 @@ Coleccion de ejercicios realizados en las asesorias.
 ###### ProblemasAsesoriasCiclos, ProblemasAsesoriasDoWhile, ProblemasAsesoriasFor - 10/02/20
 Al igual que el anterior programa tiene los mismos ejercicios solo que se utilizan ciclos.
 
-<!--Separador-->
+<!----Separador---->
 
 Lo mismo pero se usa un menu con el metodo DoWhile.
 
-<!--Separador-->
+<!----Separador---->
 
 Tambien lo mismo pero usando estructuras for.
 
-<!--Separador-->
+<!----Separador---->
 
 ###### Colas, Pilas1, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
 Programa de ejemplo que muestra el funcionamiento de una cola.
 
-<!--Separador-->
+<!----Separador---->
 
 Utilizacion de una pila.
 
-<!--Separador-->
+<!----Separador---->
 
 Programa de manejo de pilas usando un recorrido al ciclo pop.
 
-<!--Separador-->
+<!----Separador---->
 
 Agregacion de metodos usando el metodo de pilas.
 
-<!--Separador-->
+<!----Separador---->
 
 Agregacion de datos usando el metodo de colas.
 
-<!--Separador-->
+<!----Separador---->
 
 ###### ProyectoParcial2 - 20/02/20
 Proyecto del segundo parcial de la materia.
 
-<!--Separador-->
+<!----Separador---->
 
 ###### Actividades - 27/02/20
 Programa incompleto con actividades.
 
-<!--Separador-->
+<!----Separador---->
 
 ###### ProyectoBD - 16/12/20
 Programa completo utilizando una base de datos.
