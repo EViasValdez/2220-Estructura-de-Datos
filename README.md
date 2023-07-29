@@ -57,7 +57,7 @@ Calculo del area del triangulo utilizando metodos, incluye otras dos versiones d
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 Texto por ser escrito.
 
-<!--Separador-->
+<!----Separador---->
 
 Texto por ser escrito.
 
@@ -76,11 +76,11 @@ Texto por ser escrito.
 ###### ArregloTridimensional, ArregloBidimensional, ImpuestoOO - 03/02/20
 Arreglo de tres dimensiones.
 
-<!--Separador-->
+<!----Separador---->
 
 Arreglo de dos dimensiones.
 
-<!--Separador-->
+<!----Separador---->
 
 Se realiza una serie de calculos para colocar un inpuesto a un producto por medio de la programacion orientada a objetos.
 
@@ -89,16 +89,16 @@ Se realiza una serie de calculos para colocar un inpuesto a un producto por medi
 ###### CodigoGuia1, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
 Promedio de calificacion en forma normal, usando arreglos y clases.
 
-<!--Separador-->
+<!----Separador---->
 
 ###### TipodeDatos, Listas, EjercicioListas - 06/02/20
+Ingreso de informacion para ciertos datos.
+
+<!----Separador---->
+
 Texto por ser escrito.
 
-<!--Separador-->
-
-Texto por ser escrito.
-
-<!--Separador-->
+<!----Separador---->
 
 Texto por ser escrito.
 
@@ -120,7 +120,7 @@ Lo mismo pero se usa un menu con el metodo DoWhile.
 
 Tambien lo mismo pero usando estructuras for.
 
-<!----Separador---->
+<!--Separador-->
 
 ###### Colas, Pilas1, Pilas2, EjercicioPilas, EjerciciosColas - 13/02/20
 Programa de ejemplo que muestra el funcionamiento de una cola.
@@ -141,18 +141,19 @@ Agregacion de metodos usando el metodo de pilas.
 
 Agregacion de datos usando el metodo de colas.
 
-<!----Separador---->
+<!--Separador-->
 
 ###### ProyectoParcial2 - 20/02/20
 Proyecto del segundo parcial de la materia.
 
-<!----Separador---->
+<!--Separador-->
 
 ###### Actividades - 27/02/20
 Programa incompleto con actividades.
 
-<!----Separador---->
+<!--Separador-->
 
 ###### ProyectoBD - 16/12/20
+Programa completo utilizando una base de datos.
 
 <!----Separador del directorio con descripcion de los programas---->
