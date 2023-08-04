@@ -96,11 +96,11 @@ Ingreso de informacion para ciertos datos.
 
 <!----Separador---->
 
-Texto por ser escrito.
+Implementacion de listas.
 
 <!----Separador---->
 
-Texto por ser escrito.
+Ejercicio que utiliza la implementacion de listas.
 
 <!----Separador---->
 
