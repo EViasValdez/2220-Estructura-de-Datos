@@ -24,6 +24,10 @@ Verifica si uno o varios numeros coinciden de acuerdo a lo ingresado, en el otro
 
 <!----Separador---->
 
+Texto por ser escrito.
+
+<!----Separador---->
+
 ###### ImpuestoArreglosMetodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
 Agregacion de impuestos usando metodos.
 
