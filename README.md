@@ -56,7 +56,7 @@ Es lo mismo que en el programa previo pero utiliza un scanner para poder leer va
 <!----Separador---->
 
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
-Calculo del area del triangulo utilizando metodos, incluye otras dos versiones donde se usan metodos y arreglos y unicamente arreglos. 
+Calculo del area del triangulo utilizando metodos, incluye otras dos versiones donde se usan metodos y arreglos y unicamente arreglos.
 
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 Texto por ser escrito.
