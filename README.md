@@ -7,7 +7,7 @@
 
 **- Corregí algunos errores ortográficos de algunos proyectos (Pese a que tuve que dejar sin puntuaciones las líneas de código que mostraran texto), además de problemas de funcionamiento.**
 
-**- Abri los programas en NetBeans y cada uno ya tiene el directorio "nbproject".**
+**- Abri los programas en NetBeans y cada uno ya tienen los directorios "nbproject" y "Build".**
 
 **- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
 <!----Separador de las notas---->
