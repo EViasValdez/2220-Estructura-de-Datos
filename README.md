@@ -72,8 +72,8 @@ Texto por ser escrito.
 
 <!----Separador---->
 
-###### Problema - 31/01/20
-Texto por ser escrito.
+###### Problema1 - 31/01/20
+Prueba de tres numeros.
 
 <!----Separador---->
 
@@ -122,7 +122,7 @@ Lo mismo pero se usa un menu con el metodo DoWhile.
 
 <!----Separador---->
 
-Tambien lo mismo pero usando estructuras for.
+Tambien tiene similitud con los otros dos programas pero usando estructuras for.
 
 <!----Separador---->
 
