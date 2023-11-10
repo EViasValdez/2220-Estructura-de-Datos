@@ -59,16 +59,16 @@ Es lo mismo que en el programa previo pero utiliza un scanner para poder leer va
 Calculo del area del triangulo utilizando metodos, incluye otras dos versiones donde se usan metodos y arreglos y unicamente arreglos.
 
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
-Texto por ser escrito.
+Programa que usa el ejemplo de cuentas de empresa para mostrar la utilizacion de un arreglo de una dimension.
 
 <!----Separador---->
 
-Texto por ser escrito.
+Se utiliza esta forma similar al primer programa pero con el metodo del triangulo.
 
 <!----Separador---->
 
 ###### ArreglosconObjetos - 31/01/20
-Texto por ser escrito.
+Como el nombre indica es un uso de arreglos con objetos.
 
 <!----Separador---->
 

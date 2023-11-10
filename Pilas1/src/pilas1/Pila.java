@@ -31,7 +31,7 @@ public class Pila extends ArrayList {
     public Object Cima() {
         Object DatoAuxiliar = null;
         if (this.size() > 0) {
-            DatoAuxiliar = this.get (this.size() - 1);
+            DatoAuxiliar = this.get(this.size() - 1);
         }
     return DatoAuxiliar;
     }
