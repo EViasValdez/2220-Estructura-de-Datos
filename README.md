@@ -7,7 +7,7 @@
 
 **- Corregí algunos errores ortográficos de algunos proyectos (Pese a que tuve que dejar sin puntuaciones las líneas de código que mostraran texto), además de problemas de funcionamiento.**
 
-**- Abri los programas en NetBeans y cada uno ya tienen los directorios "nbproject" y "Build".**
+**- Abrí los programas en NetBeans y cada uno ya tienen los directorios "nbproject" y "Build".**
 
 **- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
 <!----Separador de las notas---->
@@ -15,12 +15,12 @@
 <!----Directorio con descripcion de los programas---->
 # Descripcion de los programas
 ###### EjercicioCalifiaciones - 20/01/20
-Se verifica que una calificacion sea aprobatoria o reprobatoria.
+Se verifica que una calificación sea aprobatoria o reprobatoria.
 
 <!----Separador---->
 
 ###### Problema1, Problema2 - 21/01/20
-Verifica si uno o varios numeros coinciden de acuerdo a lo ingresado, en el otro solo que se muestran los valores que fueron ingresados.
+Verifica si uno o varios números coinciden de acuerdo a lo ingresado, en el otro solo que se muestran los valores que fueron ingresados.
 
 <!----Separador---->
 
@@ -29,19 +29,19 @@ Texto por ser escrito.
 <!----Separador---->
 
 ###### ImpuestoArreglosMetodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
-Agregacion de impuestos usando metodos.
+Agregación de impuestos usando métodos.
 
 <!----Separador---->
 
-Mismo programa pero con la utilizacion de ciclos.
+Mismo programa, pero con la utilización de ciclos.
 
 <!----Separador---->
 
-Usando lo mismo pero usando metodos.
+Usando lo mismo, pero usando métodos.
 
 <!----Separador---->
 
-Programa original de los impuestos, del cual derivan los demas archivos.
+Programa original de los impuestos, del cual derivan los demás archivos.
 
 <!----Separador---->
 
@@ -51,19 +51,19 @@ Se muestra que tipo de triangulo se puede mostrar de acuerdo a los valores.
 <!----Separador---->
 
 ###### TrianguloCiclos - 25/01/20
-Es lo mismo que en el programa previo pero utiliza un scanner para poder leer valores.
+Es lo mismo que en el programa previo, pero utiliza un scanner para poder leer valores.
 
 <!----Separador---->
 
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
-Calculo del area del triangulo utilizando metodos, incluye otras dos versiones donde se usan metodos y arreglos y unicamente arreglos.
+Cálculo del área del triángulo utilizando metodos, incluye otras dos versiones donde se usan métodos y arreglos y únicamente arreglos.
 
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
-Programa que usa el ejemplo de cuentas de empresa para mostrar la utilizacion de un arreglo de una dimension.
+Programa que usa el ejemplo de cuentas de empresa para mostrar la utilización de un arreglo de una dimensión.
 
 <!----Separador---->
 
-Se utiliza esta forma similar al primer programa pero con el metodo del triangulo.
+Se utiliza esta forma similar al primer programa, pero con el método del triángulo.
 
 <!----Separador---->
 
@@ -73,7 +73,7 @@ Como el nombre indica es un uso de arreglos con objetos.
 <!----Separador---->
 
 ###### Problema1 - 31/01/20
-Prueba de tres numeros.
+Prueba de tres números.
 
 <!----Separador---->
 
@@ -86,30 +86,30 @@ Arreglo de dos dimensiones.
 
 <!----Separador---->
 
-Se realiza una serie de calculos para colocar un inpuesto a un producto por medio de la programacion orientada a objetos.
+Se realiza una serie de cálculos para colocar un impuesto a un producto por medio de la programación orientada a objetos.
 
 <!----Separador---->
 
 ###### CodigoGuia1, CodigoGuia2, CodigoGuia3, CodigoGuia4 - 05/02/20
-Promedio de calificacion en forma normal, usando arreglos y clases.
+Promedio de calificación en forma normal, usando arreglos y clases.
 
 <!----Separador---->
 
 ###### TipodeDatos, Listas, EjercicioListas - 06/02/20
-Ingreso de informacion para ciertos datos.
+Ingreso de información para ciertos datos.
 
 <!----Separador---->
 
-Implementacion de listas.
+Implementación de listas.
 
 <!----Separador---->
 
-Ejercicio que utiliza la implementacion de listas.
+Ejercicio que utiliza la implementación de listas.
 
 <!----Separador---->
 
 ###### ProblemasAsesorias - 08/02/20
-Coleccion de ejercicios realizados en las asesorias.
+Coleccion de ejercicios realizados en las asesorías.
 
 <!----Separador---->
 
@@ -118,11 +118,11 @@ Al igual que el anterior programa tiene los mismos ejercicios solo que se utiliz
 
 <!----Separador---->
 
-Lo mismo pero se usa un menu con el metodo DoWhile.
+Lo mismo pero se usa un menú con el método DoWhile.
 
 <!----Separador---->
 
-Tambien tiene similitud con los otros dos programas pero usando estructuras for.
+Tambien tiene similitud con los otros dos programas, pero usando estructuras for.
 
 <!----Separador---->
 
@@ -131,7 +131,7 @@ Programa de ejemplo que muestra el funcionamiento de una cola.
 
 <!----Separador---->
 
-Utilizacion de una pila.
+Utilización de una pila.
 
 <!----Separador---->
 
@@ -139,11 +139,11 @@ Programa de manejo de pilas usando un recorrido al ciclo pop.
 
 <!----Separador---->
 
-Agregacion de metodos usando el metodo de pilas.
+Agregación de métodos usando el método de pilas.
 
 <!----Separador---->
 
-Agregacion de datos usando el metodo de colas.
+Agregación de datos usando el método de colas.
 
 <!----Separador---->
 
@@ -160,4 +160,4 @@ Programa incompleto con actividades.
 ###### ProyectoBD - 16/12/20
 Programa completo utilizando una base de datos.
 
-<!----Separador del directorio con descripcion de los programas---->
+<!----Separador del directorio con descripción de los programas---->
