@@ -12,7 +12,8 @@ package proyectobd;
 
 public class MergeSort {
     public static void MergeSort(int[] a, int b) {
-        if (b < 2) {
+        if (b < 2)
+        {
             return;
         }
 
@@ -20,10 +21,12 @@ public class MergeSort {
         int[] Iz = new int[Med];
         int[] De = new int[b - Med];
     
-        for (int c = 0; c < Med; c++) {
+        for (int c = 0; c < Med; c++)
+        {
             Iz[c] = a[c];
         }
-        for (int c = Med; c < b; c++) {
+        for (int c = Med; c < b; c++)
+        {
             De[c - Med] = a[c];
         }
         
@@ -34,18 +37,22 @@ public class MergeSort {
     public static void Merge(int[] Ar, int Iz[], int De[], int Izqu, int Dere) {
         int i = 0, j = 0, k = 0;
 
-        while (i < Izqu && j < Dere) {
-            if (Iz[i] <= De[j]) {
+        while (i < Izqu && j < Dere)
+        {
+            if (Iz[i] <= De[j])
+            {
                 Ar[k++] = Iz[i++];
             }
         else {
             Ar[k++] = De[j++];
         }
         }
-        while (i < Izqu) {
+        while (i < Izqu)
+        {
             Ar[k++] = Iz[i++];
         }
-        while (j < Dere) {
+        while (j < Dere)
+        {
             Ar[k++] = De[j++];
         }
     }
