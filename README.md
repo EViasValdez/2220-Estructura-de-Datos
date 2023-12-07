@@ -143,7 +143,7 @@ Agregación de métodos usando el método de pilas.
 
 <!----Separador---->
 
-Agregación de datos usando el método de colas.
+Adición de datos usando el método de colas.
 
 <!----Separador---->
 
