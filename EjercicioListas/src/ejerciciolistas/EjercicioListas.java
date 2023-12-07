@@ -32,7 +32,8 @@ public class EjercicioListas {
         float Calif, EliminarCalificacion, Promedio, Suma = 0;
         String Regresar = "si";
 
-        while (Regresar.equals("si")) {
+        while (Regresar.equals("si"))
+        {
             System.out.println("1. Ingresar en una lista N calificaciones");
             System.out.println("2. Mostrar la lista de las calificaciones");
             System.out.println("3. Eliminar un elemento a la lista que el usuario indique y en la Opcion que indique");
@@ -46,7 +47,8 @@ public class EjercicioListas {
             System.out.println("Elige una Opcion");
             Opcion = Integer.parseInt(br.readLine());
 
-            switch (Opcion) {
+            switch (Opcion)
+            {
             case 1:
                 System.out.println("Inserte numero de calificaciones");
                 NumeCalf = Integer.parseInt(br.readLine());
