@@ -34,7 +34,8 @@ public class MetodoBurbuja {
         int Arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
         int Orden [] = MetodBurbu (Arreglo);
 
-        for (int a = 0; a < Orden.length; a++) {
+        for (int a = 0; a < Orden.length; a++)
+        {
             System.out.println(Orden[a]);
         }
     }
