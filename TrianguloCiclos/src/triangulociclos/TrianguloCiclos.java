@@ -35,17 +35,20 @@ public class TrianguloCiclos {
             System.out.println("Inserte tercera cantidad");
             LadoC = Leer.nextInt();
 
-            if (LadoA == LadoB && LadoB == LadoC) {
+            if (LadoA == LadoB && LadoB == LadoC)
+            {
                 System.out.println("El triangulo mostrado es un triangulo equilatero");
             }
             else
             {
-            if (LadoA != LadoB && LadoB != LadoC) {
+            if (LadoA != LadoB && LadoB != LadoC)
+            {
                 System.out.println("El triangulo mostrado es un triangulo isoceles");
             }
             else
             {
-            if (LadoB != LadoC && LadoB != LadoC) {
+            if (LadoB != LadoC && LadoB != LadoC)
+            {
                 System.out.println("El triangulo mostrado es un triangulo escaleno");
             }
             }
