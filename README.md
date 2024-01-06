@@ -12,8 +12,8 @@
 **- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
 <!----Separador de las notas---->
 
-<!----Directorio con descripcion de los programas---->
-# Descripcion de los programas
+<!----Directorio con descripción de los programas---->
+# Descripción de los programas
 ###### EjercicioCalifiaciones - 20/01/20
 Se verifica que una calificación sea aprobatoria o reprobatoria.
 
@@ -56,7 +56,7 @@ Es lo mismo que en el programa previo, pero utiliza un scanner para poder leer v
 <!----Separador---->
 
 ###### TrianguloMetodos, TrianguloMetodosArreglos, TrianguloArreglos, ImpuestoArreglos - 27/01/20
-Cálculo del área del triángulo utilizando metodos, incluye otras dos versiones donde se usan métodos y arreglos y únicamente arreglos.
+Cálculo del área del triángulo utilizando métodos, incluye otras dos versiones donde se usan métodos y arreglos y únicamente arreglos.
 
 ###### ArregloUnidimensional, TrianguloArregloUnidimensional - 30/01/20
 Programa que usa el ejemplo de cuentas de empresa para mostrar la utilización de un arreglo de una dimensión.
@@ -118,7 +118,7 @@ Al igual que el anterior programa tiene los mismos ejercicios solo que se utiliz
 
 <!----Separador---->
 
-Lo mismo pero se usa un menú con el método DoWhile.
+Lo mismo, pero se usa un menú con el método DoWhile.
 
 <!----Separador---->
 
