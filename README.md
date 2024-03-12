@@ -153,7 +153,7 @@ Proyecto del segundo parcial de la materia.
 <!----Separador---->
 
 ###### Actividades - 27/02/20
-Programa incompleto con actividades.
+Programa incompleto con actividades utilizando el metodo switch.
 
 <!----Separador---->
 
