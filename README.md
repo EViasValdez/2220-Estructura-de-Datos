@@ -24,7 +24,7 @@ Verifica si uno o varios números coinciden de acuerdo a lo ingresado, en el otr
 
 <!----Separador---->
 
-Texto por ser escrito.
+Revisa si cada numero ingresado es igual o es diferente. 
 
 <!----Separador---->
 
