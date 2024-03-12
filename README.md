@@ -73,7 +73,7 @@ Como el nombre indica es un uso de arreglos con objetos.
 <!----Separador---->
 
 ###### Problema1 - 31/01/20
-Prueba de tres números.
+Prueba de tres números para mostrar si estos son iguales.
 
 <!----Separador---->
 
