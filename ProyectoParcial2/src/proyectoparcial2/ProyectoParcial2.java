@@ -55,10 +55,10 @@ public class ProyectoParcial2 {
         System.out.println("Garrafon");
         int Garraf = Deposito.remove(); // Se depositan los litros de agua del Deposito en el garrafon.
 
-        System.out.println("Se han vaciado " + Garraf + " litros"); // Se muestra los litros que se vaciaron.
+        System.out.println("Se han vaciado " + Garraf + " litros"); // Se muestran los litros que se vaciaron.
 
         System.out.println("Ahora quedan");
-        System.out.println(Deposito); // Se muestra los litros que quedaron.
+        System.out.println(Deposito); // Se muestran los litros que quedaron.
 
         System.out.println("En porcentaje");
         Porcentaje = ((Litros - Garraf) * 100) / Litros; // Calculo de los litros que quedaron para pasarlos a porcentaje.
