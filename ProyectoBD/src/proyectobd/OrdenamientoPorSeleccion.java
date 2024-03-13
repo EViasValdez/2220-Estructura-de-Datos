@@ -35,7 +35,7 @@ public class OrdenamientoPorSeleccion {
     }
     public static void main(String[] args) {
         OrdenamientoPorSeleccion SO = new OrdenamientoPorSeleccion();
-        int [] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};
+        int[] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};
 
         SO.ImprimirArreglo(Lista);
         SO.OrdenSeleccion(Lista);
