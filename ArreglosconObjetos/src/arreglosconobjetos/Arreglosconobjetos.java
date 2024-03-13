@@ -110,9 +110,9 @@ public class ArreglosconObjetos {
                 System.out.println("Los pacientes menores de Edad son: " + Mostrar2);
             break;
             }
-            System.out.println("¿Deseas mostrar el menu Otra vez? (Si/No)");
+            System.out.println("¿Deseas mostrar el menu otra vez? (Si/No)");
             Otra = leer.next();
-        } while (Otra.equals("si")); // Mientras la variable Otra sea igual a "si" se regresa a la 
+        } while (Otra.equals("si")); // Mientras la variable "Otra" sea igual a "si" se regresa a la 
         // instrucción do e inicia el ciclo.
     }
 }
