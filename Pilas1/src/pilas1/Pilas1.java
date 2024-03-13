@@ -26,7 +26,7 @@ public class Pilas1 {
         Pila.Apilar("C");
         Pila.Apilar("D");
 
-        //Con la clase Iterator se recorre el objeto "pila" pues se creo el objeto "iterator" de la clase "Iterator"
+        // Con la clase Iterator se recorre el objeto "pila" pues se creo el objeto "iterator" de la clase "Iterator"
         Iterator iterator = Pila.iterator();
 
         System.out.println("Elementos de la pila: ");
