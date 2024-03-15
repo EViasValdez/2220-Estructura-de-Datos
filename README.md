@@ -118,7 +118,7 @@ Al igual que el anterior programa tiene los mismos ejercicios solo que se utiliz
 
 <!----Separador---->
 
-Lo mismo, pero se usa un menú con el método DoWhile.
+Lo mismo, pero se usa un menú con el método Do While.
 
 <!----Separador---->
 
