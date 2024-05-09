@@ -9,7 +9,7 @@
 
 **- Abrí los programas en NetBeans y cada uno ya tienen los directorios "nbproject" y "Build".**
 
-**- Los proyectos "Arreglosconobjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
+**- Los proyectos "ArreglosconObjetos" y "Problema" eran archivos que no tenían el formato de NB, ya fueron agregados en formato correspondiente.**
 <!----Separador de las notas---->
 
 <!----Directorio con descripción de los programas---->
@@ -153,7 +153,7 @@ Proyecto del segundo parcial de la materia.
 <!----Separador---->
 
 ###### Actividades - 27/02/20
-Programa incompleto con actividades utilizando el metodo switch.
+Programa incompleto con actividades utilizando el método switch.
 
 <!----Separador---->
 
