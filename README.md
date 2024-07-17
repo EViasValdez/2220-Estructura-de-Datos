@@ -68,7 +68,7 @@ Se utiliza esta forma similar al primer programa, pero usando el método del tri
 <!----Separador---->
 
 ###### ArreglosconObjetos - 31/01/20
-Como el nombre indica es un uso de arreglos con objetos.
+Como el nombre indica es un uso de arreglos con objetos. 
 
 <!----Separador---->
 
