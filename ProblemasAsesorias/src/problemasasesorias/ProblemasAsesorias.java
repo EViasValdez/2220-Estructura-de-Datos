@@ -37,7 +37,7 @@ public class ProblemasAsesorias {
         System.out.println("Ingrese calificacion 4");
         Calificacion4 = Float.parseFloat(br.readLine());
 
-        Promedio = (Calificacion1 +  Calificacion2 + Calificacion3 + Calificacion4) / 4;
+        Promedio = (Calificacion1 + Calificacion2 + Calificacion3 + Calificacion4) / 4;
 
         System.out.println("El promedio es: " + Promedio);
         System.out.println("");
