@@ -23,7 +23,7 @@ public class TrianguloArregloUnidimensional {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
 
-        int Lados[] = new int[3];
+        int Lados [] = new int[3];
 
         for (int i = 0; i < Lados.length; i++)
         {

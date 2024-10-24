@@ -39,15 +39,18 @@ public class Problema2 {
             if (A + B == C) {
                 System.out.println("Son iguales " + A + "+" + B + " = " + C);
             }
-            else {
+            else
+            {
             if (A + C == B) {
                 System.out.println("Son iguales " + A + "+" + C + " = " + B);
             }
-            else {
+            else
+            {
             if (B + C == A) {
                 System.out.println("Son iguales " + B + "+" + C + " = " + A);
             }
-            else {
+            else
+            {
                 System.out.println("Son distintos");
             }
             }

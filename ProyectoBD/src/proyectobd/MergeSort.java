@@ -18,8 +18,8 @@ public class MergeSort {
         }
 
         int Med = b / 2;
-        int[] Iz = new int[Med];
-        int[] De = new int[b - Med];
+        int [] Iz = new int[Med];
+        int [] De = new int[b - Med];
     
         for (int c = 0; c < Med; c++)
         {
@@ -57,7 +57,7 @@ public class MergeSort {
         }
     }
     public static void main(String[] args) {
-        int[] Actual = {5, 1, 6, 2, 3 ,4};
+        int [] Actual = {5, 1, 6, 2, 3 ,4};
 
         MergeSort (Actual, Actual.length);
 

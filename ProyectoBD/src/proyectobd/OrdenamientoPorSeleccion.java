@@ -30,6 +30,7 @@ public class OrdenamientoPorSeleccion {
     }
     public void swap(int[] Lista, int a, int b) {
         int Valor = Lista[b];
+        
         Lista[b] = Lista[a];
         Lista[a] = Valor;
     }

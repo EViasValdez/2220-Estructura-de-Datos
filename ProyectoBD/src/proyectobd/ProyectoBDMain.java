@@ -42,8 +42,8 @@ public class ProyectoBDMain {
             switch (Op) {
             case 1:
                 System.out.println("Metodo burbuja");
-                int Arreglo[] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
-                int Orden[] = MetodBurbu(Arreglo);
+                int Arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
+                int Orden [] = MetodBurbu(Arreglo);
 
                 for (int a = 0; a < Orden.length;a++){
                     System.out.println(Orden[a]);
@@ -53,7 +53,7 @@ public class ProyectoBDMain {
 
             case 2:
                 System.out.println("Ordenamiento por insercion");
-                int[] ListaOrden = new int[100];
+                int [] ListaOrden = new int[100];
                 int a, b;
                 int Auxiliar;
 
@@ -74,7 +74,7 @@ public class ProyectoBDMain {
                 System.out.println("Ordenamiento por seleccion");
                 OrdenamientoPorSeleccion SO = new OrdenamientoPorSeleccion();
 
-                int[] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};
+                int [] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};
 
                 SO.ImprimirArreglo(Lista);
                 SO.OrdenSeleccion(Lista);
@@ -84,7 +84,7 @@ public class ProyectoBDMain {
 
             case 4:
                 System.out.println("Merge sort");
-                int[] Actual = {5, 1, 6, 2, 3 ,4};
+                int [] Actual = {5, 1, 6, 2, 3 ,4};
 
                 MergeSort (Actual, Actual.length);
 
@@ -96,7 +96,7 @@ public class ProyectoBDMain {
 
             case 5:
                 System.out.println("Quick sort");
-                int[] ar = {4, 5, 1, 2, 3, 3};
+                int [] ar = {4, 5, 1, 2, 3, 3};
                 
                 Qs (ar, 0, ar.length - 1);
 

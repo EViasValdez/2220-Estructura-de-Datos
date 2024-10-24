@@ -60,7 +60,7 @@ public class ArreglosconObjetos {
                     // pacienteTemporal.SetPeso (Peso);
                     Pacientes[i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
                     Pacientes[i].SetNombre(Nombre); // Con el objeto "Pacientes [i] se manda llamar al método SetNombre para que en este
-                    // se escriba el Nombre cuya variable se leyó "String Nombre = leer.next();".
+                    // se escriba el Nombre cuya variable se leyo "String Nombre = leer.next();".
                     Pacientes[i].SetEdad(Edad);
                     Pacientes[i].SetPeso(Peso);
                 }

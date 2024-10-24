@@ -23,7 +23,7 @@ public class CodigoGuia2 {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
 
-        double Calificacion [] = new double [4];
+        double Calificacion [] = new double[4];
         double Suma = 0, Promedio = 0;
 
         for (int i = 0; i < 4; i++)

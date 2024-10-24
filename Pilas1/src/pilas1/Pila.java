@@ -30,6 +30,7 @@ public class Pila extends ArrayList {
     // Regresa el elemento que esta en la cima de la pila (top o peek).
     public Object Cima() {
         Object DatoAuxiliar = null;
+        
         if (this.size() > 0) {
             DatoAuxiliar = this.get(this.size() - 1);
         }
