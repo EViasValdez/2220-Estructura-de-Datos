@@ -12,18 +12,22 @@ package proyectobd;
 
 public class OrdenamientoPorSeleccion {
     public void OrdenSeleccion (int[] Lista) {
-        for (int a = Lista.length - 1; a > 0; a--) {
+        for (int a = Lista.length - 1; a > 0; a--)
+        {
             int ValorMaximo = 0;
 
-            for (int b = 0; b < a; b++) {
-                if (Lista[b + 1] > Lista[ValorMaximo]) {
+            for (int b = 0; b < a; b++)
+            {
+                if (Lista[b + 1] > Lista[ValorMaximo])
+                {
                     ValorMaximo = b + 1;
                 }
             }
         }
     }
     public void ImprimirArreglo(int[] Lista) {
-        for (int a = 0; a < Lista.length; a++) {
+        for (int a = 0; a < Lista.length; a++)
+        {
             System.out.printf("%d \t", Lista[a]);
         }
         System.out.println();

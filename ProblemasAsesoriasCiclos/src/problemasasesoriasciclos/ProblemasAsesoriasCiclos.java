@@ -30,7 +30,8 @@ public class ProblemasAsesoriasCiclos {
         float Promedio;
         int a = 1;
 
-        while (a < 3) {
+        while (a < 3)
+        {
             System.out.println("Ingese calificacion 1");
             Calificacion1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificacion 2");
@@ -52,7 +53,8 @@ public class ProblemasAsesoriasCiclos {
         float Area;
         int b = 1;
 
-        while (b < 3) {
+        while (b < 3)
+        {
             System.out.println("Ingrese base");
             Base = Float.parseFloat(br.readLine());
             System.out.println("Ingese altura");
@@ -70,7 +72,8 @@ public class ProblemasAsesoriasCiclos {
         float Area2;
         int c = 1;
 
-        while (c < 3) {
+        while (c < 3)
+        {
             System.out.println("Ingese radio");
             Radio = Float.parseFloat(br.readLine());
             Area2 = (float) (Pi * (Radio * Radio));
@@ -86,7 +89,8 @@ public class ProblemasAsesoriasCiclos {
         int LadoC;
         int d = 1;
 
-        while (d < 3) {
+        while (d < 3)
+        {
             System.out.println("Ingrese lado a");
             LadoA = Leer.nextInt();
             System.out.println("Ingrese lado b");
@@ -106,7 +110,8 @@ public class ProblemasAsesoriasCiclos {
         int Numero;
         int e = 1;
 
-        while (e < 3) {
+        while (e < 3)
+        {
             System.out.println("Ingese numero");
             Numero = Leer.nextInt();
 
@@ -135,7 +140,8 @@ public class ProblemasAsesoriasCiclos {
         float Total = 0;
         int f = 1;
 
-        while (f < 3) {
+        while (f < 3)
+        {
             System.out.println("Ingrese cantidad");
             Cantidad = Float.parseFloat (br.readLine());
 
@@ -159,7 +165,8 @@ public class ProblemasAsesoriasCiclos {
         float Cantidad3;
         int g = 1;
         
-        while (g < 3) {
+        while (g < 3)
+        {
             System.out.println("Ingrese cantidad 1");
             Cantidad1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese cantidad 2");
@@ -192,7 +199,8 @@ public class ProblemasAsesoriasCiclos {
         float Total2 = 0;
         int h = 1;
 
-        while (h > 3) {
+        while (h > 3)
+        {
             System.out.println("Ingrese numero de alumnos");
             NumeroAlumnos = Float.parseFloat(br.readLine());
         

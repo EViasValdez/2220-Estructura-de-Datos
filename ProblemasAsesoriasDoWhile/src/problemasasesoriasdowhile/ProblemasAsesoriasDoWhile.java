@@ -44,7 +44,8 @@ public class ProblemasAsesoriasDoWhile {
             Promedio = (Calificacion1 +  Calificacion2 + Calificacion3 + Calificacion4) / 4;
 
             System.out.println("El promedio es: " + Promedio);
-        } while (a < 3);
+        }
+        while (a < 3);
         
         System.out.println("Problema 2");
         float Base, altura;
@@ -60,7 +61,8 @@ public class ProblemasAsesoriasDoWhile {
 
             Area = (Base * altura) / 2;
             System.out.println("El area es " + Area);
-        } while (b < 3);
+        }
+        while (b < 3);
 
         System.out.println("Problema 3");
         float Radio;
@@ -92,7 +94,8 @@ public class ProblemasAsesoriasDoWhile {
             Area = LadoA + LadoB + LadoC;
 
             System.out.println("El area es " + Area);
-        } while (c > 3);
+        }
+        while (c > 3);
             System.out.println("Problema 5");
             int numero;
             int d = 1;
@@ -115,7 +118,8 @@ public class ProblemasAsesoriasDoWhile {
             {
                 System.out.println("El numero es neutro");
             }
-        } while (d > 3);
+        }
+        while (d > 3);
 
         System.out.println("Problema 6");
         float Cantidad;
@@ -137,7 +141,8 @@ public class ProblemasAsesoriasDoWhile {
                 Total = Cantidad * 90;
             }
             System.out.println(Total);
-        } while (e < 3);
+        }
+        while (e < 3);
 
         System.out.println("Problema 7");
         float Cantidad1;
@@ -197,6 +202,7 @@ public class ProblemasAsesoriasDoWhile {
                 Total2 = 95 * NumeroAlumnos;
             }
             System.out.println("El total es: " + Total2 + 1000);
-        } while (g < 3);
+        }
+        while (g < 3);
     }
 }

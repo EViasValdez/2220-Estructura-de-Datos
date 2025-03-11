@@ -30,19 +30,23 @@ public class Problema1 {
         B = leer.nextInt();
         C = leer.nextInt();
 
-        if (A + B == C) {
+        if (A + B == C)
+        {
             System.out.println("");
             System.out.println("Son iguales");
         }
-        else if (A + C == B) {
+        else if (A + C == B)
+        {
             System.out.println("");
             System.out.println("Son iguales");
         }
-        else if (B + C == A) {
+        else if (B + C == A)
+        {
             System.out.println("");
             System.out.println("Son iguales");
         }
-        else {
+        else
+        {
             System.out.println("");
             System.out.println("Son distintos");
          }

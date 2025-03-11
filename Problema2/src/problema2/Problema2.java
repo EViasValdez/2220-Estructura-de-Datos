@@ -36,17 +36,20 @@ public class Problema2 {
             System.out.println("Valor C");
             C = Leer.nextInt();
 
-            if (A + B == C) {
+            if (A + B == C)
+            {
                 System.out.println("Son iguales " + A + "+" + B + " = " + C);
             }
             else
             {
-            if (A + C == B) {
+            if (A + C == B)
+            {
                 System.out.println("Son iguales " + A + "+" + C + " = " + B);
             }
             else
             {
-            if (B + C == A) {
+            if (B + C == A)
+            {
                 System.out.println("Son iguales " + B + "+" + C + " = " + A);
             }
             else

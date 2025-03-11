@@ -18,8 +18,10 @@ public class Piramide {
         // TODO code application logic here
         int Uno = 100000;
 
-        for (int x = Uno; x <= Uno; x++) {
-            for (int y = 2; x <= Uno; y++) {
+        for (int x = Uno; x <= Uno; x++)
+        {
+            for (int y = 2; x <= Uno; y++)
+            {
                 System.out.println("*");
                 System.out.println("*");
             }

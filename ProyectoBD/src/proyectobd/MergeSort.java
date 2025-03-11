@@ -43,7 +43,8 @@ public class MergeSort {
             {
                 Ar[k++] = Iz[i++];
             }
-        else {
+        else
+        {
             Ar[k++] = De[j++];
         }
         }

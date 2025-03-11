@@ -40,26 +40,36 @@ public class EjercicioCalificaciones {
             if (C1 >= 7)
             {
                 System.out.println("Aprobado");
-            } else {
+            }
+            else
+            {
                 System.out.println("Reprobado");
             }
             // if (C2 >= 7)
             // {
             //     System.out.println("Aprobado");
-            // } else {
+            // }
+            // else
+            // {
             //     System.out.println("Reprobado");
             // }
             // if (C3 >= 7)
             // {
             //     System.out.println("Aprobado");
-            // } else {
+            // }
+            // else
+            // {
             //     System.out.println("Reprobado");
             // }
             // if (C4 >= 7)
             // {
             //     System.out.println("Aprobado");
-            // } else {
+            // }
+            // else
+            // {
             //     System.out.println("Reprobado");
+            // }
+            
             Suma = Suma + C1;
         i++;
         }

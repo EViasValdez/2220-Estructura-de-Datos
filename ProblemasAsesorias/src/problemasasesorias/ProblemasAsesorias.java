@@ -96,7 +96,8 @@ public class ProblemasAsesorias {
         {
             System.out.println("El numero es positivo");
         }
-        else {
+        else
+        {
         if (Numero < 0)
         {
             System.out.println("El numero es negativo");
@@ -119,7 +120,8 @@ public class ProblemasAsesorias {
         if (Cantidad >= 1000)
         {
             Total = Cantidad * 85;
-        } else
+        }
+        else
         if (Cantidad <= 1000)
         {
             Total = Cantidad * 90;
@@ -142,7 +144,8 @@ public class ProblemasAsesorias {
         if (Cantidad1 > Cantidad2 && Cantidad1 > Cantidad3)
         {
             System.out.println("La primera cantidad es mayor");
-        } else
+        }
+        else
         {
         if (Cantidad2 > Cantidad1 && Cantidad2 > Cantidad3)
         {
@@ -165,11 +168,13 @@ public class ProblemasAsesorias {
         if (NumeroAlumnos >= 100)
         {
             Total2 = 65 * NumeroAlumnos;
-        } else
+        }
+        else
         if (NumeroAlumnos >= 50 && NumeroAlumnos <= 99)
         {
             Total2 = 70 * NumeroAlumnos;
-        } else
+        }
+        else
         if (NumeroAlumnos >= 30 && NumeroAlumnos <= 45)
         {
             Total2 = 95 * NumeroAlumnos;

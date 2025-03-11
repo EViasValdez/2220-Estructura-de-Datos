@@ -45,7 +45,8 @@ public class ProyectoBDMain {
                 int Arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
                 int Orden [] = MetodBurbu(Arreglo);
 
-                for (int a = 0; a < Orden.length;a++){
+                for (int a = 0; a < Orden.length; a++)
+                {
                     System.out.println(Orden[a]);
                 }
                 System.out.println("======================================");
@@ -57,11 +58,13 @@ public class ProyectoBDMain {
                 int a, b;
                 int Auxiliar;
 
-                for (a = 1; a < 100; a++) {
+                for (a = 1; a < 100; a++)
+                {
                     Auxiliar = ListaOrden[a];
                     b = a - 1;
 
-                    while ((b >= 0) && ListaOrden[b] > Auxiliar) {
+                    while ((b >= 0) && ListaOrden[b] > Auxiliar)
+                    {
                         ListaOrden[b + 1] = ListaOrden[b--];
                         ListaOrden[b + 1] = Auxiliar;
                         System.out.println(Auxiliar);
@@ -88,7 +91,8 @@ public class ProyectoBDMain {
 
                 MergeSort (Actual, Actual.length);
 
-                for (int i = 0; i < Actual.length; i++) {
+                for (int i = 0; i < Actual.length; i++)
+                {
                     System.out.println(Actual[i]);
                 }
                 System.out.println("======================================");
