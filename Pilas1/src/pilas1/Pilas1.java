@@ -50,6 +50,7 @@ public class Pilas1 {
 
         System.out.println("------Cola------");
         Cola Cola = new Cola();
+        
         Cola.Encolar("A");
         Cola.Encolar("B");
         Cola.Encolar("C");
