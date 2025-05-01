@@ -62,7 +62,7 @@ public class Actividades {
             System.out.println(Arriba);
             System.out.println(Ventas);
         break;
-
+        
         case 2:
         break;
         
