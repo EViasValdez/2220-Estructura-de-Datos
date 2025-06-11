@@ -9,7 +9,7 @@
 
 **- Abrí los programas en NetBeans y cada uno ya tienen los directorios "nbproject" y "Build".**
 
-**- Los proyectos "ArreglosconObjetos" y "Problema" eran archivos que no tenían el formato de que usa NetBeans, ya fueron agregados con el formato correspondiente.**
+**- Los proyectos "ArreglosconObjetos" y "Problema" eran archivos que no tenían el formato de que usa NetBeans, ya fueron puestos con el formato correspondiente.**
 <!----Separador de las notas---->
 
 <!----Directorio con descripción de los programas---->
