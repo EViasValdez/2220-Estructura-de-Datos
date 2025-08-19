@@ -62,8 +62,8 @@ public class ProblemasAsesorias {
 
         System.out.println("Ingese radio");
         Radio = Float.parseFloat(br.readLine());
-
         Area2 = (float) (Pi * (Radio * Radio));
+        
         System.out.println("El area es: " +  Area2);
         System.out.println("");
 
