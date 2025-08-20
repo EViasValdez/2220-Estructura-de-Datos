@@ -31,7 +31,7 @@ public class Impuesto {
         // se inicializan con 0 pues no se sabe su valor, no se va a leer y ademas para limpiar la variable es decir
         // que no traiga basura como valor inicial.
         float Precio, Impuesto = .05f, Total = 0;
-        // Es enviado un mensaje en pantalla el cual mostrara "Escribe el Precio".
+        // Es enviado un mensaje en pantalla el cual mostrara "Escribe el precio".
         System.out.println("Escribe el precio");
         // Se lee la variable "Precio" la linea que se lee con el objeto "br" y el método readline se ha convertido a un
         // dato de tipo float con el método parse float que pertenece a la clase de los Float y se le asigna a la 

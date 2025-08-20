@@ -33,7 +33,7 @@ public class EjercicioColas {
 
         Queue <Integer> Cola = new LinkedList<>();
 
-        int n;
+        // int n;
 
         System.out.println(Cola);
         System.out.println("¿Cuantos elementos quiere agregar?");

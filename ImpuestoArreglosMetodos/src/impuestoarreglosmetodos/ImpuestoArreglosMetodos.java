@@ -21,7 +21,7 @@ public class ImpuestoArreglosMetodos {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader(System.in);
-        // La clase "BuferredReader" se utiliza para convertir los datos
+        // La clase "BufferrdReader" se utiliza para convertir los datos
         // que se lean, ya que de forma predeterminada solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader(isr);
          // Se declararan los identificadores llamados "precio" de tipo float (cuyo arreglo es de tamaño 4).
