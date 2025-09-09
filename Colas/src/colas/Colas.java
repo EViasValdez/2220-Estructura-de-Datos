@@ -33,6 +33,7 @@ public class Colas {
             System.out.println("Removed element: " + Removedele);
             System.out.println(q);
             // "To view the head of queue" muestra el primer elemento de la cola.
+            
             int Head = q.peek();
             System.out.println("Head of queue: " + Head);
             int Size = q.size(); // Asigna el tamaño de la cola con el método "size" de la cola "q" a la variable "size".
