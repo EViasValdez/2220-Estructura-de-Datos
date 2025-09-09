@@ -79,7 +79,7 @@ public class ArregloUnidimensional {
         }
 
         System.out.println("Tamaño del arreglo Salario: " + Salario.length); // Imprime el tamaño del arreglo.
-        Promedio = Suma / Salario.length; // Calcula el Promedio de los salarios.
+        Promedio = Suma / Salario.length; // Calcula el promedio de los salarios.
         System.out.println("El total de los salarios es: " + Suma); // Muestra el total de los salarios.
         System.out.println("El Promedio de los salarios es: " + Promedio); // Imprime el Promedio de los salarios.
         System.out.println("El total de los salarios altos es: " + Alto); // Muestra el total de los salarios altos.
@@ -91,8 +91,8 @@ public class ArregloUnidimensional {
         for (int k = 0; k < Salario.length; k++)
         { // Se recorre el arreglo "Salario".
             if (Mayor < Salario[k])
-            { // Si la variable Mayor es menor al valor de la posición
-                Mayor = Salario[k]; // del arreglo "Salario[k]" entonces ese valor se le asigna a la variable Mayor.
+            {
+                Mayor = Salario[k]; // Si la variable Mayor es menor al valor de la posición del arreglo "Salario[k]" entonces ese valor se le asigna a la variable Mayor.
             }
         }
         System.out.println("El Salario mas Alto es: " + Mayor); // Muestra el Salario mas alto.
