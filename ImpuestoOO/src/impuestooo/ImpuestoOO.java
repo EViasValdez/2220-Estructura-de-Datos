@@ -27,7 +27,7 @@ public class ImpuestoOO {
         // Declaración de la variable precio de tipo float.
         float Precio;
         // Es enviado un mensaje a pantalla con el texto "Escribe el precio".
-        System.out.println("Escribe el precio");
+        System.out.println("Ingresa el precio");
         // Es leída una linea que se convierte a un dato de tipo float con el método parseFloat el cual pertenece
         // a la clase float y se asigna a la variable "precio".
         Precio = Float.parseFloat(br.readLine());
