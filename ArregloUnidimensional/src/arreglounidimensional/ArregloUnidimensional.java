@@ -31,12 +31,11 @@ public class ArregloUnidimensional {
         String Apellidos [] = new String[8]; // Arreglo unidimensional de tipo String llamado "apellidos" de tamaño 8.
         // El nombre del arreglo se instancia con la palabra reservada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes.
         double Salario [] = new double[10]; // Arreglo unidimensional de tipo double llamado "Salario" de tamaño 10.
-        double Suma = 0, Promedio = 0; // Variable "Suma" inicializada en cero ya que sera una variable de tipo acumulador, Promedio igual a cero sera el resultado de un operación.
-        int Alto = 0, Bajo = 0; // Variable de tipo contador inicializadas en 0.
+        double Suma = 0, Promedio = 0; // Variable "Suma" inicializada en cero ya que será una variable de tipo acumulador, Promedio igual a cero será el resultado de un operación.
 
-        System.out.println("El nombre de la posicion uno del arreglo Nombres es: " + Nombres[1]); // Muestra el dato que se almaceno en la posición 1 del arreglo en este caso "Luis".
-        System.out.println("El numero de piezas de la posicion dos del arreglo NumerodePiezas es: " + NumerodePiezas[2]); // Dato de la posición 2 del arreglo "NumerodePiezas".
-        System.out.println("La calificacion de la posicion uno del arreglo Calificaciones es: " + Calificaciones[0]);
+        System.out.println("El nombre de la posición uno del arreglo Nombres es: " + Nombres[1]); // Muestra el dato que se almaceno en la posición 1 del arreglo en este caso "Luis".
+        System.out.println("El numero de piezas de la posición dos del arreglo NumerodePiezas es: " + NumerodePiezas[2]); // Dato de la posición 2 del arreglo "NumerodePiezas".
+        System.out.println("La calificación de la posición uno del arreglo Calificaciones es: " + Calificaciones[0]);
         System.out.println("La vocal de la posición cuatro del arreglo vocales es: " + Vocales[4]);
         System.out.println("La respuesta a tiene auto de la posición tres del arreglo TieneAuto es: " + TieneAuto[3]);
 

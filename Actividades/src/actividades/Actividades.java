@@ -43,7 +43,7 @@ public class Actividades {
             
             int Ingr, Venta;
             
-            System.out.println("Ingrese cuantas ventas");
+            System.out.println("Ingrese numero de ventas");
             Ingr = Integer.parseInt(br.readLine());
             
             for (int i = 0; i <= Ingr; i++)

@@ -37,7 +37,7 @@ public class ArreglosconObjetos {
             System.out.println("2. Mostrar el paciente de mayor Edad");
             System.out.println("3. Mostrar el Nombre de todos los pacientes");
             System.out.println("4. Mostrar el Nombre de todos los pacientes menores de Edad");
-            System.out.println("Elige una opcion");
+            System.out.println("Elige una opción");
             Opc = leer.nextInt(); // Se lee una opción del menu de la opción 1 a la 4.
         
             switch (Opc) 
@@ -54,13 +54,13 @@ public class ArreglosconObjetos {
                     System.out.println("Escribe tu peso");
                     float Peso = leer.nextFloat();
 
-                    // Persona pacienteTemporal = new Persona();
-                    // pacienteTemporal.SetNombre (Nombre);
-                    // pacienteTemporal.SetEdad (Edad);
-                    // pacienteTemporal.SetPeso (Peso);
+                    // Persona PacienteTemporal = new Persona();
+                    // PacienteTemporal.SetNombre (Nombre);
+                    // PacienteTemporal.SetEdad (Edad);
+                    // PacienteTemporal.SetPeso (Peso);
                     Pacientes[i] = new Persona(); // Crea un objeto llamado "Pacientes [i]" y se instancia a la clase "Persona"
                     Pacientes[i].SetNombre(Nombre); // Con el objeto "Pacientes [i] se manda llamar al método SetNombre para que en este
-                    // se escriba el Nombre cuya variable se leyo "String Nombre = leer.next();".
+                    // se escriba el Nombre cuya variable se leyó "String Nombre = leer.next();".
                     Pacientes[i].SetEdad(Edad);
                     Pacientes[i].SetPeso(Peso);
                 }
@@ -80,7 +80,7 @@ public class ArreglosconObjetos {
                         PacienteMayor = Pacientes[i]; // dicha Edad se asigna al objeto "PacienteMayor".
                     }
                 }
-                System.out.println("El Paciente mayor de edad es: " + PacienteMayor.GetNombre());
+                System.out.println("El paciente mayor de edad es: " + PacienteMayor.GetNombre());
             break;
             
             case 3:
@@ -89,8 +89,8 @@ public class ArreglosconObjetos {
 
                 for (int i = 0; i < Pacientes.length; i++)
                 {
-                    Mostrar = Mostrar + Pacientes[i].GetNombre() + "\n"; // Se imprime la variable Mostrar que en un inicio esta vacia pues
-                } // asi se declaro y se le van agregando el Nombre de las personas de cada posición del arreglo "Personas".
+                    Mostrar = Mostrar + Pacientes[i].GetNombre() + "\n"; // Se imprime la variable Mostrar que en un inicio esta vacía pues
+                } // así se declaro y se le van agregando el Nombre de las personas de cada posición del arreglo "Personas".
                 System.out.println(Mostrar);
             break;
 
@@ -110,7 +110,7 @@ public class ArreglosconObjetos {
                 System.out.println("Los pacientes menores de Edad son: " + Mostrar2);
             break;
             }
-            System.out.println("¿Deseas mostrar el menu otra vez? (Si/No)");
+            System.out.println("¿Deseas mostrar el menu otra vez? (Si / No)");
             Otra = leer.next();
         } while (Otra.equals("si")); // Mientras la variable "Otra" sea igual a "si" se regresa a la 
         // instrucción do e inicia el ciclo.
