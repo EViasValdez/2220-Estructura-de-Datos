@@ -41,12 +41,12 @@ public class TrianguloMetodosArrelgos {
     public static void Triangulo(int Lado[]) {
         for (int i = 0; i < 3; i++) {
             if (Lado[0] == Lado[1] && Lado[2] == Lado[0]) {
-                System.out.println("El triangulo mostrado es un triangulo equilatero");
+                System.out.println("El triangulo mostrado es un triangulo equilátero");
             }
             else
             {
             if (Lado[0] != Lado[1] && Lado[2] != Lado[0]) {
-                System.out.println("El triangulo mostrado es un triangulo isoceles");
+                System.out.println("El triangulo mostrado es un triangulo isosceles");
             }
             else
             {

@@ -32,7 +32,7 @@ public class MetodoBurbuja {
     }
     public static void main(String[] args) {
         int Arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
-        int Orden [] = MetodBurbu (Arreglo);
+        int Orden [] = MetodBurbu(Arreglo);
 
         for (int a = 0; a < Orden.length; a++)
         {

@@ -32,6 +32,7 @@ public class ArregloUnidimensional {
         // El nombre del arreglo se instancia con la palabra reservada new al tipo de dato del arreglo en este caso String y su tamaño entre corchetes.
         double Salario [] = new double[10]; // Arreglo unidimensional de tipo double llamado "Salario" de tamaño 10.
         double Suma = 0, Promedio = 0; // Variable "Suma" inicializada en cero ya que será una variable de tipo acumulador, Promedio igual a cero será el resultado de un operación.
+        int Alto = 0, Bajo = 0; // Variable de tipo contador inicializadas en 0.
 
         System.out.println("El nombre de la posición uno del arreglo Nombres es: " + Nombres[1]); // Muestra el dato que se almaceno en la posición 1 del arreglo en este caso "Luis".
         System.out.println("El numero de piezas de la posición dos del arreglo NumerodePiezas es: " + NumerodePiezas[2]); // Dato de la posición 2 del arreglo "NumerodePiezas".

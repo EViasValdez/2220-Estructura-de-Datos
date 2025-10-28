@@ -26,22 +26,22 @@ public class ProyectoBDMain {
         boolean Menu = false;
 
         do {
-            System.out.println("Eliga una opcion de metodo");
+            System.out.println("Elige una opción de método");
 
             int Op;
 
             Scanner teclado = new Scanner (System.in);
 
-            System.out.println("1. Metodo Burbuja");
-            System.out.println("2. Ordenamiento por insercion");
-            System.out.println("3. Ordenamiento por seleccion");
+            System.out.println("1. Método Burbuja");
+            System.out.println("2. Ordenamiento por inserción");
+            System.out.println("3. Ordenamiento por selección");
             System.out.println("4. Merge Sort");
             System.out.println("5. Quick Sort");
             Op = teclado.nextInt();
 
             switch (Op) {
             case 1:
-                System.out.println("Metodo burbuja");
+                System.out.println("Método burbuja");
                 int Arreglo [] = {4, 6, 8, 2, 5, 8, 4, 8, 7, 1, 9, 1, 7, 10};
                 int Orden [] = MetodBurbu(Arreglo);
 
@@ -53,7 +53,7 @@ public class ProyectoBDMain {
             break;
 
             case 2:
-                System.out.println("Ordenamiento por insercion");
+                System.out.println("Ordenamiento por inserción");
                 int [] ListaOrden = new int[100];
                 int a, b;
                 int Auxiliar;
@@ -74,7 +74,7 @@ public class ProyectoBDMain {
             break;
 
             case 3:
-                System.out.println("Ordenamiento por seleccion");
+                System.out.println("Ordenamiento por selección");
                 OrdenamientoPorSeleccion SO = new OrdenamientoPorSeleccion();
 
                 int [] Lista = {10, 1, 5, 40, 12, 34, 44, 12, 11, 9};

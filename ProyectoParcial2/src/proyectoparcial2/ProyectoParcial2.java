@@ -27,9 +27,9 @@ public class ProyectoParcial2 {
 
         Queue <Integer> Deposito = new LinkedList<>(); // Es donde se crea la cola.
 
-        int Litros; // La variable de los litros en entero es declarada aqui.
+        int Litros; // La variable de los litros en entero es declarada aquí.
         float Porcentaje; // Se declara el porcentaje en flotante.
-        float Resultado; // Aqui es similar al porcentaje pero con el resultado.
+        float Resultado; // Aquí es similar al porcentaje pero con el resultado.
 
         System.out.println("El tanque tiene estos litros");
         System.out.println(Deposito); // Se muestran los litros disponibles.
@@ -52,7 +52,7 @@ public class ProyectoParcial2 {
         System.out.println("Pulse enter para continuar");
         br.readLine();
 
-        System.out.println("Garrafon");
+        System.out.println("Garrafón");
         int Garraf = Deposito.remove(); // Se depositan los litros de agua del Deposito en el garrafon.
 
         System.out.println("Se han vaciado " + Garraf + " litros"); // Se muestran los litros que se vaciaron.

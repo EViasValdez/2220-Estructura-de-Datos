@@ -34,13 +34,13 @@ public class Triangulo {
 
         if (LadoA == LadoB && LadoB == LadoC)
         {
-            System.out.println("El triangulo mostrado es un triangulo equilatero");
+            System.out.println("El triangulo mostrado es un triangulo equilátero");
         }
         else
         {
         if (LadoA != LadoB && LadoB != LadoC)
         {
-            System.out.println("El triangulo mostrado es un triangulo isoceles");
+            System.out.println("El triangulo mostrado es un triangulo isosceles");
         }
         else
         {

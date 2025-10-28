@@ -22,7 +22,7 @@ public class ImpuestoconMetodos {
         // TODO code application logic here
         // La clase InputStreamReader se utiliza para leer datos.
         InputStreamReader isr = new InputStreamReader(System.in);
-        // La clase BuferredReader se utiliza para convertir los datos que se lean,
+        // La clase BuferedReader se utiliza para convertir los datos que se lean,
         // ya que de forma predeterminada solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader(isr);
         // Se declararon los identificadores llamados "precio" (variable de tipo float) asi como "impuesto", solo que

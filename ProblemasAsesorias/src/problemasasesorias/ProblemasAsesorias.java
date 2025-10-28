@@ -28,13 +28,13 @@ public class ProblemasAsesorias {
         float Calificacion1, Calificacion2, Calificacion3, Calificacion4;
         float Promedio;
 
-        System.out.println("Ingese calificacion 1");
+        System.out.println("Ingese calificación 1");
         Calificacion1 = Float.parseFloat(br.readLine());
-        System.out.println("Ingrese calificacion 2");
+        System.out.println("Ingrese calificación 2");
         Calificacion2 = Float.parseFloat(br.readLine());
-        System.out.println("Ingrese calificacion 3");
+        System.out.println("Ingrese calificación 3");
         Calificacion3 = Float.parseFloat(br.readLine());
-        System.out.println("Ingrese calificacion 4");
+        System.out.println("Ingrese calificación 4");
         Calificacion4 = Float.parseFloat(br.readLine());
 
         Promedio = (Calificacion1 + Calificacion2 + Calificacion3 + Calificacion4) / 4;
@@ -48,7 +48,7 @@ public class ProblemasAsesorias {
 
         System.out.println("Ingrese base");
         Base = Float.parseFloat(br.readLine());
-        System.out.println("Ingese altura");
+        System.out.println("Ingrese altura");
         Altura = Float.parseFloat(br.readLine());
 
         Area = (Base * Altura) / 2;
@@ -60,7 +60,7 @@ public class ProblemasAsesorias {
         double Pi = 3.1416;
         float Area2;
 
-        System.out.println("Ingese radio");
+        System.out.println("Ingrese radio");
         Radio = Float.parseFloat(br.readLine());
         Area2 = (float) (Pi * (Radio * Radio));
         
@@ -89,7 +89,7 @@ public class ProblemasAsesorias {
         System.out.println("Problema 5");
         int Numero;
 
-        System.out.println("Ingese numero");
+        System.out.println("Ingrese numero");
         Numero = leer.nextInt();
 
         if (Numero > 0)

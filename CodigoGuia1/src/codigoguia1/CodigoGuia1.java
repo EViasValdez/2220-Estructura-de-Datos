@@ -28,13 +28,13 @@ public class CodigoGuia1 {
 
         while (Contador <= 4)
         {
-            System.out.println("Escribe la calificacion 1");
+            System.out.println("Escribe la calificación 1");
             Calificacion1 = Double.parseDouble(br.readLine());
-            System.out.println("Escribe la calificacion 2");
+            System.out.println("Escribe la calificación 2");
             Calificacion2 = Double.parseDouble(br.readLine());
-            System.out.println("Escribe la calificacion 3");
+            System.out.println("Escribe la calificación 3");
             Calificacion3 = Double.parseDouble(br.readLine());
-            System.out.println("Escribe la calificacion 4");
+            System.out.println("Escribe la calificación 4");
             Calificacion4 = Double.parseDouble(br.readLine());
 
             Suma = (Calificacion1 + Calificacion2 + Calificacion3 + Calificacion4);

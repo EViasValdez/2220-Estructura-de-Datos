@@ -24,7 +24,7 @@ public class Problema1 {
         int B;
         int C;
 
-        System.out.println("Test con tres numeros");
+        System.out.println("Test con tres números");
 
         A = leer.nextInt();
         B = leer.nextInt();

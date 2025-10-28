@@ -32,13 +32,13 @@ public class ProblemasAsesoriasCiclos {
 
         while (a < 3)
         {
-            System.out.println("Ingese calificacion 1");
+            System.out.println("Ingese calificación 1");
             Calificacion1 = Float.parseFloat(br.readLine());
-            System.out.println("Ingrese calificacion 2");
+            System.out.println("Ingrese calificación 2");
             Calificacion2 = Float.parseFloat(br.readLine());
-            System.out.println("Ingrese calificacion 3");
+            System.out.println("Ingrese calificación 3");
             Calificacion3 = Float.parseFloat(br.readLine());
-            System.out.println("Ingrese calificacion 4");
+            System.out.println("Ingrese calificación 4");
             Calificacion4 = Float.parseFloat(br.readLine());
 
             Promedio = (Calificacion1 + Calificacion2 + Calificacion3 + Calificacion4) / 4;

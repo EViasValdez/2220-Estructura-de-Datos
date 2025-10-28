@@ -27,7 +27,7 @@ public class EjercicioColas {
 
         int ColaImpresion;
 
-        System.out.println("Seleccione una opcion");
+        System.out.println("Seleccione una opción");
         System.out.println("1");
         System.out.println("2");
 
@@ -45,7 +45,7 @@ public class EjercicioColas {
             Cola.add(i);
         }
 
-        System.out.println("El principal es");
+        System.out.println("El principal es: ");
         int Primero = Cola.peek();
         System.out.println(Primero);
         System.out.println(Cola);
@@ -55,6 +55,6 @@ public class EjercicioColas {
         
         System.out.println("Error " + Remover);
         System.out.println(Cola);
-        System.out.println("El ultimo es");
+        System.out.println("El ultimo es: ");
         }
     }

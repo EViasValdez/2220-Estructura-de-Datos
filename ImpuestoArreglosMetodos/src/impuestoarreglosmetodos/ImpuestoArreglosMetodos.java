@@ -21,7 +21,7 @@ public class ImpuestoArreglosMetodos {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         InputStreamReader isr = new InputStreamReader(System.in);
-        // La clase "BufferrdReader" se utiliza para convertir los datos
+        // La clase "BufferedReader" se utiliza para convertir los datos
         // que se lean, ya que de forma predeterminada solo lee cadenas de caracteres.
         BufferedReader br = new BufferedReader(isr);
          // Se declararan los identificadores llamados "precio" de tipo float (cuyo arreglo es de tamaño 4).
@@ -36,7 +36,7 @@ public class ImpuestoArreglosMetodos {
         }
         Calculo(Precio);  // Se manda llamar al método "Calculo" y se le pasa como parámetro el arreglo llamado "precio".
     }
-        // Es creado un método publico estatico de tipo void llamado "Calculo" que recibe como parámetro de entrada el arreglo "precio []".
+        // Es creado un método publico estático de tipo void llamado "Calculo" que recibe como parámetro de entrada el arreglo "precio []".
     public static void Calculo(float[] Precio) {
         // Se utilizaran variables locales ya que solo funcionan en este método impuesto es una constante 
         // con un valor inicial de .05 y Total esta inicializada en cero por ser una variable que guarda el 
