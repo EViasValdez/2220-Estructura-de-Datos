@@ -9,7 +9,7 @@
 
 **- Los programas han sido actualizados en una de las versiones mas recientes NetBeans y cada uno ya tienen los directorios "nbproject" y "Build".**
 
-**- Los proyectos "ArreglosconObjetos" y "Problema" eran archivos que no tenían el formato de que usa NetBeans, ya fueron puestos con el formato correspondiente.**
+**- Todos los programas fueron puestos con el formato correspondiente.**
 <!----Separador de las notas---->
 
 <!----Directorio con descripción de los programas---->
