@@ -109,7 +109,7 @@ Ejercicio que utiliza la implementación de listas.
 <!----Separador---->
 
 ###### ProblemasAsesorias - 08/02/20
-Coleccion de ejercicios realizados en las asesorías.
+Colección de ejercicios realizados en las asesorías.
 
 <!----Separador---->
 
@@ -122,7 +122,7 @@ Lo mismo, pero se usa un menú con el método Do While.
 
 <!----Separador---->
 
-Tambien tiene similitud con los otros dos programas, pero usando estructuras for.
+También tiene similitud con los otros dos programas, pero usando estructuras for.
 
 <!----Separador---->
 
