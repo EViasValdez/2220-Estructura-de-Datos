@@ -1,5 +1,9 @@
 # Estructura de datos
 
+<!----Descripción---->
+Por ser escrita.
+<!----Separador de la descripción ---->
+
 <!----Notas---->
 **Notas**
 
