@@ -1,7 +1,7 @@
 # Estructura de datos
 
 <!----Descripción---->
-En estructura de datos use de nuevo el lenguaja Java, también incluye uno que otro trabajo que realice durante varias asesorías de esta materia y la de algoritmos, corregí algunos errores ortográficos de algunos proyectos (Pese a que tuve que dejar sin puntuaciones las líneas de código que mostraran texto), además de problemas de funcionamiento.
+En estructura de datos use de nuevo el lenguaje Java, también incluye uno que otro trabajo que realice durante varias asesorías de esta materia y la de algoritmos, corregí algunos errores ortográficos de algunos proyectos (Pese a que tuve que dejar sin puntuaciones las líneas de código que mostraran texto), además de problemas de funcionamiento.
 <!----Separador de la descripción ---->
 
 <!----Notas---->
