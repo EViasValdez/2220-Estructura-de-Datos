@@ -57,7 +57,7 @@ public class ProblemasAsesoriasCiclos {
         {
             System.out.println("Ingrese base");
             Base = Float.parseFloat(br.readLine());
-            System.out.println("Ingese altura");
+            System.out.println("Ingrese altura");
             Altura = Float.parseFloat(br.readLine());
 
             Area = (Base * Altura) / 2;
@@ -74,7 +74,7 @@ public class ProblemasAsesoriasCiclos {
 
         while (c < 3)
         {
-            System.out.println("Ingese radio");
+            System.out.println("Ingrese radio");
             Radio = Float.parseFloat(br.readLine());
             Area2 = (float) (Pi * (Radio * Radio));
             System.out.println("El area es: " +  Area2);
@@ -112,7 +112,7 @@ public class ProblemasAsesoriasCiclos {
 
         while (e < 3)
         {
-            System.out.println("Ingese numero");
+            System.out.println("Ingrese numero");
             Numero = Leer.nextInt();
 
             if (Numero > 0)
