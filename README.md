@@ -63,7 +63,7 @@ Programa que usa el ejemplo de cuentas de empresa para mostrar la utilización d
 
 <!----Separador---->
 
-Se utiliza esta forma similar al primer programa, pero usando el método del triángulo.
+Se utiliza esta forma similar al primer programa, pero se usa el método del triángulo.
 
 <!----Separador---->
 
