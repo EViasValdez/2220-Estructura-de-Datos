@@ -6,7 +6,6 @@ En estructura de datos use de nuevo el lenguaje Java, también incluye uno que o
 
 <!----Notas---->
 **Notas**
-
 **- Los programas han sido actualizados en una de las versiones mas recientes NetBeans y cada uno ya tienen los directorios "nbproject" y "Build".**
 
 **- Todos los programas fueron puestos con el formato correspondiente.**
