@@ -7,7 +7,7 @@ package impuestooo;
 
 /**
  *
- * @author yayis (Correciones por EViasValdez)
+ * @author yayis (Correcciones por EViasValdez)
  */
 
 // La clase se llama "Producto".
@@ -16,12 +16,12 @@ public class Producto {
     public float Precio;
     // Atributo de la clase llamado "Impuesto" con un valor inicial de 0.05f de tipo float de acceso publico.
     public float Impuesto = 0.05f;
-    // Metodos get y set para los atributos.
-    // El metodo set significa que el valor que se lea desde el main se le ponga al atributo "Precio".
-    // Tambien significa obtener es decir el valor que se le haya asignado al atributo por medio del
-    // metodo set con el metodo get es obtenido.
-    // Todos los atributos deberan de tener estos metodos implementados.
-    // En esta clase no se especifico el metodo constructor.
+    // Métodos get y set para los atributos.
+    // El método set significa que el valor que se lea desde el main se le ponga al atributo "Precio".
+    // También significa obtener es decir el valor que se le haya asignado al atributo por medio del
+    // método set con el método get es obtenido.
+    // Todos los atributos deberán de tener estos métodos implementados.
+    // En esta clase no se especifico el método constructor.
     public float GetPrecio() {
         return Precio;
     }
@@ -36,7 +36,7 @@ public class Producto {
     }
     // Metodo de tipo float llamado  Total" de acceso publico que recibe
     // como parametros el precio, el impuesto y que se leyeron desde el main.
-    // Regresa el valor de la variable  Total" la cual muestra el resulatdo de la operacion.
+    // Regresa el valor de la variable  Total" la cual muestra el resultado de la operacion.
     public float Total(float Getprecio, float Getimpuesto) {
         float Total;
 
