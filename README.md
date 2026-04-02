@@ -28,7 +28,7 @@ Revisa si cada numero ingresado es igual o es diferente.
 <!----Separador---->
 
 ###### ImpuestoArreglosMetodos, ImpuestoCiclos, ImpuestoconMetodos, Impuesto - 22/01/20
-Agregación de impuestos usando métodos.
+Métodos para agregar impuestos.
 
 <!----Separador---->
 
