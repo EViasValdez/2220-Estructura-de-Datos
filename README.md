@@ -85,7 +85,7 @@ Arreglo de dos dimensiones.
 
 <!----Separador---->
 
-Se realiza una serie de cálculos en el programa para colocar un impuesto a un producto por medio de la programación orientada a objetos.
+Se realiza una serie de cálculos en el programa para colocar un impuesto a un producto a traves de la programación orientada a objetos.
 
 <!----Separador---->
 
