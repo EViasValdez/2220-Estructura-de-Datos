@@ -24,7 +24,7 @@ public class Cola extends ArrayList {
             System.out.println("Introduzca un dato no nulo");
         }
     }
-    // Se elimina el elemento frontal de la cola, refiriendose al primer elemento que entró.
+    // Se elimina el elemento frontal de la cola, refiriéndose al primer elemento que entró.
     public void Desencolar() {
         if (this.size() > 0)
         {

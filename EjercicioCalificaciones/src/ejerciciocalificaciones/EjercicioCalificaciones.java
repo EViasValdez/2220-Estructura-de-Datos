@@ -71,7 +71,7 @@ public class EjercicioCalificaciones {
             // }
             
             Suma = Suma + C1;
-        i++;
+            i++;
         }
         Promedio = Suma / 4;
         System.out.println("Tu Promedio es: " + Promedio);

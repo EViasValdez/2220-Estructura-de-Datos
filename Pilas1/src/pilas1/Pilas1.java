@@ -19,9 +19,9 @@ public class Pilas1 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("------Pila------");
-        Pila Pila = new Pila(); // Es creado el objeto lalmado pila y se instancia a la clase "Pila".
+        Pila Pila = new Pila(); // Es creado el objeto llamado pila y se instancia a la clase "Pila".
         
-        Pila.Apilar("A"); // Se manda llamar al metodo "Apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
+        Pila.Apilar("A"); // Se manda llamar al método "Apilar" con el objeto "pila" y se le agrega la letra "A" a la pila.
         Pila.Apilar("B");
         Pila.Apilar("C");
         Pila.Apilar("D");
@@ -31,22 +31,22 @@ public class Pilas1 {
 
         System.out.println("Elementos de la pila: ");
         while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo
-            System.out.print(iterator.next() + " ");  // con hasNext cada uno de los elemntos de la lista se van imprimiendo.
+            System.out.print(iterator.next() + " ");  // con hasNext cada uno de los elementos de la lista se van imprimiendo.
         }
 
-        System.out.println("¿Esta vacia la pila? " + Pila.Vacia()); // Revisa si la pila esta vacia manda llamar al metodo vacia de al clase "Pila".
+        System.out.println("¿Esta vacía la pila? " + Pila.Vacia()); // Revisa si la pila esta vacía manda llamar al método "Vacía" de al clase "Pila".
         System.out.println("Tamaño de la pila: " + Pila.size()); // Muestra el tamaño de la pila.
 
-        System.out.println(Pila.Cima()); // Manda llamar al metodo "Cima" de la clase "Pila" y regresa el elemento de la cima de la pila
-        Pila.Desapilar(); // Una vez estando en la Cima en el primer elemento de la pila manda llamar al metodo Desapilar de la 
-        System.out.println(Pila.Cima()); // clase "Pila" en el metodo desapilar elimina el elemento de la pila con el metodo "remove".
+        System.out.println(Pila.Cima()); // Manda llamar al método "Cima" de la clase "Pila" y regresa el elemento de la cima de la pila
+        Pila.Desapilar(); // Una vez estando en la Cima en el primer elemento de la pila manda llamar al método "Desapilar" de la 
+        System.out.println(Pila.Cima()); // clase "Pila" en el método "Desapilar" elimina el elemento de la pila con el método "remove".
         Pila.Desapilar();
         System.out.println(Pila.Cima());
         Pila.Desapilar();
         System.out.println("Elementos en la pila " + Pila); // Imprime los elementos de la pila.
 
-        System.out.println("¿Esta vacia la pila? " + Pila.Vacia()); // Manda llamar al metodo "Vacia" de la Clase "Pila".
-        // Verifica si la pila esta vacia con el metodo "Empty".
+        System.out.println("¿Esta vacía la pila? " + Pila.Vacia()); // Manda llamar al método "Vacía" de la clase "Pila".
+        // Verifica si la pila esta vacía con el método "Empty".
 
         System.out.println("------Cola------");
         Cola Cola = new Cola();
@@ -56,7 +56,7 @@ public class Pilas1 {
         Cola.Encolar("C");
         Cola.Encolar("D");
 
-        System.out.println("¿Esta vacia la cola?" + Cola.Vacia());
+        System.out.println("¿Esta vacía la cola?" + Cola.Vacia());
         System.out.println("Tamaño de la cola: " + Cola.size());
         System.out.println(Cola.Frente());
         Cola.Desencolar();
@@ -66,6 +66,6 @@ public class Pilas1 {
         Cola.Desencolar();
 
         System.out.println("Elementos en la cola: " + Cola);
-        System.out.println("¿Esta vacia la cola? " + Cola.Vacia());
+        System.out.println("¿Esta vacía la cola? " + Cola.Vacia());
       }
 }

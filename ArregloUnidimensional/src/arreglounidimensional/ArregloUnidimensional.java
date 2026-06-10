@@ -47,7 +47,7 @@ public class ArregloUnidimensional {
             // Es mas eficiente utilizar este método ya que no se cometen errores en el tamaño del arreglo que hay que 
             // recordar que el tamaño del arreglo es 3 pero inicia su recorrido en la posición 0 y termina en n - 1,
             // que es el tamaño del arreglo es decir termina en la posición 2.
-            System.out.println("El nombre de la posicion " + i + " es: " + Nombres [i]); // Muestra la posición del arreglo con la variable "i" y el dato de cada posición del arreglo con "Nombres [i]".
+            System.out.println("El nombre de la posición " + i + " es: " + Nombres [i]); // Muestra la posición del arreglo con la variable "i" y el dato de cada posición del arreglo con "Nombres [i]".
         }
         for (int j = 0; j < Apellidos.length; j++)
         { // Se recorre el arreglo "Apellidos" con la variable subíndice "j" que inicia en 0 y termina hasta que sea menor al tamaño del arreglo.

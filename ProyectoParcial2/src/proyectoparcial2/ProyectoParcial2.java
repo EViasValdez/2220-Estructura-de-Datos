@@ -53,7 +53,7 @@ public class ProyectoParcial2 {
         br.readLine();
 
         System.out.println("Garrafón");
-        int Garraf = Deposito.remove(); // Se depositan los litros de agua del Deposito en el garrafon.
+        int Garraf = Deposito.remove(); // Se depositan los litros de agua del Deposito en el garrafón.
 
         System.out.println("Se han vaciado " + Garraf + " litros"); // Se muestran los litros que se vaciaron.
 

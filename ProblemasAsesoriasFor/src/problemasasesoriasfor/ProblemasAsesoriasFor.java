@@ -33,7 +33,7 @@ public class ProblemasAsesoriasFor {
         
         for (int a = 1; a < 3; a++)
         {
-            System.out.println("Ingese calificación 1");
+            System.out.println("Ingrese calificación 1");
             Calificacion1 = Float.parseFloat(br.readLine());
             System.out.println("Ingrese calificación 2");
             Calificacion2 = Float.parseFloat(br.readLine());

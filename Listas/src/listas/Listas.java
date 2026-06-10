@@ -27,7 +27,7 @@ public class Listas {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
 
-        // El tipo de dato de la lista va en mayusculas (String, float, Double, Int).
+        // El tipo de dato de la lista va en mayúsculas (String, float, Double, Int).
         List <String> EjemploLista = new ArrayList<String>();
 
         String Nombre;
@@ -61,14 +61,14 @@ public class Listas {
         EjemploLista.remove("Juan");
 
         System.out.println("");
-        System.out.println("Elementos de la lista despues de eliminar a Juan");
+        System.out.println("Elementos de la lista después de eliminar a Juan");
         System.out.println(EjemploLista);
 
-        // Elimina al elemento de la posicion 1 de la lista.
+        // Elimina al elemento de la posición 1 de la lista.
         EjemploLista.remove (1);
 
         System.out.println("");
-        System.out.println("Elementos de la lista despues de eliminar al elemeno de la posicion 1 de la lista");
+        System.out.println("Elementos de la lista después de eliminar al elemento de la posición 1 de la lista");
         System.out.println(EjemploLista);
 
         System.out.println("");
@@ -86,21 +86,21 @@ public class Listas {
             System.out.println(i.next());
         }
 
-        // Si la lista contiene a un elmento.
+        // Si la lista contiene a un elemento.
         System.out.println(EjemploLista.contains("José"));
 
-        // Si la lista esta vacia.
+        // Si la lista esta vacía.
         System.out.println(EjemploLista.isEmpty());
 
-        // Cambiar el elemento del subindice 1 de la lista por "Felix".
+        // Cambiar el elemento del subíndice 1 de la lista por "Felix".
         EjemploLista.set (1, "Félix");
         System.out.println(EjemploLista);
-        // Obtener datos entre un subindice y otro.
+        // Obtener datos entre un subíndice y otro.
         System.out.println(EjemploLista.subList(0, 2));
-        // El metodo ordena la lista de manera ascendente (en este caso de la A a la Z).
+        // El método ordena la lista de manera ascendente (en este caso de la A a la Z).
         EjemploLista.sort(null);
         System.out.println(EjemploLista);
-        // Ahora con este metodo los ordena de manera descendete (Z a la A).
+        // Ahora con este método los ordena de manera descendente (Z a la A).
         Collections.sort (EjemploLista, Collections.reverseOrder());
         System.out.println(EjemploLista);
 

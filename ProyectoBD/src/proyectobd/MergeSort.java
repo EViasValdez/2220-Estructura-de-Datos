@@ -60,7 +60,7 @@ public class MergeSort {
     public static void main(String[] args) {
         int [] Actual = {5, 1, 6, 2, 3 ,4};
 
-        MergeSort (Actual, Actual.length);
+        MergeSort(Actual, Actual.length);
 
         for (int i = 0; i < Actual.length; i++) {
             System.out.println(Actual[i]);
