@@ -31,7 +31,7 @@ public class Pilas1 {
 
         System.out.println("Elementos de la pila: ");
         while (iterator.hasNext()) { // Mientras los elementos de la pila se van recorriendo
-            System.out.print(iterator.next() + " ");  // con hasNext cada uno de los elementos de la lista se van imprimiendo.
+            System.out.print(iterator.next() + " ");  // con "hasNext" cada uno de los elementos de la lista se van imprimiendo.
         }
 
         System.out.println("¿Esta vacía la pila? " + Pila.Vacia()); // Revisa si la pila esta vacía manda llamar al método "Vacía" de al clase "Pila".
