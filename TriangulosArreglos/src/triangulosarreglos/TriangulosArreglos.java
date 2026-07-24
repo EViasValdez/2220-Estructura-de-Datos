@@ -31,7 +31,7 @@ public class TriangulosArreglos {
 
         Scanner Leer = new Scanner(System.in);
 
-        System.out.println("Ponga sus cantidades");
+        System.out.println("Ingrese sus cantidades");
         System.out.println("Inserte primera cantidad");
         LadoA = Leer.nextInt();
         System.out.println("Inserte segunda cantidad");
