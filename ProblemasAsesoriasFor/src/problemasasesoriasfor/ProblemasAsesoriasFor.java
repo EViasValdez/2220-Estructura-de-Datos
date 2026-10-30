@@ -55,7 +55,7 @@ public class ProblemasAsesoriasFor {
         {
             System.out.println("Ingrese base");
             Base = Float.parseFloat(br.readLine());
-            System.out.println("Ingese Altura");
+            System.out.println("Ingrese Altura");
             Altura = Float.parseFloat(br.readLine());
         
             Area = (Base * Altura) / 2;
@@ -69,7 +69,7 @@ public class ProblemasAsesoriasFor {
         
         for (int c = 1; c < 3; c++)
         {
-            System.out.println("Ingese radio");
+            System.out.println("Ingrese radio");
             Radio = Float.parseFloat(br.readLine());
 
             Area2 = (float) (Pi * (Radio * Radio));
@@ -98,7 +98,7 @@ public class ProblemasAsesoriasFor {
         System.out.println("Problema 5");
         int Numero;
 
-        System.out.println("Ingese numero");
+        System.out.println("Ingrese numero");
         Numero = Leer.nextInt();
 
         if (Numero > 0)
